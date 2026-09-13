@@ -1,45 +1,32 @@
 {
-  "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-13T14:13:52Z",
+  "state": "idle",
+  "message": "Edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T14:14:14Z",
   "started_at": "2026-09-13T13:58:43Z",
   "counts": {
     "web_candidates": 172,
     "grok_tokens": 4778,
     "grok_token_target": 15000,
     "x_candidates": 0,
-    "openai_calls": 1
+    "openai_calls": 1,
+    "openai_tokens": 118883,
+    "eligible": 27,
+    "held": 58
   },
   "stored_totals": {
-    "stories": 28,
+    "stories": 48,
     "evidence": 189,
-    "model_cache": 37,
-    "reviews": 66
+    "model_cache": 38,
+    "reviews": 67
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 58
+    "Editorial exclusions": 59
   },
   "events": [
-    {
-      "at": "2026-09-13T14:11:18Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T14:11:23Z",
-      "message": "Checking direct AI announcements: Anthropic"
-    },
-    {
-      "at": "2026-09-13T14:11:24Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T14:11:26Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
     {
       "at": "2026-09-13T14:11:27Z",
       "message": "Initial article scrape: Dario Amodei"
@@ -103,6 +90,22 @@
     {
       "at": "2026-09-13T14:12:33Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-13T14:14:12Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-13T14:14:12Z",
+      "message": "Batch complete: 27 stories ready."
+    },
+    {
+      "at": "2026-09-13T14:14:12Z",
+      "message": "Publishing the verified edition."
+    },
+    {
+      "at": "2026-09-13T14:14:14Z",
+      "message": "Edition published."
     }
   ]
 }
