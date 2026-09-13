@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "demo": false,
-  "generated_at": "2026-09-13T11:48:26Z",
+  "generated_at": "2026-09-13T12:24:02Z",
   "next_refresh_at": "2026-09-14T05:20:00Z",
   "window": {
-    "start": "2026-09-12T11:48:26Z",
-    "end": "2026-09-13T11:48:26Z",
+    "start": "2026-09-12T12:24:02Z",
+    "end": "2026-09-13T12:24:02Z",
     "weekend_coverage": false
   },
   "schedule": "06:20 Europe/London · Monday–Friday",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Ijiwei",
-      "status": "failed",
-      "discovered": 0
+      "status": "partial",
+      "discovered": 20
     },
     {
       "name": "TrendForce",
@@ -75,7 +75,7 @@
     {
       "name": "@jukan05",
       "status": "partial",
-      "discovered": 2
+      "discovered": 1
     },
     {
       "name": "@zephyr_z9",
@@ -127,27 +127,112 @@
   "x_digest_ids": [],
   "stories": [
     {
-      "id": "edfefd6367ebb34af615",
-      "headline": "Espressif’s ESP32-P4 microcontroller runs a playable 3D game at about 1 watt",
+      "id": "c492dc89aa8e76dbe1ab",
+      "headline": "Shantou Ultrasonic Electronics denies Nvidia-supply rumour",
       "bullets": [
-        "Tom’s Hardware reported that a sub-$25 development board using Espressif’s dual-core 400 MHz ESP32-P4 ran OpenLara at 320×240 resolution, scaled to a 1,024×600 display.",
-        "The MCU includes RISC-V cores with AI instruction extensions, up to 64MB of PSRAM, 768KB of SRAM, an FPU, DSP, ISP and high-speed peripherals.",
-        "The demonstration used roughly 1 watt at peak and included stereo audio and USB-keyboard control."
+        "Shantou Ultrasonic Electronics said a market rumour that its high-frequency PCB had received Nvidia certification was untrue and that it currently supplies no products to Nvidia.",
+        "Its 800G and 1.6T optical-module supporting PCBs remain in research and development, with customer certification, mass production and commercial revenue still uncertain.",
+        "The company said its recent share-price volatility did not reflect a material change in its fundamentals and urged investors to assess the business rationally."
       ],
       "companies": [
         {
-          "name": "Espressif Systems",
-          "ticker": "",
+          "name": "Shantou Ultrasonic Electronics",
+          "ticker": "000823",
           "aliases": [
-            "Espressif"
+            "超声电子"
           ]
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "",
+          "aliases": []
         }
       ],
       "topic_tier": 2,
       "topic": "Semiconductors",
-      "importance": 39,
-      "priority": "Low",
-      "score_reason": "A concrete low-power MCU capability demonstration is relevant to embedded semiconductor progress, though its market and strategic impact are limited.",
+      "importance": 49,
+      "priority": "Medium",
+      "score_reason": "A listed PCB supplier issued a direct clarification about Nvidia exposure and the commercial status of high-speed optical-module products, reducing misinformation in the AI-hardware supply chain.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1107028",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T12:16:45Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T12:16:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "1bbd57eace7e7d362461",
+      "headline": "Anthropic says China-linked actors used Claude for military and surveillance work",
+      "bullets": [
+        "Anthropic’s threat report, as recapped by Tom’s Hardware, alleges that China-linked actors used Claude in military programmes, including an anti-torpedo specification and software modules for electronic warfare and air-defence suppression.",
+        "The report also describes a surveillance operation targeting Uyghur groups and diaspora activists, using Claude to process communications, map social networks and draft deceptive outreach.",
+        "Anthropic said account metadata and Chinese-language activity linked the operations to Chinese defence or research institutions, but the report did not explicitly say Claude was used by the People’s Liberation Army."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Alibaba",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Model economics",
+      "importance": 84,
+      "priority": "Critical",
+      "score_reason": "The reported use of a leading frontier model in military and surveillance workflows is material for AI safety, export controls and national security, with uncertainty explicitly retained.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-13T12:00:00Z"
+        },
+        {
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "name": "www.anthropic.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T12:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "edfefd6367ebb34af615",
+      "headline": "Espressif’s ESP32-P4 runs a playable 3D game at about 1 watt",
+      "bullets": [
+        "Tom’s Hardware reported that a sub-$25 development board using Espressif’s dual-core 400 MHz ESP32-P4 ran OpenLara at 320×240 resolution and scaled it to a 1,024×600 display.",
+        "The microcontroller uses RISC-V cores with AI instruction extensions, up to 64MB of PSRAM, 768KB of SRAM, an FPU, DSP, ISP and high-speed peripherals.",
+        "The demonstration consumed roughly 1 watt at peak and included stereo audio and USB-keyboard control."
+      ],
+      "companies": [
+        {
+          "name": "Espressif",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Semiconductors",
+      "importance": 51,
+      "priority": "Medium",
+      "score_reason": "The demonstration illustrates the increasing compute capability and energy efficiency of low-cost microcontrollers, with explicit semiconductor architecture details.",
       "verification": "source_checked",
       "sources": [
         {
@@ -160,16 +245,428 @@
       "published_at": "2026-09-13T11:00:00Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T11:48:26Z",
-      "updated_at": "2026-09-13T11:48:26Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 2
+    },
+    {
+      "id": "3c2bef979e02cc2b4d07",
+      "headline": "Chinese project combines domestic GPUs and neuromorphic chips for AI inference",
+      "bullets": [
+        "Mobile Cloud and research partners released what they described as China’s first heterogeneous large-model inference system combining domestic GPUs with neuromorphic chips.",
+        "In reported DeepSeek V4 testing, the system achieved more than twice the cost performance of a comparable domestic-GPU cluster and cut operating costs by more than 40%.",
+        "The architecture assigns attention workloads to GPUs and latency-sensitive FFN/MOE workloads to neuromorphic chips, coordinated through a compiler, high-speed interconnect and unified inference engine."
+      ],
+      "companies": [
+        {
+          "name": "Mobile Cloud",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "China Electronics Technology Nanhu Research Institute",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Beijing Lingxi Technology",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Shanghai Tianshu Zhixin",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Tsinghua University",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Peking University",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Semiconductors",
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "The reported system presents a distinct domestic-accelerator architecture aimed at reducing inference cost and broadening the use of non-GPU semiconductor platforms.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106971",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T08:29:56Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T08:29:56Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "b7a7dea0d81ff45b35f1",
+      "headline": "South Korea broadens espionage law to protect semiconductor know-how",
+      "bullets": [
+        "South Korea’s amended Criminal Act took effect on September 13, extending espionage provisions from conduct benefiting North Korea to activity conducted for any foreign country or equivalent organisation.",
+        "The new offence carries a minimum three-year prison sentence and is intended to strengthen protection of semiconductors, displays, batteries and artificial intelligence technology.",
+        "The change follows a case involving five former Samsung Electronics employees accused of transferring DRAM technology to China’s ChangXin Storage; Samsung and ChangXin did not comment at the time."
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "ChangXin Storage",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "A new national-security law materially changes the legal protection around South Korea’s semiconductor technology and follows a reported DRAM technology-transfer case.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106970",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T08:12:26Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T08:12:26Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "5fcb8d7fc593a9b2c3c7",
+      "headline": "Ijiwei outlines rapid growth and consolidation in AI coding tools",
+      "bullets": [
+        "Ijiwei cited one estimate putting the global AI-coding-tools market at $29.57 billion in 2025 and $64.68 billion in 2030, while noting that other market estimates are materially different.",
+        "The analysis describes Claude Code, OpenAI Codex, Cursor and Devin as leading products and argues that standalone tools are increasingly being absorbed by companies with access to large-scale compute.",
+        "It also says cloud and local deployment are converging, while heavy compute subsidies, model dependence and code-quality and security review remain important economic risks."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "SpaceX",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Cognition AI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Replit",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Model economics",
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "The in-window analysis addresses frontier-AI model economics, product consolidation and deployment costs, but its market estimates and strategic conclusions are less definitive than company announcements.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106969",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T08:02:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T08:02:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "d6070d08bc593601806a",
+      "headline": "Vietnam says semiconductor talent supply meets only about 20% of need",
+      "bullets": [
+        "Vietnam will need at least 50,000 university-educated semiconductor workers by 2030, while current supply meets only about 20% of practical demand, according to the report.",
+        "The biggest gaps remain in manufacturing, packaging, testing and research, where university training is described as too theoretical and practical facilities and experienced instructors are limited.",
+        "Vietnamese universities are expanding company-linked programmes and factory internships, including cooperation connected with Samsung’s production ecosystem and Sunny Opotech Group."
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Sunny Opotech Group",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "A severe workforce shortfall across design, manufacturing, packaging and testing is a direct constraint on Vietnam’s ability to move up the semiconductor value chain.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106966",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T07:40:11Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T07:40:11Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "39f4edd43b7208cffb44",
+      "headline": "Lam Research sees AI-driven equipment supercycle constrained by cleanrooms",
+      "bullets": [
+        "Lam Research CFO Douglas Bettinger said semiconductor demand is extremely strong and that cleanroom capacity, rather than demand, is the main constraint.",
+        "The company expects its largest customer to bring 8 to 10 new cleanrooms online from now through the end of next year; Lam is prioritising delivery, hiring and supply-chain execution over the next 12 to 18 months.",
+        "DRAM currently leads capital spending, followed by advanced logic, while NAND investment is expected to shift toward new greenfield projects; Lam’s customer-support business generated nearly $2.5 billion in revenue in its latest quarter."
+      ],
+      "companies": [
+        {
+          "name": "Lam Research",
+          "ticker": "LRCX",
+          "aliases": []
+        },
+        {
+          "name": "TSMC",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Intel",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "SpaceX",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 92,
+      "priority": "Critical",
+      "score_reason": "Major semiconductor-equipment supplier reports a broad AI-driven demand surge and identifies cleanroom capacity as a production bottleneck, with implications for DRAM, logic and NAND expansion.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106957",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T04:33:04Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T04:33:04Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "7f2db889ddd2725b54fb",
+      "headline": "AI-interconnect chip designer Netforward completes A-share IPO guidance",
+      "bullets": [
+        "Netforward completed its initial-public-offering guidance process and is advancing toward a proposed A-share listing, according to the report.",
+        "The company designs Ethernet switching, smart-NIC, PHY and PCIe-switch products; its 100G/400G data-center switch chips have reportedly exceeded 400,000 units shipped.",
+        "Its AI-interconnect roadmap includes PCIe 6.0, CXL, UALink and planned 400G/800G smart-NIC products for large AI clusters."
+      ],
+      "companies": [
+        {
+          "name": "Netforward",
+          "ticker": "",
+          "aliases": [
+            "楠菲微"
+          ]
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Semiconductors",
+      "importance": 63,
+      "priority": "High",
+      "score_reason": "The proposed listing and expansion from networking silicon into PCIe, CXL, UALink and high-speed AI-cluster interconnects make this a relevant domestic-chip development.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106936",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T04:10:18Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T04:10:18Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "1d76276ae668563f02bc",
+      "headline": "US-China model-distillation dispute moves into government-level AI policy",
+      "bullets": [
+        "The report said the NSA, FBI and CISA accused DeepSeek, Moonshot, Alibaba, MiniMax, StepFun and Z.AI of using industrial-scale distillation to obtain capabilities from US frontier models.",
+        "China’s Ministry of Commerce rejected the allegations, arguing that distillation is widely used and that the real issue is whether model outputs were obtained without authorisation or at systematic scale.",
+        "The dispute could lead to tighter controls on models, chips and cloud access, while the report described possible limited cooperation on AI safety testing and crisis communications."
+      ],
+      "companies": [
+        {
+          "name": "DeepSeek",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Moonshot",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Alibaba",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "MiniMax",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "StepFun",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Z.AI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 4,
+      "topic": "DeepSeek",
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "The supplied report describes an escalation from corporate accusations to US national-security agencies and Chinese government response, with potential consequences for AI and semiconductor controls.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106935",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T03:30:09Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T03:30:09Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 1
+    },
+    {
+      "id": "05c6894d82e382636aca",
+      "headline": "Global server revenue hit a record $166.3 billion in Q2",
+      "bullets": [
+        "IDC reported second-quarter global server revenue of $166.3 billion, up 52% year over year and 35.7% sequentially, as AI infrastructure investment lifted both shipments and average system prices.",
+        "GPU-server revenue reached $87.4 billion despite a reported 10.8% shipment decline, while other accelerated-server revenue rose 237.6% to $27.5 billion.",
+        "DRAM and NAND pricing, component shortages, power, cooling and facility readiness were all identified as constraints; Lenovo also reached first place in global x86 server unit shipments."
+      ],
+      "companies": [
+        {
+          "name": "Dell Technologies",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Super Micro Computer",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Lenovo",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "HPE",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Inspur Information",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 87,
+      "priority": "Critical",
+      "score_reason": "The reported record market size and sharp price increases show AI infrastructure demand broadening into mainstream servers while component and facility constraints intensify.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1106934",
+          "name": "Ijiwei",
+          "published_at": "2026-09-13T03:08:20Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T03:08:20Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
       "revision": 1
     },
     {
       "id": "b9d28eb17909bcfb1a25",
       "headline": "Anthropic CEO calls for a slower, monitored frontier-AI race",
       "bullets": [
-        "Anthropic CEO Dario Amodei called for AI development to be paced so safety measures and alignment work can catch up, without halting training or technical progress.",
-        "His proposal includes independent monitoring, industry-wide coordination and global regulation; OpenAI CEO Sam Altman and xAI founder Elon Musk expressed support for pacing and independent evaluators.",
-        "AP reported Amodei’s warning that AI could lead a swarm of agents capable of taking over the internet within six to 12 months; a former Anthropic researcher separately said staff were deeply concerned about rapid progress."
+        "Anthropic CEO Dario Amodei called for AI development to be paced so safety and alignment work can catch up, without halting model training or technical progress.",
+        "His proposal includes independent monitoring, industry-wide coordination and global regulation; OpenAI CEO Sam Altman and xAI founder Elon Musk expressed support for the idea.",
+        "AP reported Amodei’s warning that AI could lead a swarm of agents capable of taking over the internet within six to 12 months, while former Anthropic researcher Jacob Coxon said he resigned over the pace and risks of development."
       ],
       "companies": [
         {
@@ -190,10 +687,10 @@
       ],
       "topic_tier": 3,
       "topic": "Model economics",
-      "importance": 94,
+      "importance": 91,
       "priority": "Critical",
-      "score_reason": "Major frontier-AI safety and pacing proposal backed by leaders of multiple leading companies, with potentially significant regulatory and development implications.",
-      "verification": "source_checked",
+      "score_reason": "A direct proposal from a leading frontier-AI CEO, support from rival companies and employee resignations make this a major development in AI pacing and safety policy.",
+      "verification": "reported",
       "sources": [
         {
           "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
@@ -201,30 +698,30 @@
           "published_at": "2026-09-12T15:37:39Z"
         },
         {
-          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
-          "name": "BBC Technology",
-          "published_at": "2026-09-13T01:15:04Z"
-        },
-        {
           "url": "https://apnews.com/article/d59552edcb27892d8ee4d98a48397706",
           "name": "apnews.com",
           "published_at": "2026-09-12T16:37:40Z"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+          "name": "BBC Technology",
+          "published_at": "2026-09-13T01:15:04Z"
         }
       ],
       "highlights": [],
       "published_at": "2026-09-13T01:15:04Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-12T20:05:42Z",
-      "updated_at": "2026-09-13T11:48:26Z",
-      "revision": 2
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 3
     },
     {
       "id": "e7a1ca1a9d58d92fb9be",
-      "headline": "AI data-center semiconductor and component revenue surged 182%, Dell’Oro says",
+      "headline": "AI data-center semiconductor and component revenue surged 182%",
       "bullets": [
-        "Dell’Oro reported that global suppliers of semiconductors and components for data-center servers and storage recorded 182% year-over-year revenue growth in the second quarter.",
-        "DRAM and storage-drive revenue each rose by triple digits, while average selling prices per bit more than doubled from a year earlier, according to the report.",
-        "Demand expanded beyond accelerators to HBM, CPUs, high-speed networking, storage and general-purpose servers; Dell’Oro warned that supply constraints could limit hyperscaler infrastructure plans."
+        "Dell’Oro reported that suppliers of semiconductors and components for global data-center servers and storage recorded 182% year-over-year revenue growth in the second quarter.",
+        "DRAM and storage-drive revenue both grew by triple digits, while average selling prices per bit more than doubled from a year earlier.",
+        "Demand expanded from accelerators to HBM, CPUs, high-speed networking, storage and general-purpose servers; Dell’Oro warned that supply constraints could restrict hyperscaler infrastructure plans."
       ],
       "companies": [
         {
@@ -247,8 +744,8 @@
       "topic": "Supply chain",
       "importance": 88,
       "priority": "Critical",
-      "score_reason": "Large reported growth across memory, storage, accelerators, CPUs and networking highlights broad AI-driven semiconductor demand and a potential supply bottleneck.",
-      "verification": "source_checked",
+      "score_reason": "A very large reported increase across data-center semiconductor and storage components, alongside explicit supply-constraint risk, makes this a material industry-wide capacity and pricing signal.",
+      "verification": "reported",
       "sources": [
         {
           "url": "https://zdnet.co.kr/view/?no=20260913082224",
@@ -260,14 +757,49 @@
       "published_at": "2026-09-12T23:50:01Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T11:48:26Z",
-      "updated_at": "2026-09-13T11:48:26Z",
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 2
+    },
+    {
+      "id": "6772623e54f73db0219c",
+      "headline": "OpenAI CEO says the company will not launch an IPO in 2026",
+      "bullets": [
+        "Sam Altman told Fortune that OpenAI would not launch an initial public offering in 2026.",
+        "He linked the decision to the company’s focus on safety, alignment and cooperation between the AI industry and governments.",
+        "AP reported that OpenAI and Anthropic were preparing for possible future public-market debuts that could value them at many hundreds of billions of dollars, but the timing remains uncertain."
+      ],
+      "companies": [
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Model economics",
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "A direct statement on the timing of a potential public listing is a material frontier-AI company development, while the supplied evidence leaves the eventual IPO timing open.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/d59552edcb27892d8ee4d98a48397706",
+          "name": "apnews.com",
+          "published_at": "2026-09-12T16:37:40Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T16:37:40Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T12:24:02Z",
+      "updated_at": "2026-09-13T12:24:02Z",
       "revision": 1
     },
     {
       "id": "2498a10c0b7e534d6a74",
       "headline": "Taiwan semiconductor expansion faces a shortage of fab construction workers",
       "bullets": [
-        "A Taiwan semiconductor talent report cited by CTEE said the industry had 47,000 monthly job openings in 2026, up 20% year over year.",
+        "A 2026 semiconductor talent report cited by CTEE said the industry had 47,000 monthly job openings, up 20% year over year.",
         "Algorithm-engineer pay rose more than 15.7%, reaching a median annual salary above NT$1.41 million, according to the report.",
         "Construction and drafting roles were especially difficult to fill as TSMC and other companies accelerated fab expansion; the report said TSMC was recruiting for 13 plants."
       ],
@@ -282,8 +814,8 @@
       "topic": "Supply chain",
       "importance": 76,
       "priority": "High",
-      "score_reason": "Workforce shortages can constrain fab construction and semiconductor capacity expansion, making this a relevant supply-chain and manufacturing bottleneck.",
-      "verification": "source_checked",
+      "score_reason": "Construction and engineering labour shortages directly threaten the speed of Taiwan’s fab-capacity expansion during an AI-led investment cycle.",
+      "verification": "reported",
       "sources": [
         {
           "url": "https://www.ctee.com.tw/news/20260913700008-430501",
@@ -295,15 +827,15 @@
       "published_at": "2026-09-12T16:00:00Z",
       "date_precision": "day",
       "first_seen_at": "2026-09-13T11:48:26Z",
-      "updated_at": "2026-09-13T11:48:26Z",
-      "revision": 1
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 2
     },
     {
       "id": "753ad596a3c452afef37",
       "headline": "Anthropic reports Claude use in Iranian-linked military and surveillance activity",
       "bullets": [
         "Anthropic’s September 2026 threat report said an Iran-linked actor used Claude for naval reconnaissance, targeting recommendations and research into communications vulnerabilities.",
-        "The report said a Houthi-linked cell used Claude Code for guidance, navigation, firmware and simulation work related to several missile programs, including a ballistic missile and a hypersonic-glide-vehicle variant.",
+        "The report said a Houthi-linked cell used Claude Code for guidance, navigation, firmware and simulation work related to several missile programmes, including a ballistic missile and a hypersonic-glide-vehicle variant.",
         "Anthropic said it banned 16 Claude accounts linked to Iranian paramilitary and domestic-security agencies, added detection measures and shared its findings with authorities."
       ],
       "companies": [
@@ -315,9 +847,9 @@
       ],
       "topic_tier": 3,
       "topic": "Model economics",
-      "importance": 89,
+      "importance": 83,
       "priority": "Critical",
-      "score_reason": "Material frontier-AI misuse and security event involving military, surveillance and weapons-development activity, with direct implications for model safeguards and export controls.",
+      "score_reason": "The reported use of a frontier model for military development, targeting and surveillance is a significant AI safety and national-security event.",
       "verification": "reported",
       "sources": [
         {
@@ -335,8 +867,8 @@
       "published_at": "2026-09-12T15:03:10Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-12T20:05:42Z",
-      "updated_at": "2026-09-13T11:48:26Z",
-      "revision": 3
+      "updated_at": "2026-09-13T12:24:02Z",
+      "revision": 4
     },
     {
       "id": "2da150c582c9317f3202",
