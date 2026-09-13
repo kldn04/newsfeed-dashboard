@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "demo": false,
-  "generated_at": "2026-09-13T13:58:43Z",
+  "generated_at": "2026-09-13T15:11:48Z",
   "next_refresh_at": "2026-09-14T04:55:00Z",
   "window": {
-    "start": "2026-09-12T13:58:43Z",
-    "end": "2026-09-13T13:58:43Z",
+    "start": "2026-09-12T15:11:48Z",
+    "end": "2026-09-13T15:11:48Z",
     "weekend_coverage": false
   },
   "schedule": "05:55 Europe/London · Monday–Friday",
@@ -29,28 +29,28 @@
     },
     {
       "name": "TheLec",
-      "status": "partial",
-      "discovered": 20
+      "status": "failed",
+      "discovered": 0
     },
     {
       "name": "Tom’s Hardware",
-      "status": "partial",
-      "discovered": 10
+      "status": "failed",
+      "discovered": 0
     },
     {
       "name": "Ijiwei",
-      "status": "partial",
-      "discovered": 20
+      "status": "failed",
+      "discovered": 0
     },
     {
       "name": "TrendForce",
-      "status": "ok",
+      "status": "failed",
       "discovered": 0
     },
     {
       "name": "ZDNet Korea",
-      "status": "ok",
-      "discovered": 3
+      "status": "failed",
+      "discovered": 0
     },
     {
       "name": "EET China",
@@ -58,55 +58,73 @@
       "discovered": 0
     },
     {
-      "name": "SCMP",
-      "status": "partial",
-      "discovered": 12,
-      "captured": 4,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 4
-    },
-    {
-      "name": "Seoul Economic Daily",
-      "status": "partial",
-      "discovered": 27,
-      "captured": 22,
+      "name": "IDC",
+      "status": "ok",
+      "discovered": 0,
+      "captured": 0,
       "retrieval_failures": 0,
       "undated": 0,
       "previews": 0
     },
     {
-      "name": "Asia Economy",
+      "name": "Counterpoint Research",
+      "status": "ok",
+      "discovered": 0,
+      "captured": 0,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "SCMP",
       "status": "partial",
-      "discovered": 14,
-      "captured": 14,
+      "discovered": 12,
+      "captured": 3,
+      "retrieval_failures": 4,
+      "undated": 0,
+      "previews": 3
+    },
+    {
+      "name": "Seoul Economic Daily",
+      "status": "partial",
+      "discovered": 27,
+      "captured": 18,
+      "retrieval_failures": 2,
+      "undated": 4,
+      "previews": 7
+    },
+    {
+      "name": "Asia Economy",
+      "status": "failed",
+      "discovered": 0,
+      "captured": 0,
       "retrieval_failures": 0,
       "undated": 0,
       "previews": 0
     },
     {
       "name": "Hankook Ilbo",
-      "status": "partial",
-      "discovered": 5,
-      "captured": 4,
+      "status": "failed",
+      "discovered": 0,
+      "captured": 0,
       "retrieval_failures": 0,
       "undated": 0,
       "previews": 0
     },
     {
       "name": "Munhwa",
-      "status": "partial",
-      "discovered": 15,
-      "captured": 9,
+      "status": "failed",
+      "discovered": 0,
+      "captured": 0,
       "retrieval_failures": 0,
       "undated": 0,
       "previews": 0
     },
     {
       "name": "ETNews",
-      "status": "ok",
-      "discovered": 11,
-      "captured": 10,
+      "status": "failed",
+      "discovered": 0,
+      "captured": 0,
       "retrieval_failures": 0,
       "undated": 0,
       "previews": 0
@@ -115,10 +133,10 @@
       "name": "Nikkei",
       "status": "partial",
       "discovered": 18,
-      "captured": 5,
-      "retrieval_failures": 0,
+      "captured": 3,
+      "retrieval_failures": 7,
       "undated": 1,
-      "previews": 3
+      "previews": 2
     },
     {
       "name": "MoneyToday",
@@ -127,30 +145,30 @@
       "captured": 12,
       "retrieval_failures": 0,
       "undated": 0,
-      "previews": 0
+      "previews": 7
     },
     {
       "name": "Financial News",
-      "status": "ok",
+      "status": "partial",
       "discovered": 12,
       "captured": 12,
       "retrieval_failures": 0,
       "undated": 0,
-      "previews": 0
+      "previews": 5
     },
     {
       "name": "Economic Daily (UDN)",
-      "status": "partial",
-      "discovered": 13,
-      "captured": 13,
+      "status": "failed",
+      "discovered": 0,
+      "captured": 0,
       "retrieval_failures": 0,
       "undated": 0,
-      "previews": 1
+      "previews": 0
     },
     {
       "name": "Dario Amodei",
-      "status": "partial",
-      "discovered": 4
+      "status": "failed",
+      "discovered": 0
     },
     {
       "name": "Anthropic",
@@ -160,7 +178,7 @@
     {
       "name": "@jukan05",
       "status": "partial",
-      "discovered": 0
+      "discovered": 1
     },
     {
       "name": "@zephyr_z9",
@@ -175,7 +193,7 @@
     {
       "name": "@pequityresearch",
       "status": "partial",
-      "discovered": 0
+      "discovered": 2
     },
     {
       "name": "@intelfabs",
@@ -210,75 +228,15 @@
     {
       "name": "Processing",
       "status": "partial",
-      "discovered": 27
+      "discovered": 12
     }
   ],
   "partial": true,
-  "x_digest_ids": [],
+  "x_digest_ids": [
+    "c83be5189c4f2f895494",
+    "5597b7d4550f0c9298db"
+  ],
   "stories": [
-    {
-      "id": "b9d28eb17909bcfb1a25",
-      "headline": "Anthropic CEO calls for a slower, monitored frontier-AI race",
-      "bullets": [
-        "Anthropic CEO Dario Amodei called for AI development to be paced so safety measures and alignment work can catch up, warning that an AI agent swarm could threaten the internet within six to 12 months.",
-        "AP reported that Amodei proposed stronger monitoring and coordination, while OpenAI CEO Sam Altman and Elon Musk expressed support for the broader call for safety work.",
-        "The warnings remain attributed claims and forecasts rather than independently established outcomes."
-      ],
-      "companies": [
-        {
-          "name": "Anthropic",
-          "ticker": "",
-          "aliases": []
-        },
-        {
-          "name": "OpenAI",
-          "ticker": "",
-          "aliases": []
-        }
-      ],
-      "topic_tier": 3,
-      "topic": "Models",
-      "importance": 91,
-      "priority": "Critical",
-      "score_reason": "A direct frontier-AI safety and development-pacing intervention from a leading model company carries high policy and industry significance.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-ceo-warns-of-ai-driven-botnet-swarm-taking-over-the-entire-internet-in-6-12-months-such-a-swarm-could-be-capable-of-taking-over-the-entire-internet-with-a-persistent-botnet",
-          "name": "Tom’s Hardware",
-          "published_at": "2026-09-13T13:36:35Z"
-        },
-        {
-          "url": "https://apnews.com/article/d59552edcb27892d8ee4d98a48397706",
-          "name": "apnews.com",
-          "published_at": "2026-09-12T16:37:40Z"
-        },
-        {
-          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-          "name": "darioamodei.com",
-          "published_at": null
-        },
-        {
-          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-          "name": "BBC Technology",
-          "published_at": "2026-09-12T15:37:39Z"
-        },
-        {
-          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
-          "name": "BBC Technology",
-          "published_at": "2026-09-13T01:15:04Z"
-        }
-      ],
-      "highlights": [],
-      "published_at": "2026-09-13T13:36:35Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-12T20:05:42Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 5,
-      "categories": [
-        "Models"
-      ]
-    },
     {
       "id": "0c275ad306fc3db16dcc",
       "headline": "Sigmaintell sees OLED TV shipments peaking in 2028 as memory costs rise",
@@ -335,26 +293,27 @@
     },
     {
       "id": "4287f6de93aa4e33aaf8",
-      "headline": "Z.ai seeks about US$5 billion through shares and convertible bonds",
+      "headline": "Z.ai seeks a fresh US$5 billion fundraising round",
       "bullets": [
-        "Z.ai, also known as Zhipu AI, is seeking about US$2 billion through a Hong Kong share placement and a further US$3 billion through convertible bonds, according to a company filing cited by SCMP.",
-        "The company is also pursuing a Shanghai Star Market listing targeting up to 15 billion yuan, although no application had been publicly accepted according to the report.",
-        "SCMP said the repeated capital raising underscores the heavy cost of developing frontier AI models."
+        "SCMP reports that Chinese AI developer Z.ai is seeking about US$5 billion from additional backers after a July capital raise.",
+        "The company is seeking funding as it scales its models and infrastructure amid intensifying competition."
       ],
       "companies": [
         {
           "name": "Z.ai",
           "ticker": "",
-          "aliases": [
-            "Zhipu AI"
-          ]
+          "aliases": []
         }
       ],
       "topic_tier": 3,
       "topic": "Models · China Models",
-      "importance": 82,
-      "priority": "Critical",
-      "score_reason": "A multibillion-dollar financing effort by a listed Chinese frontier-AI developer is material to model economics and industry funding.",
+      "categories": [
+        "Models",
+        "China Models"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "Large reported financing effort by a major Chinese frontier-AI developer, reflecting the capital intensity of model and infrastructure expansion.",
       "verification": "reported",
       "sources": [
         {
@@ -367,12 +326,8 @@
       "published_at": "2026-09-13T13:34:59Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T13:58:43Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 1,
-      "categories": [
-        "Models",
-        "China Models"
-      ]
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 2
     },
     {
       "id": "8c7f267cca27bf05a93d",
@@ -847,6 +802,39 @@
       ]
     },
     {
+      "id": "03e1230a331d2366825e",
+      "headline": "Chinese researchers report a major endurance gain for ferroelectric memory",
+      "bullets": [
+        "Researchers from Xidian University, City University of Hong Kong and Fudan University demonstrated more than 10 billion writing cycles in wurtzite ferroelectrics, about 100 times the previously reported endurance for the material.",
+        "The work targets aluminium scandium nitride, or AlScN, a potential next-generation memory material with fast switching and low-power characteristics.",
+        "SCMP reported that the research, published in Science, could help move ferroelectric memory toward high-performance-computing and AI applications."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute · Materials & Inputs",
+      "categories": [
+        "Compute",
+        "Materials & Inputs"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Substantive semiconductor-materials result addressing a major reliability barrier for potential next-generation memory in AI and high-performance computing.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/article/3367354/chinese-researchers-extend-future-memory-endurance-100-fold-semiconductor-advance",
+          "name": "SCMP",
+          "published_at": "2026-09-13T10:52:17Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T10:52:17Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T15:11:48Z",
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 1
+    },
+    {
       "id": "ce455b5efe098885aa95",
       "headline": "SK says its AWS-linked Ulsan AI data center could scale to 1GW",
       "bullets": [
@@ -900,43 +888,88 @@
       "id": "5d01e5b61bfe8f9a86d7",
       "headline": "Hyundai Research Institute raises South Korea’s 2026 growth forecast on semiconductor strength",
       "bullets": [
-        "Hyundai Research Institute raised its 2026 South Korean growth forecast from 2.7% to 3.5%, citing AI investment and semiconductor export growth.",
+        "Hyundai Research Institute raised its 2026 South Korean growth forecast from 2.7% to 3.5%, citing AI investment and strong semiconductor exports.",
         "The institute expects 2027 growth to slow to 2.4% as base effects and weaker domestic demand offset continued semiconductor-led exports.",
         "It warned that weaker AI investment or stronger competition from Chinese memory suppliers could cause a sharper export slowdown."
       ],
-      "companies": [],
-      "topic_tier": 2,
-      "topic": "Analog · Compute · China Supply Chain",
-      "importance": 65,
+      "companies": [
+        {
+          "name": "Hyundai Research Institute",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · DRAM · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 72,
       "priority": "High",
-      "score_reason": "The forecast quantifies the semiconductor sector’s macroeconomic impact while identifying AI demand and Chinese memory competition as risks.",
+      "score_reason": "Macroeconomic research directly links South Korea’s growth outlook to semiconductor exports, AI investment and memory competition.",
       "verification": "reported",
       "sources": [
         {
           "url": "https://www.fnnews.com/news/202609131814594512",
           "name": "Financial News",
           "published_at": "2026-09-13T09:15:47Z"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202609131113126328",
+          "name": "Financial News",
+          "published_at": "2026-09-13T02:51:27Z"
         }
       ],
       "highlights": [],
       "published_at": "2026-09-13T09:15:47Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T13:58:43Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 1,
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 2
+    },
+    {
+      "id": "9e85a906061e0a7a3ed6",
+      "headline": "South Korea launches an AI-datacenter optical-interconnect R&D programme",
+      "bullets": [
+        "South Korea’s science ministry is seeking companies and research institutes for a project developing spatial-division-multiplexed optical interfaces using multicore fibre for AI data centers.",
+        "The project could run through 2031 and has total government support of 3.6 billion won.",
+        "The programme targets the power and bandwidth limitations of copper connections as AI data centers scale to tens of thousands of GPUs."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
       "categories": [
-        "Analog",
         "Compute",
-        "China Supply Chain"
-      ]
+        "Supply Chain"
+      ],
+      "importance": 75,
+      "priority": "High",
+      "score_reason": "Government-backed optical-interconnect development addresses a key scaling constraint for large AI clusters and data-center networking.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://sedaily.com/article/20090298",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-13T08:49:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-13T08:49:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T15:11:48Z",
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 1
     },
     {
       "id": "7c7f332a1012e0f9ef64",
       "headline": "Hyundai plans Nvidia-based Level 2+ autonomy in 2028",
       "bullets": [
         "Hyundai Motor Group plans to introduce Nvidia-based Level 2+ driving functions in mass-production vehicles in the first half of 2028 and Level 2++ functions later that year.",
-        "The group plans to mass-produce vehicles using its own Atria AI platform for Level 2++ functions in the second half of 2029.",
-        "The strategy uses data from the group’s global vehicle fleet for training and validation, with a unified Nvidia Hyperion 10 collection system across Hyundai, Kia, 42dot and Motional."
+        "The group targets mass production of vehicles using its own Atria AI platform for Level 2++ functions in the second half of 2029, after further testing and safety development.",
+        "Hyundai said its data-flywheel strategy will use information from mass-produced vehicles to improve AI models, with a goal of surpassing leading competitors’ cumulative driving data by 2033."
       ],
       "companies": [
         {
@@ -945,12 +978,7 @@
           "aliases": []
         },
         {
-          "name": "NVIDIA",
-          "ticker": "",
-          "aliases": []
-        },
-        {
-          "name": "Kia",
+          "name": "Nvidia",
           "ticker": "",
           "aliases": []
         },
@@ -967,11 +995,35 @@
       ],
       "topic_tier": 2,
       "topic": "Compute · Models",
-      "importance": 78,
-      "priority": "High",
-      "score_reason": "The roadmap links a major automaker’s vehicle-scale autonomy deployment to Nvidia compute and a large training-data strategy.",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Major automaker disclosed a multi-year AI-compute and autonomy product roadmap involving Nvidia hardware, proprietary models and large-scale fleet data.",
       "verification": "reported",
       "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/13/2026091115582458765",
+          "name": "MoneyToday",
+          "published_at": "2026-09-13T00:30:00Z"
+        },
+        {
+          "url": "https://sedaily.com/article/20090288",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-13T08:43:00Z"
+        },
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/13/2026091115532897077",
+          "name": "MoneyToday",
+          "published_at": "2026-09-13T00:00:00Z"
+        },
+        {
+          "url": "https://sedaily.com/article/20090286",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-13T08:42:33Z"
+        },
         {
           "url": "https://sedaily.com/article/20090293",
           "name": "Seoul Economic Daily",
@@ -979,15 +1031,11 @@
         }
       ],
       "highlights": [],
-      "published_at": "2026-09-13T08:45:40Z",
+      "published_at": "2026-09-13T08:43:00Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T13:58:43Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 1,
-      "categories": [
-        "Compute",
-        "Models"
-      ]
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 2
     },
     {
       "id": "3c2bef979e02cc2b4d07",
@@ -1424,13 +1472,13 @@
       "id": "a5a28688de8649df3b5e",
       "headline": "Murata reallocates MLCC capacity toward AI servers",
       "bullets": [
-        "MoneyToday reported that Murata is discontinuing some specifications across nine MLCC series, with final orders due by March 2028 and final shipments by March 2029.",
-        "The move is attributed to a shift of production toward higher-value AI-server MLCCs, which require substantially more manufacturing resources than general-purpose parts.",
-        "Distributor inventories were reported down 8% over four weeks while unit prices rose 7%; Samsung Electro-Mechanics was forecast to benefit from the tightening market."
+        "MoneyToday reports that Murata is discontinuing some specifications across nine MLCC series, with final orders due in March 2028 and final shipments in March 2029.",
+        "The move is attributed to production being redirected toward higher-value AI-server MLCCs, which require substantially more manufacturing resources than general-purpose parts.",
+        "Distributor inventories were reported down 8% over four weeks while unit prices rose 7%; Samsung Electro-Mechanics was cited as a potential beneficiary."
       ],
       "companies": [
         {
-          "name": "Murata Manufacturing",
+          "name": "Murata",
           "ticker": "",
           "aliases": []
         },
@@ -1442,9 +1490,13 @@
       ],
       "topic_tier": 1,
       "topic": "Compute · Supply Chain",
-      "importance": 84,
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 82,
       "priority": "Critical",
-      "score_reason": "Capacity reallocation and falling inventories indicate an AI-driven supply and pricing shift in a critical server component market.",
+      "score_reason": "Capacity reallocation by a leading passive-component supplier, with reported inventory tightening and price increases affecting AI-server and general-purpose demand.",
       "verification": "reported",
       "sources": [
         {
@@ -1457,12 +1509,8 @@
       "published_at": "2026-09-13T04:28:12Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T13:58:43Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 1,
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ]
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 2
     },
     {
       "id": "7f2db889ddd2725b54fb",
@@ -1725,8 +1773,8 @@
       "id": "47909e8a5a4f7dda2b43",
       "headline": "US and China pursue AI systems that help build better AI",
       "bullets": [
-        "SCMP reported that leading US and Chinese AI companies are using models to write code, design experiments and develop training methods for more capable successors.",
-        "OpenAI has described a goal of building an automated AI researcher but said it was unsure how to reach fully aligned recursive self-improvement safely.",
+        "SCMP reports that leading US and Chinese AI companies are using models to write code, design experiments and develop training methods for more capable successors.",
+        "OpenAI has described a goal of building an automated AI researcher but said it remains uncertain how to make recursive self-improvement safe and aligned.",
         "Z.ai founder Tang Jie said the company’s next-generation GLM-6 was moving toward self-evolution, according to the report."
       ],
       "companies": [
@@ -1738,16 +1786,18 @@
         {
           "name": "Z.ai",
           "ticker": "",
-          "aliases": [
-            "Zhipu AI"
-          ]
+          "aliases": []
         }
       ],
       "topic_tier": 3,
       "topic": "Models · China Models",
+      "categories": [
+        "Models",
+        "China Models"
+      ],
       "importance": 84,
       "priority": "Critical",
-      "score_reason": "Recursive self-improvement is a consequential frontier-AI capability and safety direction involving major US-China competition.",
+      "score_reason": "Material frontier-AI capability and safety development involving leading US and Chinese labs, with implications for model economics and control.",
       "verification": "reported",
       "sources": [
         {
@@ -1760,12 +1810,44 @@
       "published_at": "2026-09-13T00:00:10Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T13:58:43Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 1,
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 2
+    },
+    {
+      "id": "5597b7d4550f0c9298db",
+      "headline": "Jukan proposes an AI arms-control framework",
+      "bullets": [
+        "Jukan argues that the United States and China should consider an AI version of the Strategic Arms Limitation Treaty, saying unilateral US restraint would be ineffective if China does not also slow down."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models",
       "categories": [
-        "Models",
-        "China Models"
-      ]
+        "Models"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "Relevant frontier-AI governance commentary from a priority analyst account, but an opinion rather than a policy decision or company action.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2098923350521462895",
+          "name": "@jukan05",
+          "published_at": "2026-09-12T23:54:57Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2098923350521462895",
+          "handle": "jukan05",
+          "published_at": "2026-09-12T23:54:57Z"
+        }
+      ],
+      "published_at": "2026-09-12T23:54:57Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T15:11:48Z",
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 1
     },
     {
       "id": "e7a1ca1a9d58d92fb9be",
@@ -1905,6 +1987,74 @@
       ]
     },
     {
+      "id": "c83be5189c4f2f895494",
+      "headline": "KB Securities sees hyperscaler free cash flow rebounding from 2028",
+      "bullets": [
+        "KB Securities forecasts hyperscaler free cash flow will begin rebounding in 2028 as cloud utilisation, pricing and margins improve, according to @pequityresearch.",
+        "The companies identified in the recap are META, MSFT, GOOGL, AMZN and ORCL."
+      ],
+      "companies": [
+        {
+          "name": "KB Securities",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "META",
+          "ticker": "META",
+          "aliases": []
+        },
+        {
+          "name": "MSFT",
+          "ticker": "MSFT",
+          "aliases": []
+        },
+        {
+          "name": "GOOGL",
+          "ticker": "GOOGL",
+          "aliases": []
+        },
+        {
+          "name": "AMZN",
+          "ticker": "AMZN",
+          "aliases": []
+        },
+        {
+          "name": "ORCL",
+          "ticker": "ORCL",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 60,
+      "priority": "High",
+      "score_reason": "Qualifying sell-side model-economics commentary on hyperscaler profitability and cloud utilisation, with a multi-year forecast horizon.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2098881110801363334",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-12T21:07:06Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2098881110801363334",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-12T21:07:06Z"
+        }
+      ],
+      "published_at": "2026-09-12T21:07:06Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-13T15:11:48Z",
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 1
+    },
+    {
       "id": "a6133fc3927264624291",
       "headline": "TSMC and suppliers advertise more than 1,000 jobs in southern Taiwan",
       "bullets": [
@@ -1970,12 +2120,74 @@
       ]
     },
     {
+      "id": "b9d28eb17909bcfb1a25",
+      "headline": "Anthropic CEO calls for a slower, monitored frontier-AI race",
+      "bullets": [
+        "Anthropic CEO Dario Amodei called for AI development to slow so safety and alignment measures can catch up, warning that AI could lead a swarm of agents capable of taking over the internet within six to 12 months.",
+        "Amodei said an additional year or two to advance alignment could materially reduce risk; AP reported that OpenAI CEO Sam Altman committed to one of Amodei’s safety proposals and that Elon Musk supported the call.",
+        "AP also reported resignations by Anthropic safety researcher Joe Benton and Jacob Coxon, who raised concerns about the industry’s race toward self-improving systems."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 89,
+      "priority": "Critical",
+      "score_reason": "Material frontier-AI pacing and safety intervention involving leading labs, senior executives and reported safety-team departures.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/d59552edcb27892d8ee4d98a48397706",
+          "name": "apnews.com",
+          "published_at": "2026-09-12T16:37:40Z"
+        },
+        {
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "name": "darioamodei.com",
+          "published_at": null
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-ceo-warns-of-ai-driven-botnet-swarm-taking-over-the-entire-internet-in-6-12-months-such-a-swarm-could-be-capable-of-taking-over-the-entire-internet-with-a-persistent-botnet",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-13T13:36:35Z"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "name": "BBC Technology",
+          "published_at": "2026-09-12T15:37:39Z"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+          "name": "BBC Technology",
+          "published_at": "2026-09-13T01:15:04Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T16:37:40Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 6
+    },
+    {
       "id": "6772623e54f73db0219c",
       "headline": "OpenAI says it will not launch an IPO in 2026",
       "bullets": [
         "OpenAI CEO Sam Altman told Fortune that the company would not launch an initial public offering in 2026.",
-        "He linked the decision to safety, alignment and cooperation between the AI industry and governments.",
-        "AP reported that OpenAI and Anthropic are preparing for possible future public-market debuts, but their timing remains uncertain."
+        "Altman linked the decision to the company’s focus on safety, alignment and cooperation between the AI industry and governments."
       ],
       "companies": [
         {
@@ -1986,9 +2198,12 @@
       ],
       "topic_tier": 3,
       "topic": "Models",
-      "importance": 76,
+      "categories": [
+        "Models"
+      ],
+      "importance": 70,
       "priority": "High",
-      "score_reason": "The stated IPO delay is a material financing and governance decision by a leading frontier-AI company.",
+      "score_reason": "Material financing and corporate-timing decision by a leading frontier-AI company, explicitly tied to safety and alignment priorities.",
       "verification": "reported",
       "sources": [
         {
@@ -2001,19 +2216,16 @@
       "published_at": "2026-09-12T16:37:40Z",
       "date_precision": "time",
       "first_seen_at": "2026-09-13T12:24:02Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 3,
-      "categories": [
-        "Models"
-      ]
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 4
     },
     {
       "id": "2498a10c0b7e534d6a74",
       "headline": "Taiwan semiconductor expansion faces a shortage of fab construction workers",
       "bullets": [
-        "A 2026 semiconductor talent report cited by CTEE said the industry had 47,000 monthly job openings, up 20% year over year.",
-        "Algorithm-engineer pay rose more than 15.7%, reaching a median annual salary above NT$1.41 million, according to the report.",
-        "Construction and drafting roles were especially difficult to fill as TSMC and other companies accelerated fab expansion; the report said TSMC was recruiting for 13 plants."
+        "A 2026 semiconductor talent report cited by CTEE says the industry has about 47,000 monthly job openings, up 20% year over year.",
+        "Construction and drafting roles have a particularly high labour-demand ratio as TSMC and other companies accelerate fab expansion; algorithm-engineer pay rose more than 15.7%, with median annual pay above NT$1.41 million.",
+        "The report says TSMC is recruiting for 13 plants."
       ],
       "companies": [
         {
@@ -2024,9 +2236,13 @@
       ],
       "topic_tier": 1,
       "topic": "Foundry · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Supply Chain"
+      ],
       "importance": 78,
       "priority": "High",
-      "score_reason": "A reported labor bottleneck directly affects Taiwan fab expansion and advanced semiconductor capacity.",
+      "score_reason": "Fab construction labour is a direct capacity constraint for Taiwan’s semiconductor expansion, while the report also quantifies engineering-talent inflation.",
       "verification": "reported",
       "sources": [
         {
@@ -2039,12 +2255,8 @@
       "published_at": "2026-09-12T16:00:00Z",
       "date_precision": "day",
       "first_seen_at": "2026-09-13T11:48:26Z",
-      "updated_at": "2026-09-13T13:58:43Z",
-      "revision": 4,
-      "categories": [
-        "Foundry",
-        "Supply Chain"
-      ]
+      "updated_at": "2026-09-13T15:11:48Z",
+      "revision": 5
     },
     {
       "id": "753ad596a3c452afef37",
