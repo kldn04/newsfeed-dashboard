@@ -1,8 +1,8 @@
 {
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-13T15:32:07Z",
+  "message": "Publishing the verified edition.",
+  "stage": "publishing",
+  "updated_at": "2026-09-13T15:32:37Z",
   "started_at": "2026-09-13T15:26:42Z",
   "counts": {
     "web_candidates": 96,
@@ -11,33 +11,26 @@
     "x_candidates": 0,
     "openai_calls": 1,
     "input_tokens_estimated": 95395,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 107460,
+    "openai_input_tokens": 93814,
+    "openai_output_tokens": 13646,
+    "eligible": 28,
+    "held": 2
   },
   "stored_totals": {
-    "stories": 52,
+    "stories": 63,
     "evidence": 196,
-    "model_cache": 39,
-    "reviews": 70
+    "model_cache": 40,
+    "reviews": 71
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 62
+    "Editorial exclusions": 63
   },
   "events": [
-    {
-      "at": "2026-09-13T15:29:33Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T15:29:34Z",
-      "message": "Checking direct AI announcements: Anthropic"
-    },
-    {
-      "at": "2026-09-13T15:29:37Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
     {
       "at": "2026-09-13T15:29:39Z",
       "message": "Initial article scrape: Dario Amodei"
@@ -105,6 +98,18 @@
     {
       "at": "2026-09-13T15:30:34Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-13T15:32:36Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-13T15:32:36Z",
+      "message": "Batch complete: 28 stories ready."
+    },
+    {
+      "at": "2026-09-13T15:32:36Z",
+      "message": "Publishing the verified edition."
     }
   ]
 }
