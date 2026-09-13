@@ -1,8 +1,8 @@
 {
-  "state": "running",
-  "message": "Publishing Weibo stories.",
-  "stage": "publishing",
-  "updated_at": "2026-09-13T16:51:19Z",
+  "state": "idle",
+  "message": "Weibo edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T16:51:21Z",
   "started_at": "2026-09-13T16:34:56Z",
   "counts": {
     "weibo_candidates": 58,
@@ -28,10 +28,6 @@
     "Editorial exclusions": 64
   },
   "events": [
-    {
-      "at": "2026-09-13T16:45:23Z",
-      "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
-    },
     {
       "at": "2026-09-13T16:45:23Z",
       "message": "Weibo: 数码王小机 — 10 posts in five-day window, 10 new."
@@ -107,6 +103,10 @@
     {
       "at": "2026-09-13T16:51:18Z",
       "message": "Publishing Weibo stories."
+    },
+    {
+      "at": "2026-09-13T16:51:21Z",
+      "message": "Weibo edition published."
     }
   ]
 }
