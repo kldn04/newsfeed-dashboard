@@ -1,53 +1,32 @@
 {
-  "state": "running",
-  "message": "Checking the ten watched accounts through Grok X Search.",
-  "stage": "x_discovery",
-  "updated_at": "2026-09-13T11:51:26Z",
+  "state": "idle",
+  "message": "Edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T11:52:25Z",
   "started_at": "2026-09-13T11:48:26Z",
   "counts": {
-    "web_candidates": 28
+    "web_candidates": 28,
+    "grok_tokens": 15565,
+    "grok_token_target": 15000,
+    "x_candidates": 5,
+    "openai_calls": 1,
+    "openai_tokens": 40305,
+    "eligible": 0,
+    "held": 6
   },
   "stored_totals": {
     "stories": 8,
-    "evidence": 22,
-    "model_cache": 33,
-    "reviews": 41
+    "evidence": 35,
+    "model_cache": 34,
+    "reviews": 48
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 33
+    "Editorial exclusions": 40
   },
   "events": [
-    {
-      "at": "2026-09-13T11:49:46Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
-    {
-      "at": "2026-09-13T11:49:48Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T11:49:51Z",
-      "message": "Checking direct AI announcements: Anthropic"
-    },
-    {
-      "at": "2026-09-13T11:49:54Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T11:49:56Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T11:49:57Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T11:50:01Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
     {
       "at": "2026-09-13T11:50:04Z",
       "message": "Initial article scrape: Anthropic"
@@ -99,6 +78,34 @@
     {
       "at": "2026-09-13T11:50:23Z",
       "message": "Checking the ten watched accounts through Grok X Search."
+    },
+    {
+      "at": "2026-09-13T11:52:09Z",
+      "message": "Grok finished its bounded analysis."
+    },
+    {
+      "at": "2026-09-13T11:52:09Z",
+      "message": "Checking original sources and summarising stories."
+    },
+    {
+      "at": "2026-09-13T11:52:09Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-13T11:52:22Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-13T11:52:22Z",
+      "message": "Batch complete: 0 stories ready."
+    },
+    {
+      "at": "2026-09-13T11:52:22Z",
+      "message": "Publishing the verified edition."
+    },
+    {
+      "at": "2026-09-13T11:52:25Z",
+      "message": "Edition published."
     }
   ]
 }
