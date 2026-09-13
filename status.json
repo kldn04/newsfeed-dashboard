@@ -1,8 +1,8 @@
 {
-  "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-13T16:06:47Z",
+  "state": "idle",
+  "message": "Edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T16:07:11Z",
   "started_at": "2026-09-13T15:50:49Z",
   "counts": {
     "web_candidates": 170,
@@ -11,37 +11,26 @@
     "x_candidates": 5,
     "openai_calls": 1,
     "input_tokens_estimated": 177184,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 190977,
+    "openai_input_tokens": 173652,
+    "openai_output_tokens": 17325,
+    "eligible": 38,
+    "held": 2
   },
   "stored_totals": {
-    "stories": 63,
+    "stories": 67,
     "evidence": 198,
-    "model_cache": 40,
-    "reviews": 71
+    "model_cache": 41,
+    "reviews": 72
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 63
+    "Editorial exclusions": 64
   },
   "events": [
-    {
-      "at": "2026-09-13T16:03:23Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T16:03:25Z",
-      "message": "Checking direct AI announcements: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:30Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T16:03:31Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
     {
       "at": "2026-09-13T16:03:33Z",
       "message": "Initial article scrape: Dario Amodei"
@@ -105,6 +94,22 @@
     {
       "at": "2026-09-13T16:04:37Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-13T16:07:08Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-13T16:07:08Z",
+      "message": "Batch complete: 38 stories ready."
+    },
+    {
+      "at": "2026-09-13T16:07:08Z",
+      "message": "Publishing the verified edition."
+    },
+    {
+      "at": "2026-09-13T16:07:11Z",
+      "message": "Edition published."
     }
   ]
 }
