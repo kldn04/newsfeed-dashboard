@@ -1,19 +1,10 @@
 {
-  "state": "idle",
-  "message": "Edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T12:31:41Z",
-  "started_at": "2026-09-13T12:24:02Z",
-  "counts": {
-    "web_candidates": 48,
-    "grok_tokens": 15925,
-    "grok_token_target": 15000,
-    "x_candidates": 4,
-    "openai_calls": 1,
-    "openai_tokens": 76728,
-    "eligible": 16,
-    "held": 0
-  },
+  "state": "running",
+  "message": "Reading Ijiwei through Bright Data.",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-13T12:38:42Z",
+  "started_at": "2026-09-13T12:38:12Z",
+  "counts": {},
   "stored_totals": {
     "stories": 22,
     "evidence": 58,
@@ -28,84 +19,36 @@
   },
   "events": [
     {
-      "at": "2026-09-13T12:27:27Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:12Z",
+      "message": "Starting an owner-requested edition."
     },
     {
-      "at": "2026-09-13T12:27:35Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:12Z",
+      "message": "Reading CTEE through Bright Data."
     },
     {
-      "at": "2026-09-13T12:27:44Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:15Z",
+      "message": "CTEE: 1 candidates (ok)."
     },
     {
-      "at": "2026-09-13T12:27:47Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:15Z",
+      "message": "Reading TheLec through Bright Data."
     },
     {
-      "at": "2026-09-13T12:27:48Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:24Z",
+      "message": "TheLec: 20 candidates (partial)."
     },
     {
-      "at": "2026-09-13T12:27:49Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:24Z",
+      "message": "Reading Tom’s Hardware through Bright Data."
     },
     {
-      "at": "2026-09-13T12:27:50Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T12:38:27Z",
+      "message": "Tom’s Hardware: 10 candidates (partial)."
     },
     {
-      "at": "2026-09-13T12:27:53Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T12:27:56Z",
-      "message": "Initial article scrape: BBC Technology"
-    },
-    {
-      "at": "2026-09-13T12:27:58Z",
-      "message": "Initial article scrape: BBC Technology"
-    },
-    {
-      "at": "2026-09-13T12:27:59Z",
-      "message": "Initial article scrape: apnews.com"
-    },
-    {
-      "at": "2026-09-13T12:28:03Z",
-      "message": "Checking the ten watched X accounts."
-    },
-    {
-      "at": "2026-09-13T12:28:03Z",
-      "message": "Checking the ten watched accounts through Grok X Search."
-    },
-    {
-      "at": "2026-09-13T12:29:47Z",
-      "message": "Grok finished its bounded analysis."
-    },
-    {
-      "at": "2026-09-13T12:29:47Z",
-      "message": "Checking original sources and summarising stories."
-    },
-    {
-      "at": "2026-09-13T12:29:47Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-13T12:31:38Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-13T12:31:38Z",
-      "message": "Batch complete: 16 stories ready."
-    },
-    {
-      "at": "2026-09-13T12:31:38Z",
-      "message": "Publishing the verified edition."
-    },
-    {
-      "at": "2026-09-13T12:31:41Z",
-      "message": "Edition published."
+      "at": "2026-09-13T12:38:27Z",
+      "message": "Reading Ijiwei through Bright Data."
     }
   ]
 }
