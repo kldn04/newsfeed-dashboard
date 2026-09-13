@@ -1,8 +1,8 @@
 {
-  "state": "running",
-  "message": "Publishing the verified edition.",
-  "stage": "publishing",
-  "updated_at": "2026-09-13T15:32:37Z",
+  "state": "idle",
+  "message": "Edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T15:32:39Z",
   "started_at": "2026-09-13T15:26:42Z",
   "counts": {
     "web_candidates": 96,
@@ -31,10 +31,6 @@
     "Editorial exclusions": 63
   },
   "events": [
-    {
-      "at": "2026-09-13T15:29:39Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
     {
       "at": "2026-09-13T15:29:44Z",
       "message": "Initial article scrape: Dario Amodei"
@@ -110,6 +106,10 @@
     {
       "at": "2026-09-13T15:32:36Z",
       "message": "Publishing the verified edition."
+    },
+    {
+      "at": "2026-09-13T15:32:39Z",
+      "message": "Edition published."
     }
   ]
 }
