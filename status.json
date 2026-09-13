@@ -1,20 +1,23 @@
 {
-  "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-13T12:45:25Z",
+  "state": "idle",
+  "message": "Edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T12:45:48Z",
   "started_at": "2026-09-13T12:38:12Z",
   "counts": {
     "web_candidates": 68,
     "grok_tokens": 14614,
     "grok_token_target": 15000,
     "x_candidates": 5,
-    "openai_calls": 1
+    "openai_calls": 1,
+    "openai_tokens": 85200,
+    "eligible": 19,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 22,
+    "stories": 28,
     "evidence": 66,
-    "model_cache": 36,
+    "model_cache": 37,
     "reviews": 66
   },
   "review_categories": {
@@ -24,22 +27,6 @@
     "Editorial exclusions": 58
   },
   "events": [
-    {
-      "at": "2026-09-13T12:42:04Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T12:42:08Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T12:42:13Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T12:42:15Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
     {
       "at": "2026-09-13T12:42:18Z",
       "message": "Initial article scrape: Anthropic"
@@ -103,6 +90,22 @@
     {
       "at": "2026-09-13T12:44:19Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-13T12:45:46Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-13T12:45:46Z",
+      "message": "Batch complete: 19 stories ready."
+    },
+    {
+      "at": "2026-09-13T12:45:46Z",
+      "message": "Publishing the verified edition."
+    },
+    {
+      "at": "2026-09-13T12:45:48Z",
+      "message": "Edition published."
     }
   ]
 }
