@@ -1,8 +1,8 @@
 {
   "state": "idle",
-  "message": "Edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T11:55:53Z",
+  "message": "Owner refresh queued with updated Ijiwei scraper.",
+  "stage": "queued",
+  "updated_at": "2026-09-13T12:22:56Z",
   "started_at": "2026-09-13T11:48:26Z",
   "counts": {
     "web_candidates": 28,
@@ -27,10 +27,6 @@
     "Editorial exclusions": 40
   },
   "events": [
-    {
-      "at": "2026-09-13T11:50:12Z",
-      "message": "Initial article scrape: Anthropic"
-    },
     {
       "at": "2026-09-13T11:50:13Z",
       "message": "Initial article scrape: Anthropic"
@@ -106,6 +102,10 @@
     {
       "at": "2026-09-13T11:55:53Z",
       "message": "Edition published."
+    },
+    {
+      "at": "2026-09-13T12:22:56Z",
+      "message": "Owner refresh queued with updated Ijiwei scraper."
     }
   ]
 }
