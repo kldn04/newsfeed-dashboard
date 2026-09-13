@@ -1,10 +1,12 @@
 {
   "state": "running",
-  "message": "Initial article scrape: Anthropic",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-13T15:13:41Z",
+  "message": "Checking the ten watched accounts through Grok X Search.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-13T15:14:12Z",
   "started_at": "2026-09-13T15:11:48Z",
-  "counts": {},
+  "counts": {
+    "web_candidates": 58
+  },
   "stored_totals": {
     "stories": 48,
     "evidence": 189,
@@ -18,22 +20,6 @@
     "Editorial exclusions": 59
   },
   "events": [
-    {
-      "at": "2026-09-13T15:12:22Z",
-      "message": "Munhwa: 0 dated articles captured (failed)."
-    },
-    {
-      "at": "2026-09-13T15:12:22Z",
-      "message": "Reading Nikkei through Bright Data."
-    },
-    {
-      "at": "2026-09-13T15:12:24Z",
-      "message": "ETNews: 0 dated articles captured (failed)."
-    },
-    {
-      "at": "2026-09-13T15:12:24Z",
-      "message": "Reading MoneyToday through Bright Data."
-    },
     {
       "at": "2026-09-13T15:12:52Z",
       "message": "MoneyToday: 12 dated articles captured (partial)."
@@ -97,6 +83,22 @@
     {
       "at": "2026-09-13T15:13:41Z",
       "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-13T15:13:42Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-13T15:13:43Z",
+      "message": "Initial article scrape: apnews.com"
+    },
+    {
+      "at": "2026-09-13T15:13:46Z",
+      "message": "Checking the ten watched X accounts."
+    },
+    {
+      "at": "2026-09-13T15:13:46Z",
+      "message": "Checking the ten watched accounts through Grok X Search."
     }
   ]
 }
