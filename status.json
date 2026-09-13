@@ -1,10 +1,12 @@
 {
   "state": "running",
-  "message": "Initial article scrape: apnews.com",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-13T12:42:49Z",
+  "message": "Checking the ten watched accounts through Grok X Search.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-13T12:43:51Z",
   "started_at": "2026-09-13T12:38:12Z",
-  "counts": {},
+  "counts": {
+    "web_candidates": 68
+  },
   "stored_totals": {
     "stories": 22,
     "evidence": 58,
@@ -18,14 +20,6 @@
     "Editorial exclusions": 40
   },
   "events": [
-    {
-      "at": "2026-09-13T12:41:31Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
-    {
-      "at": "2026-09-13T12:41:33Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
     {
       "at": "2026-09-13T12:41:47Z",
       "message": "Initial article scrape: Tom’s Hardware"
@@ -97,6 +91,14 @@
     {
       "at": "2026-09-13T12:42:49Z",
       "message": "Initial article scrape: apnews.com"
+    },
+    {
+      "at": "2026-09-13T12:42:56Z",
+      "message": "Checking the ten watched X accounts."
+    },
+    {
+      "at": "2026-09-13T12:42:56Z",
+      "message": "Checking the ten watched accounts through Grok X Search."
     }
   ]
 }
