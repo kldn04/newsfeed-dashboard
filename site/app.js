@@ -1,0 +1,79 @@
+'use strict';
+const $ = id => document.getElementById(id);
+const state = {feed: null, view: 'all', topic: 0, selected: new Set(), visible: [], error: false};
+const labels = {source_checked: 'Source checked', reported: 'Reported', opinion: 'Opinion'};
+const dates = new Intl.DateTimeFormat('en-GB', {timeZone: 'Europe/London', day: '2-digit', month: 'short'});
+const times = new Intl.DateTimeFormat('en-GB', {timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', hour12: false});
+const fullDate = new Intl.DateTimeFormat('en-GB', {timeZone: 'Europe/London', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'});
+const dayKey = value => new Intl.DateTimeFormat('en-CA', {timeZone:'Europe/London', year:'numeric', month:'2-digit', day:'2-digit'}).format(new Date(value));
+const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function safeUrl(value) {try {const url = new URL(value); return ['https:','http:'].includes(url.protocol) && !url.username && !url.password ? url.href : '#';} catch {return '#';}}
+function activeStories() {const f=state.feed;if(!f?.window)return [];return f.stories.filter(s=>s.published_at>=f.window.start && s.published_at<=f.window.end);}
+function searchText(story) {return [story.headline,...story.bullets,...story.companies.flatMap(c=>[c.name,c.ticker,...c.aliases])].join(' ').toLowerCase();}
+function inView() {const stories=state.view==='archive'?state.feed.stories:activeStories();return state.view==='x'?stories.filter(s=>state.feed.x_digest_ids.includes(s.id)):stories;}
+function copyText(story) {return `${story.headline}\n\n${story.bullets.map(b=>'- '+b).join('\n')}\nSource: ${story.sources.map(s=>`${s.name} ${s.url}`).join('; ')}${story.highlights.length?' — highlighted by '+story.highlights.map(h=>`@${h.handle} ${h.url}`).join('; '):''}`;}
+async function copy(stories) {const text=stories.map(copyText).join('\n\n');try {await navigator.clipboard.writeText(text);toast(`${stories.length===1?'Story':stories.length+' stories'} copied with sources`);}catch{$('copy-fallback').value=text;$('copy-dialog').showModal();$('copy-fallback').focus();$('copy-fallback').select();}}
+let toastTimer;function toast(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3500);}
+function updateSelection(){const n=state.selected.size;$('selected-count').textContent=n;$('copy-selected').disabled=!n;}
+function card(story){const selected=state.selected.has(story.id);const published=new Date(story.published_at);return `<article class="story${selected?' selected':''}" id="story-${esc(story.id)}">
+  <input class="select-story" type="checkbox" data-select="${esc(story.id)}" aria-label="Select ${esc(story.headline)}" ${selected?'checked':''}>
+  <div class="story-main"><div class="story-kicker"><span class="topic-tag">${esc(story.topic)}</span><span class="separator">•</span><time datetime="${esc(story.published_at)}" title="${esc(fullDate.format(published))}">${dates.format(published)}${story.date_precision==='day'?' · time unavailable':' · '+times.format(published)+' UK'}</time><span class="evidence-label ${esc(story.verification)}">${esc(labels[story.verification]||'Reported')}</span>${story.revision>1?'<span>Updated</span>':''}</div>
+  <h2>${esc(story.headline)}</h2><ul>${story.bullets.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>
+  <div class="story-meta">${story.companies.map(c=>`<button class="company-chip" data-company="${esc(c.name)}" title="Search ${esc(c.name)}">${esc(c.ticker||c.name)}</button>`).join('')}<div class="source-links"><span>Source:</span>${story.sources.map(s=>`<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a>`).join('<span>·</span>')}${story.highlights.length?`<span class="via">via</span>${story.highlights.map(h=>`<a href="${esc(safeUrl(h.url))}" target="_blank" rel="noopener noreferrer">@${esc(h.handle)} ↗</a>`).join(' ')}`:''}</div></div>
+  </div>
+  <div class="story-side"><div class="priority-score ${esc(story.priority.toLowerCase())}"><strong>${story.importance}</strong><span>${esc(story.priority)}</span></div><div class="story-actions"><button class="icon-button" data-copy="${esc(story.id)}" title="Copy story with sources" aria-label="Copy ${esc(story.headline)} with sources">⧉</button><a class="icon-button" href="#story-${esc(story.id)}" title="Link to story" aria-label="Link to ${esc(story.headline)}">↗</a></div></div></article>`;}
+function render(){if(!state.feed)return;const query=$('search').value.trim().toLowerCase();const min=Number($('priority').value);const evidence=$('verification').value;const source=$('source').value;const day=$('archive-date').value;
+  let rows=inView().filter(s=>(!state.topic||s.topic_tier===state.topic)&&s.importance>=min&&(!evidence||s.verification===evidence)&&(!source||s.sources.some(x=>x.name===source)||s.highlights.some(h=>'@'+h.handle===source))&&(!query||query.split(/\s+/).every(q=>searchText(s).includes(q)))&&(!(state.view==='archive'&&day)||dayKey(s.published_at)===day));
+  if(state.view==='x'){rows.sort((a,b)=>state.feed.x_digest_ids.indexOf(a.id)-state.feed.x_digest_ids.indexOf(b.id));}else rows.sort($('sort').value==='latest'?(a,b)=>b.published_at.localeCompare(a.published_at):(a,b)=>b.importance-a.importance||b.published_at.localeCompare(a.published_at));
+  state.visible=rows;$('feed').innerHTML=rows.map(card).join('');$('result-count').textContent=`${rows.length} ${rows.length===1?'story':'stories'}${state.view==='x'?' · subject priority order':''}`;$('sort').disabled=state.view==='x';$('empty').hidden=rows.length>0;
+  const filters=Boolean(query||min||evidence||source||state.topic||(state.view==='archive'&&day));$('clear-filters').hidden=!filters;
+  $('empty-title').textContent=state.error?'Feed unavailable':filters?'No matching stories':state.feed.generated_at?'No qualifying stories':'Your first edition is on its way';
+  $('empty-description').textContent=state.error?'The feed could not be loaded. Try reloading the page.':filters?'Try another company, ticker or a broader set of filters.':state.feed.generated_at?'No stories passed the relevance and attribution checks for this view.':'Stories will appear here after the first successful collection. The schedule is 06:20 UK time, Monday to Friday.';
+  updateSelection();}
+function metadata(){const f=state.feed,active=activeStories();$('nav-total').textContent=active.length;$('nav-x').textContent=f.x_digest_ids.length;$('topic-all-count').textContent=active.length;$('metric-total').textContent=active.length;$('metric-priority').textContent=active.filter(s=>s.importance>=60).length;
+  const sources=new Set(active.flatMap(s=>[...s.sources.map(v=>v.name),...s.highlights.map(h=>'@'+h.handle)]));$('metric-sources').textContent=sources.size;
+  const selected=$('source').value;$('source').innerHTML='<option value="">All sources</option>'+[...new Set(f.stories.flatMap(s=>[...s.sources.map(v=>v.name),...s.highlights.map(h=>'@'+h.handle)]))].sort().map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');$('source').value=selected;
+  if(f.generated_at){const end=new Date(f.window.end),start=new Date(f.window.start);$('edition-date').textContent=fullDate.format(end).toUpperCase();$('metric-window').textContent=f.window.weekend_coverage?'Weekend + Monday':'Last 24 hours';$('coverage-detail').textContent=`${dates.format(start)} ${times.format(start)} – ${dates.format(end)} ${times.format(end)} UK`;$('next-refresh').textContent=`Next edition · ${dates.format(new Date(f.next_refresh_at))}, ${times.format(new Date(f.next_refresh_at))} UK`;
+    const stale=Date.now()>Date.parse(f.next_refresh_at)+30*60*1000;$('status-dot').className='status-dot '+(stale?'stale':'fresh');$('status-text').textContent=f.demo?'Preview edition':stale?'Awaiting new edition':`Updated ${times.format(end)} UK`;
+    if(f.demo)notice('DEMO EDITION · Illustrative stories for previewing the dashboard. These are not live news.');else if(stale)notice('The latest scheduled edition has not arrived yet. Showing the last successful update.',true);else if(f.partial)notice('Coverage is incomplete for this edition. Some sources could not be fully checked.');else $('notice').hidden=true;
+  }
+  $('sources-list').innerHTML=f.source_status.length?f.source_status.map(s=>`<div class="source-health"><span>${esc(s.name)}</span><span>${esc(s.status)}</span></div>`).join(''):'Coverage will appear with the first edition.';
+}
+function notice(message,error=false){$('notice').textContent=message;$('notice').className='notice'+(error?' error':'');$('notice').hidden=false;}
+function setView(view){state.view=view;document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-pressed',b.dataset.view===view);});const names={all:'Morning feed',x:'X highlights',archive:'Archive'};$('breadcrumb-view').textContent=names[view];$('page-title').innerHTML=({all:'The morning brief',x:'The X shortlist',archive:'The story archive'})[view]+'<span>.</span>';$('page-description').textContent=({all:'Semiconductors and AI. The developments that matter, with the sources behind them.',x:'Up to five subjects. Original reporting first, highlighting posts alongside.',archive:'Search earlier editions by company, ticker, source or date.'})[view];$('archive-date-wrap').hidden=view!=='archive';render();}
+function resetFilters(){$('search').value='';$('priority').value='0';$('verification').value='';$('source').value='';$('archive-date').value='';setTopic(0);}
+function setTopic(topic){state.topic=topic;document.querySelectorAll('[data-topic]').forEach(b=>{b.classList.toggle('active',Number(b.dataset.topic)===topic);b.setAttribute('aria-pressed',Number(b.dataset.topic)===topic);});render();}
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>setTopic(Number(b.dataset.topic))));
+['search','priority','verification','source','sort','archive-date'].forEach(id=>$(id).addEventListener('input',render));$('clear-filters').addEventListener('click',resetFilters);
+$('feed').addEventListener('change',event=>{const id=event.target.dataset.select;if(id){event.target.checked?state.selected.add(id):state.selected.delete(id);event.target.closest('.story').classList.toggle('selected',event.target.checked);updateSelection();}});
+$('feed').addEventListener('click',event=>{const copyId=event.target.closest('[data-copy]')?.dataset.copy;const company=event.target.closest('[data-company]')?.dataset.company;if(copyId)copy([state.feed.stories.find(s=>s.id===copyId)]);if(company){$('search').value=company;render();}});
+$('copy-selected').addEventListener('click',()=>{const ordered=[...state.visible,...state.feed.stories.filter(s=>!state.visible.some(v=>v.id===s.id))];copy(ordered.filter(s=>state.selected.has(s.id)));});$('close-dialog').addEventListener('click',()=>$('copy-dialog').close());
+document.addEventListener('keydown',event=>{if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){event.preventDefault();$('search').focus();}});
+function followHash(){const id=decodeURIComponent(location.hash.replace('#story-',''));const story=state.feed?.stories.find(s=>s.id===id);if(story){resetFilters();if(!activeStories().some(s=>s.id===id))setView('archive');else setView('all');requestAnimationFrame(()=>$('story-'+id)?.scrollIntoView({block:'center'}));}}
+window.addEventListener('hashchange',followHash);
+async function load(){try{const demo=new URLSearchParams(location.search).get('demo')==='1';const response=await fetch(`data/${demo?'demo':'feed'}.json`,{cache:'no-store'});if(!response.ok)throw Error('Feed unavailable');const feed=await response.json();if(feed.schema_version!==1||!Array.isArray(feed.stories))throw Error('Invalid feed');state.feed=feed;state.error=false;const ids=new Set(feed.stories.map(s=>s.id));state.selected=new Set([...state.selected].filter(id=>ids.has(id)));metadata();render();}catch{state.error=true;notice('Unable to load the latest feed. '+(state.feed?'Keeping the edition already on screen.':'Please try again shortly.'),true);if(!state.feed){state.feed={stories:[],source_status:[],x_digest_ids:[],window:null};render();}}}
+load().then(followHash);
+// Refresh the static publication only: visitors cannot trigger collection or provider calls.
+setInterval(load,5*60*1000);
+
+async function loadCollectionStatus(){
+  if(new URLSearchParams(location.search).get('demo')==='1'){$('collection-summary').textContent='Demo preview';$('collection-message').textContent='Live collection progress appears on the public dashboard.';return;}
+  try {
+    const response=await fetch('https://raw.githubusercontent.com/kldn04/newsfeed-dashboard/collection-status/status.json?t='+Math.floor(Date.now()/30000),{cache:'no-store'});
+    if(!response.ok)throw Error('Status unavailable');
+    const status=await response.json();
+    if(status.stage==='complete')await load();
+    $('collection-state').textContent=({running:'● Collecting',failed:'Collection needs attention',idle:'Collection status'})[status.state]||'Collection status';
+    $('collection-summary').textContent=status.stage==='complete'?'Edition ready':status.state==='running'?'In progress':status.state==='failed'?'Failed':'Idle';
+    $('collection-message').textContent=status.message;
+    const counts=status.counts||{},totals=status.stored_totals||{};
+    $('collection-counts').textContent=[counts.web_candidates!==undefined?counts.web_candidates+' web candidates':null,counts.x_candidates!==undefined?counts.x_candidates+' X candidates':null,counts.eligible!==undefined?counts.eligible+' eligible this run':null,counts.openai_calls!==undefined?counts.openai_calls+' OpenAI call':null,counts.grok_tokens!==undefined?counts.grok_tokens.toLocaleString()+' Grok tokens used':null,(totals.evidence||0)+' source documents stored',(totals.model_cache||0)+' model results stored'].filter(Boolean).join(' · ');
+    $('collection-updated').textContent=status.updated_at?'Last status update: '+new Date(status.updated_at).toLocaleTimeString('en-GB',{timeZone:'Europe/London'})+' UK':'';
+    const events=(status.events||[]).slice(-12).reverse();
+    $('collection-events').innerHTML=events.map(e=>'<li>'+esc(e.message)+'</li>').join('')+Object.entries(status.review_categories||{}).filter(([,n])=>n>0).map(([name,n])=>'<li>'+esc(name)+': '+esc(n)+' stored</li>').join('');
+  }catch{$('collection-summary').textContent='Status temporarily unavailable';$('collection-message').textContent='The published feed remains available. Try again shortly.';}
+}
+loadCollectionStatus();setInterval(loadCollectionStatus,30000);
+
+$('refresh-feed').addEventListener('click',()=>{$('refresh-dialog').showModal();});
+$('close-refresh').addEventListener('click',()=>{$('refresh-dialog').close();});

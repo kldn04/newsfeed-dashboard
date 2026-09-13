@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "demo": false,
+  "generated_at": "2026-09-12T23:22:09Z",
+  "next_refresh_at": "2026-09-14T05:20:00Z",
+  "window": {
+    "start": "2026-09-11T23:22:09Z",
+    "end": "2026-09-12T23:22:09Z",
+    "weekend_coverage": false
+  },
+  "schedule": "06:20 Europe/London · Monday–Friday",
+  "handles": [
+    "jukan05",
+    "zephyr_z9",
+    "dnystedt",
+    "pequityresearch",
+    "intelfabs"
+  ],
+  "source_status": [
+    {
+      "name": "CTEE",
+      "status": "ok",
+      "discovered": 2
+    },
+    {
+      "name": "TheLec",
+      "status": "failed",
+      "discovered": 0
+    },
+    {
+      "name": "Tom’s Hardware",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Ijiwei",
+      "status": "failed",
+      "discovered": 0
+    },
+    {
+      "name": "TrendForce",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "ZDNet Korea",
+      "status": "ok",
+      "discovered": 1
+    },
+    {
+      "name": "EET China",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Dario Amodei",
+      "status": "partial",
+      "discovered": 4
+    },
+    {
+      "name": "Anthropic",
+      "status": "partial",
+      "discovered": 8
+    },
+    {
+      "name": "BBC Technology",
+      "status": "partial",
+      "discovered": 3
+    },
+    {
+      "name": "@jukan05",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@zephyr_z9",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@dnystedt",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@pequityresearch",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@intelfabs",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "Processing",
+      "status": "partial",
+      "discovered": 3
+    }
+  ],
+  "partial": true,
+  "x_digest_ids": [],
+  "stories": [
+    {
+      "id": "b9d28eb17909bcfb1a25",
+      "headline": "Anthropic CEO calls for a slower, monitored frontier-AI race",
+      "bullets": [
+        "Dario Amodei said AI development should be paced so safety measures and alignment work can catch up, while stopping short of calling for a halt to training or technical progress.",
+        "He proposed independent, embedded evaluators for frontier companies, industry-wide safety coordination and global regulation; Anthropic says it is adopting the evaluator proposal itself.",
+        "OpenAI CEO Sam Altman endorsed pacing and independent evaluators, while Elon Musk said Amodei was right; AP reported Amodei’s warning that some capabilities could arrive within six to 12 months."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": [
+            "Claude"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": [
+            "ChatGPT"
+          ]
+        },
+        {
+          "name": "xAI",
+          "ticker": "",
+          "aliases": [
+            "SpaceXAI",
+            "Grok"
+          ]
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Model economics",
+      "importance": 96,
+      "priority": "Critical",
+      "score_reason": "Major frontier-AI policy and safety intervention, with explicit support from rival leaders and potential implications for development pace and regulation.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+          "name": "BBC Technology",
+          "published_at": "2026-09-12T15:37:39Z"
+        },
+        {
+          "url": "https://apnews.com/article/d59552edcb27892d8ee4d98a48397706",
+          "name": "apnews.com",
+          "published_at": "2026-09-12T16:37:40Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T16:37:40Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T20:05:42Z",
+      "revision": 1
+    },
+    {
+      "id": "753ad596a3c452afef37",
+      "headline": "Anthropic says Claude was used in Iranian-linked military and surveillance activity",
+      "bullets": [
+        "Anthropic’s September 2026 threat report said an Iran-linked actor used Claude for naval reconnaissance, targeting recommendations and research into communications vulnerabilities.",
+        "The report said a Houthi-linked cell used Claude Code for guidance, navigation, firmware and simulation work related to several missile programs, including a ballistic missile and a hypersonic-glide-vehicle variant.",
+        "Anthropic said it banned 16 Claude accounts linked to Iranian paramilitary and domestic-security agencies, added detection measures and shared findings with authorities; the account is reported by Tom’s Hardware from Anthropic’s report."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": [
+            "Anthropic",
+            "Claude"
+          ]
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Model economics",
+      "importance": 91,
+      "priority": "Critical",
+      "score_reason": "Material frontier-AI misuse disclosure involving military targeting, weapons development and surveillance, with direct safety and policy implications.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-12T15:03:10Z"
+        },
+        {
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "name": "www.anthropic.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T15:03:10Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T23:22:09Z",
+      "revision": 2
+    },
+    {
+      "id": "2da150c582c9317f3202",
+      "headline": "Unofficial mod brings Nvidia Multi Frame Generation to RTX 40-series GPUs",
+      "bullets": [
+        "Tom’s Hardware tested a community mod that enabled Multi Frame Generation beyond its official RTX 50-series support on RTX 40-series cards.",
+        "The test found the feature increased perceived smoothness in Cyberpunk 2077, while higher multipliers produced visible artifacts.",
+        "The report emphasized that input latency, rather than generated frame rate alone, determines whether the modded experience remains playable."
+      ],
+      "companies": [
+        {
+          "name": "Nvidia",
+          "ticker": "",
+          "aliases": [
+            "Nvidia",
+            "GeForce",
+            "RTX"
+          ]
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Semiconductors",
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "Relevant AI-hardware software development and product-segmentation story, but unofficial, gaming-focused and narrower in industry impact.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/pc-components/gpus/we-tested-dlss-multi-frame-generation-on-rtx-40-series-gpus-new-mod-brings-rtx-50-series-exclusive-feature-to-older-cards-and-it-really-works",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-12T14:08:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T14:08:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T23:22:09Z",
+      "updated_at": "2026-09-12T23:22:09Z",
+      "revision": 1
+    },
+    {
+      "id": "db6caeb8fa6777b09492",
+      "headline": "ABF substrate demand is adding another constraint beneath AI accelerators",
+      "bullets": [
+        "Tom’s Hardware reported that Ajinomoto’s ABF substrates are critical materials for data-center silicon from Nvidia, Intel and AMD.",
+        "The report said demand has strained supply chains and pushed ABF substrate prices up by approximately 30%."
+      ],
+      "companies": [
+        {
+          "name": "Ajinomoto",
+          "ticker": "",
+          "aliases": [
+            "ABF"
+          ]
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": [
+            "Nvidia"
+          ]
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "aliases": []
+        },
+        {
+          "name": "Advanced Micro Devices",
+          "ticker": "AMD",
+          "aliases": [
+            "AMD"
+          ]
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Substrate availability and pricing are material packaging and AI-accelerator bottlenecks, though the evidence is a specialist analysis rather than a company announcement.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-abf-substrates-in-data-center-silicon-in-2026-solving-the-supply-crunch-and-material-wall-beneath-every-ai-accelerator",
+          "name": "www.tomshardware.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T12:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T20:05:42Z",
+      "revision": 1
+    },
+    {
+      "id": "bfaa5536825d2bb2e0a1",
+      "headline": "Apple A20 Pro benchmark submission shows major single-thread gains",
+      "bullets": [
+        "An early Geekbench 7 submission attributed to Apple’s A20 Pro showed 4,006 single-thread and 11,460 multi-thread points, according to Tom’s Hardware.",
+        "The reported result was 23.3% higher in single-thread and 27.1% higher in multi-thread performance than the cited A19 Pro result.",
+        "Tom’s Hardware cautioned that the submission may not represent final retail-product performance; the report also said A20 Pro is built on a 2nm process."
+      ],
+      "companies": [
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": [
+            "Apple",
+            "A20 Pro"
+          ]
+        },
+        {
+          "name": "Intel",
+          "ticker": "",
+          "aliases": [
+            "Intel"
+          ]
+        },
+        {
+          "name": "AMD",
+          "ticker": "",
+          "aliases": [
+            "AMD"
+          ]
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Semiconductors",
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "Potentially significant mobile-chip performance and process-node development, but evidence is an early benchmark submission and therefore not fully confirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-12T10:48:32Z"
+        },
+        {
+          "url": "https://browser.geekbench.com/v7/cpu/316653",
+          "name": "browser.geekbench.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-12T10:48:32Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T20:05:42Z",
+      "revision": 1
+    },
+    {
+      "id": "a34088d60b3b45a8b647",
+      "headline": "TSMC proposes a more integrated advanced-packaging development model",
+      "bullets": [
+        "TSMC advanced-packaging executive Kevin Ho proposed system technology co-optimization, or STCO, with standardized and modular platforms linking chip systems, processes, materials and equipment.",
+        "The initiative aims to bring suppliers into packaging development earlier as AI-chip cycles accelerate and advanced packages must integrate compute, memory and increasingly photonics while addressing yield, warpage and thermal issues.",
+        "The report says TSMC is working through a SEMICON 3DIC alliance with Applied Materials, C Sun, Eternal Materials and Chroma, and plans an advanced-packaging R&D and validation base in Kaohsiung’s Baipu industrial park."
+      ],
+      "companies": [
+        {
+          "name": "Taiwan Semiconductor Manufacturing Company",
+          "ticker": "TSM",
+          "aliases": [
+            "TSMC",
+            "台積電"
+          ]
+        },
+        {
+          "name": "Applied Materials",
+          "ticker": "AMAT",
+          "aliases": [
+            "Applied"
+          ]
+        },
+        {
+          "name": "Henkel",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 88,
+      "priority": "Critical",
+      "score_reason": "Foundry-led packaging ecosystem change addresses a major AI hardware bottleneck and supplier-validation timelines.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260912700014-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-11T23:02:30Z"
+        },
+        {
+          "url": "https://www.businesstoday.com.tw/article/category/183015/post/202609090009/",
+          "name": "www.businesstoday.com.tw",
+          "published_at": null
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-11T23:02:30Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T20:05:42Z",
+      "revision": 1
+    },
+    {
+      "id": "22304b9afd172adb4286",
+      "headline": "Top-10 fabless chip revenue surged 73% in Q2, TrendForce says",
+      "bullets": [
+        "TrendForce reported combined second-quarter revenue of the world’s 10 largest fabless companies at $141.45 billion, up 73% year over year.",
+        "Nvidia remained first with $91.16 billion, while Broadcom reached $18.89 billion and AMD moved into third place with $11.53 billion, overtaking Qualcomm.",
+        "The report attributed the surge to AI infrastructure demand for GPUs, ASICs, CPUs and high-speed interconnect chips."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": [
+            "Nvidia"
+          ]
+        },
+        {
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "aliases": []
+        },
+        {
+          "name": "Advanced Micro Devices",
+          "ticker": "AMD",
+          "aliases": [
+            "AMD"
+          ]
+        },
+        {
+          "name": "Qualcomm",
+          "ticker": "QCOM",
+          "aliases": []
+        },
+        {
+          "name": "MediaTek",
+          "ticker": "2454.TW",
+          "aliases": [
+            "聯發科"
+          ]
+        },
+        {
+          "name": "Marvell Technology",
+          "ticker": "MRVL",
+          "aliases": [
+            "Marvell"
+          ]
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Semiconductors",
+      "importance": 86,
+      "priority": "Critical",
+      "score_reason": "Large, quantified industry-wide growth shows the scale and breadth of AI-driven chip demand and changes the fabless ranking.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260911215419",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-11T23:00:03Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-11T23:00:03Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T20:05:42Z",
+      "revision": 1
+    },
+    {
+      "id": "ad64da8f3f5674be493b",
+      "headline": "AI compute demand is still reported to exceed infrastructure supply",
+      "bullets": [
+        "A report summarizing takeaways from Goldman Sachs and Citi technology conferences said demand for AI compute, infrastructure and hardware is vastly outpacing supply.",
+        "The same summary said several companies saw no slowdown through 2027 and 2028, with cloud-service providers expected to continue increasing capital expenditure next year."
+      ],
+      "companies": [
+        {
+          "name": "Goldman Sachs",
+          "ticker": "GS",
+          "aliases": []
+        },
+        {
+          "name": "Citigroup",
+          "ticker": "C",
+          "aliases": [
+            "Citi"
+          ]
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply chain",
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Supply-demand imbalance and continued cloud capex are central signals for semiconductor, equipment and AI-infrastructure capacity, but the evidence is a conference recap on X.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2098541417740054545",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-11T22:37:17Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2098541417740054545",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-11T22:37:17Z"
+        }
+      ],
+      "published_at": "2026-09-11T22:37:17Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-12T20:05:42Z",
+      "updated_at": "2026-09-12T20:05:42Z",
+      "revision": 1
+    }
+  ]
+}

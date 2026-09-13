@@ -1,0 +1,32 @@
+name: Publish dashboard
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'scripts/build_site.py', '.github/workflows/pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.repository == 'kldn04/newsfeed-dashboard'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build public files only
+        run: python3 scripts/build_site.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+          name: github-pages-${{ github.run_attempt }}
+      - uses: actions/deploy-pages@v4
+        id: deployment
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
