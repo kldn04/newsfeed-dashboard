@@ -9,8 +9,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
   <title>Signal — Semiconductors & AI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260913-privacy">
-  <script src="app.js?v=20260913-privacy" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260913-tagline">
+  <script src="app.js?v=20260913-tagline" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to stories</a>
@@ -36,8 +36,8 @@
     <header class="topbar"><span class="breadcrumb">Intelligence <span>/</span> <strong id="breadcrumb-view">Morning feed</strong></span><div class="edition"><span id="status-dot" class="status-dot"></span><span id="status-text">Awaiting first edition</span><span class="topbar-divider"></span><span>06:20 <b>LONDON</b></span></div></header>
     <main>
       <div id="notice" class="notice" role="status" hidden></div>
-      <div class="page-heading"><div><div class="eyebrow" id="edition-date">THE WEEKDAY EDITION</div><h1 id="page-title">The morning brief<span>.</span></h1><p id="page-description">Semiconductors and AI. The developments that matter, with the sources behind them.</p></div><div class="heading-actions"><button id="refresh-feed" class="primary-button" type="button">↻ Refresh feed</button><button id="copy-selected" class="primary-button" disabled><span>⧉</span> Copy selected <span id="selected-count">0</span></button></div></div>
-      <details id="collection-panel" class="collection-panel"><summary><span id="collection-state">Collection status</span><span id="collection-summary">Checking…</span></summary><p id="collection-message"></p><div id="collection-counts"></div><p id="collection-updated"></p><ul id="collection-events"></ul><p class="status-note">Updates about once a minute. Counts marked “stored” include earlier runs. Full server logs remain private.</p></details>
+      <div class="page-heading"><div><div class="eyebrow" id="edition-date">THE WEEKDAY EDITION</div><h1 id="page-title">The morning brief<span>.</span></h1><p id="page-description">News intelligence powered by OpenAI, xAI and Bright Data.</p></div><div class="heading-actions"><button id="refresh-feed" class="primary-button" type="button">↻ Refresh feed</button><button id="copy-selected" class="primary-button" disabled><span>⧉</span> Copy selected <span id="selected-count">0</span></button></div></div>
+      <details id="collection-panel" class="collection-panel"><summary><span id="collection-state">Collection status</span><span id="collection-summary">Checking…</span></summary><p id="collection-message"></p><p id="collection-coverage" class="status-note" hidden>Coverage is incomplete for this edition. Some sources could not be fully checked.</p><div id="collection-counts"></div><p id="collection-updated"></p><ul id="collection-events"></ul><p class="status-note">Updates every 30 seconds; delivery may take a little longer. Counts marked “stored” include earlier runs. Full server logs remain private.</p></details>
       <section class="metrics" aria-label="Edition overview">
         <div><span class="metric-label">IN THIS EDITION</span><strong id="metric-total">—</strong><small>attributed stories</small></div>
         <div><span class="metric-label">HIGH PRIORITY</span><strong id="metric-priority">—</strong><small>worth your attention</small></div>
@@ -61,4 +61,3 @@
   <dialog id="refresh-dialog"><h2>Refresh the newsfeed</h2><p>Sign in to GitHub and select Run workflow to request a new edition. Only authorised repository users can start collection.</p><div class="heading-actions"><a class="primary-button" href="https://github.com/kldn04/newsfeed-private/actions/workflows/refresh.yml" target="_blank" rel="noopener noreferrer">Continue with GitHub ↗</a><button id="close-refresh" class="text-button" type="button">Cancel</button></div></dialog>
 </body>
 </html>
-
