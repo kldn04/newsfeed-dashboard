@@ -9,8 +9,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
   <title>Signal — Semiconductors & AI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260913-weibo-1">
-  <script src="app.js?v=20260913-weibo-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260913-weibo-2">
+  <script src="app.js?v=20260913-weibo-2" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to stories</a>
@@ -68,6 +68,6 @@
   </div>
   <div id="toast" class="toast" role="status" hidden></div>
   <dialog id="copy-dialog"><h2>Copy your selection</h2><p>Clipboard access is unavailable. Select and copy the text below.</p><textarea id="copy-fallback" aria-label="Article text to copy" readonly></textarea><button id="close-dialog" class="primary-button">Done</button></dialog>
-  <dialog id="refresh-dialog"><h2>Refresh the newsfeed</h2><p>Sign in to GitHub and select Run workflow to request a new edition. Only authorised repository users can start collection.</p><div class="heading-actions"><a class="primary-button" href="https://github.com/kldn04/newsfeed-private/actions/workflows/refresh.yml" target="_blank" rel="noopener noreferrer">Continue with GitHub ↗</a><button id="close-refresh" class="text-button" type="button">Cancel</button></div></dialog>
+  <dialog id="refresh-dialog"><h2>Refresh the newsfeed</h2><p id="refresh-instructions">Sign in to GitHub and select Run workflow to request a new edition. Only authorised repository users can start collection.</p><div class="heading-actions"><a class="primary-button" href="https://github.com/kldn04/newsfeed-private/actions/workflows/refresh.yml" target="_blank" rel="noopener noreferrer">Continue with GitHub ↗</a><button id="close-refresh" class="text-button" type="button">Cancel</button></div></dialog>
 </body>
 </html>
