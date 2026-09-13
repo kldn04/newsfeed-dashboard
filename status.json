@@ -1,22 +1,11 @@
 {
-  "state": "idle",
-  "message": "Edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T16:07:11Z",
-  "started_at": "2026-09-13T15:50:49Z",
+  "state": "running",
+  "message": "Weibo: 手机晶片达人 — 2 posts in five-day window, 2 new.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-13T16:35:09Z",
+  "started_at": "2026-09-13T16:34:56Z",
   "counts": {
-    "web_candidates": 170,
-    "grok_tokens": 12585,
-    "grok_token_target": 15000,
-    "x_candidates": 5,
-    "openai_calls": 1,
-    "input_tokens_estimated": 177184,
-    "input_text_shortened": false,
-    "openai_tokens": 190977,
-    "openai_input_tokens": 173652,
-    "openai_output_tokens": 17325,
-    "eligible": 38,
-    "held": 2
+    "weibo_candidates": 2
   },
   "stored_totals": {
     "stories": 67,
@@ -32,84 +21,12 @@
   },
   "events": [
     {
-      "at": "2026-09-13T16:03:33Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-13T16:34:56Z",
+      "message": "Starting the separate Weibo collection."
     },
     {
-      "at": "2026-09-13T16:03:35Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-13T16:03:37Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:39Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:42Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:42Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:45Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:46Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:49Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:50Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T16:03:51Z",
-      "message": "Initial article scrape: apnews.com"
-    },
-    {
-      "at": "2026-09-13T16:03:53Z",
-      "message": "Checking the watched X accounts."
-    },
-    {
-      "at": "2026-09-13T16:03:53Z",
-      "message": "Checking the watched accounts through Grok X Search."
-    },
-    {
-      "at": "2026-09-13T16:04:30Z",
-      "message": "Grok finished its bounded analysis."
-    },
-    {
-      "at": "2026-09-13T16:04:30Z",
-      "message": "Checking original sources and summarising stories."
-    },
-    {
-      "at": "2026-09-13T16:04:37Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-13T16:07:08Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-13T16:07:08Z",
-      "message": "Batch complete: 38 stories ready."
-    },
-    {
-      "at": "2026-09-13T16:07:08Z",
-      "message": "Publishing the verified edition."
-    },
-    {
-      "at": "2026-09-13T16:07:11Z",
-      "message": "Edition published."
+      "at": "2026-09-13T16:35:08Z",
+      "message": "Weibo: 手机晶片达人 — 2 posts in five-day window, 2 new."
     }
   ]
 }
