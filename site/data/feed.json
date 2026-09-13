@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "demo": false,
-  "generated_at": "2026-09-12T23:22:09Z",
+  "generated_at": "2026-09-13T11:48:26Z",
   "next_refresh_at": "2026-09-14T05:20:00Z",
   "window": {
-    "start": "2026-09-11T23:22:09Z",
-    "end": "2026-09-12T23:22:09Z",
+    "start": "2026-09-12T11:48:26Z",
+    "end": "2026-09-13T11:48:26Z",
     "weekend_coverage": false
   },
   "schedule": "06:20 Europe/London · Monday–Friday",
@@ -14,13 +14,18 @@
     "zephyr_z9",
     "dnystedt",
     "pequityresearch",
-    "intelfabs"
+    "intelfabs",
+    "ryanhingshing",
+    "sssjeffpu",
+    "zartbotf",
+    "fundaai",
+    "shanghaojin"
   ],
   "source_status": [
     {
       "name": "CTEE",
       "status": "ok",
-      "discovered": 2
+      "discovered": 1
     },
     {
       "name": "TheLec",
@@ -45,7 +50,7 @@
     {
       "name": "ZDNet Korea",
       "status": "ok",
-      "discovered": 1
+      "discovered": 2
     },
     {
       "name": "EET China",
@@ -65,12 +70,12 @@
     {
       "name": "BBC Technology",
       "status": "partial",
-      "discovered": 3
+      "discovered": 2
     },
     {
       "name": "@jukan05",
       "status": "partial",
-      "discovered": 0
+      "discovered": 2
     },
     {
       "name": "@zephyr_z9",
@@ -85,7 +90,7 @@
     {
       "name": "@pequityresearch",
       "status": "partial",
-      "discovered": 0
+      "discovered": 3
     },
     {
       "name": "@intelfabs",
@@ -93,9 +98,34 @@
       "discovered": 0
     },
     {
+      "name": "@ryanhingshing",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@sssjeffpu",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@zartbotf",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@fundaai",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
+      "name": "@shanghaojin",
+      "status": "partial",
+      "discovered": 0
+    },
+    {
       "name": "Processing",
       "status": "partial",
-      "discovered": 3
+      "discovered": 0
     }
   ],
   "partial": true,
