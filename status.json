@@ -1,19 +1,10 @@
 {
-  "state": "idle",
-  "message": "Edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T12:45:48Z",
-  "started_at": "2026-09-13T12:38:12Z",
-  "counts": {
-    "web_candidates": 68,
-    "grok_tokens": 14614,
-    "grok_token_target": 15000,
-    "x_candidates": 5,
-    "openai_calls": 1,
-    "openai_tokens": 85200,
-    "eligible": 19,
-    "held": 0
-  },
+  "state": "running",
+  "message": "Reading TheLec through Bright Data.",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-13T13:59:12Z",
+  "started_at": "2026-09-13T13:58:43Z",
+  "counts": {},
   "stored_totals": {
     "stories": 28,
     "evidence": 66,
@@ -28,84 +19,20 @@
   },
   "events": [
     {
-      "at": "2026-09-13T12:42:18Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T13:58:43Z",
+      "message": "Starting an owner-requested edition."
     },
     {
-      "at": "2026-09-13T12:42:22Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T13:58:43Z",
+      "message": "Reading CTEE through Bright Data."
     },
     {
-      "at": "2026-09-13T12:42:25Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T13:59:04Z",
+      "message": "CTEE: 1 candidates (ok)."
     },
     {
-      "at": "2026-09-13T12:42:34Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T12:42:39Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T12:42:41Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T12:42:42Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T12:42:43Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-13T12:42:44Z",
-      "message": "Initial article scrape: BBC Technology"
-    },
-    {
-      "at": "2026-09-13T12:42:46Z",
-      "message": "Initial article scrape: BBC Technology"
-    },
-    {
-      "at": "2026-09-13T12:42:49Z",
-      "message": "Initial article scrape: apnews.com"
-    },
-    {
-      "at": "2026-09-13T12:42:56Z",
-      "message": "Checking the ten watched X accounts."
-    },
-    {
-      "at": "2026-09-13T12:42:56Z",
-      "message": "Checking the ten watched accounts through Grok X Search."
-    },
-    {
-      "at": "2026-09-13T12:44:19Z",
-      "message": "Grok finished its bounded analysis."
-    },
-    {
-      "at": "2026-09-13T12:44:19Z",
-      "message": "Checking original sources and summarising stories."
-    },
-    {
-      "at": "2026-09-13T12:44:19Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-13T12:45:46Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-13T12:45:46Z",
-      "message": "Batch complete: 19 stories ready."
-    },
-    {
-      "at": "2026-09-13T12:45:46Z",
-      "message": "Publishing the verified edition."
-    },
-    {
-      "at": "2026-09-13T12:45:48Z",
-      "message": "Edition published."
+      "at": "2026-09-13T13:59:04Z",
+      "message": "Reading TheLec through Bright Data."
     }
   ]
 }
