@@ -1,19 +1,11 @@
 {
-  "state": "idle",
-  "message": "Weibo edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T16:51:21Z",
-  "started_at": "2026-09-13T16:34:56Z",
+  "state": "running",
+  "message": "Weibo: fetching 数码闲聊站, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-13T16:55:25Z",
+  "started_at": "2026-09-13T16:55:01Z",
   "counts": {
-    "weibo_candidates": 58,
-    "openai_calls": 1,
-    "input_tokens_estimated": 24749,
-    "input_text_shortened": false,
-    "openai_tokens": 36603,
-    "openai_input_tokens": 24162,
-    "openai_output_tokens": 12441,
-    "eligible": 26,
-    "held": 0
+    "weibo_candidates": 0
   },
   "stored_totals": {
     "stories": 93,
@@ -29,84 +21,20 @@
   },
   "events": [
     {
-      "at": "2026-09-13T16:45:23Z",
-      "message": "Weibo: 数码王小机 — 10 posts in five-day window, 10 new."
+      "at": "2026-09-13T16:55:01Z",
+      "message": "Starting the separate Weibo collection."
     },
     {
-      "at": "2026-09-13T16:45:44Z",
-      "message": "Weibo: 林老中医578 — 0 posts in five-day window, 0 new."
+      "at": "2026-09-13T16:55:01Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     },
     {
-      "at": "2026-09-13T16:45:44Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+      "at": "2026-09-13T16:55:16Z",
+      "message": "Weibo: 手机晶片达人 — 2 posts in five-day window, 0 new."
     },
     {
-      "at": "2026-09-13T16:45:58Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-13T16:46:14Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-13T16:46:31Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-13T16:46:55Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-13T16:47:08Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-13T16:47:23Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-13T16:47:45Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-13T16:48:01Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-13T16:48:24Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-13T16:48:39Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-13T16:48:52Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-13T16:49:06Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-13T16:49:20Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-13T16:51:18Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-13T16:51:18Z",
-      "message": "Batch complete: 26 stories ready."
-    },
-    {
-      "at": "2026-09-13T16:51:18Z",
-      "message": "Publishing Weibo stories."
-    },
-    {
-      "at": "2026-09-13T16:51:21Z",
-      "message": "Weibo edition published."
+      "at": "2026-09-13T16:55:16Z",
+      "message": "Weibo: fetching 数码闲聊站, page 1."
     }
   ]
 }
