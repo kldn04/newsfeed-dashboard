@@ -1,10 +1,12 @@
 {
   "state": "running",
-  "message": "Initial article scrape: Anthropic",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-13T16:03:45Z",
+  "message": "Checking the watched accounts through Grok X Search.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-13T16:04:16Z",
   "started_at": "2026-09-13T15:50:49Z",
-  "counts": {},
+  "counts": {
+    "web_candidates": 170
+  },
   "stored_totals": {
     "stories": 63,
     "evidence": 196,
@@ -18,30 +20,6 @@
     "Editorial exclusions": 63
   },
   "events": [
-    {
-      "at": "2026-09-13T16:00:21Z",
-      "message": "ETNews: 9 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-13T16:00:21Z",
-      "message": "Reading Nikkei through Bright Data."
-    },
-    {
-      "at": "2026-09-13T16:01:23Z",
-      "message": "Nikkei: 5 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-13T16:01:23Z",
-      "message": "Reading MoneyToday through Bright Data."
-    },
-    {
-      "at": "2026-09-13T16:01:51Z",
-      "message": "MoneyToday: 12 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-13T16:01:51Z",
-      "message": "Reading Financial News through Bright Data."
-    },
     {
       "at": "2026-09-13T16:02:46Z",
       "message": "Financial News: 12 dated articles captured (ok)."
@@ -97,6 +75,30 @@
     {
       "at": "2026-09-13T16:03:45Z",
       "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-13T16:03:46Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-13T16:03:49Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-13T16:03:50Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-13T16:03:51Z",
+      "message": "Initial article scrape: apnews.com"
+    },
+    {
+      "at": "2026-09-13T16:03:53Z",
+      "message": "Checking the watched X accounts."
+    },
+    {
+      "at": "2026-09-13T16:03:53Z",
+      "message": "Checking the watched accounts through Grok X Search."
     }
   ]
 }
