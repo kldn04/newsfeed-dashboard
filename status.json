@@ -1,15 +1,18 @@
 {
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 数码王小机.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-09-13T16:49:18Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-13T16:49:48Z",
   "started_at": "2026-09-13T16:34:56Z",
   "counts": {
-    "weibo_candidates": 58
+    "weibo_candidates": 58,
+    "openai_calls": 1,
+    "input_tokens_estimated": 24749,
+    "input_text_shortened": false
   },
   "stored_totals": {
     "stories": 67,
-    "evidence": 198,
+    "evidence": 256,
     "model_cache": 41,
     "reviews": 72
   },
@@ -20,10 +23,6 @@
     "Editorial exclusions": 64
   },
   "events": [
-    {
-      "at": "2026-09-13T16:42:58Z",
-      "message": "Weibo: 芯东西 — 0 posts in five-day window, 0 new."
-    },
     {
       "at": "2026-09-13T16:42:58Z",
       "message": "Weibo: 半导体行业观察 — 0 posts in five-day window, 0 new."
@@ -99,6 +98,10 @@
     {
       "at": "2026-09-13T16:49:06Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-13T16:49:20Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
