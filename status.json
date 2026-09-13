@@ -1,8 +1,8 @@
 {
-  "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-13T15:16:44Z",
+  "state": "idle",
+  "message": "Edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-13T15:16:54Z",
   "started_at": "2026-09-13T15:11:48Z",
   "counts": {
     "web_candidates": 58,
@@ -11,37 +11,26 @@
     "x_candidates": 3,
     "openai_calls": 1,
     "input_tokens_estimated": 51731,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 59020,
+    "openai_input_tokens": 50581,
+    "openai_output_tokens": 8439,
+    "eligible": 12,
+    "held": 1
   },
   "stored_totals": {
-    "stories": 48,
+    "stories": 52,
     "evidence": 192,
-    "model_cache": 38,
-    "reviews": 67
+    "model_cache": 39,
+    "reviews": 68
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 59
+    "Editorial exclusions": 60
   },
   "events": [
-    {
-      "at": "2026-09-13T15:13:14Z",
-      "message": "Reading Economic Daily (UDN) through Bright Data."
-    },
-    {
-      "at": "2026-09-13T15:13:15Z",
-      "message": "Economic Daily (UDN): 0 dated articles captured (failed)."
-    },
-    {
-      "at": "2026-09-13T15:13:23Z",
-      "message": "Financial News: 12 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-13T15:13:24Z",
-      "message": "Seoul Economic Daily: 18 dated articles captured (partial)."
-    },
     {
       "at": "2026-09-13T15:13:24Z",
       "message": "Checking direct AI announcements: Dario Amodei"
@@ -105,6 +94,22 @@
     {
       "at": "2026-09-13T15:15:24Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-13T15:16:51Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-13T15:16:51Z",
+      "message": "Batch complete: 12 stories ready."
+    },
+    {
+      "at": "2026-09-13T15:16:51Z",
+      "message": "Publishing the verified edition."
+    },
+    {
+      "at": "2026-09-13T15:16:54Z",
+      "message": "Edition published."
     }
   ]
 }
