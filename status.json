@@ -1,19 +1,10 @@
 {
-  "state": "idle",
-  "message": "Edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T14:14:14Z",
-  "started_at": "2026-09-13T13:58:43Z",
-  "counts": {
-    "web_candidates": 172,
-    "grok_tokens": 4778,
-    "grok_token_target": 15000,
-    "x_candidates": 0,
-    "openai_calls": 1,
-    "openai_tokens": 118883,
-    "eligible": 27,
-    "held": 58
-  },
+  "state": "running",
+  "message": "Reading Seoul Economic Daily through Bright Data.",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-13T15:12:11Z",
+  "started_at": "2026-09-13T15:11:48Z",
+  "counts": {},
   "stored_totals": {
     "stories": 48,
     "evidence": 189,
@@ -28,84 +19,84 @@
   },
   "events": [
     {
-      "at": "2026-09-13T14:11:27Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-13T15:11:48Z",
+      "message": "Starting an owner-requested edition."
     },
     {
-      "at": "2026-09-13T14:11:29Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-13T15:11:48Z",
+      "message": "Reading CTEE through Bright Data."
     },
     {
-      "at": "2026-09-13T14:11:30Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:48Z",
+      "message": "Reading TheLec through Bright Data."
     },
     {
-      "at": "2026-09-13T14:11:33Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:48Z",
+      "message": "Reading Tom’s Hardware through Bright Data."
     },
     {
-      "at": "2026-09-13T14:11:38Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:50Z",
+      "message": "Tom’s Hardware: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T14:11:46Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:50Z",
+      "message": "Reading Ijiwei through Bright Data."
     },
     {
-      "at": "2026-09-13T14:11:51Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:50Z",
+      "message": "TheLec: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T14:11:53Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:50Z",
+      "message": "Reading TrendForce through Bright Data."
     },
     {
-      "at": "2026-09-13T14:11:56Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:51Z",
+      "message": "Ijiwei: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T14:12:00Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:11:51Z",
+      "message": "Reading ZDNet Korea through Bright Data."
     },
     {
-      "at": "2026-09-13T14:12:03Z",
-      "message": "Initial article scrape: apnews.com"
+      "at": "2026-09-13T15:11:51Z",
+      "message": "TrendForce: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T14:12:05Z",
-      "message": "Checking the ten watched X accounts."
+      "at": "2026-09-13T15:11:51Z",
+      "message": "Reading EET China through Bright Data."
     },
     {
-      "at": "2026-09-13T14:12:05Z",
-      "message": "Checking the ten watched accounts through Grok X Search."
+      "at": "2026-09-13T15:11:53Z",
+      "message": "ZDNet Korea: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T14:12:33Z",
-      "message": "Grok finished its bounded analysis."
+      "at": "2026-09-13T15:11:53Z",
+      "message": "Reading IDC through Bright Data."
     },
     {
-      "at": "2026-09-13T14:12:33Z",
-      "message": "Checking original sources and summarising stories."
+      "at": "2026-09-13T15:11:54Z",
+      "message": "EET China: 0 candidates (ok)."
     },
     {
-      "at": "2026-09-13T14:12:33Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-09-13T15:11:54Z",
+      "message": "Reading Counterpoint Research through Bright Data."
     },
     {
-      "at": "2026-09-13T14:14:12Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-09-13T15:11:57Z",
+      "message": "IDC: 0 dated articles captured (ok)."
     },
     {
-      "at": "2026-09-13T14:14:12Z",
-      "message": "Batch complete: 27 stories ready."
+      "at": "2026-09-13T15:11:57Z",
+      "message": "Reading SCMP through Bright Data."
     },
     {
-      "at": "2026-09-13T14:14:12Z",
-      "message": "Publishing the verified edition."
+      "at": "2026-09-13T15:11:58Z",
+      "message": "Counterpoint Research: 0 dated articles captured (ok)."
     },
     {
-      "at": "2026-09-13T14:14:14Z",
-      "message": "Edition published."
+      "at": "2026-09-13T15:11:58Z",
+      "message": "Reading Seoul Economic Daily through Bright Data."
     }
   ]
 }
