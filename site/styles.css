@@ -121,3 +121,5 @@ dialog {border-color:#e5e5ea;border-radius:20px;box-shadow:0 20px 80px #1d1d1f20
 #refresh-result {min-height:24px;font-size:14px;color:#515154}#refresh-dialog a {color:#00828d}#refresh-dialog label{font-size:14px}
 
 .weibo-new{background:#e3f8f6;color:#00828d;border-radius:6px;padding:3px 7px;font-weight:700}.weibo-original{margin:12px 0;color:var(--muted,#64748b);font-size:13px}.weibo-original summary{cursor:pointer;min-height:30px}.weibo-original p{white-space:pre-wrap;overflow-wrap:anywhere}
+
+@media(max-width:760px){.sidebar nav{overflow-x:auto;max-width:100%;scrollbar-width:none}.sidebar nav .nav-item{flex:0 0 auto;white-space:nowrap}}
