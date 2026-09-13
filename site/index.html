@@ -10,7 +10,7 @@
   <title>Signal — Semiconductors & AI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20260913-gradient">
-  <script src="app.js?v=20260913-openai-usage" defer></script>
+  <script src="app.js?v=20260913-categories" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to stories</a>
@@ -22,13 +22,20 @@
       <button class="nav-item" data-view="x" aria-pressed="false"><span class="nav-icon">𝕏</span> X highlights <span id="nav-x" class="count">0</span></button>
       <button class="nav-item" data-view="archive" aria-pressed="false"><span class="nav-icon">◷</span> Archive</button>
     </nav>
-    <div class="nav-label topics-label">TOPICS</div>
-    <div class="topic-nav" aria-label="Filter by topic">
-      <button data-topic="0" class="topic-item active" aria-pressed="true">All topics <span id="topic-all-count">0</span></button>
-      <button data-topic="1" class="topic-item" aria-pressed="false"><i class="topic-dot supply"></i>Supply chain</button>
-      <button data-topic="2" class="topic-item" aria-pressed="false"><i class="topic-dot silicon"></i>Semiconductors</button>
-      <button data-topic="3" class="topic-item" aria-pressed="false"><i class="topic-dot models"></i>Model economics</button>
-      <button data-topic="4" class="topic-item" aria-pressed="false"><i class="topic-dot deepseek"></i>DeepSeek</button>
+    <div class="nav-label topics-label">CATEGORIES</div>
+    <div class="topic-nav" aria-label="Filter by category">
+      <button data-topic="" class="topic-item active" aria-pressed="true">All categories <span id="topic-all-count">0</span></button>
+      <button data-topic="WFE" class="topic-item" aria-pressed="false" title="Wafer fab equipment">WFE</button>
+      <button data-topic="Foundry" class="topic-item" aria-pressed="false">Foundry</button>
+      <button data-topic="Analog" class="topic-item" aria-pressed="false">Analog</button>
+      <button data-topic="Compute" class="topic-item" aria-pressed="false">Compute</button>
+      <button data-topic="Advanced Packaging" class="topic-item" aria-pressed="false">Advanced Packaging</button>
+      <button data-topic="Substrates" class="topic-item" aria-pressed="false">Substrates</button>
+      <button data-topic="Materials &amp; Inputs" class="topic-item" aria-pressed="false">Materials &amp; Inputs</button>
+      <button data-topic="Models" class="topic-item" aria-pressed="false">Models</button>
+      <button data-topic="China Models" class="topic-item" aria-pressed="false">China Models</button>
+      <button data-topic="China Supply Chain" class="topic-item" aria-pressed="false">China Supply Chain</button>
+      <button data-topic="Supply Chain" class="topic-item" aria-pressed="false">Supply Chain</button>
     </div>
     <div class="sidebar-bottom"><div class="schedule-icon">◷</div><strong>The weekday edition</strong><p>Collection starts at 05:55 London time.<br>Monday includes the weekend.</p><details id="sources-detail"><summary>Source coverage <span>↗</span></summary><div id="sources-list"></div></details></div>
   </aside>
