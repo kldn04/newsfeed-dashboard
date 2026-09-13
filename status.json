@@ -1,15 +1,21 @@
 {
   "state": "running",
-  "message": "Checking the watched accounts through Grok X Search.",
-  "stage": "x_discovery",
-  "updated_at": "2026-09-13T16:04:16Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-13T16:04:46Z",
   "started_at": "2026-09-13T15:50:49Z",
   "counts": {
-    "web_candidates": 170
+    "web_candidates": 170,
+    "grok_tokens": 12585,
+    "grok_token_target": 15000,
+    "x_candidates": 5,
+    "openai_calls": 1,
+    "input_tokens_estimated": 177184,
+    "input_text_shortened": false
   },
   "stored_totals": {
     "stories": 63,
-    "evidence": 196,
+    "evidence": 198,
     "model_cache": 40,
     "reviews": 71
   },
@@ -20,18 +26,6 @@
     "Editorial exclusions": 63
   },
   "events": [
-    {
-      "at": "2026-09-13T16:02:46Z",
-      "message": "Financial News: 12 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-09-13T16:02:46Z",
-      "message": "Reading Economic Daily (UDN) through Bright Data."
-    },
-    {
-      "at": "2026-09-13T16:03:23Z",
-      "message": "Economic Daily (UDN): 13 dated articles captured (partial)."
-    },
     {
       "at": "2026-09-13T16:03:23Z",
       "message": "Checking direct AI announcements: Dario Amodei"
@@ -99,6 +93,18 @@
     {
       "at": "2026-09-13T16:03:53Z",
       "message": "Checking the watched accounts through Grok X Search."
+    },
+    {
+      "at": "2026-09-13T16:04:30Z",
+      "message": "Grok finished its bounded analysis."
+    },
+    {
+      "at": "2026-09-13T16:04:30Z",
+      "message": "Checking original sources and summarising stories."
+    },
+    {
+      "at": "2026-09-13T16:04:37Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
