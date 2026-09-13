@@ -1,23 +1,10 @@
 {
-  "state": "idle",
-  "message": "Edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-13T15:16:54Z",
-  "started_at": "2026-09-13T15:11:48Z",
-  "counts": {
-    "web_candidates": 58,
-    "grok_tokens": 18202,
-    "grok_token_target": 15000,
-    "x_candidates": 3,
-    "openai_calls": 1,
-    "input_tokens_estimated": 51731,
-    "input_text_shortened": false,
-    "openai_tokens": 59020,
-    "openai_input_tokens": 50581,
-    "openai_output_tokens": 8439,
-    "eligible": 12,
-    "held": 1
-  },
+  "state": "running",
+  "message": "Initial article scrape: Tom’s Hardware",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-13T15:27:03Z",
+  "started_at": "2026-09-13T15:26:42Z",
+  "counts": {},
   "stored_totals": {
     "stories": 52,
     "evidence": 192,
@@ -32,84 +19,84 @@
   },
   "events": [
     {
-      "at": "2026-09-13T15:13:24Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
+      "at": "2026-09-13T15:26:43Z",
+      "message": "Reading Ijiwei through Bright Data."
     },
     {
-      "at": "2026-09-13T15:13:26Z",
-      "message": "Checking direct AI announcements: Anthropic"
+      "at": "2026-09-13T15:26:43Z",
+      "message": "CTEE: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T15:13:29Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:43Z",
+      "message": "Reading TrendForce through Bright Data."
     },
     {
-      "at": "2026-09-13T15:13:30Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:45Z",
+      "message": "Ijiwei: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T15:13:34Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:45Z",
+      "message": "Reading ZDNet Korea through Bright Data."
     },
     {
-      "at": "2026-09-13T15:13:36Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:45Z",
+      "message": "TrendForce: 0 candidates (ok)."
     },
     {
-      "at": "2026-09-13T15:13:38Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:45Z",
+      "message": "Reading EET China through Bright Data."
     },
     {
-      "at": "2026-09-13T15:13:39Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:46Z",
+      "message": "ZDNet Korea: 0 candidates (failed)."
     },
     {
-      "at": "2026-09-13T15:13:41Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:46Z",
+      "message": "Reading IDC through Bright Data."
     },
     {
-      "at": "2026-09-13T15:13:42Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-13T15:26:47Z",
+      "message": "Tom’s Hardware: 10 candidates (partial)."
     },
     {
-      "at": "2026-09-13T15:13:43Z",
-      "message": "Initial article scrape: apnews.com"
+      "at": "2026-09-13T15:26:47Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-09-13T15:13:46Z",
-      "message": "Checking the ten watched X accounts."
+      "at": "2026-09-13T15:26:48Z",
+      "message": "IDC: 0 dated articles captured (ok)."
     },
     {
-      "at": "2026-09-13T15:13:46Z",
-      "message": "Checking the ten watched accounts through Grok X Search."
+      "at": "2026-09-13T15:26:48Z",
+      "message": "Reading Counterpoint Research through Bright Data."
     },
     {
-      "at": "2026-09-13T15:15:21Z",
-      "message": "Grok finished its bounded analysis."
+      "at": "2026-09-13T15:26:50Z",
+      "message": "EET China: 0 candidates (ok)."
     },
     {
-      "at": "2026-09-13T15:15:21Z",
-      "message": "Checking original sources and summarising stories."
+      "at": "2026-09-13T15:26:50Z",
+      "message": "Reading SCMP through Bright Data."
     },
     {
-      "at": "2026-09-13T15:15:24Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-09-13T15:26:51Z",
+      "message": "Counterpoint Research: 0 dated articles captured (ok)."
     },
     {
-      "at": "2026-09-13T15:16:51Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-09-13T15:26:51Z",
+      "message": "Reading Seoul Economic Daily through Bright Data."
     },
     {
-      "at": "2026-09-13T15:16:51Z",
-      "message": "Batch complete: 12 stories ready."
+      "at": "2026-09-13T15:26:54Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-09-13T15:16:51Z",
-      "message": "Publishing the verified edition."
+      "at": "2026-09-13T15:26:57Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-09-13T15:16:54Z",
-      "message": "Edition published."
+      "at": "2026-09-13T15:27:01Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     }
   ]
 }
