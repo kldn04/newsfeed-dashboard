@@ -1,11 +1,14 @@
 {
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 集微网官方微博.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-09-14T05:36:57Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-14T05:37:28Z",
   "started_at": "2026-09-14T05:24:15Z",
   "counts": {
-    "weibo_candidates": 30
+    "weibo_candidates": 30,
+    "openai_calls": 1,
+    "input_tokens_estimated": 14918,
+    "input_text_shortened": false
   },
   "stored_totals": {
     "stories": 113,
@@ -20,10 +23,6 @@
     "Editorial exclusions": 69
   },
   "events": [
-    {
-      "at": "2026-09-14T05:31:59Z",
-      "message": "Weibo: fetch failed for 芯智讯官微 (ReadTimeout)."
-    },
     {
       "at": "2026-09-14T05:31:59Z",
       "message": "Weibo: 芯智讯官微 — 10 posts in five-day window, 4 new."
@@ -99,6 +98,10 @@
     {
       "at": "2026-09-14T05:36:39Z",
       "message": "Weibo: reading full text for a new post from 集微网官方微博."
+    },
+    {
+      "at": "2026-09-14T05:36:59Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
