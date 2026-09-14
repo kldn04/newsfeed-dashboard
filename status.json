@@ -1,24 +1,10 @@
 {
-  "state": "idle",
-  "message": "Twitter API edition published: 49 stories from 158 captured posts.",
-  "stage": "complete",
-  "updated_at": "2026-09-14T20:53:27Z",
-  "started_at": "2026-09-14T20:48:43Z",
-  "counts": {
-    "x_candidates": 158,
-    "twitter_api_requests": 12,
-    "twitter_posts_fetched": 250,
-    "openai_calls": 1,
-    "input_tokens_estimated": 89043,
-    "input_text_shortened": false,
-    "openai_tokens": 107510,
-    "openai_input_tokens": 85546,
-    "openai_output_tokens": 21964,
-    "eligible": 49,
-    "held": 0,
-    "twitter_openai_input_tokens": 85546,
-    "twitter_openai_output_tokens": 21964
-  },
+  "state": "running",
+  "message": "Initial article scrape: TheLec",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-14T21:17:23Z",
+  "started_at": "2026-09-14T21:16:54Z",
+  "counts": {},
   "stored_totals": {
     "stories": 187,
     "evidence": 634,
@@ -33,36 +19,28 @@
   },
   "events": [
     {
-      "at": "2026-09-14T20:48:43Z",
-      "message": "Starting a Twitter-only refresh."
+      "at": "2026-09-14T21:16:54Z",
+      "message": "Starting an owner-requested edition."
     },
     {
-      "at": "2026-09-14T20:48:43Z",
-      "message": "Compiling the already captured Twitter API window; no refetch."
+      "at": "2026-09-14T21:16:54Z",
+      "message": "Reading CTEE through Bright Data."
     },
     {
-      "at": "2026-09-14T20:48:44Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-09-14T21:16:59Z",
+      "message": "CTEE: 7 candidates (ok)."
     },
     {
-      "at": "2026-09-14T20:51:17Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-09-14T21:16:59Z",
+      "message": "Reading TheLec through Bright Data."
     },
     {
-      "at": "2026-09-14T20:51:17Z",
-      "message": "Batch complete: 49 stories ready."
+      "at": "2026-09-14T21:17:20Z",
+      "message": "TheLec: 20 candidates (partial)."
     },
     {
-      "at": "2026-09-14T20:51:17Z",
-      "message": "Separate Twitter Luna batch completed."
-    },
-    {
-      "at": "2026-09-14T20:51:17Z",
-      "message": "Twitter-only refresh ready."
-    },
-    {
-      "at": "2026-09-14T20:53:27Z",
-      "message": "Twitter API edition published: 49 stories from 158 captured posts."
+      "at": "2026-09-14T21:17:20Z",
+      "message": "Initial article scrape: TheLec"
     }
   ]
 }
