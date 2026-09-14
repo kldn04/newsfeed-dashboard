@@ -2,41 +2,34 @@
   "state": "running",
   "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
   "stage": "summarising",
-  "updated_at": "2026-09-14T21:41:04Z",
+  "updated_at": "2026-09-14T21:41:35Z",
   "started_at": "2026-09-14T21:16:54Z",
   "counts": {
     "x_candidates": 155,
     "twitter_api_requests": 12,
     "twitter_posts_fetched": 227,
     "openai_calls": 1,
-    "input_tokens_estimated": 327505,
-    "input_text_shortened": false
+    "input_tokens_estimated": 88783,
+    "input_text_shortened": false,
+    "openai_tokens": 342565,
+    "openai_input_tokens": 320193,
+    "openai_output_tokens": 22372,
+    "eligible": 65,
+    "held": 7
   },
   "stored_totals": {
     "stories": 187,
     "evidence": 864,
-    "model_cache": 47,
-    "reviews": 154
+    "model_cache": 48,
+    "reviews": 161
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 146
+    "Editorial exclusions": 153
   },
   "events": [
-    {
-      "at": "2026-09-14T21:38:13Z",
-      "message": "Twitter API: @dnystedt returned 13 posts."
-    },
-    {
-      "at": "2026-09-14T21:38:13Z",
-      "message": "Twitter API: fetching @pequityresearch in the requested window."
-    },
-    {
-      "at": "2026-09-14T21:38:14Z",
-      "message": "Twitter API: @pequityresearch returned 37 posts."
-    },
     {
       "at": "2026-09-14T21:38:14Z",
       "message": "Twitter API: fetching @intelfabs in the requested window."
@@ -103,6 +96,18 @@
     },
     {
       "at": "2026-09-14T21:38:19Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-14T21:41:07Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-14T21:41:07Z",
+      "message": "Batch complete: 65 stories ready."
+    },
+    {
+      "at": "2026-09-14T21:41:07Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
