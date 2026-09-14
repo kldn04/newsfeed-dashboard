@@ -229,75 +229,75 @@
     },
     {
       "name": "@jukan05",
-      "status": "partial",
-      "searched": true,
-      "discovered": 5
+      "status": "ok",
+      "discovered": 22,
+      "retrieval": "x_api"
     },
     {
       "name": "@zephyr_z9",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 9,
+      "retrieval": "x_api"
     },
     {
       "name": "@dnystedt",
-      "status": "partial",
-      "searched": true,
-      "discovered": 2
+      "status": "ok",
+      "discovered": 13,
+      "retrieval": "x_api"
     },
     {
       "name": "@pequityresearch",
       "status": "partial",
-      "searched": true,
-      "discovered": 11
+      "discovered": 43,
+      "retrieval": "x_api"
     },
     {
       "name": "@intelfabs",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 7,
+      "retrieval": "x_api"
     },
     {
       "name": "@ryanhingshing",
-      "status": "partial",
-      "searched": true,
-      "discovered": 4
+      "status": "ok",
+      "discovered": 28,
+      "retrieval": "x_api"
     },
     {
       "name": "@sssjeffpu",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 3,
+      "retrieval": "x_api"
     },
     {
       "name": "@zartbotf",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 0,
+      "retrieval": "x_api"
     },
     {
       "name": "@fundaai",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 11,
+      "retrieval": "x_api"
     },
     {
       "name": "@shanghaojin",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 21,
+      "retrieval": "x_api"
     },
     {
       "name": "@mingchikuo",
-      "status": "partial",
-      "searched": true,
-      "discovered": 0
+      "status": "ok",
+      "discovered": 0,
+      "retrieval": "x_api"
     },
     {
       "name": "@sean_________",
-      "status": "partial",
-      "searched": true,
-      "discovered": 2
+      "status": "ok",
+      "discovered": 1,
+      "retrieval": "x_api"
     }
   ],
   "partial": true,
@@ -6667,158 +6667,17 @@
   "weibo_schedule": "06:00 Europe/London · Monday–Friday",
   "twitter_stories": [
     {
-      "id": "0db33c32c7b23ee1c4c5",
-      "headline": "Morgan Stanley sees further growth in AI packaging and accelerator capacity",
+      "id": "b4438342f586a4c34742",
+      "headline": "Report sees TSMC 2nm and 3nm capacity expanding sharply by mid-2027",
       "bullets": [
-        "A Morgan Stanley recap projects TSMC CoWoS capacity rising from 130,000 wafers per month in 2026 to 200,000 in 2027 and 260,000 in 2028; TSMC CoWoS-L orders are forecast to reach 210,000 wafers in 2027.",
-        "The recap expects CoWoS, CoPoS and EMIB capacity to grow by about 50% in 2028, with CoPoS potentially reaching 50,000–100,000 wafers per month in 2028 and 100,000–200,000 in 2029.",
-        "Morgan Stanley expects AMD’s MI500 series to enter small-scale production by the end of 2027 and estimates MI450/MI455 capacity at roughly 500,000–650,000 units."
+        "The report says TSMC 2nm capacity could rise 22% to 110,000 wafers per month by mid-2027 from 90,000 at the end of 2026.",
+        "It projects 3nm capacity of about 210,000 wafers per month by mid-2027, versus 180,000 at the end of 2026 and 120,000–130,000 at the end of 2025.",
+        "The report links the capacity expansion to a potential new revenue record in 2027."
       ],
       "companies": [
         {
           "name": "TSMC",
           "ticker": "TSM",
-          "aliases": []
-        },
-        {
-          "name": "AMD",
-          "ticker": "AMD",
-          "aliases": []
-        },
-        {
-          "name": "Intel",
-          "ticker": "INTC",
-          "aliases": []
-        },
-        {
-          "name": "Google",
-          "ticker": "GOOGL",
-          "aliases": []
-        },
-        {
-          "name": "Amazon",
-          "ticker": "AMZN",
-          "aliases": []
-        },
-        {
-          "name": "Meta",
-          "ticker": "META",
-          "aliases": []
-        },
-        {
-          "name": "Microsoft",
-          "ticker": "MSFT",
-          "aliases": []
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Foundry · Compute · Advanced Packaging · Supply Chain",
-      "categories": [
-        "Foundry",
-        "Compute",
-        "Advanced Packaging",
-        "Supply Chain"
-      ],
-      "importance": 93,
-      "priority": "Critical",
-      "score_reason": "The research recap combines major advanced-packaging capacity forecasts with accelerator production estimates, directly addressing AI supply constraints.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2099218305466905005",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-13T19:27:00Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2099218305466905005",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-13T19:27:00Z"
-        }
-      ],
-      "published_at": "2026-09-13T19:27:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
-    },
-    {
-      "id": "30f2ac201c3b510ee75b",
-      "headline": "Goldman Sachs recap flags tight ABF supply and rising AI-MLCC demand at Samsung Electro-Mechanics",
-      "bullets": [
-        "G2AI takeaways from Goldman Sachs investor meetings say ABF tightness could be worse than MLCC, with long-term agreements reportedly extending to 2032 and customers making prepayments to secure capacity.",
-        "The recap says Samsung Electro-Mechanics maintained third-quarter 2026 guidance, while MLCC revenue was up high-teens percentage quarter over quarter and substrate revenue was up 20% quarter over quarter.",
-        "AI MLCC mix is forecast to rise from about 20% of revenue this year to more than 30% next year and about 40% by 2028; data-center ABF is expected to rise from about 60% of ABF revenue to 70% in two years."
-      ],
-      "companies": [
-        {
-          "name": "Samsung Electro-Mechanics",
-          "ticker": "",
-          "aliases": [
-            "SEMCO"
-          ]
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Advanced Packaging · Substrates · Materials & Inputs · Supply Chain",
-      "categories": [
-        "Advanced Packaging",
-        "Substrates",
-        "Materials & Inputs",
-        "Supply Chain"
-      ],
-      "importance": 91,
-      "priority": "Critical",
-      "score_reason": "The recap describes potentially prolonged substrate and MLCC bottlenecks, customer prepayments and strong AI-driven component demand.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2099232146376511594",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-13T20:22:00Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2099232146376511594",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-13T20:22:00Z"
-        }
-      ],
-      "published_at": "2026-09-13T20:22:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
-    },
-    {
-      "id": "0df40b6cdbdd3c0fa4bc",
-      "headline": "TSMC reportedly plans major 2nm and 3nm capacity increases by mid-2027",
-      "bullets": [
-        "A media report cited by @dnystedt forecasts TSMC 2nm capacity rising from 90,000 wafers per month at the end of 2026 to 110,000 by mid-2027.",
-        "The same report projects 3nm capacity rising from about 180,000 wafers per month at the end of 2026 to 210,000 by mid-2027.",
-        "The report links the expansion to TSMC’s advanced-process investment, but the supplied post says TSMC did not comment on the figures."
-      ],
-      "companies": [
-        {
-          "name": "TSMC",
-          "ticker": "TSM",
-          "aliases": []
-        },
-        {
-          "name": "NVDA",
-          "ticker": "NVDA",
-          "aliases": []
-        },
-        {
-          "name": "GOOGL",
-          "ticker": "GOOGL",
-          "aliases": []
-        },
-        {
-          "name": "AAPL",
-          "ticker": "AAPL",
           "aliases": []
         }
       ],
@@ -6830,13 +6689,13 @@
       ],
       "importance": 88,
       "priority": "Critical",
-      "score_reason": "The reported wafer-capacity increases concern leading-edge foundry supply and major AI and smartphone customers, although the figures remain unconfirmed.",
+      "score_reason": "Large quantified leading-edge foundry-capacity forecast with direct implications for major AI and smartphone customers.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/dnystedt/status/2099279154671960407",
-          "name": "@dnystedt",
-          "published_at": "2026-09-13T23:28:47Z"
+          "url": "https://money.udn.com/money/story/5612/9752345?from=edn_maintab_index",
+          "name": "money.udn.com",
+          "published_at": null
         }
       ],
       "highlights": [
@@ -6848,143 +6707,1325 @@
       ],
       "published_at": "2026-09-13T23:28:47Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "57129bf0a42f7837568f",
-      "headline": "Mizuho sees sharp growth in CW lasers as 1.6T/3.2T optical links emerge",
+      "id": "b711df8488e2257e6416",
+      "headline": "Analysts split over whether 4-Hi HBM can improve AI-memory economics",
       "bullets": [
-        "Mizuho expects continuous-wave laser capacity to rise from about 83 million units in 2025 to 427 million by 2029, driven by SiPho pluggables and the initial NPO/CPO transition in 2027–2029.",
-        "EML chips are expected to remain the workhorse for 800G and emerging 1.6T/3.2T links, but their share could decline from about 62% in 2025 to 45% in 2029 as CW lasers gain adoption.",
-        "Mizuho forecasts LITE gross margins in the low-50% range during 2026–2028 versus the low-40% range for COHR, while Cloudlight revenue could reach about $900 million in C26E and $1.2 billion in C27E."
+        "TrendForce and Jeff Pu argue that 4-Hi HBM is unlikely to become the datacenter standard because roughly 16GB stacks would require more chips, racks and scale-up networking, while base-die demand on advanced logic nodes would remain tight.",
+        "The cited analysis says mainstream production is focused on 8-Hi and 12-Hi, and that 4-Hi has unattractive cost-per-gigabit and limited supply-chain feasibility.",
+        "SemiAnalysis takes the opposing view that 4-Hi can deliver the same bandwidth with fewer dies, reduce inference costs and stretch scarce DRAM; Jukan separately argues lower HBM stack height could weaken AMD’s price advantage."
       ],
       "companies": [
         {
-          "name": "COHR",
-          "ticker": "COHR",
+          "name": "TrendForce",
+          "ticker": "",
           "aliases": []
         },
         {
-          "name": "LITE",
-          "ticker": "LITE",
-          "aliases": []
-        },
-        {
-          "name": "NVDA",
+          "name": "NVIDIA",
           "ticker": "NVDA",
           "aliases": []
         },
         {
-          "name": "AAOI",
-          "ticker": "AAOI",
+          "name": "AMD",
+          "ticker": "AMD",
           "aliases": []
         },
         {
-          "name": "FN",
-          "ticker": "FN",
+          "name": "Micron Technology",
+          "ticker": "MU",
           "aliases": []
         }
       ],
       "topic_tier": 1,
-      "topic": "Compute · Advanced Packaging · Materials & Inputs · Supply Chain",
+      "topic": "Compute · DRAM · Advanced Packaging · Supply Chain",
       "categories": [
         "Compute",
+        "DRAM",
         "Advanced Packaging",
-        "Materials & Inputs",
         "Supply Chain"
       ],
       "importance": 88,
       "priority": "Critical",
-      "score_reason": "Detailed sell-side forecasts point to a major optical-interconnect capacity transition tied to AI networking, CPO and higher-speed links.",
+      "score_reason": "Directly concerns HBM specifications, DRAM capacity relief, AI-system design and competing supply-chain forecasts; the opposing analyses are materially consequential.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/sean_________/status/2099149110443929688",
-          "name": "@sean_________",
-          "published_at": "2026-09-13T14:52:02Z"
+          "url": "https://x.com/sssjeffpu/status/2099382552004079965",
+          "name": "@sssjeffpu",
+          "published_at": "2026-09-14T06:19:39Z"
         },
         {
-          "url": "https://x.com/pequityresearch/status/2099202702681293040",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-13T18:25:00Z"
+          "url": "https://insights.trendforce.com/p/4hi-hbm-edge-ai-data-center?r=4k4uta&triedRedirect=true",
+          "name": "insights.trendforce.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/sssjeffpu/status/2099376403762585752",
+          "name": "@sssjeffpu",
+          "published_at": "2026-09-14T05:55:13Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099376971776188481",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T05:57:29Z"
+        },
+        {
+          "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+          "name": "newsletter.semianalysis.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099277545648845231",
+          "name": "@jukan05",
+          "published_at": "2026-09-13T23:22:24Z"
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/sean_________/status/2099149110443929688",
-          "handle": "sean_________",
-          "published_at": "2026-09-13T14:52:02Z"
+          "url": "https://x.com/sssjeffpu/status/2099382552004079965",
+          "handle": "sssjeffpu",
+          "published_at": "2026-09-14T06:19:39Z"
         },
         {
-          "url": "https://x.com/pequityresearch/status/2099202702681293040",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-13T18:25:00Z"
+          "url": "https://x.com/jukan05/status/2099477271182717429",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T12:36:02Z"
+        },
+        {
+          "url": "https://x.com/sssjeffpu/status/2099376403762585752",
+          "handle": "sssjeffpu",
+          "published_at": "2026-09-14T05:55:13Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099376971776188481",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T05:57:29Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099281043786547284",
+          "handle": "jukan05",
+          "published_at": "2026-09-13T23:36:18Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099277545648845231",
+          "handle": "jukan05",
+          "published_at": "2026-09-13T23:22:24Z"
         }
       ],
-      "published_at": "2026-09-13T18:25:00Z",
+      "published_at": "2026-09-14T12:36:02Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "77c84210e2d20d9edbeb",
-      "headline": "J.P. Morgan estimates Nvidia VR200 NVL72 BOM at about $6.3 million",
+      "id": "15c8deb831faa627de42",
+      "headline": "Apple is reportedly first to ship consumer products using TSMC 2nm",
       "bullets": [
-        "J.P. Morgan estimates Nvidia’s VR200 NVL72 bill of materials at roughly $6.3 million, about 90% above the GB200 BOM.",
-        "The recap estimates NAND and HBM account for about 10% of the system BOM."
+        "A media report says Apple’s iPhone 18 Pro and iPhone 18 Pro Max will be the first consumer products with chips made on TSMC’s 2nm process.",
+        "The report says Apple’s A20 Pro entered mass production in early 2026 and that Apple has led first-to-market use of TSMC’s latest process generations for about a decade.",
+        "A separate post notes that Apple’s M6 Mac mini could also compete to be the first finished product available to customers."
       ],
       "companies": [
         {
-          "name": "Nvidia",
+          "name": "Apple",
+          "ticker": "AAPL",
+          "aliases": []
+        },
+        {
+          "name": "TSMC",
+          "ticker": "TSM",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 86,
+      "priority": "Critical",
+      "score_reason": "Potentially material leading-edge process launch involving Apple and TSMC, though based on media reporting rather than company confirmation.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://finance.ftvnews.com.tw/news/detail/2026913W0136",
+          "name": "finance.ftvnews.com.tw",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2099339951037161556",
+          "name": "@dnystedt",
+          "published_at": "2026-09-14T03:30:22Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2099313611441397790",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T01:45:42Z"
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2099339951037161556",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T03:30:22Z"
+        }
+      ],
+      "published_at": "2026-09-14T03:30:22Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "7ae805561f393cc84dfa",
+      "headline": "SEMES firms up hybrid-bonder components for next-generation HBM",
+      "bullets": [
+        "Samsung Electronics’ equipment subsidiary SEMES has signed a supply agreement with HIWIN Korea for a single-axis stage used in a hybrid bonder.",
+        "The component is undergoing final-stage testing against SEMES specifications for precise die alignment and bonding.",
+        "SEMES is reportedly testing a die-to-wafer hybrid bonder for HBM after signing a customer contract; the customer is understood by the industry to be Samsung Electronics."
+      ],
+      "companies": [
+        {
+          "name": "SEMES",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "HIWIN",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "WFE",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 84,
+      "priority": "Critical",
+      "score_reason": "Material HBM bonding-equipment and component-supply development involving Samsung’s semiconductor-equipment operations.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099375781465997804",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T05:52:45Z"
+        }
+      ],
+      "published_at": "2026-09-14T05:52:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "815b2f2ef466a5c1915a",
+      "headline": "Samsung Electro-Mechanics and Qualcomm develop an organic-bridge 2.1D package",
+      "bullets": [
+        "Samsung Electro-Mechanics and Qualcomm have reportedly spent more than a year developing and validating an organic bridge embedded in an FC-BGA substrate for multi-die AI chips.",
+        "The organic bridge is intended to provide fine die-to-die wiring using organic materials rather than Intel’s silicon-based EMIB approach.",
+        "Samsung Foundry is evaluating package performance and reliability, potentially supporting expansion of Samsung’s advanced-packaging services."
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electro-Mechanics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Qualcomm",
+          "ticker": "QCOM",
+          "aliases": []
+        },
+        {
+          "name": "Samsung Foundry",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · Advanced Packaging · Substrates",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Advanced Packaging",
+        "Substrates"
+      ],
+      "importance": 84,
+      "priority": "Critical",
+      "score_reason": "Major packaging-development event involving Qualcomm, Samsung and a potential alternative to Intel EMIB for AI multi-die systems.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62253",
+          "name": "www.thelec.kr",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099427753758232868",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T09:19:16Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099427755553325153",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T09:19:17Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099427753758232868",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T09:19:16Z"
+        }
+      ],
+      "published_at": "2026-09-14T09:19:17Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "0921fd3861f0d9798d25",
+      "headline": "FundaAI sees tight optical supply and accelerating CPO/NPO adoption",
+      "bullets": [
+        "The report says Lumentum continues to see laser demand above supply and expects shortages to persist for another couple of years, with capacity additions subject to qualification.",
+        "It expects optical scale-up to begin in the second half of 2027 and grow in 2028; Marvell expects a large NPO ramp in 2028–2029.",
+        "The report also cites rising optical content per accelerator and a possible two- to fivefold expansion of the data-center interconnect market from scale-across architectures."
+      ],
+      "companies": [
+        {
+          "name": "Lumentum",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Marvell Technology",
+          "ticker": "MRVL",
+          "aliases": []
+        },
+        {
+          "name": "Astera Labs",
+          "ticker": "ALAB",
+          "aliases": []
+        },
+        {
+          "name": "Corning",
+          "ticker": "GLW",
+          "aliases": []
+        },
+        {
+          "name": "Arista Networks",
+          "ticker": "ANET",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Compute",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Substantive optical-component supply, pricing, qualification and architecture research tied directly to AI data-center expansion.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2099478900208173413",
+          "name": "@fundaai",
+          "published_at": "2026-09-14T12:42:30Z"
+        },
+        {
+          "url": "https://fundaai.substack.com/p/researchoptics-conference-season",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099478900208173413",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T12:42:30Z"
+        }
+      ],
+      "published_at": "2026-09-14T12:42:30Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "3bb2a18e63f92768dcaa",
+      "headline": "AI servers are tightening the qualified CCL, copper-foil and PCB supply chain",
+      "bullets": [
+        "The commentary says advanced AI boards require higher-grade CCL materials, smoother copper foil and better signal-loss performance than ordinary high-speed boards.",
+        "It estimates that the qualified supplier pool narrows from roughly eight laminate and more than ten foil makers for ordinary materials to about five each for next-generation AI boards, with fewer possible suppliers for later generations.",
+        "A separate recap says PCB content per rack rises sharply across newer AI systems, including VR300 versus VR200, MI5XX versus MI4XX and TPUv9 versus TPUv8."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
           "ticker": "NVDA",
+          "aliases": []
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "aliases": []
+        },
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "aliases": []
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "aliases": []
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Advanced Packaging · Substrates · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "Substrates",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Highlights a qualified-material bottleneck and rapidly rising AI-rack PCB content, directly affecting advanced server supply chains.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/intelfabs/status/2099525385528791175",
+          "name": "@intelfabs",
+          "published_at": "2026-09-14T15:47:13Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099549718854488147",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T17:23:55Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/intelfabs/status/2099525385528791175",
+          "handle": "intelfabs",
+          "published_at": "2026-09-14T15:47:13Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099549718854488147",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T17:23:55Z"
+        }
+      ],
+      "published_at": "2026-09-14T17:23:55Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "586bf084008b47775fef",
+      "headline": "Samsung Electro-Mechanics slows glass-substrate investment as TGV validation lags",
+      "bullets": [
+        "Samsung Electro-Mechanics reportedly submitted TGV glass-substrate samples to TSMC for reliability testing, but the evaluation was delayed by more than a month.",
+        "Reported yields are said to fall from at least 90% during initial glass-hole formation to about 30% during metallization and copper filling, before later process steps.",
+        "The company is reportedly prioritizing FC-BGA and other businesses with confirmed demand while moderating the pace of glass-substrate investment; some industry participants caution that this is not necessarily a permanent delay."
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electro-Mechanics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "TSMC",
+          "ticker": "TSM",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Advanced Packaging · Substrates · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Advanced Packaging",
+        "Substrates",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Material substrate-yield and investment development at a major Korean supplier, with direct implications for glass packaging adoption.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099375781465997804",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T05:52:45Z"
+        }
+      ],
+      "published_at": "2026-09-14T05:52:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "6396b015325649256926",
+      "headline": "SOCAMM2 and DDR5 RDIMM PCB orders rise above memory-makers’ plans",
+      "bullets": [
+        "PCB orders for SOCAMM2 systems destined for Samsung Electronics and SK hynix are reportedly exceeding the levels planned at the start of the year.",
+        "DDR5 RDIMM orders are said to be increasing even faster, with some customers discussing advance orders for next year’s volumes.",
+        "The report attributes the update to an industry source and provides no company-level order figures."
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "SK hynix",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Direct memory-server supply-chain signal involving SOCAMM2, DDR5 RDIMM and advance procurement by major Korean memory companies.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099375781465997804",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T05:52:45Z"
+        }
+      ],
+      "published_at": "2026-09-14T05:52:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "a30a01c63b544a8e2be8",
+      "headline": "Terafab orders front-end equipment and plans a 2028 start",
+      "bullets": [
+        "The Korea Economic Daily report says Terafab largely completed orders for front-end equipment from ASML, Applied Materials, Lam Research and Tokyo Electron in the second quarter.",
+        "It says back-end and packaging-equipment orders have been placed in stages since the start of the second half, with a pilot line targeted for completion by the end of 2027 and operations in 2028.",
+        "South Korea’s Hanmi Semiconductor is reportedly supplying packaging equipment for Terafab’s system-semiconductor line."
+      ],
+      "companies": [
+        {
+          "name": "Terafab",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "ASML",
+          "ticker": "ASML",
+          "aliases": []
+        },
+        {
+          "name": "Applied Materials",
+          "ticker": "AMAT",
+          "aliases": []
+        },
+        {
+          "name": "Lam Research",
+          "ticker": "LRCX",
+          "aliases": []
+        },
+        {
+          "name": "Tokyo Electron",
+          "ticker": "8035",
+          "aliases": []
+        },
+        {
+          "name": "Hanmi Semiconductor",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Foundry · Advanced Packaging · Supply Chain",
+      "categories": [
+        "WFE",
+        "Foundry",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 81,
+      "priority": "Critical",
+      "score_reason": "Substantive new fab-equipment and packaging-capacity development involving major global WFE suppliers and Hanmi Semiconductor.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099429346759033098",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-14T09:25:36Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099428842674999442",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T09:23:36Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099429346759033098",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T09:25:36Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099428842674999442",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T09:23:36Z"
+        }
+      ],
+      "published_at": "2026-09-14T09:25:36Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "fef131bddc84cae6e94b",
+      "headline": "SK hynix plans earlier, longer-term equipment forecasts for suppliers",
+      "bullets": [
+        "SK hynix reportedly plans to share equipment-demand forecasts covering the following year and the year after, rather than roughly six to twelve months.",
+        "The aim is to let equipment makers secure production capacity and key components ahead of future investment.",
+        "The change is described as an effort to lock in the memory-equipment supply chain."
+      ],
+      "companies": [
+        {
+          "name": "SK hynix",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · DRAM · Supply Chain",
+      "categories": [
+        "WFE",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Directly concerns a major memory maker’s procurement visibility and the ability of suppliers to prepare capacity and components.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099360970242166892",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T04:53:54Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099375781465997804",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T05:52:45Z"
+        }
+      ],
+      "published_at": "2026-09-14T05:52:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "f3e78e9adf5a79de03f4",
+      "headline": "Murata expects AI-server MLCC demand to grow through at least 2028",
+      "bullets": [
+        "Murata’s vice president says MLCC content per AI server is rising, with higher demand for high-heat-resistance and other higher-value products.",
+        "Murata plans an additional ¥80 billion of MLCC production-equipment investment through the fiscal year ending March 2028 and is considering further three- to five-year capacity expansion.",
+        "The company also identifies AI-server power modules as a major growth opportunity and says it is studying future communications-device and physical-AI demand."
+      ],
+      "companies": [
+        {
+          "name": "Murata Manufacturing",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "SoftBank",
+          "ticker": "9984",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Compute",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 79,
+      "priority": "High",
+      "score_reason": "Major component supplier commentary and quantified capacity investment tied to AI servers, automotive electronics and power modules.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.nikkei.com/article/DGXZQOUF101L20Q6A910C2000000/",
+          "name": "www.nikkei.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099288460695941189",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T00:05:46Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099288462633640295",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T00:05:47Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099288460695941189",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T00:05:46Z"
+        }
+      ],
+      "published_at": "2026-09-14T00:05:47Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "a531102da3f01493d59c",
+      "headline": "Jeff Pu’s September wrap-up remains bullish on AI infrastructure",
+      "bullets": [
+        "Jeff Pu says US cloud-service-provider capital expenditure is forecast to grow 85%, 45% and 20% year over year in 2026, 2027 and 2028, respectively.",
+        "The wrap-up describes tight supply and strong backlogs across wafer fabrication, advanced packaging, memory, substrates, interconnects and related infrastructure.",
+        "It also cites a positive view on Nvidia, DRAM/HBM, TSMC, Intel, UMC, thermal systems, optics, PCB and PTFE materials."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        },
+        {
+          "name": "TSMC",
+          "ticker": "TSM",
+          "aliases": []
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "aliases": []
+        },
+        {
+          "name": "UMC",
+          "ticker": "UMC",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · DRAM · Advanced Packaging · Substrates · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Substrates",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Mandatory qualifying Jeff Pu research recap with broad, quantified AI-capex and semiconductor-supply-chain findings.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/sssjeffpu/status/2099379965678760014",
+          "name": "@sssjeffpu",
+          "published_at": "2026-09-14T06:09:23Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/sssjeffpu/status/2099379965678760014",
+          "handle": "sssjeffpu",
+          "published_at": "2026-09-14T06:09:23Z"
+        }
+      ],
+      "published_at": "2026-09-14T06:09:23Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "1c12b664ae4e5ac49983",
+      "headline": "TSMC-linked report projects a 128-fold CPO bandwidth increase by 2040",
+      "bullets": [
+        "The report says TSMC is targeting higher per-lane speeds, denser optical channels and more wavelengths per fiber as it scales co-packaged optics for AI data centers.",
+        "It projects bandwidth rising from a 3.2T baseline to about 410T by 2040 if it doubles every two years.",
+        "PequityResearch challenges that forecast as an outlandish statement; the cited figure remains a media-report projection rather than an independently verified TSMC target."
+      ],
+      "companies": [
+        {
+          "name": "TSMC",
+          "ticker": "TSM",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 77,
+      "priority": "High",
+      "score_reason": "Material CPO and AI-interconnect forecast, with explicit uncertainty and counter-commentary about the long-range number.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260914700053-430501",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099573523039592737",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T18:58:30Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2099313721890017676",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T01:46:09Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099573523039592737",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T18:58:30Z"
+        }
+      ],
+      "published_at": "2026-09-14T18:58:30Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "61fed9772b754fe63e69",
+      "headline": "Taiwan investigates Unimicron over China-made PCB components",
+      "bullets": [
+        "A media report says Taiwan firms could be excluded from US supply chains for failing to comply with rules on China-made components.",
+        "Unimicron is reportedly at the center of an investigation over claims that some China-produced printed circuit boards carried Made-in-Taiwan labels.",
+        "Taiwan customs reportedly recorded 428 related violations by the end of August, up from 168 a year earlier, with stricter enforcement cited as a major factor."
+      ],
+      "companies": [
+        {
+          "name": "Unimicron",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Advanced Packaging · Substrates · China Supply Chain · Supply Chain",
+      "categories": [
+        "Advanced Packaging",
+        "Substrates",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "Material trade-compliance and supply-chain provenance risk for Taiwan PCB manufacturing linked to China production.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260913700011-430502",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2099314056188539274",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T01:47:29Z"
+        }
+      ],
+      "published_at": "2026-09-14T01:47:29Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "7c902205398260334d04",
+      "headline": "VPEC says InP substrate supply conditions are improving",
+      "bullets": [
+        "VPEC says indium phosphide substrate supply is improving as China export permits remain steady.",
+        "The cited update also points to more customers sourcing InP substrates and a growing number of suppliers outside China.",
+        "No independent supply or pricing figures are supplied."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Advanced Packaging · Materials & Inputs · China Supply Chain · Supply Chain",
+      "categories": [
+        "Advanced Packaging",
+        "Materials & Inputs",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Relevant materials-supply update involving China export permits and diversification of InP sources.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099501924219527474",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T14:14:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099501924219527474",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T14:14:00Z"
+        }
+      ],
+      "published_at": "2026-09-14T14:14:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "443a302c4e08a99c73b2",
+      "headline": "ABF long-term prepayments may be forfeited if customers cut orders",
+      "bullets": [
+        "PequityResearch says ABF prepayments in the cited long-term agreements are generally not refunded if a customer cuts orders.",
+        "The post says suppliers retain the money under the agreement structure.",
+        "The underlying agreement and supplier are not identified in the supplied text."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Advanced Packaging · Substrates · Supply Chain",
+      "categories": [
+        "Advanced Packaging",
+        "Substrates",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "Relevant substrate-contract and procurement commentary with potential implications for customer commitments and supplier economics.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099243329816797563",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-13T21:06:26Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099243329816797563",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-13T21:06:26Z"
+        }
+      ],
+      "published_at": "2026-09-13T21:06:26Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "16f05e942e532c87f96c",
+      "headline": "J.P. Morgan forecasts 45% AI-chip shipment CAGR through 2028",
+      "bullets": [
+        "J.P. Morgan models 45% compound annual growth in AI-chip shipments from 2025 through 2028.",
+        "It forecasts AI-ASIC shipments growing at a 60% CAGR, driven by AWS Trainium and Google TPU demand.",
+        "The research names Nvidia, AMD, Microsoft, Meta, Amazon and Alphabet among the exposed companies."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        },
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "aliases": []
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "aliases": []
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "aliases": []
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "aliases": []
+        },
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
           "aliases": []
         }
       ],
       "topic_tier": 2,
-      "topic": "Compute · DRAM · NAND",
+      "topic": "Compute · Supply Chain",
       "categories": [
         "Compute",
-        "DRAM",
-        "NAND"
+        "Supply Chain"
       ],
-      "importance": 82,
+      "importance": 84,
       "priority": "Critical",
-      "score_reason": "The estimate indicates a substantial increase in the value and memory content of Nvidia’s next-generation AI systems.",
+      "score_reason": "Large quantified sell-side forecast for AI-chip shipments and custom accelerators, directly relevant to semiconductor demand.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/pequityresearch/status/2099187602918375773",
+          "url": "https://x.com/pequityresearch/status/2099288266675568772",
           "name": "@pequityresearch",
-          "published_at": "2026-09-13T17:25:00Z"
+          "published_at": "2026-09-14T00:05:00Z"
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/pequityresearch/status/2099187602918375773",
+          "url": "https://x.com/pequityresearch/status/2099288266675568772",
           "handle": "pequityresearch",
-          "published_at": "2026-09-13T17:25:00Z"
+          "published_at": "2026-09-14T00:05:00Z"
         }
       ],
-      "published_at": "2026-09-13T17:25:00Z",
+      "published_at": "2026-09-14T00:05:00Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "c1b2ef5a274b52e3ccee",
-      "headline": "Google reportedly recovers TPU costs in one year",
+      "id": "b2eb388a8a494cef73a2",
+      "headline": "BofA calls frontier-lab controversy noise against a potential $3 trillion AI-capex market",
       "bullets": [
-        "A media report citing Google Cloud CEO Thomas Kurian says Google recovers its TPU costs in about one year, compared with a two-year payback period for AI servers overall.",
-        "The report says Google TPUs have attracted customers in financial services, biotechnology, government and scientific sectors in addition to AI laboratories.",
-        "The post describes TPU demand as a growth opportunity for Broadcom and MediaTek as competition for Google’s chip-design work expands."
+        "BofA says the recent frontier-lab controversy is noise relative to a market in which AI capital expenditure could rise threefold to more than $3 trillion by the end of the decade.",
+        "The cited research says demand signals remain strong.",
+        "The post names Alphabet, Microsoft, Meta, Amazon and Oracle as exposed companies."
       ],
       "companies": [
         {
-          "name": "Google",
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "aliases": []
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "aliases": []
+        },
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "aliases": []
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "aliases": []
+        },
+        {
+          "name": "Oracle",
+          "ticker": "ORCL",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models · Supply Chain",
+      "categories": [
+        "Compute",
+        "Models",
+        "Supply Chain"
+      ],
+      "importance": 83,
+      "priority": "Critical",
+      "score_reason": "Very large quantified AI-capex forecast from a named bank, with direct implications for semiconductor and data-center demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099569669778624513",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T18:43:12Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099569669778624513",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T18:43:12Z"
+        }
+      ],
+      "published_at": "2026-09-14T18:43:12Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "039a4cd02f18223ba874",
+      "headline": "Goldman Sachs sees a 10–20-year AI investment cycle",
+      "bullets": [
+        "Goldman Sachs says optical companies visited on its Asia tour view AI investment as still in its early stages and expect a 10–20-year cycle.",
+        "Demand for the next two to five years remains strong, with some customers already planning beyond 2030, according to the cited research.",
+        "The research says demand visibility is better than during the dot-com bubble, potentially reducing double-ordering."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "aliases": []
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "aliases": []
+        },
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "aliases": []
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Named sell-side research points to durable AI infrastructure demand and provides a material assessment of the cycle’s duration and order visibility.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099577968947347832",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T19:16:10Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099535646247596372",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T16:28:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2099577968947347832",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T19:16:10Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099535646247596372",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T16:28:00Z"
+        }
+      ],
+      "published_at": "2026-09-14T19:16:10Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "c58e041cf73d9f07758c",
+      "headline": "JPMorgan sees higher neocloud pricing and longer GPU lives",
+      "bullets": [
+        "JPMorgan says longer-term bare-metal pricing is generally around $10–$12 per watt, while near-term capacity and high-end GPUs can support roughly $15–$20-plus per watt in most high-end deals.",
+        "The cited research says GPU useful lives could exceed the roughly five-to-six-year estimates as providers continue using A100s after burn-in testing.",
+        "Because power and GPU depreciation are the primary neocloud costs, longer useful lives could materially improve profitability, according to the excerpt."
+      ],
+      "companies": [
+        {
+          "name": "CoreWeave",
+          "ticker": "CRWV",
+          "aliases": []
+        },
+        {
+          "name": "Nebius",
+          "ticker": "NBIS",
+          "aliases": []
+        },
+        {
+          "name": "IREN",
+          "ticker": "IREN",
+          "aliases": []
+        },
+        {
+          "name": "SpaceX",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Mandatory Sean post with named sell-side research on AI infrastructure pricing, GPU depreciation and neocloud economics.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/sean_________/status/2099480784507748552",
+          "name": "@sean_________",
+          "published_at": "2026-09-14T12:50:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/sean_________/status/2099480784507748552",
+          "handle": "sean_________",
+          "published_at": "2026-09-14T12:50:00Z"
+        }
+      ],
+      "published_at": "2026-09-14T12:50:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "cad6e6685852d0b893db",
+      "headline": "Google reportedly recovers TPU costs in one year",
+      "bullets": [
+        "A media report citing Google Cloud CEO Thomas Kurian says Google recovers its TPU costs in one year and its overall AI-server investment in two years.",
+        "The report says TPUs have attracted customers in financial, biotechnology, government and scientific sectors as well as AI labs.",
+        "It says TPU demand is benefiting Broadcom and MediaTek as they compete for Google chip-design work."
+      ],
+      "companies": [
+        {
+          "name": "Alphabet",
           "ticker": "GOOGL",
           "aliases": []
         },
@@ -6997,11 +8038,6 @@
           "name": "MediaTek",
           "ticker": "",
           "aliases": []
-        },
-        {
-          "name": "Nvidia",
-          "ticker": "NVDA",
-          "aliases": []
         }
       ],
       "topic_tier": 2,
@@ -7010,9 +8046,9 @@
         "Compute",
         "Supply Chain"
       ],
-      "importance": 76,
+      "importance": 75,
       "priority": "High",
-      "score_reason": "The reported payback period and broader TPU adoption are material indicators for custom AI-chip economics and suppliers.",
+      "score_reason": "Material reported economics and customer expansion for a major in-house accelerator platform.",
       "verification": "reported",
       "sources": [
         {
@@ -7030,51 +8066,85 @@
       ],
       "published_at": "2026-09-13T23:29:48Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "50f1c4dc0de9121235f9",
-      "headline": "Evercore ISI sees AI networking as the fastest-growing data-center semiconductor segment",
+      "id": "11f365cf5c796774e290",
+      "headline": "FundaAI sees Delta Electronics accelerating on AI power and VPD",
       "bullets": [
-        "Evercore ISI forecasts AI networking to be the highest-growth segment within AI data-center semiconductors over the next five years.",
-        "The recap names SMTC, CRDO, GLW, NOK, CIEN, LITE and COHR among the companies exposed to the theme."
+        "FundaAI says Delta’s second-half 2026 reacceleration is driven by AI power-supply and voltage-power-delivery products.",
+        "The report estimates DC/DC products at 8.3% and 12.2% of revenue in 2026 and 2027, with more than 70% VPD share and $400–$600 of content per TPU.",
+        "It models fiscal-2027 and fiscal-2028 revenue growth of 53% and 28%, respectively."
       ],
       "companies": [
         {
-          "name": "SMTC",
-          "ticker": "SMTC",
+          "name": "Delta Electronics",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Quantified AI-server power and power-management research with direct implications for accelerator infrastructure.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://fundaai.substack.com/p/deepdelta-electronics-2h26-re-acceleration",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099316531587080344",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T01:57:19Z"
+        }
+      ],
+      "published_at": "2026-09-14T01:57:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "9dfef6ca543f9c395945",
+      "headline": "Goldman Sachs expects limited 800G optical price erosion",
+      "bullets": [
+        "Goldman Sachs says optical companies it visited expect 800G module prices to decline by less than 10% in 2027.",
+        "It expects 1.6T optical-module pricing to remain above $700.",
+        "The cited commentary says healthy pricing competition is normal for products with one- to two-year cycles."
+      ],
+      "companies": [
+        {
+          "name": "Coherent",
+          "ticker": "COHR",
           "aliases": []
         },
         {
-          "name": "CRDO",
-          "ticker": "CRDO",
-          "aliases": []
-        },
-        {
-          "name": "GLW",
-          "ticker": "GLW",
-          "aliases": []
-        },
-        {
-          "name": "NOK",
-          "ticker": "NOK",
-          "aliases": []
-        },
-        {
-          "name": "CIEN",
-          "ticker": "CIEN",
-          "aliases": []
-        },
-        {
-          "name": "LITE",
+          "name": "Lumentum",
           "ticker": "LITE",
           "aliases": []
         },
         {
-          "name": "COHR",
-          "ticker": "COHR",
+          "name": "Applied Optoelectronics",
+          "ticker": "AAOI",
+          "aliases": []
+        },
+        {
+          "name": "MACOM Technology Solutions",
+          "ticker": "MTSI",
           "aliases": []
         }
       ],
@@ -7084,36 +8154,165 @@
         "Compute",
         "Supply Chain"
       ],
-      "importance": 68,
+      "importance": 72,
       "priority": "High",
-      "score_reason": "The named sell-side forecast identifies networking as a major multi-year AI semiconductor growth segment.",
+      "score_reason": "Named sell-side pricing outlook for a key AI-networking component, with direct implications for optical suppliers and margins.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/pequityresearch/status/2099158665399881940",
+          "url": "https://x.com/pequityresearch/status/2099517778776785174",
           "name": "@pequityresearch",
-          "published_at": "2026-09-13T15:30:00Z"
+          "published_at": "2026-09-14T15:17:00Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099528050010444203",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T15:57:49Z"
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/pequityresearch/status/2099158665399881940",
+          "url": "https://x.com/pequityresearch/status/2099517778776785174",
           "handle": "pequityresearch",
-          "published_at": "2026-09-13T15:30:00Z"
+          "published_at": "2026-09-14T15:17:00Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099528050010444203",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T15:57:49Z"
         }
       ],
-      "published_at": "2026-09-13T15:30:00Z",
+      "published_at": "2026-09-14T15:57:49Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "a591a62a3b2791010653",
-      "headline": "UBS sees AMD’s Google engagement as a custom-CPU project, not TPU v10",
+      "id": "ddc842233779f8e7f555",
+      "headline": "Micron Taiwan union rejects bonus package and threatens strike",
       "bullets": [
-        "UBS says AMD’s engagement with Google is more likely related to a custom CPU project than directly to the TPU v10 project associated with MediaTek.",
-        "The recap presents this as UBS’s view rather than a confirmed description of the engagement."
+        "The union at Micron’s Taoyuan plant reportedly rejected a package including an NT$1 million appreciation bonus for each worker.",
+        "It is seeking a 15% profit-sharing system when the company is profitable and safeguards during down cycles.",
+        "The union reportedly objected to Micron issuing a press release before reaching an agreement through talks and threatened strike action."
+      ],
+      "companies": [
+        {
+          "name": "Micron Technology",
+          "ticker": "MU",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "DRAM · Supply Chain",
+      "categories": [
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "Material labor-risk development at a major memory manufacturer, with potential implications for Taiwan operations.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.setn.com/ampnews/1905482",
+          "name": "www.setn.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099318774604386379",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T02:06:13Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2099313466343563420",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T01:45:08Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099318774604386379",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T02:06:13Z"
+        }
+      ],
+      "published_at": "2026-09-14T02:06:13Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "94dcce469f9d6df970cb",
+      "headline": "Elon Musk says SpaceX will launch Nvidia AI computers in space next year",
+      "bullets": [
+        "Elon Musk says he is highly confident SpaceX will launch Nvidia VR NLV72 AI computers in space next year.",
+        "The supplied posts provide no launch date, payload specifications or confirmation from Nvidia or SpaceX.",
+        "The development is a reported claim rather than an independently verified launch plan."
+      ],
+      "companies": [
+        {
+          "name": "SpaceX",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 69,
+      "priority": "High",
+      "score_reason": "Unusual but material AI-compute deployment claim involving Nvidia hardware and SpaceX, with substantial uncertainty.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2099314496523428138",
+          "name": "@dnystedt",
+          "published_at": "2026-09-14T01:49:14Z"
+        },
+        {
+          "url": "https://twitter.com/elonmusk/status/2099255050581295238",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2099314496523428138",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T01:49:14Z"
+        },
+        {
+          "url": "https://x.com/intelfabs/status/2099353338597068962",
+          "handle": "intelfabs",
+          "published_at": "2026-09-14T04:23:34Z"
+        }
+      ],
+      "published_at": "2026-09-14T04:23:34Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "d20bc0d6d4d5f82d420e",
+      "headline": "UBS says AMD’s Google engagement is likely a custom-CPU project",
+      "bullets": [
+        "UBS says AMD’s engagement with Google is more likely related to a custom CPU project than to MediaTek’s TPU v10 project.",
+        "The post does not provide further details on timing, product specifications or commercial terms.",
+        "This is a cited UBS interpretation, not a confirmed announcement by AMD or Google."
       ],
       "companies": [
         {
@@ -7122,7 +8321,7 @@
           "aliases": []
         },
         {
-          "name": "Google",
+          "name": "Alphabet",
           "ticker": "GOOGL",
           "aliases": []
         },
@@ -7139,7 +8338,7 @@
       ],
       "importance": 68,
       "priority": "High",
-      "score_reason": "The research view concerns a potentially material custom-chip engagement involving AMD and Google, but the project remains unconfirmed.",
+      "score_reason": "Potentially material hyperscaler custom-silicon development, but the supplied evidence is only a UBS view.",
       "verification": "reported",
       "sources": [
         {
@@ -7157,107 +8356,220 @@
       ],
       "published_at": "2026-09-13T23:00:01Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "71e8e779b0052d92fd87",
-      "headline": "Jukan argues AMD’s MI455 price weakens its competitive position",
+      "id": "6bd3933cfddac9fbb813",
+      "headline": "UBS forecasts a sharp expansion in Oracle revenue",
       "bullets": [
-        "Jukan argues that AMD’s larger memory capacity does not offset the higher price of the MI455 and that the cost differential with Nvidia’s Rubin platform has narrowed unfavorably for AMD.",
-        "The post is an opinion and does not provide supporting pricing data."
+        "UBS forecasts Oracle revenue rising from about $90 billion in fiscal 2027 to about $235 billion in fiscal 2031.",
+        "The supplied post does not specify how much of the forecast is attributable to cloud or AI demand.",
+        "This is a sell-side forecast rather than company guidance."
       ],
       "companies": [
         {
-          "name": "AMD",
-          "ticker": "AMD",
+          "name": "Oracle",
+          "ticker": "ORCL",
           "aliases": []
         }
       ],
       "topic_tier": 2,
-      "topic": "Compute",
+      "topic": "Compute · Models",
       "categories": [
-        "Compute"
+        "Compute",
+        "Models"
       ],
-      "importance": 64,
+      "importance": 66,
       "priority": "High",
-      "score_reason": "The commentary concerns competitive positioning and pricing of major AI accelerators, but supplies limited underlying evidence.",
-      "verification": "opinion",
-      "sources": [
-        {
-          "url": "https://x.com/jukan05/status/2099277545648845231",
-          "name": "@jukan05",
-          "published_at": "2026-09-13T23:22:24Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2099277545648845231",
-          "handle": "jukan05",
-          "published_at": "2026-09-13T23:22:24Z"
-        }
-      ],
-      "published_at": "2026-09-13T23:22:24Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
-    },
-    {
-      "id": "6de04313b273a35a3721",
-      "headline": "Jefferies sees shorter iPhone 18 Pro lead times as a weak-sales signal",
-      "bullets": [
-        "Jefferies says its tracking of six key markets shows iPhone 18 Pro and Pro Max delivery lead times were significantly shorter year over year after pre-orders began on September 12.",
-        "The firm views lead times as a demand indicator, contrasting the result with the longer lead times for last year’s iPhone 17 Pro Max and iPhone 17, which it associated with stronger sales."
-      ],
-      "companies": [
-        {
-          "name": "Apple",
-          "ticker": "AAPL",
-          "aliases": []
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Supply Chain",
-      "categories": [
-        "Supply Chain"
-      ],
-      "importance": 62,
-      "priority": "High",
-      "score_reason": "The mandatory sell-side recap provides a current smartphone-demand signal relevant to Apple’s semiconductor and component supply chain.",
+      "score_reason": "Material hyperscaler revenue forecast with likely AI-infrastructure relevance, though the supplied excerpt lacks a business-segment breakdown.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/sean_________/status/2099231643324002363",
-          "name": "@sean_________",
-          "published_at": "2026-09-13T20:20:00Z"
+          "url": "https://x.com/pequityresearch/status/2099483805170200746/photo/1",
+          "name": "x.com",
+          "published_at": null
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/sean_________/status/2099231643324002363",
-          "handle": "sean_________",
-          "published_at": "2026-09-13T20:20:00Z"
+          "url": "https://x.com/pequityresearch/status/2099483805170200746",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T13:02:00Z"
         }
       ],
-      "published_at": "2026-09-13T20:20:00Z",
+      "published_at": "2026-09-14T13:02:00Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "76187859594c632d3cd2",
-      "headline": "The Information reportedly puts Anthropic’s potential compute commitments at up to $517 billion",
+      "id": "777437426d553d2c30c2",
+      "headline": "Ryan says China’s Ascend 950 DT may soon enter mass production",
       "bullets": [
-        "The Information is cited as reporting that Anthropic has lined up compute deals that could cost as much as $517 billion, compared with the $180 billion it told investors it expected to spend through 2029.",
-        "The accompanying commentary argues that a slowdown in model releases should not be interpreted as a slowdown in AI infrastructure spending.",
-        "The figures are reported claims and are not independently verified in the supplied evidence."
+        "Ryan says the Ascend 950 DT is expected to be the next stronger domestic AI chip and is approaching mass production.",
+        "The post is a brief, informal reply and provides no date, specifications or source beyond the quoted discussion.",
+        "The claim is therefore unconfirmed."
+      ],
+      "companies": [
+        {
+          "name": "Ascend",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 60,
+      "priority": "High",
+      "score_reason": "Qualifying China AI-chip commentary from a priority account, but with limited factual detail and no independent confirmation.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/ryanhingshing/status/2099532411293892902",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-14T16:15:08Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/ryanhingshing/status/2099532411293892902",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-14T16:15:08Z"
+        }
+      ],
+      "published_at": "2026-09-14T16:15:08Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "a90af11129180a93a191",
+      "headline": "Jukan doubts Intel could acquire GlobalFoundries",
+      "bullets": [
+        "Jukan says an Intel acquisition of GlobalFoundries would face significant antitrust hurdles.",
+        "The comment points to the attempted Tower Semiconductor acquisition as a relevant precedent.",
+        "No acquisition proposal or company announcement is supplied."
+      ],
+      "companies": [
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "aliases": []
+        },
+        {
+          "name": "GlobalFoundries",
+          "ticker": "GFS",
+          "aliases": []
+        },
+        {
+          "name": "Tower Semiconductor",
+          "ticker": "TSEM",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Foundry",
+      "categories": [
+        "Foundry"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "Relevant foundry-consolidation commentary involving major companies, but purely hypothetical and opinion-based.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2099264692304900317",
+          "name": "@jukan05",
+          "published_at": "2026-09-13T22:31:19Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099264692304900317",
+          "handle": "jukan05",
+          "published_at": "2026-09-13T22:31:19Z"
+        }
+      ],
+      "published_at": "2026-09-13T22:31:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "4040b4607698d6990768",
+      "headline": "Jukan highlights conflicting market views on Samsung memory demand",
+      "bullets": [
+        "A satirical exchange cited by Jukan contrasts Samsung’s reported long-term memory agreements through 2031 and an approximately 2.8-times 2027E P/E with investors selling after a 4% drop.",
+        "The post frames the disagreement as a market reaction to fears that an AI slowdown could cause a memory downturn.",
+        "The valuation and contract references are quoted market commentary, not independently verified in the supplied text."
+      ],
+      "companies": [
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · DRAM",
+      "categories": [
+        "Compute",
+        "DRAM"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "Relevant memory-market sentiment commentary about Samsung and AI-demand fears, but mostly rhetorical and without new operating data.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/i/web/status/2099392042657038698",
+          "name": "x.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2099392146197696583",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T06:57:47Z"
+        }
+      ],
+      "published_at": "2026-09-14T06:57:47Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "022ca31b13fcd7b160eb",
+      "headline": "Anthropic and OpenAI outline slower, more compute-intensive frontier development",
+      "bullets": [
+        "Anthropic CEO Dario Amodei says the company will give third-party evaluators permanent employee-level access to its systems to assess safety measures, incidents and model alignment during training.",
+        "OpenAI says pacing means progress continues, but safety cases, monitoring and alignment work can consume significant additional compute; Zephyr interprets the cited discussion as potentially allocating 15%–25% of compute to those tasks.",
+        "Commentary from FundaAI describes Amodei’s essay as evidence that safety engineering has lagged model capabilities, while another post says the frontier labs may spend more on alignment at the expense of margins."
       ],
       "companies": [
         {
           "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "OpenAI",
           "ticker": "",
           "aliases": []
         }
@@ -7268,37 +8580,78 @@
         "Compute",
         "Models"
       ],
-      "importance": 92,
+      "importance": 86,
       "priority": "Critical",
-      "score_reason": "The reported commitment would be exceptionally large and directly bears on frontier-model economics, cloud demand and semiconductor infrastructure investment.",
+      "score_reason": "Material frontier-AI safety and pacing developments with potential effects on compute demand, costs and release cadence.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/pequityresearch/status/2099203064708452632",
+          "url": "https://x.com/dnystedt/status/2099388278281511346",
+          "name": "@dnystedt",
+          "published_at": "2026-09-14T06:42:24Z"
+        },
+        {
+          "url": "https://x.com/fundaai/status/2099501667926626704",
+          "name": "@fundaai",
+          "published_at": "2026-09-14T14:12:59Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099569876813709461",
           "name": "@pequityresearch",
-          "published_at": "2026-09-13T18:26:26Z"
+          "published_at": "2026-09-14T18:44:01Z"
+        },
+        {
+          "url": "https://x.com/zephyr_z9/status/2099357117216125417",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-14T04:38:35Z"
+        },
+        {
+          "url": "https://twitter.com/sama/status/2099348812305473766",
+          "name": "twitter.com",
+          "published_at": null
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/pequityresearch/status/2099203064708452632",
+          "url": "https://x.com/dnystedt/status/2099388278281511346",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T06:42:24Z"
+        },
+        {
+          "url": "https://x.com/fundaai/status/2099501667926626704",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T14:12:59Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099569876813709461",
           "handle": "pequityresearch",
-          "published_at": "2026-09-13T18:26:26Z"
+          "published_at": "2026-09-14T18:44:01Z"
+        },
+        {
+          "url": "https://x.com/zephyr_z9/status/2099357117216125417",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T04:38:35Z"
+        },
+        {
+          "url": "https://x.com/zephyr_z9/status/2099354588231123379",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T04:28:32Z"
         }
       ],
-      "published_at": "2026-09-13T18:26:26Z",
+      "published_at": "2026-09-14T18:44:01Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "fdabf2fd576731e04b5b",
-      "headline": "Anthropic reportedly expects consecutive profits as pre-cost gross margins top 80%",
+      "id": "5a185889d7691dc0609d",
+      "headline": "Financial Times: Anthropic expects two consecutive profitable quarters",
       "bullets": [
-        "Jukan highlights a Financial Times report that Anthropic told investors it expects to post profits for two consecutive quarters.",
-        "A separate quoted claim says Anthropic’s gross margins exceed 80% before revenue shared with distribution partners such as Amazon and before model-training costs.",
-        "The supplied posts do not independently verify the profitability or margin figures."
+        "The Financial Times reports that Anthropic has told investors it expects to post a profit for two consecutive quarters.",
+        "The cited material says Anthropic’s gross margin is above 80% before revenue sharing with distribution partners such as Amazon and before model-training costs.",
+        "The figures do not establish net profitability after training and distribution expenses."
       ],
       "companies": [
         {
@@ -7313,56 +8666,83 @@
         }
       ],
       "topic_tier": 3,
-      "topic": "Models",
+      "topic": "Compute · Models",
       "categories": [
+        "Compute",
         "Models"
       ],
       "importance": 80,
       "priority": "Critical",
-      "score_reason": "The claims address frontier-AI profitability and model economics at a leading laboratory, but remain secondhand in the supplied evidence.",
+      "score_reason": "Material model-economics development at a major frontier lab, with explicit profitability expectations and margin caveats.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/jukan05/status/2099266932633632845",
-          "name": "@jukan05",
-          "published_at": "2026-09-13T22:40:13Z"
+          "url": "https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1",
+          "name": "www.ft.com",
+          "published_at": null
         },
         {
           "url": "https://x.com/jukan05/status/2099267844185964889",
           "name": "@jukan05",
           "published_at": "2026-09-13T22:43:51Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099266932633632845",
+          "name": "@jukan05",
+          "published_at": "2026-09-13T22:40:13Z"
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/jukan05/status/2099266932633632845",
+          "url": "https://x.com/jukan05/status/2099267902243521022",
           "handle": "jukan05",
-          "published_at": "2026-09-13T22:40:13Z"
+          "published_at": "2026-09-13T22:44:05Z"
         },
         {
           "url": "https://x.com/jukan05/status/2099267844185964889",
           "handle": "jukan05",
           "published_at": "2026-09-13T22:43:51Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2099266932633632845",
+          "handle": "jukan05",
+          "published_at": "2026-09-13T22:40:13Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099278550448869884",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-13T23:26:23Z"
         }
       ],
-      "published_at": "2026-09-13T22:43:51Z",
+      "published_at": "2026-09-13T23:26:23Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "7df9e68e87b8cc815b37",
-      "headline": "Ryan Hingshing argues AI standards debate risks regulatory concentration",
+      "id": "8732fd19aaf04252e53f",
+      "headline": "Palantir, Nvidia and Booz Allen reportedly restrict Anthropic’s Fable model for sensitive work",
       "bullets": [
-        "Ryan relays David Sacks’s view that OpenAI and Anthropic want industry standards that could impose high compliance costs on smaller companies and open-source models.",
-        "Ryan interprets Microsoft’s CEO as calling for broad representation across companies, countries, fields and academia rather than control by a small group of AI firms.",
-        "These are commentary and interpretation of the standards debate, not independently verified claims about the companies’ intentions."
+        "The Information reports that the companies are restricting Anthropic’s Fable model over concerns about data-retention policies.",
+        "Some customers reportedly require irrevocable zero-data-retention guarantees before putting proprietary information into the model.",
+        "FundaAI argues that sovereign-AI deployments, air-gapped infrastructure and zero-data-retention arrangements could reshape enterprise AI distribution and GPU demand."
       ],
       "companies": [
         {
-          "name": "OpenAI",
-          "ticker": "",
+          "name": "Palantir Technologies",
+          "ticker": "PLTR",
+          "aliases": []
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        },
+        {
+          "name": "Booz Allen Hamilton",
+          "ticker": "BAH",
           "aliases": []
         },
         {
@@ -7371,13 +8751,206 @@
           "aliases": []
         },
         {
-          "name": "Google",
-          "ticker": "GOOGL",
+          "name": "Nebius",
+          "ticker": "NBIS",
           "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 77,
+      "priority": "High",
+      "score_reason": "Material enterprise-AI procurement and data-governance development involving major infrastructure and model companies.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2099597612974555199",
+          "name": "@fundaai",
+          "published_at": "2026-09-14T20:34:14Z"
         },
+        {
+          "url": "https://thein.fo/4dekujW",
+          "name": "thein.fo",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099597612974555199",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T20:34:14Z"
+        }
+      ],
+      "published_at": "2026-09-14T20:34:14Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "366a7e6caccadedc6ae2",
+      "headline": "Trump and Jensen Huang push back on an AI slowdown",
+      "bullets": [
+        "President Trump said there would be no AI slowdown or pause, calling the proposal a conspiracy against AI and data centers that could benefit China.",
+        "A post quoting Jensen Huang says Trump phoned him during the All-In Summit and emphasized that the United States would not lose the AI race.",
+        "The supporting commentary is political and opinion-based; it does not establish a change in companies’ actual spending plans."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "High-profile policy and pacing dispute directly involving frontier-AI development and data-center investment, though some material is commentary rather than independently verified reporting.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099508111958761568",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-14T14:38:35Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099577097085767858",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T19:12:42Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099521940520161542",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-14T15:33:32Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099519207247421689",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-14T15:22:40Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099336565986037977",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T03:16:55Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099508111958761568",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T14:38:35Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099577097085767858",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T19:12:42Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099521940520161542",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-14T15:33:32Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099519207247421689",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-14T15:22:40Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099336565986037977",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T03:16:55Z"
+        }
+      ],
+      "published_at": "2026-09-14T19:12:42Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "44bb4116c9e26af180df",
+      "headline": "FundaAI says GPT-6 Astra could expand AI into broader knowledge work",
+      "bullets": [
+        "FundaAI describes GPT-6 Astra as OpenAI’s first flagship model with computer use as a core capability, spanning workflows such as CAD, Excel, Blender and tax forms.",
+        "The report says agent hours have reached 3.1 times human hours in an OpenAI RSI note and identifies compute as a binding constraint as other bottlenecks ease.",
+        "The report interprets the development as expanding the addressable market beyond coding, subject to remaining multi-step reliability gaps."
+      ],
+      "companies": [
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "Material model capability and compute-demand commentary with quantified usage context, clearly attributed to FundaAI’s report.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://fundaai.substack.com/p/deepllm-gpt-6-astra-opens-new-markets",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099316531587080344",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T01:57:19Z"
+        }
+      ],
+      "published_at": "2026-09-14T01:57:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "151fc8c3d605508b2a67",
+      "headline": "Satya Nadella calls for broad representation in AI standards",
+      "bullets": [
+        "Nadella says AI safety and deliberate pacing are worthwhile, but standards and evaluators should not be controlled by a handful of entities.",
+        "He calls for representation across the ecosystem, countries, fields and academia, while supporting both closed- and open-source models.",
+        "Ryan’s commentary interprets the position as opposition to an industry-standard body dominated by Anthropic, OpenAI and Google; that interpretation is not independently established in the supplied text."
+      ],
+      "companies": [
         {
           "name": "Microsoft",
           "ticker": "MSFT",
+          "aliases": []
+        },
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
           "aliases": []
         }
       ],
@@ -7386,15 +8959,25 @@
       "categories": [
         "Models"
       ],
-      "importance": 70,
+      "importance": 73,
       "priority": "High",
-      "score_reason": "The posts address a consequential frontier-AI governance dispute over standards, compliance costs and industry representation.",
-      "verification": "opinion",
+      "score_reason": "Material frontier-AI governance and standards debate involving a major platform company and leading labs.",
+      "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/ryanhingshing/status/2099175502741123140",
+          "url": "https://x.com/pequityresearch/status/2099548126239498523",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T17:17:35Z"
+        },
+        {
+          "url": "https://twitter.com/satyanadella/status/2099220712024408084",
+          "name": "twitter.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099251445002547371",
           "name": "@ryanhingshing",
-          "published_at": "2026-09-13T16:36:55Z"
+          "published_at": "2026-09-13T21:38:41Z"
         },
         {
           "url": "https://x.com/ryanhingshing/status/2099250809016115444",
@@ -7402,16 +8985,36 @@
           "published_at": "2026-09-13T21:36:09Z"
         },
         {
+          "url": "https://x.com/ryanhingshing/status/2099244681146318890",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-13T21:11:48Z"
+        },
+        {
           "url": "https://x.com/ryanhingshing/status/2099255008349073768",
           "name": "@ryanhingshing",
           "published_at": "2026-09-13T21:52:50Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099249387654500482",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-13T21:30:30Z"
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/ryanhingshing/status/2099175502741123140",
+          "url": "https://x.com/pequityresearch/status/2099548126239498523",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T17:17:35Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099255008349073768",
           "handle": "ryanhingshing",
-          "published_at": "2026-09-13T16:36:55Z"
+          "published_at": "2026-09-13T21:52:50Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099251445002547371",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-13T21:38:41Z"
         },
         {
           "url": "https://x.com/ryanhingshing/status/2099250809016115444",
@@ -7419,26 +9022,202 @@
           "published_at": "2026-09-13T21:36:09Z"
         },
         {
-          "url": "https://x.com/ryanhingshing/status/2099255008349073768",
+          "url": "https://x.com/ryanhingshing/status/2099244681146318890",
           "handle": "ryanhingshing",
-          "published_at": "2026-09-13T21:52:50Z"
+          "published_at": "2026-09-13T21:11:48Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099255174326026374",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-13T21:53:30Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099249387654500482",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-13T21:30:30Z"
         }
       ],
-      "published_at": "2026-09-13T21:52:50Z",
+      "published_at": "2026-09-14T17:17:35Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     },
     {
-      "id": "d2e2b5fadcd32bcec6b2",
-      "headline": "China’s security minister calls for stronger AI risk controls",
+      "id": "1652ac2702dfe0eb0130",
+      "headline": "Chinese officials frame rapid AI progress as a security and governance risk",
       "bullets": [
-        "Ryan Hingshing relays a September 13 article in China Cyberspace saying that China’s security minister, Chen Yixin, identified six AI risks, including political-security effects and large-scale data leakage.",
-        "The article reportedly calls AI a central arena of global technology competition and urges China to build a stronger system for preventing and managing AI risks.",
-        "The post highlights a warning that domestic users handling sensitive information with foreign AI products could cause large-scale data leakage, implying tighter oversight of AI use and providers."
+        "A post quoting China’s minister of state security lists risks including political deepfakes, attacks on critical infrastructure, data leakage, closed technology ecosystems and AI-enabled warfare.",
+        "The cited material says China’s response should strengthen Party control over the internet and data and convert Party leadership into AI-governance effectiveness.",
+        "Separate commentary says China’s official newspaper characterized Anthropic’s call to slow AI development as a Cold War strategy."
       ],
-      "companies": [],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models · China Models · China Supply Chain",
+      "categories": [
+        "Models",
+        "China Models",
+        "China Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Material China policy and security commentary on frontier AI, data governance and international technology fragmentation.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2099386705115853215",
+          "name": "@dnystedt",
+          "published_at": "2026-09-14T06:36:09Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099355971797577817",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T04:34:02Z"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-spy-chief-warns-of-ai-risks-as-us-tech-leaders-urge-brakes",
+          "name": "www.bloomberg.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099410842399965210",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-14T08:12:04Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2099386705115853215",
+          "handle": "dnystedt",
+          "published_at": "2026-09-14T06:36:09Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099355971797577817",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T04:34:02Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099356083261177988",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T04:34:29Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099410842399965210",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-14T08:12:04Z"
+        }
+      ],
+      "published_at": "2026-09-14T08:12:04Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "2972a21776bbdd2e9094",
+      "headline": "Commentary argues AI hardware spending can stay strong even if frontier releases slow",
+      "bullets": [
+        "The cited analysis says slower frontier-model progress would not necessarily reduce AI spending because inference, agentic workloads and existing model deployment still require more compute.",
+        "FundaAI argues release cadence is not the same as training cadence and that a uniform slowdown would overlook uneven adoption across coding, math, cyber and other sectors.",
+        "The analysis is commentary rather than a reported change in hardware orders."
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "aliases": []
+        },
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "aliases": []
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models · Supply Chain",
+      "categories": [
+        "Compute",
+        "Models",
+        "Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Directly addresses the semiconductor and compute-demand implications of frontier-AI pacing and includes substantive research commentary.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/intelfabs/status/2099356681935458466/photo/1",
+          "name": "x.com",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099390612482969788",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-14T06:51:41Z"
+        },
+        {
+          "url": "https://fundaai.substack.com/p/columnai-doesnt-move-at-one-speed",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/intelfabs/status/2099356681935458466",
+          "handle": "intelfabs",
+          "published_at": "2026-09-14T04:36:51Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2099390612482969788",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-14T06:51:41Z"
+        },
+        {
+          "url": "https://x.com/fundaai/status/2099316531587080344",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T01:57:19Z"
+        }
+      ],
+      "published_at": "2026-09-14T06:51:41Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "8814d85a44d20b14a639",
+      "headline": "Elon Musk forecasts successive Grok model improvements",
+      "bullets": [
+        "Elon Musk says Grok 4.7 should be roughly comparable with Opus 5.0, while being better in some areas and worse in others.",
+        "He says Grok 4.8 should be a noticeable improvement, Grok 4.9 could reach Astra/Fable-class performance and Grok 5 could surpass current models.",
+        "Musk identifies multimodal performance as an area requiring improvement."
+      ],
+      "companies": [
+        {
+          "name": "xAI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Grok",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
       "topic_tier": 3,
       "topic": "Models",
       "categories": [
@@ -7446,33 +9225,473 @@
       ],
       "importance": 68,
       "priority": "High",
-      "score_reason": "The post reports a senior Chinese official’s AI-security and governance position, with potential implications for model deployment and data controls.",
+      "score_reason": "Material model-roadmap commentary from the company’s named founder, but forward-looking and unverified.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/ryanhingshing/status/2099158702280384529",
-          "name": "@ryanhingshing",
-          "published_at": "2026-09-13T15:30:09Z"
+          "url": "https://x.com/jukan05/status/2099471336343298453",
+          "name": "@jukan05",
+          "published_at": "2026-09-14T12:12:27Z"
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/ryanhingshing/status/2099158702280384529",
-          "handle": "ryanhingshing",
-          "published_at": "2026-09-13T15:30:09Z"
+          "url": "https://x.com/jukan05/status/2099471336343298453",
+          "handle": "jukan05",
+          "published_at": "2026-09-14T12:12:27Z"
         }
       ],
-      "published_at": "2026-09-13T15:30:09Z",
+      "published_at": "2026-09-14T12:12:27Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-14T14:50:37Z",
-      "updated_at": "2026-09-14T14:50:37Z",
-      "revision": 1
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "4948b3b823b7354dde53",
+      "headline": "FundaAI links frontier-AI safety concerns to cybersecurity demand",
+      "bullets": [
+        "The report says Anthropic’s and OpenAI’s calls for slower frontier development reflect a gap between model capabilities and safety engineering.",
+        "It cites runtime monitoring, non-human identity governance, isolation, software-supply-chain controls and tamper-resistant logs as urgent requirements.",
+        "The report names CrowdStrike, Palo Alto Networks, SentinelOne and identity and edge-security vendors as potential beneficiaries; these are investment views from FundaAI, not independently verified forecasts."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "CrowdStrike",
+          "ticker": "CRWD",
+          "aliases": []
+        },
+        {
+          "name": "Palo Alto Networks",
+          "ticker": "PANW",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "Material frontier-AI safety and deployment-risk analysis with concrete infrastructure implications, though the beneficiary assessment is opinion.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2099487930515632517",
+          "name": "@fundaai",
+          "published_at": "2026-09-14T13:18:23Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099487930515632517",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T13:18:23Z"
+        }
+      ],
+      "published_at": "2026-09-14T13:18:23Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "a7009b4fa1952fac7e38",
+      "headline": "FundaAI says enterprise AI spending is growing but becoming more ROI-sensitive",
+      "bullets": [
+        "The enterprise survey says spending continues to grow, while buyers are focusing more on expensive-model use cases, time-to-revenue and genuine cost reductions.",
+        "It reports broad basic access but highly concentrated heavy use and production agents in only a few companies.",
+        "Defaults, caching and local offload can reduce costs, but the report says savings are often reinvested rather than removed from the AI budget."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "Substantive enterprise AI economics research with implications for model demand and infrastructure utilization.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://fundaai.substack.com/p/deepllm-enterprise-ai-adoption-survey",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099316531587080344",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T01:57:19Z"
+        }
+      ],
+      "published_at": "2026-09-14T01:57:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "5ac52ce72ae5873df92e",
+      "headline": "Zephyr says stricter AI safety could hurt RL-environment vendors",
+      "bullets": [
+        "The downstream effect of stronger safety and alignment requirements may be tougher quality controls for reinforcement-learning environment companies.",
+        "Zephyr says poor-quality environments can produce misalignment and poor model behavior, potentially pushing frontier labs toward larger in-house efforts.",
+        "The post says the evidence remains mixed at this early stage."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "Substantive model-economics and safety commentary, but an early-stage opinion without quantified industry impact.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099509554359030127",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-14T14:44:19Z"
+        },
+        {
+          "url": "https://x.com/i/web/status/2099501880129057070",
+          "name": "x.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099509554359030127",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T14:44:19Z"
+        }
+      ],
+      "published_at": "2026-09-14T14:44:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "7fa7518f453248008efa",
+      "headline": "FundaAI counts 50,900 tech roles attributed to AI in six months",
+      "bullets": [
+        "FundaAI says 68% of technology layoffs over the past six months, or about 50,900 roles, were attributed by companies to AI.",
+        "Of the AI-attributed cuts, it assigns 56% to AI doing the work, 28% to freeing money for AI and 1% to customers moving to AI.",
+        "The tracker says total layoffs were down 17% from the preceding six months and interprets the figures as mostly cost-cutting rather than evidence that AI has yet displaced demand."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "Substantive AI labor-market and model-economics dataset, though it is not directly semiconductor-specific.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2099490854297837853",
+          "name": "@fundaai",
+          "published_at": "2026-09-14T13:30:00Z"
+        },
+        {
+          "url": "http://layoffs.fyi/",
+          "name": "layoffs.fyi",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099490854297837853",
+          "handle": "fundaai",
+          "published_at": "2026-09-14T13:30:00Z"
+        }
+      ],
+      "published_at": "2026-09-14T13:30:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "1fa1f409cddd3811a5eb",
+      "headline": "Zephyr warns that enterprise data sovereignty can be expensive to maintain",
+      "bullets": [
+        "The cited commentary says companies seeking data sovereignty may struggle to maintain fine-tuned small models that continually outperform larger general-purpose models.",
+        "It argues that doing so becomes more difficult and expensive while AI capabilities continue to improve rapidly.",
+        "The post presents this as a model-economics concern rather than a reported company action."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "Relevant enterprise-model economics commentary, but it is conceptual and lacks a named company development.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099409622994211119",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-14T08:07:13Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099409622994211119",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T08:07:13Z"
+        }
+      ],
+      "published_at": "2026-09-14T08:07:13Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "b65290e5186e293bc398",
+      "headline": "Demand for proprietary data is supporting more reinforcement-learning activity",
+      "bullets": [
+        "The cited post says a close contact was offered $100,000 for one terabyte of business data.",
+        "It links the reported demand for high-quality data to a likely push for more reinforcement learning.",
+        "The offer is an unverified secondhand claim."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "Relevant model-training economics commentary, but based on a single unverified anecdote.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2099261846096339155",
+          "name": "@fundaai",
+          "published_at": "2026-09-13T22:20:01Z"
+        },
+        {
+          "url": "https://x.com/benitoz/status/2098980939477176707/photo/1",
+          "name": "x.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2099261846096339155",
+          "handle": "fundaai",
+          "published_at": "2026-09-13T22:20:01Z"
+        }
+      ],
+      "published_at": "2026-09-13T22:20:01Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "fde94e4badf3684c190e",
+      "headline": "Ryan says Asian hedge funds are bearish on AI stocks despite long-term conviction",
+      "bullets": [
+        "Ryan says Asian hedge funds were already bearish on AI before the slowdown debate and that wealthy technology investors have been selling because market conditions look unfavorable.",
+        "He says this does not necessarily mean those investors have abandoned their long-term AI view.",
+        "The post is market commentary and does not identify specific transactions or funds."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 51,
+      "priority": "Medium",
+      "score_reason": "Relevant priority-account commentary on AI-investment sentiment, but it lacks named data or independently verifiable fund flows.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/ryanhingshing/status/2099479966207631782",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-14T12:46:45Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099481568381391297",
+          "name": "@ryanhingshing",
+          "published_at": "2026-09-14T12:53:07Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/ryanhingshing/status/2099479966207631782",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-14T12:46:45Z"
+        },
+        {
+          "url": "https://x.com/ryanhingshing/status/2099481568381391297",
+          "handle": "ryanhingshing",
+          "published_at": "2026-09-14T12:53:07Z"
+        }
+      ],
+      "published_at": "2026-09-14T12:53:07Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "fd9da9a5d56c6d9b16e3",
+      "headline": "Shanghao Jin argues frontier models are not yet bottlenecked",
+      "bullets": [
+        "Shanghao Jin says frontier-model progress is not necessarily hitting a capability bottleneck and argues some actors may fear progress moving too quickly.",
+        "He suggests restrictions could be aimed at controlling who has influence over compute and models and at limiting distillation participation.",
+        "These are personal views and do not establish an actual slowdown or policy decision."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Models · China Models",
+      "categories": [
+        "Models",
+        "China Models"
+      ],
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "Substantive but low-confidence commentary on frontier-model progress and control, without named evidence or a concrete company event.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/shanghaojin/status/2099500169935081882",
+          "name": "@shanghaojin",
+          "published_at": "2026-09-14T14:07:01Z"
+        },
+        {
+          "url": "https://x.com/shanghaojin/status/2099477609356972462",
+          "name": "@shanghaojin",
+          "published_at": "2026-09-14T12:37:23Z"
+        },
+        {
+          "url": "https://x.com/shanghaojin/status/2099477622954881078",
+          "name": "@shanghaojin",
+          "published_at": "2026-09-14T12:37:26Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/shanghaojin/status/2099500169935081882",
+          "handle": "shanghaojin",
+          "published_at": "2026-09-14T14:07:01Z"
+        },
+        {
+          "url": "https://x.com/shanghaojin/status/2099477609356972462",
+          "handle": "shanghaojin",
+          "published_at": "2026-09-14T12:37:23Z"
+        },
+        {
+          "url": "https://x.com/shanghaojin/status/2099477622954881078",
+          "handle": "shanghaojin",
+          "published_at": "2026-09-14T12:37:26Z"
+        }
+      ],
+      "published_at": "2026-09-14T14:07:01Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "7da8cdb8cc5ae223972b",
+      "headline": "Zephyr estimates major Chinese AI labs could raise about $60 billion by early 2027",
+      "bullets": [
+        "Zephyr says Zhipu, Moonshot and DeepSeek have raised around $35 billion over the prior four to five months, about seven times their earlier fundraising, and could raise roughly another $25 billion through planned IPOs.",
+        "The post estimates the three labs could raise about $60 billion from May 2026 through January 2027 and says the capital could fund competitive frontier-model development if converted into compute efficiently.",
+        "Zephyr expects Chinese labs to resist a binding limit on training compute, while saying capital conversion into usable compute may take roughly nine months."
+      ],
+      "companies": [
+        {
+          "name": "Zhipu",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Moonshot AI",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "DeepSeek",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 4,
+      "topic": "Compute · Models · China Models · China Supply Chain",
+      "categories": [
+        "Compute",
+        "Models",
+        "China Models",
+        "China Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Large, attributed forecast about Chinese frontier-model financing, compute conversion and pacing; figures are explicitly presented as Zephyr’s estimates.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099429189292327121",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-14T09:24:58Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2099429189292327121",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-14T09:24:58Z"
+        }
+      ],
+      "published_at": "2026-09-14T09:24:58Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T20:39:24Z",
+      "updated_at": "2026-09-14T20:39:24Z",
+      "revision": 1,
+      "source_category": "Twitter"
     }
   ],
   "twitter_window": {
-    "start": "2026-09-13T14:50:37Z",
-    "end": "2026-09-14T14:50:37Z",
-    "weekend_coverage": true
+    "start": "2026-09-13T20:39:24Z",
+    "end": "2026-09-14T20:39:24Z",
+    "weekend_coverage": false
   },
-  "twitter_published_at": "2026-09-14T14:55:09Z"
+  "twitter_published_at": "2026-09-14T20:51:17Z"
 }
