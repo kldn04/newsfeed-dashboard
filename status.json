@@ -1,19 +1,11 @@
 {
-  "state": "idle",
-  "message": "Weibo edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-14T05:38:13Z",
-  "started_at": "2026-09-14T05:24:15Z",
+  "state": "running",
+  "message": "Grok completed X tool operation 1.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-14T14:45:54Z",
+  "started_at": "2026-09-14T14:45:36Z",
   "counts": {
-    "weibo_candidates": 30,
-    "openai_calls": 1,
-    "input_tokens_estimated": 14918,
-    "input_text_shortened": false,
-    "openai_tokens": 22375,
-    "openai_input_tokens": 14451,
-    "openai_output_tokens": 7924,
-    "eligible": 11,
-    "held": 0
+    "grok_search_calls": 1
   },
   "stored_totals": {
     "stories": 124,
@@ -29,84 +21,16 @@
   },
   "events": [
     {
-      "at": "2026-09-14T05:32:27Z",
-      "message": "Weibo: Trendforce集邦咨询 — 4 posts in five-day window, 0 new."
+      "at": "2026-09-14T14:45:36Z",
+      "message": "Starting a Twitter-only refresh."
     },
     {
-      "at": "2026-09-14T05:32:27Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
+      "at": "2026-09-14T14:45:36Z",
+      "message": "Checking the watched accounts through Grok X Search."
     },
     {
-      "at": "2026-09-14T05:32:43Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
-    },
-    {
-      "at": "2026-09-14T05:34:13Z",
-      "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
-    },
-    {
-      "at": "2026-09-14T05:34:13Z",
-      "message": "Weibo: 数码王小机 — 10 posts in five-day window, 8 new."
-    },
-    {
-      "at": "2026-09-14T05:34:13Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
-    },
-    {
-      "at": "2026-09-14T05:34:27Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
-    },
-    {
-      "at": "2026-09-14T05:34:42Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
-    },
-    {
-      "at": "2026-09-14T05:34:54Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-09-14T05:35:15Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T05:35:30Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T05:35:47Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T05:36:01Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T05:36:17Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T05:36:39Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T05:36:59Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-14T05:38:11Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-14T05:38:11Z",
-      "message": "Batch complete: 11 stories ready."
-    },
-    {
-      "at": "2026-09-14T05:38:11Z",
-      "message": "Publishing Weibo stories."
-    },
-    {
-      "at": "2026-09-14T05:38:13Z",
-      "message": "Weibo edition published."
+      "at": "2026-09-14T14:45:49Z",
+      "message": "Grok completed X tool operation 1."
     }
   ]
 }
