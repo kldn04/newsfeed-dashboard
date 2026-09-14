@@ -1,15 +1,11 @@
 {
-  "state": "failed",
-  "message": "Twitter-only refresh stopped (RuntimeError).",
-  "stage": "failed",
-  "updated_at": "2026-09-14T14:48:51Z",
-  "started_at": "2026-09-14T14:45:36Z",
+  "state": "running",
+  "message": "Grok completed X tool operation 4.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-14T14:51:04Z",
+  "started_at": "2026-09-14T14:50:37Z",
   "counts": {
-    "grok_search_calls": 16,
-    "grok_tokens": 233591,
-    "grok_input_tokens": 222487,
-    "grok_output_tokens": 11104,
-    "grok_cost_usd": 0.503004
+    "grok_search_calls": 4
   },
   "stored_totals": {
     "stories": 124,
@@ -25,84 +21,28 @@
   },
   "events": [
     {
-      "at": "2026-09-14T14:45:36Z",
+      "at": "2026-09-14T14:50:37Z",
+      "message": "Starting a Twitter-only refresh."
+    },
+    {
+      "at": "2026-09-14T14:50:37Z",
       "message": "Checking the watched accounts through Grok X Search."
     },
     {
-      "at": "2026-09-14T14:45:49Z",
+      "at": "2026-09-14T14:50:51Z",
       "message": "Grok completed X tool operation 1."
     },
     {
-      "at": "2026-09-14T14:45:55Z",
+      "at": "2026-09-14T14:50:56Z",
       "message": "Grok completed X tool operation 2."
     },
     {
-      "at": "2026-09-14T14:46:00Z",
+      "at": "2026-09-14T14:51:00Z",
       "message": "Grok completed X tool operation 3."
     },
     {
-      "at": "2026-09-14T14:46:07Z",
+      "at": "2026-09-14T14:51:04Z",
       "message": "Grok completed X tool operation 4."
-    },
-    {
-      "at": "2026-09-14T14:46:10Z",
-      "message": "Grok completed X tool operation 5."
-    },
-    {
-      "at": "2026-09-14T14:46:13Z",
-      "message": "Grok completed X tool operation 6."
-    },
-    {
-      "at": "2026-09-14T14:46:17Z",
-      "message": "Grok completed X tool operation 7."
-    },
-    {
-      "at": "2026-09-14T14:46:21Z",
-      "message": "Grok completed X tool operation 8."
-    },
-    {
-      "at": "2026-09-14T14:46:26Z",
-      "message": "Grok completed X tool operation 9."
-    },
-    {
-      "at": "2026-09-14T14:46:29Z",
-      "message": "Grok completed X tool operation 10."
-    },
-    {
-      "at": "2026-09-14T14:46:34Z",
-      "message": "Grok completed X tool operation 11."
-    },
-    {
-      "at": "2026-09-14T14:46:39Z",
-      "message": "Grok completed X tool operation 12."
-    },
-    {
-      "at": "2026-09-14T14:46:41Z",
-      "message": "Grok completed X tool operation 13."
-    },
-    {
-      "at": "2026-09-14T14:46:44Z",
-      "message": "Grok completed X tool operation 14."
-    },
-    {
-      "at": "2026-09-14T14:46:49Z",
-      "message": "Grok completed X tool operation 15."
-    },
-    {
-      "at": "2026-09-14T14:46:59Z",
-      "message": "Grok completed X tool operation 16."
-    },
-    {
-      "at": "2026-09-14T14:48:51Z",
-      "message": "Grok search response received."
-    },
-    {
-      "at": "2026-09-14T14:48:51Z",
-      "message": "Grok X Search is paused or unavailable; no alternative X provider is used."
-    },
-    {
-      "at": "2026-09-14T14:48:51Z",
-      "message": "Twitter-only refresh stopped (RuntimeError)."
     }
   ]
 }
