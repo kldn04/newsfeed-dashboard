@@ -1,11 +1,11 @@
 {
   "state": "running",
-  "message": "Weibo: fetching 数码闲聊站, page 2.",
+  "message": "Weibo: fetching 智慧芯片案内人, page 2.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-14T21:45:40Z",
+  "updated_at": "2026-09-14T21:46:10Z",
   "started_at": "2026-09-14T21:43:41Z",
   "counts": {
-    "weibo_candidates": 0
+    "weibo_candidates": 5
   },
   "stored_totals": {
     "stories": 241,
@@ -39,6 +39,22 @@
     {
       "at": "2026-09-14T21:44:24Z",
       "message": "Weibo: fetching 数码闲聊站, page 2."
+    },
+    {
+      "at": "2026-09-14T21:45:54Z",
+      "message": "Weibo: fetch failed for 数码闲聊站 (ReadTimeout)."
+    },
+    {
+      "at": "2026-09-14T21:45:54Z",
+      "message": "Weibo: 数码闲聊站 — 9 posts in collection window, 5 new."
+    },
+    {
+      "at": "2026-09-14T21:45:54Z",
+      "message": "Weibo: fetching 智慧芯片案内人, page 1."
+    },
+    {
+      "at": "2026-09-14T21:46:06Z",
+      "message": "Weibo: fetching 智慧芯片案内人, page 2."
     }
   ]
 }
