@@ -1,19 +1,24 @@
 {
-  "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-14T05:37:58Z",
+  "state": "idle",
+  "message": "Weibo edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-14T05:38:13Z",
   "started_at": "2026-09-14T05:24:15Z",
   "counts": {
     "weibo_candidates": 30,
     "openai_calls": 1,
     "input_tokens_estimated": 14918,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 22375,
+    "openai_input_tokens": 14451,
+    "openai_output_tokens": 7924,
+    "eligible": 11,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 113,
+    "stories": 124,
     "evidence": 465,
-    "model_cache": 43,
+    "model_cache": 44,
     "reviews": 77
   },
   "review_categories": {
@@ -23,22 +28,6 @@
     "Editorial exclusions": 69
   },
   "events": [
-    {
-      "at": "2026-09-14T05:31:59Z",
-      "message": "Weibo: 芯智讯官微 — 10 posts in five-day window, 4 new."
-    },
-    {
-      "at": "2026-09-14T05:31:59Z",
-      "message": "Weibo: fetching 电子工程专辑, page 1."
-    },
-    {
-      "at": "2026-09-14T05:32:15Z",
-      "message": "Weibo: 电子工程专辑 — 0 posts in five-day window, 0 new."
-    },
-    {
-      "at": "2026-09-14T05:32:15Z",
-      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
-    },
     {
       "at": "2026-09-14T05:32:27Z",
       "message": "Weibo: Trendforce集邦咨询 — 4 posts in five-day window, 0 new."
@@ -102,6 +91,22 @@
     {
       "at": "2026-09-14T05:36:59Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-14T05:38:11Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-14T05:38:11Z",
+      "message": "Batch complete: 11 stories ready."
+    },
+    {
+      "at": "2026-09-14T05:38:11Z",
+      "message": "Publishing Weibo stories."
+    },
+    {
+      "at": "2026-09-14T05:38:13Z",
+      "message": "Weibo edition published."
     }
   ]
 }
