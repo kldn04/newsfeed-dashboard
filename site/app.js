@@ -85,6 +85,8 @@ function diagnosticVisibility(){const visible=state.view==='diagnostics';$('diag
 const numeric=value=>Number.isFinite(value)?value.toLocaleString():'—';
 const money=value=>Number.isFinite(value)?'$'+value.toFixed(4):'Unavailable';
 function renderDiagnostics(data){
+  const openRuns=new Set([...document.querySelectorAll('.diag-card[data-run][open]')].map(el=>el.dataset.run));
+  const logPositions=new Map([...document.querySelectorAll('.diag-card[data-run]')].map(el=>[el.dataset.run,el.querySelector('.diag-log ol')?.scrollTop||0]));
   const runs=data.runs||[];
   if(!runs.length){$('diagnostics').innerHTML='<div class="diag-card"><h2>Ready for the next run</h2><p>Detailed fetch logs and usage will appear when collection starts. Earlier runs were not recorded in this format.</p></div>';return;}
   $('diagnostics').innerHTML='<p class="diag-note">USD estimates, not invoices. Reasoning tokens are part of output, not an extra token total. Bright Data costs require account billing. Logs contain collection events; credentials and server identifiers are removed.</p>'+[...runs].reverse().map((run,index)=>{
@@ -94,11 +96,13 @@ function renderDiagnostics(data){
     if(fetches.length)rows.push({provider:'Bright Data',component:'Fetches',requests:fetches.reduce((s,u)=>s+(u.requests||0),0),cost_usd:null,cost_basis:'Billing total unavailable through fetch responses.'});
     const known=rows.reduce((s,u)=>s+(Number.isFinite(u.cost_usd)?u.cost_usd:0),0);
     const events=run.events||[];
-    return `<details class="diag-card" ${index===0?'open':''}><summary><span>${esc(run.kind)}<small>${esc(dates.format(new Date(run.started_at)))} · ${esc(times.format(new Date(run.started_at)))} UK</small></span><span class="diag-badge">${esc(run.stage||'starting')}</span></summary>
+    return `<details class="diag-card" data-run="${esc(run.started_at)}" ${openRuns.has(run.started_at)||(!openRuns.size&&index===0)?'open':''}><summary><span>${esc(run.kind)}<small>${esc(dates.format(new Date(run.started_at)))} · ${esc(times.format(new Date(run.started_at)))} UK</small></span><span class="diag-badge">${esc(run.stage||'starting')}</span></summary>
       <div class="diag-metrics"><div><small>OPENAI INPUT</small><strong>${numeric(models.reduce((s,u)=>s+(u.input_tokens||0),0))}</strong></div><div><small>OPENAI OUTPUT</small><strong>${numeric(models.reduce((s,u)=>s+(u.output_tokens||0),0))}</strong></div><div><small>KNOWN ESTIMATED COST</small><strong>${rows.some(u=>Number.isFinite(u.cost_usd))?money(known):'Pending'}</strong><small>excludes unavailable charges</small></div></div>
       <div class="diag-table-wrap"><table><caption>Provider usage</caption><thead><tr><th>Component</th><th>Input</th><th>Output</th><th>Reasoning</th><th>Cached / written</th><th>Requests / posts</th><th>Est. USD</th></tr></thead><tbody>${rows.map(u=>`<tr><th>${esc(u.provider)}<small>${esc(u.component)}</small></th><td>${numeric(u.input_tokens)}</td><td>${numeric(u.output_tokens)}</td><td>${numeric(u.reasoning_tokens)}</td><td>${numeric(u.cached_tokens)} / ${numeric(u.cache_write_tokens)}</td><td>${numeric(u.requests)} / ${numeric(u.post_resources)}</td><td title="${esc(u.cost_basis)}">${money(u.cost_usd)}</td></tr>`).join('')||'<tr><td colspan="7">Collection in progress; usage appears as requests finish.</td></tr>'}</tbody></table></div>
       <details class="diag-log" open><summary>Fetch and processing log · ${events.length} events</summary><ol>${events.map(e=>`<li><time>${esc(times.format(new Date(e.at)))}</time><span>${esc(e.message)}</span></li>`).join('')}</ol></details></details>`;
   }).join('');
+  document.querySelectorAll('.diag-card[data-run]').forEach(el=>{const log=el.querySelector('.diag-log ol');if(log)log.scrollTop=logPositions.get(el.dataset.run)||0;});
+  const latest=runs[runs.length-1];$('status-text').textContent='Collection '+times.format(new Date(latest.updated_at))+' UK';
 }
 async function loadDiagnostics(){if(state.view!=='diagnostics')return;try{const r=await fetch('https://raw.githubusercontent.com/kldn04/newsfeed-dashboard/collection-status/diagnostics.json?t='+Math.floor(Date.now()/30000),{cache:'no-store'});if(r.status===404){renderDiagnostics({runs:[]});return;}if(!r.ok)throw Error();renderDiagnostics(await r.json());}catch{$('diagnostics').innerHTML='<div class="diag-card"><h2>Diagnostics temporarily unavailable</h2><p>Retrying in 30 seconds. The published stories remain available.</p></div>';}}
 setInterval(loadDiagnostics,30000);
