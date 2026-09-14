@@ -1,11 +1,11 @@
 {
   "state": "running",
-  "message": "Weibo: fetching 芯智讯官微, page 2.",
+  "message": "Weibo: fetching Trendforce集邦咨询, page 1.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-14T05:31:54Z",
+  "updated_at": "2026-09-14T05:32:25Z",
   "started_at": "2026-09-14T05:24:15Z",
   "counts": {
-    "weibo_candidates": 18
+    "weibo_candidates": 22
   },
   "stored_totals": {
     "stories": 113,
@@ -20,22 +20,6 @@
     "Editorial exclusions": 69
   },
   "events": [
-    {
-      "at": "2026-09-14T05:24:15Z",
-      "message": "Starting the separate Weibo collection."
-    },
-    {
-      "at": "2026-09-14T05:24:15Z",
-      "message": "Weibo: fetching 手机晶片达人, page 1."
-    },
-    {
-      "at": "2026-09-14T05:24:32Z",
-      "message": "Weibo: 手机晶片达人 — 2 posts in five-day window, 0 new."
-    },
-    {
-      "at": "2026-09-14T05:24:32Z",
-      "message": "Weibo: fetching 数码闲聊站, page 1."
-    },
     {
       "at": "2026-09-14T05:24:54Z",
       "message": "Weibo: fetching 数码闲聊站, page 2."
@@ -95,6 +79,26 @@
     {
       "at": "2026-09-14T05:30:28Z",
       "message": "Weibo: fetching 芯智讯官微, page 2."
+    },
+    {
+      "at": "2026-09-14T05:31:59Z",
+      "message": "Weibo: fetch failed for 芯智讯官微 (ReadTimeout)."
+    },
+    {
+      "at": "2026-09-14T05:31:59Z",
+      "message": "Weibo: 芯智讯官微 — 10 posts in five-day window, 4 new."
+    },
+    {
+      "at": "2026-09-14T05:31:59Z",
+      "message": "Weibo: fetching 电子工程专辑, page 1."
+    },
+    {
+      "at": "2026-09-14T05:32:15Z",
+      "message": "Weibo: 电子工程专辑 — 0 posts in five-day window, 0 new."
+    },
+    {
+      "at": "2026-09-14T05:32:15Z",
+      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
     }
   ]
 }
