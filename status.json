@@ -1,29 +1,29 @@
 {
-  "state": "running",
-  "message": "Grok completed X tool operation 16.",
-  "stage": "x_discovery",
-  "updated_at": "2026-09-14T14:48:29Z",
+  "state": "failed",
+  "message": "Twitter-only refresh stopped (RuntimeError).",
+  "stage": "failed",
+  "updated_at": "2026-09-14T14:48:51Z",
   "started_at": "2026-09-14T14:45:36Z",
   "counts": {
-    "grok_search_calls": 16
+    "grok_search_calls": 16,
+    "grok_tokens": 233591,
+    "grok_input_tokens": 222487,
+    "grok_output_tokens": 11104,
+    "grok_cost_usd": 0.503004
   },
   "stored_totals": {
     "stories": 124,
     "evidence": 465,
     "model_cache": 44,
-    "reviews": 77
+    "reviews": 78
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 69
+    "Editorial exclusions": 70
   },
   "events": [
-    {
-      "at": "2026-09-14T14:45:36Z",
-      "message": "Starting a Twitter-only refresh."
-    },
     {
       "at": "2026-09-14T14:45:36Z",
       "message": "Checking the watched accounts through Grok X Search."
@@ -91,6 +91,18 @@
     {
       "at": "2026-09-14T14:46:59Z",
       "message": "Grok completed X tool operation 16."
+    },
+    {
+      "at": "2026-09-14T14:48:51Z",
+      "message": "Grok search response received."
+    },
+    {
+      "at": "2026-09-14T14:48:51Z",
+      "message": "Grok X Search is paused or unavailable; no alternative X provider is used."
+    },
+    {
+      "at": "2026-09-14T14:48:51Z",
+      "message": "Twitter-only refresh stopped (RuntimeError)."
     }
   ]
 }
