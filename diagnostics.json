@@ -7853,6 +7853,11 @@
           "at": "2026-09-14T21:56:40Z",
           "stage": "publishing",
           "message": "Publishing Weibo stories."
+        },
+        {
+          "at": "2026-09-14T21:56:42Z",
+          "stage": "complete",
+          "message": "Weibo edition published."
         }
       ],
       "usage": [
@@ -8037,8 +8042,57 @@
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-14T21:56:40Z",
-      "stage": "publishing"
+      "updated_at": "2026-09-14T21:56:42Z",
+      "stage": "complete"
+    },
+    {
+      "started_at": "2026-09-14T21:56:43Z",
+      "kind": "Web + Twitter",
+      "events": [
+        {
+          "at": "2026-09-14T21:56:43Z",
+          "stage": "starting",
+          "message": "Starting local publication repair from saved responses. No provider requests."
+        },
+        {
+          "at": "2026-09-14T21:56:43Z",
+          "stage": "validation",
+          "message": "Batch complete: 72 stories ready."
+        },
+        {
+          "at": "2026-09-14T21:56:43Z",
+          "stage": "validation",
+          "message": "Batch complete: 67 stories ready."
+        },
+        {
+          "at": "2026-09-14T21:56:43Z",
+          "stage": "usage",
+          "message": "Saved responses reprocessed locally; original token costs remain in the earlier collection entry."
+        },
+        {
+          "at": "2026-09-14T21:56:43Z",
+          "stage": "publishing",
+          "message": "Publishing the locally repaired main and Twitter editions."
+        },
+        {
+          "at": "2026-09-14T21:56:46Z",
+          "stage": "complete",
+          "message": "Main and Twitter editions published from saved responses; no additional API calls."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "OpenAI",
+          "component": "Saved response replay — no API call",
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "reasoning_tokens": 0,
+          "cost_usd": 0,
+          "cost_basis": "No new provider requests."
+        }
+      ],
+      "updated_at": "2026-09-14T21:56:46Z",
+      "stage": "complete"
     }
   ]
 }
