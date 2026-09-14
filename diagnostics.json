@@ -7833,6 +7833,26 @@
           "at": "2026-09-14T21:55:49Z",
           "stage": "summarising",
           "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-14T21:56:39Z",
+          "stage": "usage",
+          "message": "Weibo OpenAI response received."
+        },
+        {
+          "at": "2026-09-14T21:56:39Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-14T21:56:39Z",
+          "stage": "validation",
+          "message": "Batch complete: 11 stories ready."
+        },
+        {
+          "at": "2026-09-14T21:56:40Z",
+          "stage": "publishing",
+          "message": "Publishing Weibo stories."
         }
       ],
       "usage": [
@@ -8003,10 +8023,22 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Weibo",
+          "model": "gpt-5.6-luna",
+          "input_tokens": 12903,
+          "output_tokens": 6113,
+          "reasoning_tokens": 4474,
+          "cached_tokens": 0,
+          "cache_write_tokens": 12900,
+          "cost_usd": 0.0105612,
+          "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-14T21:55:49Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-14T21:56:40Z",
+      "stage": "publishing"
     }
   ]
 }
