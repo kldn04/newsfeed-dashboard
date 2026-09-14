@@ -1,8 +1,8 @@
 {
   "state": "idle",
-  "message": "Twitter-only refresh published.",
-  "stage": "complete",
-  "updated_at": "2026-09-14T14:55:13Z",
+  "message": "Twitter API: @sean_________ returned 1 posts.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-14T20:39:29Z",
   "started_at": "2026-09-14T14:50:37Z",
   "counts": {
     "grok_search_calls": 17,
@@ -10,7 +10,7 @@
     "grok_input_tokens": 217781,
     "grok_output_tokens": 10353,
     "grok_cost_usd": 0.564648,
-    "x_candidates": 24,
+    "x_candidates": 158,
     "x_rejected": 0,
     "openai_calls": 1,
     "input_tokens_estimated": 21010,
@@ -19,11 +19,13 @@
     "openai_input_tokens": 20220,
     "openai_output_tokens": 9584,
     "eligible": 14,
-    "held": 0
+    "held": 0,
+    "twitter_api_requests": 12,
+    "twitter_posts_fetched": 250
   },
   "stored_totals": {
     "stories": 138,
-    "evidence": 489,
+    "evidence": 634,
     "model_cache": 46,
     "reviews": 78
   },
@@ -35,84 +37,84 @@
   },
   "events": [
     {
-      "at": "2026-09-14T14:51:11Z",
-      "message": "Grok completed X tool operation 5."
+      "at": "2026-09-14T20:39:25Z",
+      "message": "Twitter API: fetching @dnystedt in the requested window."
     },
     {
-      "at": "2026-09-14T14:51:17Z",
-      "message": "Grok completed X tool operation 6."
+      "at": "2026-09-14T20:39:26Z",
+      "message": "Twitter API: @dnystedt returned 13 posts."
     },
     {
-      "at": "2026-09-14T14:51:22Z",
-      "message": "Grok completed X tool operation 7."
+      "at": "2026-09-14T20:39:26Z",
+      "message": "Twitter API: fetching @pequityresearch in the requested window."
     },
     {
-      "at": "2026-09-14T14:51:24Z",
-      "message": "Grok completed X tool operation 8."
+      "at": "2026-09-14T20:39:26Z",
+      "message": "Twitter API: @pequityresearch returned 43 posts."
     },
     {
-      "at": "2026-09-14T14:51:28Z",
-      "message": "Grok completed X tool operation 9."
+      "at": "2026-09-14T20:39:26Z",
+      "message": "Twitter API: fetching @intelfabs in the requested window."
     },
     {
-      "at": "2026-09-14T14:51:32Z",
-      "message": "Grok completed X tool operation 10."
+      "at": "2026-09-14T20:39:26Z",
+      "message": "Twitter API: @intelfabs returned 7 posts."
     },
     {
-      "at": "2026-09-14T14:51:35Z",
-      "message": "Grok completed X tool operation 11."
+      "at": "2026-09-14T20:39:26Z",
+      "message": "Twitter API: fetching @ryanhingshing in the requested window."
     },
     {
-      "at": "2026-09-14T14:51:42Z",
-      "message": "Grok completed X tool operation 12."
+      "at": "2026-09-14T20:39:27Z",
+      "message": "Twitter API: @ryanhingshing returned 28 posts."
     },
     {
-      "at": "2026-09-14T14:51:46Z",
-      "message": "Grok completed X tool operation 13."
+      "at": "2026-09-14T20:39:27Z",
+      "message": "Twitter API: fetching @sssjeffpu in the requested window."
     },
     {
-      "at": "2026-09-14T14:51:51Z",
-      "message": "Grok completed X tool operation 14."
+      "at": "2026-09-14T20:39:27Z",
+      "message": "Twitter API: @sssjeffpu returned 3 posts."
     },
     {
-      "at": "2026-09-14T14:51:54Z",
-      "message": "Grok completed X tool operation 15."
+      "at": "2026-09-14T20:39:27Z",
+      "message": "Twitter API: fetching @zartbotf in the requested window."
     },
     {
-      "at": "2026-09-14T14:51:56Z",
-      "message": "Grok completed X tool operation 16."
+      "at": "2026-09-14T20:39:28Z",
+      "message": "Twitter API: @zartbotf returned 0 posts."
     },
     {
-      "at": "2026-09-14T14:52:00Z",
-      "message": "Grok completed X tool operation 17."
+      "at": "2026-09-14T20:39:28Z",
+      "message": "Twitter API: fetching @fundaai in the requested window."
     },
     {
-      "at": "2026-09-14T14:53:40Z",
-      "message": "Grok search response received."
+      "at": "2026-09-14T20:39:28Z",
+      "message": "Twitter API: @fundaai returned 11 posts."
     },
     {
-      "at": "2026-09-14T14:53:40Z",
-      "message": "Twitter: 24 posts accepted; 0 rejected by local checks."
+      "at": "2026-09-14T20:39:28Z",
+      "message": "Twitter API: fetching @shanghaojin in the requested window."
     },
     {
-      "at": "2026-09-14T14:53:41Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-09-14T20:39:28Z",
+      "message": "Twitter API: @shanghaojin returned 21 posts."
     },
     {
-      "at": "2026-09-14T14:55:09Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-09-14T20:39:28Z",
+      "message": "Twitter API: fetching @mingchikuo in the requested window."
     },
     {
-      "at": "2026-09-14T14:55:09Z",
-      "message": "Batch complete: 14 stories ready."
+      "at": "2026-09-14T20:39:29Z",
+      "message": "Twitter API: @mingchikuo returned 0 posts."
     },
     {
-      "at": "2026-09-14T14:55:09Z",
-      "message": "Publishing Twitter-only results."
+      "at": "2026-09-14T20:39:29Z",
+      "message": "Twitter API: fetching @sean_________ in the requested window."
     },
     {
-      "at": "2026-09-14T14:55:13Z",
-      "message": "Twitter-only refresh published."
+      "at": "2026-09-14T20:39:29Z",
+      "message": "Twitter API: @sean_________ returned 1 posts."
     }
   ]
 }
