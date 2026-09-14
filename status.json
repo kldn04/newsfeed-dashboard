@@ -1,8 +1,8 @@
 {
-  "state": "running",
-  "message": "Publishing Twitter-only results.",
-  "stage": "publishing",
-  "updated_at": "2026-09-14T14:55:12Z",
+  "state": "idle",
+  "message": "Twitter-only refresh published.",
+  "stage": "complete",
+  "updated_at": "2026-09-14T14:55:13Z",
   "started_at": "2026-09-14T14:50:37Z",
   "counts": {
     "grok_search_calls": 17,
@@ -34,10 +34,6 @@
     "Editorial exclusions": 70
   },
   "events": [
-    {
-      "at": "2026-09-14T14:51:04Z",
-      "message": "Grok completed X tool operation 4."
-    },
     {
       "at": "2026-09-14T14:51:11Z",
       "message": "Grok completed X tool operation 5."
@@ -113,6 +109,10 @@
     {
       "at": "2026-09-14T14:55:09Z",
       "message": "Publishing Twitter-only results."
+    },
+    {
+      "at": "2026-09-14T14:55:13Z",
+      "message": "Twitter-only refresh published."
     }
   ]
 }
