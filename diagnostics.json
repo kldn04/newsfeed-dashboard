@@ -7438,6 +7438,46 @@
           "at": "2026-09-14T21:44:24Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:45:54Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-09-14T21:45:54Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 数码闲聊站 (ReadTimeout)."
+        },
+        {
+          "at": "2026-09-14T21:45:54Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码闲聊站 — 9 posts in collection window, 5 new."
+        },
+        {
+          "at": "2026-09-14T21:45:54Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 1."
+        },
+        {
+          "at": "2026-09-14T21:45:55Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:46:06Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 51360 bytes, 11.6s."
+        },
+        {
+          "at": "2026-09-14T21:46:06Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 2."
+        },
+        {
+          "at": "2026-09-14T21:46:07Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -7454,9 +7494,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-14T21:44:24Z",
+      "updated_at": "2026-09-14T21:46:07Z",
       "stage": "weibo_discovery"
     }
   ]
