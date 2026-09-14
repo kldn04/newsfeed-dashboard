@@ -1,22 +1,17 @@
 {
-  "state": "running",
-  "message": "Publishing Weibo stories.",
-  "stage": "publishing",
-  "updated_at": "2026-09-14T21:56:40Z",
-  "started_at": "2026-09-14T21:43:41Z",
+  "state": "idle",
+  "message": "Main and Twitter editions published from saved responses; no additional API calls.",
+  "stage": "complete",
+  "updated_at": "2026-09-14T21:56:46Z",
+  "started_at": "2026-09-14T21:56:43Z",
   "counts": {
-    "weibo_candidates": 26,
-    "openai_calls": 1,
-    "input_tokens_estimated": 13351,
-    "input_text_shortened": false,
-    "openai_tokens": 19016,
-    "openai_input_tokens": 12903,
-    "openai_output_tokens": 6113,
-    "eligible": 11,
-    "held": 0
+    "eligible": 72,
+    "held": 0,
+    "openai_calls": 0,
+    "twitter_stories": 67
   },
   "stored_totals": {
-    "stories": 252,
+    "stories": 322,
     "evidence": 890,
     "model_cache": 50,
     "reviews": 194
@@ -29,84 +24,24 @@
   },
   "events": [
     {
-      "at": "2026-09-14T21:51:57Z",
-      "message": "Weibo: Trendforce集邦咨询 — 1 posts in collection window, 1 new."
+      "at": "2026-09-14T21:56:43Z",
+      "message": "Starting local publication repair from saved responses. No provider requests."
     },
     {
-      "at": "2026-09-14T21:51:57Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
+      "at": "2026-09-14T21:56:43Z",
+      "message": "Batch complete: 72 stories ready."
     },
     {
-      "at": "2026-09-14T21:52:11Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
+      "at": "2026-09-14T21:56:43Z",
+      "message": "Batch complete: 67 stories ready."
     },
     {
-      "at": "2026-09-14T21:53:41Z",
-      "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
+      "at": "2026-09-14T21:56:43Z",
+      "message": "Publishing the locally repaired main and Twitter editions."
     },
     {
-      "at": "2026-09-14T21:53:41Z",
-      "message": "Weibo: 数码王小机 — 10 posts in collection window, 7 new."
-    },
-    {
-      "at": "2026-09-14T21:53:41Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
-    },
-    {
-      "at": "2026-09-14T21:53:55Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T21:54:12Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T21:54:29Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T21:54:43Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T21:54:57Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T21:54:58Z",
-      "message": "Weibo: full text unavailable; retaining the labelled preview."
-    },
-    {
-      "at": "2026-09-14T21:54:58Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-14T21:55:09Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-14T21:55:24Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-14T21:55:38Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-14T21:55:49Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-14T21:56:39Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-14T21:56:39Z",
-      "message": "Batch complete: 11 stories ready."
-    },
-    {
-      "at": "2026-09-14T21:56:40Z",
-      "message": "Publishing Weibo stories."
+      "at": "2026-09-14T21:56:46Z",
+      "message": "Main and Twitter editions published from saved responses; no additional API calls."
     }
   ]
 }
