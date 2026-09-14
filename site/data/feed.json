@@ -296,6 +296,63 @@
   ],
   "stories": [
     {
+      "id": "faa26eb3101ac9613f49",
+      "headline": "Murata expects MLCC demand to remain strong through 2028",
+      "bullets": [
+        "A Weibo post summarizing a Murata article says MLCC demand could remain strong through at least 2028.",
+        "The post says Murata plans substantial capacity expansion."
+      ],
+      "companies": [
+        {
+          "name": "Murata",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Supply Chain",
+      "categories": [
+        "Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "A multi-year MLCC demand outlook and planned expansion could affect a major electronics component supply chain, although the supplied post provides limited detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343031553426793",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-14T04:50:54Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T04:50:54Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343031553426793",
+          "published_at": "2026-09-14T04:50:54Z",
+          "original_text": "发布了文章 《村田副社长：MLCC至少旺到2028年，拟“大胆”扩产！》 村田副社长：MLCC至少旺到2028年，拟“大胆”扩产！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343031553426793",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "033168ca148d7407c950",
       "headline": "Analysts raise 2026 CSP capital-expenditure forecast to US$785.7 billion",
       "bullets": [
@@ -776,6 +833,65 @@
       "revision": 1
     },
     {
+      "id": "d00a0291dc5a4c896dfb",
+      "headline": "TSMC reportedly plans further 2nm and 3nm capacity expansion",
+      "bullets": [
+        "The Weibo author relays Taiwanese-media figures projecting 3nm capacity of 180,000 wafers by the end of 2026 and 210,000 by mid-2027.",
+        "The same post projects 2nm capacity of 90,000 wafers by the end of 2026 and 110,000 by mid-2027.",
+        "It says TSMC’s 2026 capital spending will be $60 billion to $64 billion, with 70% to 80% allocated to advanced processes; the figures are unverified in the supplied post."
+      ],
+      "companies": [
+        {
+          "name": "TSMC",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Supply Chain"
+      ],
+      "importance": 88,
+      "priority": "Critical",
+      "score_reason": "Potentially material leading-edge foundry capacity expansion and capital spending, but the figures are secondhand and unverified.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343012709728321",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-14T03:36:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T03:36:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343012709728321",
+          "published_at": "2026-09-14T03:36:00Z",
+          "original_text": "台媒消息，台积电透露2nm和3nm的扩产计划。 - 3nm，26年底18万片，27年中达到21万片 - 2nm，26年底9万片，27年中达到11万片 台积电2026年资本支出为600亿美元-640亿美元，其中约70％至80％用于先进制程。根据以往商用的经验，台积的先进制程节点的峰值产能在18万片左右。2207年3nm的产能可能是新制程节点的历史最高产能。",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343012709728321",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "8da16973e37fd12a7a01",
       "headline": "Unigroup Guoxin proposes RMB1.9 billion acquisition of Ruineng Semiconductor",
       "bullets": [
@@ -867,6 +983,174 @@
       "revision": 1
     },
     {
+      "id": "0a4473eb726b0cafaa2d",
+      "headline": "Shanghai Bopu unveils a silicon-photonic OCS switch portfolio",
+      "bullets": [
+        "Jiwei.net reports that Shanghai Bopu Semiconductor displayed silicon-photonic optical circuit switches at CIOE 2026 on September 10.",
+        "The portfolio covers 8x8 through 32x32 configurations and is designed for high-speed all-optical interconnection between GPUs.",
+        "The post attributes internationally leading insertion-loss, crosstalk-suppression and switching-speed performance to the products."
+      ],
+      "companies": [
+        {
+          "name": "Shanghai Bopu Semiconductor Technology",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "The reported optical-interconnect portfolio addresses GPU networking and a potentially important AI infrastructure bottleneck.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343008318554155",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-14T03:18:33Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T03:18:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343008318554155",
+          "published_at": "2026-09-14T03:18:33Z",
+          "original_text": "【 #国产硅光OCS正式亮相，性能指标达国际领先水平# 】 #国产硅光OCS# 深圳，2026年9月10日，在 #第27届中国国际光电博览会# （CIOE 2026）现场，上海孛璞半导体技术有限公司（以下简称“孛璞半导体”）正式发布全系列硅光OCS全光交换机产品矩阵，覆盖8x8至32x32全规模产品。该系列产品在插入损耗、串扰抑制、切换速度等关键性能指标上达到国际领先水平，可实现GPU间高速全光互联。这是国产硅光OCS技术首次在CIOE光博会上实现全系列规模化展示，标志着我国在AI算力光互联核心器件领域取得重大突破。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343008318554155",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/00221ubBly1ih3150wltsj60s30imk9p02.jpg"
+          ],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "c5f4da30ceeaf1b8fea6",
+      "headline": "Jiwei.net argues AI security could create incremental chip demand",
+      "bullets": [
+        "Jiwei.net’s summary says the demand rationale for AI security is credible, but its commercial path has not yet been validated.",
+        "It cautions that the success of AI programming cannot simply be extrapolated to AI security.",
+        "The summary argues that AI security could nevertheless generate incremental demand for AI chips."
+      ],
+      "companies": [],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 56,
+      "priority": "Medium",
+      "score_reason": "The post provides substantive AI application and chip-demand analysis, but explicitly presents an unvalidated commercial outlook.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343006809129997",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-14T03:12:34Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T03:12:34Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343006809129997",
+          "published_at": "2026-09-14T03:12:34Z",
+          "original_text": "【 #网络安全有望成为AI的下一个应用风口# ？】 #网络安全# 核心观点一：需求逻辑成立，但商业化路径尚未验证 核心观点二：AI编程的成功不能简单外推到AI安全 核心观点三：对AI芯片行业，AI安全是增量需求 网络安全有望成为AI的下一个应用风口？",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343006809129997",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/00221ubBly1ih30yt0zkaj60p00gok5j02.jpg"
+          ],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "5ec7902c8a777392b3c0",
+      "headline": "Weibo author touts a new smartphone touch-control chip",
+      "bullets": [
+        "The Weibo author says a next-generation self-developed touch-control chip reaches a 520 Hz multi-touch sampling rate.",
+        "The post also claims a new high-precision gyroscope reaches 800 Hz and was tuned with mobile FPS studios and professional esports players.",
+        "The author describes both figures as industry-leading and says the gyroscope specification exceeds that of a PlayStation 5 controller."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "A self-developed touch-control chip and high-rate sensor platform are relevant smartphone silicon developments, but the performance claims are unverified.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343006760635044",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-14T03:12:23Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T03:12:23Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343006760635044",
+          "published_at": "2026-09-14T03:12:23Z",
+          "original_text": "咳咳，加加16的操控又是往前卷了一大步： 落地新一代自研灵犀触控芯片，多指采样率做到了 520Hz，行业最高 首发新一代高精度大师陀螺仪，采样率首次干到了800Hz，行业最高*2 已经比PS5手柄的规格还要猛了，还跟多家FPS射击手游工作室、专业赛事选手联合调校，整个行业也是独一档的存在，怎么还不预热？！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343006760635044",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "de93341e41ca7b5f116f",
       "headline": "LG expands industry-specific AI models and reports more than 100 solved industrial problems",
       "bullets": [
@@ -919,6 +1203,126 @@
       "first_seen_at": "2026-09-14T05:00:01Z",
       "updated_at": "2026-09-14T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "57effe30c7ab2e58ec89",
+      "headline": "Lankun Micro CEO highlights OIO chips for AI interconnect bandwidth",
+      "bullets": [
+        "Jiwei.net quotes Lankun Micro CEO Dong Jingjing discussing optical interconnect chips based on OIO technology.",
+        "The article frames the chips as addressing the bandwidth bottleneck in AI computing."
+      ],
+      "companies": [
+        {
+          "name": "Lankun Micro",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "Optical interconnects aimed at AI bandwidth constraints are relevant to data-center compute scaling, though the supplied post gives no performance or deployment data.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343002751140451",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-14T02:56:26Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T02:56:26Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343002751140451",
+          "published_at": "2026-09-14T02:56:26Z",
+          "original_text": "发布了头条文章：《澜昆微CEO董晶晶：OIO光互连芯片破解AI算力带宽墙》 澜昆微CEO董晶晶：OIO光互连芯片破解AI算力带宽墙",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343002751140451",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "b39ebb8fc8ffcd84c27e",
+      "headline": "AAC Technologies debuts an AI microscope for semiconductor inspection",
+      "bullets": [
+        "AAC Technologies’ DEPTRA brand publicly showed its first self-developed depth-of-field digital microscope, the ADM-100, at CIOE.",
+        "The system combines optical hardware, intelligent algorithms and control software, with high-definition imaging, AI inspection and 2D and 3D measurement.",
+        "The product is positioned for semiconductor, new-energy, electronics and materials-research inspection applications."
+      ],
+      "companies": [
+        {
+          "name": "AAC Technologies",
+          "ticker": "02018",
+          "aliases": [
+            "DEPTRA"
+          ]
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE",
+      "categories": [
+        "WFE"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "A new inspection and metrology product targets semiconductor quality-control workflows and uses an integrated hardware-software stack.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343000517675663",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-14T02:47:34Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T02:47:34Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343000517675663",
+          "published_at": "2026-09-14T02:47:34Z",
+          "original_text": "【 #瑞声科技发布DEPTRA超景深AI数码显微镜# 】#瑞声科技 hk02018[股票]# #超景深AI数码显微镜# #DEPTRA# 近日，瑞声科技旗下 DEPTRA 品牌首款自研超景深数码显微镜 ADM-100在CIOE中国光博会上首次公开亮相。该产品实现光学硬件、智能算法、操控系统全链路自主研发，集高清成像、AI 智能检测、2D/3D 精准测量于一体，直击半导体、新能源、3C电子、材料科研等行业测景深不足、人工筛查效率低、高反光工件观测难等微观质检痛点，为高端微观检测领域提供自主可控的全新解决方案。 瑞声科技发布DEPTRA超景深AI数码显微镜",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343000517675663",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/00221ubBly1ih308s92zqj60z90niwzp02.jpg"
+          ],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "87894ca834b06f62059f",
@@ -1052,6 +1456,237 @@
       "first_seen_at": "2026-09-14T05:00:01Z",
       "updated_at": "2026-09-14T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "42e2f792212546763eed",
+      "headline": "Jiuwanli Future reports more than $100 million in seed and angel funding",
+      "bullets": [
+        "Jiwei.net reports that IC design-services provider Jiuwanli Future has completed seed and angel rounds totaling more than $100 million.",
+        "The reported backers include Sequoia China, Lenovo Capital and several semiconductor-focused investment firms."
+      ],
+      "companies": [
+        {
+          "name": "Jiuwanli Future",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "China Supply Chain · Supply Chain",
+      "categories": [
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "The unusually large cumulative financing for an IC design-services company is material to China’s semiconductor startup funding environment.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5342995978913514",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-14T02:29:32Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T02:29:32Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5342995978913514",
+          "published_at": "2026-09-14T02:29:32Z",
+          "original_text": "【 #九万里未来完成种子轮及天使轮融资，累计规模超1亿美元，系集成电路设计服务商# 】 #九万里未来# 近日，九万里未来连续完成种子轮及天使轮融资，累计融资规模超过一亿美元，获得红杉中国、某头部财务基金、华业天成、蓝驰创投、联想创投、中科创星、武岳峰科创、华登高科等顶级财务及战略投资机构的鼎力支持，高鹄资本担任本次融资的独家财务顾问。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5342995978913514",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBly1ih2zq0ird5j60p00go7hh02.jpg"
+          ],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "9a11e774d1b4a1e45a8f",
+      "headline": "Qualcomm Snapdragon 8 Elite Gen 6 specifications reportedly leak",
+      "bullets": [
+        "A Weibo post promoting a report says the Snapdragon 8 Elite Gen 6 could feature a 5 GHz high-performance core.",
+        "It also claims broad upgrades to the GPU and NPU."
+      ],
+      "companies": [
+        {
+          "name": "Qualcomm",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 61,
+      "priority": "High",
+      "score_reason": "A prospective flagship mobile processor update is relevant to compute silicon, but the supplied information is an unverified leak.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5342981416813579",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-14T01:31:40Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T01:31:40Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5342981416813579",
+          "published_at": "2026-09-14T01:31:40Z",
+          "original_text": "发布了文章 《高通骁龙8 Elite Gen 6系列曝光：5GHz大核，GPU/NPU全面升级！》 高通骁龙8 Elite Gen 6系列曝光：5GHz大核，GPU/NPU全面升级！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5342981416813579",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "ab033d5471ef8c9b08c9",
+      "headline": "South Korea reportedly broadens espionage rules to protect chip technology",
+      "bullets": [
+        "A Weibo post promoting a report says South Korea has expanded the scope of its espionage offense and strengthened protections for semiconductor technology."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Supply Chain",
+      "categories": [
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Semiconductor technology-protection rules can affect industrial security, information flows and cross-border supply-chain risk, but the supplied evidence is only a headline-level summary.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5342980653451166",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-14T01:28:38Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T01:28:38Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5342980653451166",
+          "published_at": "2026-09-14T01:28:38Z",
+          "original_text": "发布了文章 《韩国扩大“间谍罪”范围，强化芯片技术保护》 韩国扩大“间谍罪”范围，强化芯片技术保护",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5342980653451166",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "0d2a9b322ed69e43d5a0",
+      "headline": "Ziguang Guowei proposes a 100% acquisition of Renergy Semiconductor",
+      "bullets": [
+        "A Weibo post says Ziguang Guowei plans to acquire all of Renergy Semiconductor for 1.9 billion yuan.",
+        "The reported transaction is intended to strengthen Ziguang Guowei’s power-semiconductor business."
+      ],
+      "companies": [
+        {
+          "name": "Ziguang Guowei",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Renergy Semiconductor",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · China Supply Chain · Supply Chain",
+      "categories": [
+        "Analog",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "A sizeable power-semiconductor acquisition involving two Chinese semiconductor companies, with potential portfolio and supply-chain implications.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5342980493017855",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-14T01:28:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-14T01:28:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-14T05:24:15Z",
+      "updated_at": "2026-09-14T05:24:15Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5342980493017855",
+          "published_at": "2026-09-14T01:28:00Z",
+          "original_text": "发布了文章 《紫光国微拟19亿元收购瑞能半导100%股权，强化功率半导体布局》 紫光国微拟19亿元收购瑞能半导100%股权，强化功率半导体布局",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5342980493017855",
+          "images": [],
+          "retrieved_at": "2026-09-14T05:24:15Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "c656dcaecbaed824b182",
@@ -6014,8 +6649,8 @@
       ]
     }
   ],
-  "weibo_updated_at": "2026-09-13T16:34:56Z",
-  "weibo_published_at": "2026-09-13T16:51:21Z",
-  "weibo_schedule": "06:00 Europe/London · Monday–Friday",
-  "published_at": "2026-09-14T05:24:11Z"
+  "published_at": "2026-09-14T05:24:11Z",
+  "weibo_published_at": "2026-09-14T05:38:11Z",
+  "weibo_updated_at": "2026-09-14T05:24:15Z",
+  "weibo_schedule": "06:00 Europe/London · Monday–Friday"
 }
