@@ -1,8 +1,8 @@
 {
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-14T14:54:41Z",
+  "message": "Publishing Twitter-only results.",
+  "stage": "publishing",
+  "updated_at": "2026-09-14T14:55:12Z",
   "started_at": "2026-09-14T14:50:37Z",
   "counts": {
     "grok_search_calls": 17,
@@ -14,12 +14,17 @@
     "x_rejected": 0,
     "openai_calls": 1,
     "input_tokens_estimated": 21010,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 29804,
+    "openai_input_tokens": 20220,
+    "openai_output_tokens": 9584,
+    "eligible": 14,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 124,
+    "stories": 138,
     "evidence": 489,
-    "model_cache": 45,
+    "model_cache": 46,
     "reviews": 78
   },
   "review_categories": {
@@ -29,18 +34,6 @@
     "Editorial exclusions": 70
   },
   "events": [
-    {
-      "at": "2026-09-14T14:50:51Z",
-      "message": "Grok completed X tool operation 1."
-    },
-    {
-      "at": "2026-09-14T14:50:56Z",
-      "message": "Grok completed X tool operation 2."
-    },
-    {
-      "at": "2026-09-14T14:51:00Z",
-      "message": "Grok completed X tool operation 3."
-    },
     {
       "at": "2026-09-14T14:51:04Z",
       "message": "Grok completed X tool operation 4."
@@ -108,6 +101,18 @@
     {
       "at": "2026-09-14T14:53:41Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-14T14:55:09Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-14T14:55:09Z",
+      "message": "Batch complete: 14 stories ready."
+    },
+    {
+      "at": "2026-09-14T14:55:09Z",
+      "message": "Publishing Twitter-only results."
     }
   ]
 }
