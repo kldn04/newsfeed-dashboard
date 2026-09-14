@@ -4503,6 +4503,26 @@
           "at": "2026-09-14T21:38:19Z",
           "stage": "summarising",
           "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-14T21:41:07Z",
+          "stage": "usage",
+          "message": "Web + Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-09-14T21:41:07Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-14T21:41:07Z",
+          "stage": "validation",
+          "message": "Batch complete: 65 stories ready."
+        },
+        {
+          "at": "2026-09-14T21:41:07Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
         }
       ],
       "usage": [
@@ -7306,9 +7326,21 @@
           "post_resources": 227,
           "cost_usd": 1.135,
           "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Web + Twitter",
+          "model": "gpt-5.6-luna",
+          "input_tokens": 320193,
+          "output_tokens": 22372,
+          "reasoning_tokens": 5307,
+          "cached_tokens": 0,
+          "cache_write_tokens": 320190,
+          "cost_usd": 0.1068945,
+          "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-14T21:38:19Z",
+      "updated_at": "2026-09-14T21:41:07Z",
       "stage": "summarising"
     }
   ]
