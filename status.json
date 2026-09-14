@@ -1,110 +1,32 @@
 {
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-14T05:23:49Z",
-  "started_at": "2026-09-14T05:00:01Z",
+  "message": "Weibo: fetching 手机晶片达人, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-14T05:24:20Z",
+  "started_at": "2026-09-14T05:24:15Z",
   "counts": {
-    "web_candidates": 280,
-    "grok_tokens": 4427,
-    "grok_token_target": 15000,
-    "x_candidates": 0,
-    "openai_calls": 1,
-    "input_tokens_estimated": 293597,
-    "input_text_shortened": false
+    "weibo_candidates": 0
   },
   "stored_totals": {
-    "stories": 93,
+    "stories": 113,
     "evidence": 435,
-    "model_cache": 42,
-    "reviews": 76
+    "model_cache": 43,
+    "reviews": 77
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 68
+    "Editorial exclusions": 69
   },
   "events": [
     {
-      "at": "2026-09-14T05:20:59Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
+      "at": "2026-09-14T05:24:15Z",
+      "message": "Starting the separate Weibo collection."
     },
     {
-      "at": "2026-09-14T05:21:02Z",
-      "message": "Checking direct AI announcements: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:03Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-14T05:21:08Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-14T05:21:09Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-14T05:21:14Z",
-      "message": "Initial article scrape: Dario Amodei"
-    },
-    {
-      "at": "2026-09-14T05:21:16Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:18Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:24Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:27Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:29Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:31Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:35Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:36Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-14T05:21:37Z",
-      "message": "Initial article scrape: apnews.com"
-    },
-    {
-      "at": "2026-09-14T05:21:38Z",
-      "message": "Checking the watched X accounts."
-    },
-    {
-      "at": "2026-09-14T05:21:38Z",
-      "message": "Checking the watched accounts through Grok X Search."
-    },
-    {
-      "at": "2026-09-14T05:22:00Z",
-      "message": "Grok finished its bounded analysis."
-    },
-    {
-      "at": "2026-09-14T05:22:00Z",
-      "message": "Checking original sources and summarising stories."
-    },
-    {
-      "at": "2026-09-14T05:22:03Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-09-14T05:24:15Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     }
   ]
 }
