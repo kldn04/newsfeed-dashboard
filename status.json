@@ -1,10 +1,12 @@
 {
   "state": "running",
-  "message": "Initial article scrape: Anthropic",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-14T05:21:18Z",
+  "message": "Checking the watched accounts through Grok X Search.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-14T05:21:48Z",
   "started_at": "2026-09-14T05:00:01Z",
-  "counts": {},
+  "counts": {
+    "web_candidates": 280
+  },
   "stored_totals": {
     "stories": 93,
     "evidence": 256,
@@ -18,46 +20,6 @@
     "Editorial exclusions": 64
   },
   "events": [
-    {
-      "at": "2026-09-14T05:12:39Z",
-      "message": "Hankook Ilbo: 9 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-14T05:12:39Z",
-      "message": "Reading Munhwa through Bright Data."
-    },
-    {
-      "at": "2026-09-14T05:13:41Z",
-      "message": "Munhwa: 12 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-14T05:13:41Z",
-      "message": "Reading ETNews through Bright Data."
-    },
-    {
-      "at": "2026-09-14T05:15:53Z",
-      "message": "ETNews: 25 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-09-14T05:15:53Z",
-      "message": "Reading Nikkei through Bright Data."
-    },
-    {
-      "at": "2026-09-14T05:17:15Z",
-      "message": "Nikkei: 18 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-14T05:17:15Z",
-      "message": "Reading MoneyToday through Bright Data."
-    },
-    {
-      "at": "2026-09-14T05:18:17Z",
-      "message": "MoneyToday: 24 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-14T05:18:17Z",
-      "message": "Reading Financial News through Bright Data."
-    },
     {
       "at": "2026-09-14T05:19:58Z",
       "message": "Financial News: 39 dated articles captured (partial)."
@@ -97,6 +59,46 @@
     {
       "at": "2026-09-14T05:21:16Z",
       "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:18Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:24Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:27Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:29Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:31Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:35Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:36Z",
+      "message": "Initial article scrape: Anthropic"
+    },
+    {
+      "at": "2026-09-14T05:21:37Z",
+      "message": "Initial article scrape: apnews.com"
+    },
+    {
+      "at": "2026-09-14T05:21:38Z",
+      "message": "Checking the watched X accounts."
+    },
+    {
+      "at": "2026-09-14T05:21:38Z",
+      "message": "Checking the watched accounts through Grok X Search."
     }
   ]
 }
