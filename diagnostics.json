@@ -253,6 +253,131 @@
           "at": "2026-09-14T21:17:54Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:17:56Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 121914 bytes, 2.5s."
+        },
+        {
+          "at": "2026-09-14T21:17:56Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-14T21:17:56Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:01Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 120456 bytes, 4.9s."
+        },
+        {
+          "at": "2026-09-14T21:18:01Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-14T21:18:01Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:04Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 120676 bytes, 2.5s."
+        },
+        {
+          "at": "2026-09-14T21:18:04Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-14T21:18:04Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 119604 bytes, 5.0s."
+        },
+        {
+          "at": "2026-09-14T21:18:09Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-14T21:18:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 119105 bytes, 2.9s."
+        },
+        {
+          "at": "2026-09-14T21:18:12Z",
+          "stage": "web_discovery",
+          "message": "Reading Tom’s Hardware through Bright Data."
+        },
+        {
+          "at": "2026-09-14T21:18:12Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:14Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 1718884 bytes, 1.8s."
+        },
+        {
+          "at": "2026-09-14T21:18:14Z",
+          "stage": "web_discovery",
+          "message": "Tom’s Hardware: 10 candidates (partial)."
+        },
+        {
+          "at": "2026-09-14T21:18:14Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:18:14Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:17Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2072961 bytes, 2.6s."
+        },
+        {
+          "at": "2026-09-14T21:18:17Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:18:17Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:23Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2078040 bytes, 6.1s."
+        },
+        {
+          "at": "2026-09-14T21:18:24Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:18:24Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
         }
       ],
       "usage": [
@@ -374,9 +499,65 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-14T21:17:54Z",
+      "updated_at": "2026-09-14T21:18:24Z",
       "stage": "web_discovery"
     }
   ]
