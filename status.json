@@ -1,19 +1,24 @@
 {
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-14T21:56:10Z",
+  "message": "Publishing Weibo stories.",
+  "stage": "publishing",
+  "updated_at": "2026-09-14T21:56:40Z",
   "started_at": "2026-09-14T21:43:41Z",
   "counts": {
     "weibo_candidates": 26,
     "openai_calls": 1,
     "input_tokens_estimated": 13351,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 19016,
+    "openai_input_tokens": 12903,
+    "openai_output_tokens": 6113,
+    "eligible": 11,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 241,
+    "stories": 252,
     "evidence": 890,
-    "model_cache": 49,
+    "model_cache": 50,
     "reviews": 194
   },
   "review_categories": {
@@ -23,18 +28,6 @@
     "Editorial exclusions": 186
   },
   "events": [
-    {
-      "at": "2026-09-14T21:51:19Z",
-      "message": "Weibo: fetching 电子工程专辑, page 1."
-    },
-    {
-      "at": "2026-09-14T21:51:41Z",
-      "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
-    },
-    {
-      "at": "2026-09-14T21:51:41Z",
-      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
-    },
     {
       "at": "2026-09-14T21:51:57Z",
       "message": "Weibo: Trendforce集邦咨询 — 1 posts in collection window, 1 new."
@@ -102,6 +95,18 @@
     {
       "at": "2026-09-14T21:55:49Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-14T21:56:39Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-14T21:56:39Z",
+      "message": "Batch complete: 11 stories ready."
+    },
+    {
+      "at": "2026-09-14T21:56:40Z",
+      "message": "Publishing Weibo stories."
     }
   ]
 }
