@@ -1,11 +1,11 @@
 {
   "state": "running",
-  "message": "Weibo: fetching 芯智讯官微, page 2.",
+  "message": "Weibo: fetching 电子工程专辑, page 1.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-14T21:51:10Z",
+  "updated_at": "2026-09-14T21:51:40Z",
   "started_at": "2026-09-14T21:43:41Z",
   "counts": {
-    "weibo_candidates": 16
+    "weibo_candidates": 18
   },
   "stored_totals": {
     "stories": 241,
@@ -20,14 +20,6 @@
     "Editorial exclusions": 186
   },
   "events": [
-    {
-      "at": "2026-09-14T21:43:41Z",
-      "message": "Starting the separate Weibo collection."
-    },
-    {
-      "at": "2026-09-14T21:43:41Z",
-      "message": "Weibo: fetching 手机晶片达人, page 1."
-    },
     {
       "at": "2026-09-14T21:43:59Z",
       "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
@@ -95,6 +87,18 @@
     {
       "at": "2026-09-14T21:49:49Z",
       "message": "Weibo: fetching 芯智讯官微, page 2."
+    },
+    {
+      "at": "2026-09-14T21:51:19Z",
+      "message": "Weibo: fetch failed for 芯智讯官微 (ReadTimeout)."
+    },
+    {
+      "at": "2026-09-14T21:51:19Z",
+      "message": "Weibo: 芯智讯官微 — 9 posts in collection window, 2 new."
+    },
+    {
+      "at": "2026-09-14T21:51:19Z",
+      "message": "Weibo: fetching 电子工程专辑, page 1."
     }
   ]
 }
