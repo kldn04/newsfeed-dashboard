@@ -1,16 +1,25 @@
 {
   "state": "running",
-  "message": "Grok completed X tool operation 17.",
-  "stage": "x_discovery",
-  "updated_at": "2026-09-14T14:53:39Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-14T14:54:10Z",
   "started_at": "2026-09-14T14:50:37Z",
   "counts": {
-    "grok_search_calls": 17
+    "grok_search_calls": 17,
+    "grok_tokens": 228134,
+    "grok_input_tokens": 217781,
+    "grok_output_tokens": 10353,
+    "grok_cost_usd": 0.564648,
+    "x_candidates": 24,
+    "x_rejected": 0,
+    "openai_calls": 1,
+    "input_tokens_estimated": 21010,
+    "input_text_shortened": false
   },
   "stored_totals": {
     "stories": 124,
-    "evidence": 465,
-    "model_cache": 44,
+    "evidence": 489,
+    "model_cache": 45,
     "reviews": 78
   },
   "review_categories": {
@@ -20,14 +29,6 @@
     "Editorial exclusions": 70
   },
   "events": [
-    {
-      "at": "2026-09-14T14:50:37Z",
-      "message": "Starting a Twitter-only refresh."
-    },
-    {
-      "at": "2026-09-14T14:50:37Z",
-      "message": "Checking the watched accounts through Grok X Search."
-    },
     {
       "at": "2026-09-14T14:50:51Z",
       "message": "Grok completed X tool operation 1."
@@ -95,6 +96,18 @@
     {
       "at": "2026-09-14T14:52:00Z",
       "message": "Grok completed X tool operation 17."
+    },
+    {
+      "at": "2026-09-14T14:53:40Z",
+      "message": "Grok search response received."
+    },
+    {
+      "at": "2026-09-14T14:53:40Z",
+      "message": "Twitter: 24 posts accepted; 0 rejected by local checks."
+    },
+    {
+      "at": "2026-09-14T14:53:41Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
