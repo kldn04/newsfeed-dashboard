@@ -378,6 +378,36 @@
           "at": "2026-09-14T21:18:24Z",
           "stage": "fetch",
           "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:35Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2067751 bytes, 11.5s."
+        },
+        {
+          "at": "2026-09-14T21:18:35Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:18:35Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:48Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2311648 bytes, 12.7s."
+        },
+        {
+          "at": "2026-09-14T21:18:48Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:18:48Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
         }
       ],
       "usage": [
@@ -555,9 +585,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-14T21:18:24Z",
+      "updated_at": "2026-09-14T21:18:48Z",
       "stage": "web_discovery"
     }
   ]
