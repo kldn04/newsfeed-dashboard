@@ -9,8 +9,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
   <title>Signal — Semiconductors & AI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260913-weibo-3">
-  <script src="app.js?v=20260914-twitter-exhaustive-2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260914-diagnostics">
+  <script src="app.js?v=20260914-diagnostics" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to stories</a>
@@ -21,6 +21,7 @@
       <button class="nav-item active" data-view="all" aria-pressed="true"><span class="nav-icon">▤</span> Morning feed <span id="nav-total" class="count">0</span></button>
       <button class="nav-item" data-view="x" aria-pressed="false"><span class="nav-icon">𝕏</span> Twitter <span id="nav-x" class="count">0</span></button>
       <button class="nav-item" data-view="weibo" aria-pressed="false"><span class="nav-icon">◉</span> Weibo <span id="nav-weibo" class="count">0</span></button>
+      <button class="nav-item" data-view="diagnostics" aria-pressed="false"><span class="nav-icon">⌁</span> Diagnostics</button>
       <button class="nav-item" data-view="archive" aria-pressed="false"><span class="nav-icon">◷</span> Archive</button>
     </nav>
     <div class="nav-label topics-label">CATEGORIES</div>
@@ -48,6 +49,7 @@
       <div id="notice" class="notice" role="status" hidden></div>
       <div class="page-heading"><div><div class="eyebrow" id="edition-date">THE WEEKDAY EDITION</div><h1 id="page-title">The morning brief<span>.</span></h1><p id="page-description">Powered by OpenAI, SpaceX & OVHCloud</p></div><div class="heading-actions"><button id="refresh-feed" class="primary-button" type="button">↻ Refresh feed</button><button id="copy-selected" class="primary-button" disabled><span>⧉</span> Copy selected <span id="selected-count">0</span></button></div></div>
       <details id="collection-panel" class="collection-panel"><summary><span id="collection-state">Collection status</span><span id="collection-summary">Checking…</span></summary><p id="collection-message"></p><p id="collection-coverage" class="status-note" hidden>Coverage is incomplete for this edition. Some sources could not be fully checked.</p><div id="collection-counts"></div><p id="collection-updated"></p><ul id="collection-events"></ul><p class="status-note">Updates every 30 seconds; delivery may take a little longer. Counts marked “stored” include earlier runs. Full server logs remain private.</p></details>
+      <section id="diagnostics" hidden aria-label="Collection diagnostics"><p>Loading diagnostics…</p></section>
       <section class="metrics" aria-label="Edition overview">
         <div><span class="metric-label">IN THIS EDITION</span><strong id="metric-total">—</strong><small>attributed stories</small></div>
         <div><span class="metric-label">HIGH PRIORITY</span><strong id="metric-priority">—</strong><small>worth your attention</small></div>
