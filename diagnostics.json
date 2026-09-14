@@ -1918,6 +1918,146 @@
           "at": "2026-09-14T21:27:09Z",
           "stage": "fetch",
           "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:12Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 173401 bytes, 3.6s."
+        },
+        {
+          "at": "2026-09-14T21:27:12Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:19Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 165176 bytes, 6.3s."
+        },
+        {
+          "at": "2026-09-14T21:27:19Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:21Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 164732 bytes, 2.6s."
+        },
+        {
+          "at": "2026-09-14T21:27:22Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:22Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 500, 0 bytes, 0.1s."
+        },
+        {
+          "at": "2026-09-14T21:27:22Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:24Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 166785 bytes, 2.7s."
+        },
+        {
+          "at": "2026-09-14T21:27:25Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:27Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 173648 bytes, 2.9s."
+        },
+        {
+          "at": "2026-09-14T21:27:28Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:31Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 170267 bytes, 3.2s."
+        },
+        {
+          "at": "2026-09-14T21:27:31Z",
+          "stage": "web_discovery",
+          "message": "Asia Economy: 13 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-14T21:27:31Z",
+          "stage": "web_discovery",
+          "message": "Reading Hankook Ilbo through Bright Data."
+        },
+        {
+          "at": "2026-09-14T21:27:31Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:33Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 232267 bytes, 1.7s."
+        },
+        {
+          "at": "2026-09-14T21:27:33Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:35Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 122673 bytes, 2.1s."
+        },
+        {
+          "at": "2026-09-14T21:27:35Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:37Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 128573 bytes, 1.6s."
+        },
+        {
+          "at": "2026-09-14T21:27:37Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:38Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 129397 bytes, 1.0s."
+        },
+        {
+          "at": "2026-09-14T21:27:38Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:40Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 126111 bytes, 1.8s."
+        },
+        {
+          "at": "2026-09-14T21:27:40Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:27:41Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 133155 bytes, 1.2s."
+        },
+        {
+          "at": "2026-09-14T21:27:41Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
         }
       ],
       "usage": [
@@ -3096,9 +3236,100 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-14T21:27:09Z",
+      "updated_at": "2026-09-14T21:27:41Z",
       "stage": "web_discovery"
     }
   ]
