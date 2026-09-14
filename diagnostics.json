@@ -408,6 +408,86 @@
           "at": "2026-09-14T21:18:48Z",
           "stage": "fetch",
           "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:18:57Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2167449 bytes, 8.2s."
+        },
+        {
+          "at": "2026-09-14T21:18:57Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:18:57Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:19:00Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2058368 bytes, 3.3s."
+        },
+        {
+          "at": "2026-09-14T21:19:00Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:19:00Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:19:04Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2067853 bytes, 3.6s."
+        },
+        {
+          "at": "2026-09-14T21:19:04Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-14T21:19:04Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:19:10Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2054220 bytes, 6.0s."
+        },
+        {
+          "at": "2026-09-14T21:19:10Z",
+          "stage": "web_discovery",
+          "message": "Reading Ijiwei through Bright Data."
+        },
+        {
+          "at": "2026-09-14T21:19:11Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:19:17Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 101759 bytes, 6.5s."
+        },
+        {
+          "at": "2026-09-14T21:19:17Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-14T21:19:22Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 32032 bytes, 4.7s."
+        },
+        {
+          "at": "2026-09-14T21:19:22Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
         }
       ],
       "usage": [
@@ -599,9 +679,51 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-14T21:18:48Z",
+      "updated_at": "2026-09-14T21:19:22Z",
       "stage": "web_discovery"
     }
   ]
