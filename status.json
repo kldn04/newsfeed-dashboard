@@ -1,23 +1,11 @@
 {
   "state": "running",
-  "message": "Publishing the verified edition.",
-  "stage": "publishing",
-  "updated_at": "2026-09-14T21:43:39Z",
-  "started_at": "2026-09-14T21:16:54Z",
+  "message": "Weibo: fetching 数码闲聊站, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-14T21:44:09Z",
+  "started_at": "2026-09-14T21:43:41Z",
   "counts": {
-    "x_candidates": 155,
-    "twitter_api_requests": 12,
-    "twitter_posts_fetched": 227,
-    "openai_calls": 2,
-    "input_tokens_estimated": 88783,
-    "input_text_shortened": false,
-    "openai_tokens": 108644,
-    "openai_input_tokens": 85470,
-    "openai_output_tokens": 23174,
-    "eligible": 65,
-    "held": 3,
-    "web_openai_input_tokens": 320193,
-    "web_openai_output_tokens": 22372
+    "weibo_candidates": 0
   },
   "stored_totals": {
     "stories": 241,
@@ -33,84 +21,20 @@
   },
   "events": [
     {
-      "at": "2026-09-14T21:38:15Z",
-      "message": "Twitter API: fetching @sssjeffpu in the requested window."
+      "at": "2026-09-14T21:43:41Z",
+      "message": "Starting the separate Weibo collection."
     },
     {
-      "at": "2026-09-14T21:38:15Z",
-      "message": "Twitter API: @sssjeffpu returned 2 posts."
+      "at": "2026-09-14T21:43:41Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     },
     {
-      "at": "2026-09-14T21:38:15Z",
-      "message": "Twitter API: fetching @zartbotf in the requested window."
+      "at": "2026-09-14T21:43:59Z",
+      "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
     },
     {
-      "at": "2026-09-14T21:38:16Z",
-      "message": "Twitter API: @zartbotf returned 0 posts."
-    },
-    {
-      "at": "2026-09-14T21:38:16Z",
-      "message": "Twitter API: fetching @fundaai in the requested window."
-    },
-    {
-      "at": "2026-09-14T21:38:16Z",
-      "message": "Twitter API: @fundaai returned 21 posts."
-    },
-    {
-      "at": "2026-09-14T21:38:16Z",
-      "message": "Twitter API: fetching @shanghaojin in the requested window."
-    },
-    {
-      "at": "2026-09-14T21:38:17Z",
-      "message": "Twitter API: @shanghaojin returned 7 posts."
-    },
-    {
-      "at": "2026-09-14T21:38:17Z",
-      "message": "Twitter API: fetching @mingchikuo in the requested window."
-    },
-    {
-      "at": "2026-09-14T21:38:17Z",
-      "message": "Twitter API: @mingchikuo returned 0 posts."
-    },
-    {
-      "at": "2026-09-14T21:38:17Z",
-      "message": "Twitter API: fetching @sean_________ in the requested window."
-    },
-    {
-      "at": "2026-09-14T21:38:18Z",
-      "message": "Twitter API: @sean_________ returned 3 posts."
-    },
-    {
-      "at": "2026-09-14T21:38:19Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-14T21:41:07Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-14T21:41:07Z",
-      "message": "Batch complete: 65 stories ready."
-    },
-    {
-      "at": "2026-09-14T21:41:07Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-14T21:43:37Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-14T21:43:37Z",
-      "message": "Batch complete: 64 stories ready."
-    },
-    {
-      "at": "2026-09-14T21:43:37Z",
-      "message": "Wider feed and Twitter compilation finished."
-    },
-    {
-      "at": "2026-09-14T21:43:37Z",
-      "message": "Publishing the verified edition."
+      "at": "2026-09-14T21:43:59Z",
+      "message": "Weibo: fetching 数码闲聊站, page 1."
     }
   ]
 }
