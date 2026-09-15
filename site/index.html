@@ -10,7 +10,7 @@
   <title>Signal — Semiconductors & AI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20260914-diagnostics">
-  <script src="app.js?v=20260914-diagnostics-3" defer></script>
+  <script src="app.js?v=20260915-latest-first" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to stories</a>
@@ -62,7 +62,7 @@
         <label class="select-wrap"><span class="sr-only">Verification status</span><select id="verification"><option value="">All evidence</option><option value="source_checked">Source checked</option><option value="reported">Reported</option><option value="opinion">Opinion</option></select></label>
         <label class="select-wrap"><span class="sr-only">Source</span><select id="source" aria-label="Source"><option value="">All sources</option></select></label>
       </section>
-      <div class="feed-toolbar"><div><span id="result-count">Loading stories…</span><button id="clear-filters" class="text-button" hidden>Clear filters</button></div><div class="sort-group"><label for="sort">Sort by</label><select id="sort"><option value="importance">Importance</option><option value="latest">Latest</option></select><label id="archive-date-wrap" hidden><span class="sr-only">Archive date</span><input id="archive-date" type="date" aria-label="Archive date"></label></div></div>
+      <div class="feed-toolbar"><div><span id="result-count">Loading stories…</span><button id="clear-filters" class="text-button" hidden>Clear filters</button></div><div class="sort-group"><label for="sort">Sort by</label><select id="sort"><option value="latest">Latest</option><option value="importance">Importance</option></select><label id="archive-date-wrap" hidden><span class="sr-only">Archive date</span><input id="archive-date" type="date" aria-label="Archive date"></label></div></div>
       <section id="feed" aria-label="News stories" aria-live="polite"></section>
       <div id="empty" class="empty-state" hidden><span class="empty-icon">▤</span><h2 id="empty-title">No stories yet</h2><p id="empty-description">The first edition will appear after a successful scheduled collection.</p></div>
       <footer><span>Original sources first. Always.</span><span id="next-refresh">Weekdays at 06:00 UK time</span></footer>
