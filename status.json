@@ -1,15 +1,10 @@
 {
-  "state": "idle",
-  "message": "Main and Twitter editions published from saved responses; no additional API calls.",
-  "stage": "complete",
-  "updated_at": "2026-09-14T21:56:46Z",
-  "started_at": "2026-09-14T21:56:43Z",
-  "counts": {
-    "eligible": 72,
-    "held": 0,
-    "openai_calls": 0,
-    "twitter_stories": 67
-  },
+  "state": "running",
+  "message": "Reading CTEE through Bright Data.",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-15T05:00:06Z",
+  "started_at": "2026-09-15T05:00:01Z",
+  "counts": {},
   "stored_totals": {
     "stories": 322,
     "evidence": 890,
@@ -24,24 +19,12 @@
   },
   "events": [
     {
-      "at": "2026-09-14T21:56:43Z",
-      "message": "Starting local publication repair from saved responses. No provider requests."
+      "at": "2026-09-15T05:00:01Z",
+      "message": "Starting the weekday edition."
     },
     {
-      "at": "2026-09-14T21:56:43Z",
-      "message": "Batch complete: 72 stories ready."
-    },
-    {
-      "at": "2026-09-14T21:56:43Z",
-      "message": "Batch complete: 67 stories ready."
-    },
-    {
-      "at": "2026-09-14T21:56:43Z",
-      "message": "Publishing the locally repaired main and Twitter editions."
-    },
-    {
-      "at": "2026-09-14T21:56:46Z",
-      "message": "Main and Twitter editions published from saved responses; no additional API calls."
+      "at": "2026-09-15T05:00:01Z",
+      "message": "Reading CTEE through Bright Data."
     }
   ]
 }
