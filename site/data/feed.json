@@ -178,51 +178,6 @@
       "discovered": 8
     },
     {
-      "name": "Weibo · 手机晶片达人",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 数码闲聊站",
-      "status": "partial",
-      "discovered": 9
-    },
-    {
-      "name": "Weibo · 智慧芯片案内人",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
-      "name": "Weibo · 芯谋研究顾文军",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 集微网官方微博",
-      "status": "partial",
-      "discovered": 9
-    },
-    {
-      "name": "Weibo · 芯智讯官微",
-      "status": "partial",
-      "discovered": 9
-    },
-    {
-      "name": "Weibo · 电子工程专辑",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · Trendforce集邦咨询",
-      "status": "ok",
-      "discovered": 1
-    },
-    {
-      "name": "Weibo · 数码王小机",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
       "name": "@jukan05",
       "status": "ok",
       "discovered": 13,
@@ -293,6 +248,51 @@
       "status": "ok",
       "discovered": 0,
       "retrieval": "x_api"
+    },
+    {
+      "name": "Weibo · 手机晶片达人",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码闲聊站",
+      "status": "partial",
+      "discovered": 9
+    },
+    {
+      "name": "Weibo · 智慧芯片案内人",
+      "status": "ok",
+      "discovered": 6
+    },
+    {
+      "name": "Weibo · 芯谋研究顾文军",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 集微网官方微博",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Weibo · 芯智讯官微",
+      "status": "ok",
+      "discovered": 6
+    },
+    {
+      "name": "Weibo · 电子工程专辑",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · Trendforce集邦咨询",
+      "status": "ok",
+      "discovered": 1
+    },
+    {
+      "name": "Weibo · 数码王小机",
+      "status": "partial",
+      "discovered": 10
     }
   ],
   "partial": true,
@@ -401,6 +401,64 @@
     "a0b568df1b6aff7489ad"
   ],
   "stories": [
+    {
+      "id": "94bc973eeab725061ef2",
+      "headline": "SmartSens sensors reportedly selected for an unnamed September flagship",
+      "bullets": [
+        "The Weibo author says an upcoming high-end flagship will use two 200-megapixel large-format SmartSens image sensors.",
+        "The cited parts are SmartSens SCC80XS and SCC90XS, with the latter reportedly supporting a new-generation LOFIC technology."
+      ],
+      "companies": [
+        {
+          "name": "SmartSens",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Supply Chain",
+      "categories": [
+        "Analog",
+        "Supply Chain"
+      ],
+      "importance": 62,
+      "priority": "High",
+      "score_reason": "A reported dual-image-sensor design win could affect high-end smartphone semiconductor content, but the handset and selection remain unnamed and unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343398781518536",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-15T05:10:08Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T05:10:08Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343398781518536",
+          "published_at": "2026-09-15T05:10:08Z",
+          "original_text": "独家信息，9月登场的重量级新旗舰，会搭载两颗思特威的2亿超大底镜头，定义超高端。 一颗思特威SCC80XS，一颗支持新一代LOFIC技术的SCC90XS，思特威的新方案会助力品牌进入多2亿超高清时代，拍照稳了！坐等发布会吧！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343398781518536",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
     {
       "id": "b1638d70432f55989706",
       "headline": "Samsung reportedly adopts a dual-track base-die supply strategy for custom HBM",
@@ -652,6 +710,121 @@
       "updated_at": "2026-09-15T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "dd77813d7f8dc951c9bc",
+      "headline": "ASML campus project reportedly has orders extending through 2028",
+      "bullets": [
+        "A Weibo-linked article says construction has started on a new ASML campus.",
+        "The article claims ASML’s orders extend through 2028 and that customers are competing to secure equipment."
+      ],
+      "companies": [
+        {
+          "name": "ASML",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Supply Chain",
+      "categories": [
+        "WFE",
+        "Supply Chain"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "The claim concerns leading semiconductor equipment demand and long-term order visibility, though the supplied evidence is a headline-level report.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343386002788830",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-15T04:19:21Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T04:19:21Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343386002788830",
+          "published_at": "2026-09-15T04:19:21Z",
+          "original_text": "发布了文章 《ASML新园区动工：订单排到2028年，客户抢着买！》 ASML新园区动工：订单排到2028年，客户抢着买！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343386002788830",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "18d448fd75c201cedc9f",
+      "headline": "Anthropic is reportedly projecting US GDP of $44.4 trillion within four years",
+      "bullets": [
+        "A Weibo-linked report attributes a projection of US GDP reaching $44.4 trillion within four years to Anthropic’s view of AI’s economic impact.",
+        "The supplied post provides no methodology or assumptions, so this should be treated as a reported projection rather than an independently verified forecast."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "The claim is a material frontier-AI economic forecast, but the supplied evidence contains only the reported headline and no supporting detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343381883982633",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-15T04:02:59Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T04:02:59Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343381883982633",
+          "published_at": "2026-09-15T04:02:59Z",
+          "original_text": "发布了文章 《Anthropic：AI将推动美国GDP四年内达到44.4万亿美元！》 Anthropic：AI将推动美国GDP四年内达到44.4万亿美元！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343381883982633",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "1678073c8a997c0d13e4",
@@ -919,6 +1092,60 @@
       "first_seen_at": "2026-09-12T20:05:42Z",
       "updated_at": "2026-09-15T05:00:01Z",
       "revision": 11
+    },
+    {
+      "id": "8645a8678c7bd7281f6f",
+      "headline": "Omdia reports record global semiconductor revenue in Q2 2026",
+      "bullets": [
+        "According to an Omdia report shared by Jiwei, global semiconductor revenue exceeded $425 billion in Q2 2026, up 31.4% quarter over quarter.",
+        "The report attributes the market strength to artificial-intelligence demand and firm memory-chip pricing, with first-half revenue reaching $752 billion."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Broad market research indicates an unusually large quarterly revenue increase and identifies AI and memory as key demand drivers.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343369454682318",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-15T03:13:35Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T03:13:35Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343369454682318",
+          "published_at": "2026-09-15T03:13:35Z",
+          "original_text": "【机构： #Q2全球半导体营收突破4250亿美元# ，环比增长31.4%】 #半导体# 根据Omdia发布的报告，2026年第二季度全球半导体营收突破4250亿美元，再创历史新高，该市场环比增幅达到创纪录的31.4%。人工智能需求以及存储芯片价格坚挺持续主导市场走势，推动2026年上半年半导体总营收达到7520亿美元。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343369454682318",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/00221ubBly1ih46m0tr1lj60p00goqh902.jpg"
+          ],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "3e88535492f72e33c045",
@@ -1272,6 +1499,116 @@
       "revision": 2
     },
     {
+      "id": "1c5066222a889bbdf4e4",
+      "headline": "Xiaomi 18 Pro models are reportedly scheduled to debut the “8EE6” and “8E6” chips",
+      "bullets": [
+        "The Weibo author says the Xiaomi 18 Pro Max will debut the “8EE6” chip in September, while the Xiaomi 18 Pro will debut the “8E6” chip.",
+        "The standard model is reportedly planned for launch by the end of the year or early next year."
+      ],
+      "companies": [
+        {
+          "name": "Xiaomi",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "The post describes potentially significant flagship processor launches, but the chip designations and timing are unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343358142648513",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-15T02:28:39Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T02:28:39Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343358142648513",
+          "published_at": "2026-09-15T02:28:39Z",
+          "original_text": "9月份，18PM 8EE6首发，18P 8E6首发。 标准版到年底或明年初发布上市。 #小米18Pro本月发布#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343358142648513",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/006tvJhcgy1ih458h4wcvj316y14twry.jpg"
+          ],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "4eb133543a0246b7887b",
+      "headline": "Weibo author previews an unnamed “12” phone with a next-generation Snapdragon chip",
+      "bullets": [
+        "The author says an engineering sample of an unnamed “12” phone uses a next-generation Snapdragon 8 Elite Extreme Gen6 processor.",
+        "The preview also claims a new under-display camera, improved display-area quality, a thinner design and a new cooling fan."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "The post contains a specific processor and device-platform claim, but the handset identity and specifications are unconfirmed and consumer-focused.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343357980901685",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-15T02:28:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T02:28:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343357980901685",
+          "published_at": "2026-09-15T02:28:00Z",
+          "original_text": "独家超前瞻，某魔12工程机摸到了： 新一代屏下摄像头，今年唯二屏下摄像头新机，屏下区域显示更好，还加了XXX，iPhone Duo跪下！ ID设计大迭代，整体视觉风格更炫酷，机身薄了，手感应该是历代最佳，摸起来不像游戏手机。 新一代骁龙 8 Elite Extreme Gen6，新一代风扇，可以期待一下这颗芯片在新机的表现👿",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343357980901685",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "e62960663ad79d34189a",
       "headline": "CloudWalk releases U2-Flash with model-assisted self-training",
       "bullets": [
@@ -1438,6 +1775,63 @@
       "updated_at": "2026-09-15T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "2b809d6359caacebedbb",
+      "headline": "iPhone Duo supply is reportedly ample, while launch premiums could be high",
+      "bullets": [
+        "The Weibo author says supply-chain checks indicate ample preparations for the iPhone Duo.",
+        "The author expects a substantial launch premium and says channel pricing is not tightly linked to the manufacturer’s suggested retail price."
+      ],
+      "companies": [
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Supply Chain",
+      "categories": [
+        "Supply Chain"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "The post offers a current smartphone supply and channel-pricing observation, but it is an attributed market view rather than verified company guidance.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343356469119288",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-15T02:22:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T02:22:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343356469119288",
+          "published_at": "2026-09-15T02:22:00Z",
+          "original_text": "今年的热点是iPhone Duo。Pro系列和去年外形变化不大，估计平销期和上一代相比提升有难度。供应链侧了解，备货充足。渠道价格下调和原厂指导定价虽然有关系，但也不是紧耦合。估计Duo首销的溢价会很客观，渠道商有机会赚不少。 消费者都是喜新厌旧的。 #苹果回应iPhone18Pro破发#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343356469119288",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "eb33771b84c0137f1031",
@@ -2379,6 +2773,58 @@
       "source_category": "Twitter"
     },
     {
+      "id": "5445b1458352c6820d0d",
+      "headline": "Memory-price increases are driving higher flagship smartphone prices, Weibo author says",
+      "bullets": [
+        "The Weibo author says rising memory prices have already led to broad price increases of about 1,000 yuan for prior-generation domestic flagship phones.",
+        "The author groups upcoming domestic flagships into unchanged-price, roughly 500-yuan-higher, and roughly 1,000-yuan-higher product strategies depending on chip and hardware upgrades."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "The post links memory-cost inflation to smartphone pricing and product configuration decisions, providing a useful supply-chain observation despite limited sourcing.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343342179125706",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-15T01:25:13Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T01:25:13Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343342179125706",
+          "published_at": "2026-09-15T01:25:13Z",
+          "original_text": "受内存涨价影响，AOVMHh上一代旗舰机均已经完成一轮1000元档位的普涨。 而在此基础上，即将发布的国产旗舰新机产品定义变得非常有意思，大致可以分为三类： 换皮：N-1芯片 + 常规小迭代，有望售价不变 换芯：N代芯片 + 常规小迭代，起售价涨500± 换新：N代芯片 + 激进大迭代，直接放开成本限制，大迭代猛堆料，价格将上探1000±",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343342179125706",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "620f20cd0f670e80cce0",
       "headline": "TrendForce and Jeff Pu see low odds of 4-Hi HBM in datacenter AI",
       "bullets": [
@@ -2626,6 +3072,64 @@
       "updated_at": "2026-09-15T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "b19f1d39e44e09fc1a47",
+      "headline": "Report outlines TSMC’s next-year 3nm and 2nm expansion plans",
+      "bullets": [
+        "A Weibo-linked report says TSMC is planning further capacity expansion for its 3nm and 2nm processes next year.",
+        "The captured post provides no capacity figures or additional sourcing, so the details remain unconfirmed."
+      ],
+      "companies": [
+        {
+          "name": "TSMC",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Potentially material leading-edge foundry capacity expansion, but the supplied evidence is only a short reported summary.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343334302484803",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-15T00:53:55Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T00:53:55Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-15T05:24:43Z",
+      "updated_at": "2026-09-15T05:24:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343334302484803",
+          "published_at": "2026-09-15T00:53:55Z",
+          "original_text": "发布了文章 《台积电明年3nm及2nm扩产计划曝光》 台积电明年3nm及2nm扩产计划曝光",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343334302484803",
+          "images": [],
+          "retrieved_at": "2026-09-15T05:24:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "afcd521c807a2568c528",
@@ -21281,14 +21785,6 @@
       ]
     }
   ],
-  "weibo_updated_at": "2026-09-14T21:16:54Z",
-  "weibo_published_at": "2026-09-14T21:56:40Z",
-  "weibo_schedule": "06:00 Europe/London · Monday–Friday",
-  "weibo_window": {
-    "start": "2026-09-12T21:16:54Z",
-    "end": "2026-09-14T21:16:54Z",
-    "weekend_coverage": true
-  },
   "twitter_stories": [
     {
       "id": "dffb8fbacf55cfeccf97",
@@ -22397,5 +22893,13 @@
     "weekend_coverage": false
   },
   "twitter_published_at": "2026-09-15T05:24:40Z",
-  "published_at": "2026-09-15T05:24:40Z"
+  "published_at": "2026-09-15T05:24:40Z",
+  "weibo_published_at": "2026-09-15T05:34:27Z",
+  "weibo_updated_at": "2026-09-15T05:24:43Z",
+  "weibo_window": {
+    "start": "2026-09-14T05:24:43Z",
+    "end": "2026-09-15T05:24:43Z",
+    "weekend_coverage": false
+  },
+  "weibo_schedule": "06:00 Europe/London · Monday–Friday"
 }
