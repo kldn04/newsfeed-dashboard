@@ -11982,6 +11982,41 @@
           "at": "2026-09-15T05:22:54Z",
           "stage": "summarising",
           "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-15T05:24:40Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-09-15T05:24:40Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-15T05:24:40Z",
+          "stage": "validation",
+          "message": "Batch complete: 20 stories ready."
+        },
+        {
+          "at": "2026-09-15T05:24:40Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-09-15T05:24:40Z",
+          "stage": "validation",
+          "message": "Wider feed and Twitter compilation finished."
+        },
+        {
+          "at": "2026-09-15T05:24:40Z",
+          "stage": "publishing",
+          "message": "Publishing the verified edition."
+        },
+        {
+          "at": "2026-09-15T05:24:43Z",
+          "stage": "complete",
+          "message": "Edition published."
         }
       ],
       "usage": [
@@ -14342,10 +14377,46 @@
           "cache_write_tokens": 265539,
           "cost_usd": 0.08770695,
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-5.6-luna",
+          "input_tokens": 27210,
+          "output_tokens": 13188,
+          "reasoning_tokens": 8124,
+          "cached_tokens": 0,
+          "cache_write_tokens": 27207,
+          "cost_usd": 0.022627949999999997,
+          "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-15T05:22:54Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-15T05:24:43Z",
+      "stage": "complete"
+    },
+    {
+      "started_at": "2026-09-15T05:24:43Z",
+      "kind": "Weibo",
+      "events": [
+        {
+          "at": "2026-09-15T05:24:43Z",
+          "stage": "starting",
+          "message": "Starting the separate Weibo collection."
+        },
+        {
+          "at": "2026-09-15T05:24:43Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 手机晶片达人, page 1."
+        },
+        {
+          "at": "2026-09-15T05:24:44Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-15T05:24:44Z",
+      "stage": "weibo_discovery"
     }
   ]
 }
