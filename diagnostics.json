@@ -14727,6 +14727,46 @@
           "at": "2026-09-15T05:32:52Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:33:02Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2217 bytes, 9.9s."
+        },
+        {
+          "at": "2026-09-15T05:33:02Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 数码王小机."
+        },
+        {
+          "at": "2026-09-15T05:33:02Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:33:15Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2319 bytes, 13.1s."
+        },
+        {
+          "at": "2026-09-15T05:33:15Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 数码王小机."
+        },
+        {
+          "at": "2026-09-15T05:33:15Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:33:25Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2277 bytes, 10.3s."
+        },
+        {
+          "at": "2026-09-15T05:33:28Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
         }
       ],
       "usage": [
@@ -14848,10 +14888,31 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-15T05:32:52Z",
-      "stage": "weibo_discovery"
+      "updated_at": "2026-09-15T05:33:28Z",
+      "stage": "summarising"
     }
   ]
 }
