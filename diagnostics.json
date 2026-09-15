@@ -8093,6 +8093,30 @@
       ],
       "updated_at": "2026-09-14T21:56:46Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-09-15T05:00:01Z",
+      "kind": "Web + Twitter",
+      "events": [
+        {
+          "at": "2026-09-15T05:00:01Z",
+          "stage": "starting",
+          "message": "Starting the weekday edition."
+        },
+        {
+          "at": "2026-09-15T05:00:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE through Bright Data."
+        },
+        {
+          "at": "2026-09-15T05:00:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-15T05:00:01Z",
+      "stage": "web_discovery"
     }
   ]
 }
