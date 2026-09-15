@@ -8112,10 +8112,133 @@
           "at": "2026-09-15T05:00:01Z",
           "stage": "fetch",
           "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:00:15Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 191962 bytes, 14.0s."
+        },
+        {
+          "at": "2026-09-15T05:00:15Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 7 candidates (ok)."
+        },
+        {
+          "at": "2026-09-15T05:00:15Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec through Bright Data."
+        },
+        {
+          "at": "2026-09-15T05:00:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:00:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 115765 bytes, 2.4s."
+        },
+        {
+          "at": "2026-09-15T05:00:18Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:00:25Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 121449 bytes, 7.5s."
+        },
+        {
+          "at": "2026-09-15T05:00:25Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:00:28Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 119365 bytes, 2.8s."
+        },
+        {
+          "at": "2026-09-15T05:00:29Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:00:32Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 118779 bytes, 3.4s."
+        },
+        {
+          "at": "2026-09-15T05:00:32Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:00:34Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 120199 bytes, 2.1s."
+        },
+        {
+          "at": "2026-09-15T05:00:34Z",
+          "stage": "web_discovery",
+          "message": "TheLec: 20 candidates (partial)."
+        },
+        {
+          "at": "2026-09-15T05:00:35Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-15T05:00:35Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
         }
       ],
-      "usage": [],
-      "updated_at": "2026-09-15T05:00:01Z",
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-15T05:00:35Z",
       "stage": "web_discovery"
     }
   ]
