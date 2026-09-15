@@ -14412,10 +14412,60 @@
           "at": "2026-09-15T05:24:44Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:25:02Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 55562 bytes, 17.7s."
+        },
+        {
+          "at": "2026-09-15T05:25:02Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-09-15T05:25:02Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码闲聊站, page 1."
+        },
+        {
+          "at": "2026-09-15T05:25:02Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:25:14Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 41070 bytes, 11.9s."
+        },
+        {
+          "at": "2026-09-15T05:25:14Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码闲聊站, page 2."
+        },
+        {
+          "at": "2026-09-15T05:25:14Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
-      "usage": [],
-      "updated_at": "2026-09-15T05:24:44Z",
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-15T05:25:14Z",
       "stage": "weibo_discovery"
     }
   ]
