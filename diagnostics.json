@@ -9377,6 +9377,86 @@
           "at": "2026-09-15T05:06:39Z",
           "stage": "fetch",
           "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:06:46Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1197652 bytes, 7.3s."
+        },
+        {
+          "at": "2026-09-15T05:06:46Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:06:48Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1116102 bytes, 1.4s."
+        },
+        {
+          "at": "2026-09-15T05:06:48Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:06:50Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1140225 bytes, 2.0s."
+        },
+        {
+          "at": "2026-09-15T05:06:50Z",
+          "stage": "web_discovery",
+          "message": "SCMP: 5 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-15T05:06:50Z",
+          "stage": "web_discovery",
+          "message": "Reading Seoul Economic Daily through Bright Data."
+        },
+        {
+          "at": "2026-09-15T05:06:50Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:06:54Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 90773 bytes, 4.3s."
+        },
+        {
+          "at": "2026-09-15T05:06:54Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:07:02Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 145387 bytes, 7.5s."
+        },
+        {
+          "at": "2026-09-15T05:07:02Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:07:07Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 140054 bytes, 4.9s."
+        },
+        {
+          "at": "2026-09-15T05:07:07Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-15T05:07:11Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 141032 bytes, 3.5s."
+        },
+        {
+          "at": "2026-09-15T05:07:11Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
         }
       ],
       "usage": [
@@ -10114,9 +10194,58 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-15T05:06:39Z",
+      "updated_at": "2026-09-15T05:07:11Z",
       "stage": "web_discovery"
     }
   ]
