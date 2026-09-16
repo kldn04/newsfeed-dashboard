@@ -10,7 +10,7 @@
   <title>Signal — Semiconductors & AI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20260914-diagnostics">
-  <script src="app.js?v=20260915-latest-first" defer></script>
+  <script src="app.js?v=20260916-archive-totals" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to stories</a>
@@ -50,11 +50,11 @@
       <div class="page-heading"><div><div class="eyebrow" id="edition-date">THE WEEKDAY EDITION</div><h1 id="page-title">The morning brief<span>.</span></h1><p id="page-description">Powered by OpenAI, SpaceX & OVHCloud</p></div><div class="heading-actions"><button id="refresh-feed" class="primary-button" type="button">↻ Refresh feed</button><button id="copy-selected" class="primary-button" disabled><span>⧉</span> Copy selected <span id="selected-count">0</span></button></div></div>
       <details id="collection-panel" class="collection-panel"><summary><span id="collection-state">Collection status</span><span id="collection-summary">Checking…</span></summary><p id="collection-message"></p><p id="collection-coverage" class="status-note" hidden>Coverage is incomplete for this edition. Some sources could not be fully checked.</p><div id="collection-counts"></div><p id="collection-updated"></p><ul id="collection-events"></ul><p class="status-note">Updates every 30 seconds; delivery may take a little longer. Counts marked “stored” include earlier runs. Full server logs remain private.</p></details>
       <section id="diagnostics" hidden aria-label="Collection diagnostics"><p>Loading diagnostics…</p></section>
-      <section class="metrics" aria-label="Edition overview">
-        <div><span class="metric-label">IN THIS EDITION</span><strong id="metric-total">—</strong><small>attributed stories</small></div>
-        <div><span class="metric-label">HIGH PRIORITY</span><strong id="metric-priority">—</strong><small>worth your attention</small></div>
-        <div><span class="metric-label">SOURCE COVERAGE</span><strong id="metric-sources">—</strong><small id="metric-sources-label">publishers & accounts</small></div>
-        <div class="window-metric"><span class="metric-label">COVERAGE WINDOW</span><strong id="metric-window">—</strong><small id="coverage-detail">Weekdays · previous 24 hours</small></div>
+      <section class="metrics" id="metrics" aria-label="Edition overview">
+        <div><span class="metric-label" id="metric-total-title">IN THIS EDITION</span><strong id="metric-total">—</strong><small id="metric-total-detail">attributed stories</small></div>
+        <div><span class="metric-label" id="metric-priority-title">HIGH PRIORITY</span><strong id="metric-priority">—</strong><small id="metric-priority-detail">worth your attention</small></div>
+        <div><span class="metric-label" id="metric-sources-title">SOURCE COVERAGE</span><strong id="metric-sources">—</strong><small id="metric-sources-label">publishers & accounts</small></div>
+        <div class="window-metric"><span class="metric-label" id="metric-window-title">COVERAGE WINDOW</span><strong id="metric-window">—</strong><small id="coverage-detail">Weekdays · previous 24 hours</small></div>
       </section>
       <section class="feed-controls" aria-label="Search and filter stories">
         <div class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search companies, tickers or headlines…" aria-label="Search companies, tickers or headlines"><kbd>/</kbd></div>

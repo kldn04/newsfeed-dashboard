@@ -32,12 +32,26 @@ function render(){if(!state.feed)return;if(state.view==='diagnostics'){$('empty'
   $('empty-title').textContent=state.error?'Feed unavailable':filters?'No matching stories':state.feed.generated_at?'No qualifying stories':'Your first edition is on its way';
   $('empty-description').textContent=state.error?'The feed could not be loaded. Try reloading the page.':filters?'Try another company, ticker or a broader set of filters.':state.feed.generated_at?'No stories passed the relevance and attribution checks for this view.':'Stories will appear here after the first successful collection. The schedule is 06:00 UK time, Monday to Friday.';
   updateSelection();}
-function metadata(){const f=state.feed,active=activeStories();$('collection-coverage').hidden=!f.partial;$('nav-total').textContent=active.length;$('nav-x').textContent=(f.twitter_stories||f.x_digest_ids).length;$('nav-weibo').textContent=f.stories.filter(s=>s.source_category==='Weibo').length;$('topic-all-count').textContent=active.length;$('metric-total').textContent=active.length;$('metric-priority').textContent=active.filter(s=>s.importance>=60).length;
+function metadata(){const f=state.feed,active=activeStories();
+  $('metrics').setAttribute('aria-label','Edition overview');
+  for(const [id,text] of Object.entries({'metric-total-title':'IN THIS EDITION','metric-total-detail':'attributed stories','metric-priority-title':'HIGH PRIORITY','metric-priority-detail':'worth your attention','metric-sources-title':'SOURCE COVERAGE','metric-sources-label':'publishers & accounts','metric-window-title':'COVERAGE WINDOW'}))$(id).textContent=text;
+  $('collection-coverage').hidden=!f.partial;$('nav-total').textContent=active.length;$('nav-x').textContent=(f.twitter_stories||f.x_digest_ids).length;$('nav-weibo').textContent=f.stories.filter(s=>s.source_category==='Weibo').length;$('topic-all-count').textContent=active.length;$('metric-total').textContent=active.length;$('metric-priority').textContent=active.filter(s=>s.importance>=60).length;
   const sources=new Set(active.flatMap(s=>[...s.sources.map(v=>v.name),...s.highlights.map(h=>'@'+h.handle)]));$('metric-sources').textContent=sources.size;
   const selected=$('source').value;$('source').innerHTML='<option value="">All sources</option><option value="Weibo">Weibo</option>'+[...new Set(allStories().flatMap(s=>[...s.sources.map(v=>v.name),...s.highlights.map(h=>'@'+h.handle)]))].sort().map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');$('source').value=selected;
   if(f.generated_at){const end=new Date(f.window.end),start=new Date(f.window.start);$('edition-date').textContent=fullDate.format(end).toUpperCase();$('metric-window').textContent=f.window.weekend_coverage?'Weekend + Monday':'Last 24 hours';$('coverage-detail').textContent=`${dates.format(start)} ${times.format(start)} – ${dates.format(end)} ${times.format(end)} UK`;$('next-refresh').textContent=`Next edition · ${dates.format(new Date(f.next_refresh_at))}, ${times.format(new Date(f.next_refresh_at))} UK`;
     const stale=Date.now()>Date.parse(f.next_refresh_at)+30*60*1000;$('status-dot').className='status-dot '+(stale?'stale':'fresh');$('status-text').textContent=f.demo?'Preview edition':stale?'Awaiting new edition':`Updated ${times.format(new Date(f.published_at||f.generated_at))} UK`;
     if(f.demo)notice('DEMO EDITION · Illustrative stories for previewing the dashboard. These are not live news.');else if(stale)notice('The latest scheduled edition has not arrived yet. Showing the last successful update.',true);else $('notice').hidden=true;
+  }
+  if(state.view==='archive'){
+    const rows=allStories();
+    $('metrics').setAttribute('aria-label','Archive overview');
+    $('metric-total-title').textContent='TOTAL ARCHIVED';$('metric-total').textContent=rows.length;$('metric-total-detail').textContent='stories across all feeds';
+    $('metric-priority-title').textContent='TWITTER';$('metric-priority').textContent=rows.filter(s=>s.source_category==='Twitter'||s.highlights.length>0).length;$('metric-priority-detail').textContent='archived stories with Twitter sources';
+    $('metric-sources-title').textContent='WEIBO';$('metric-sources').textContent=rows.filter(s=>s.source_category==='Weibo').length;$('metric-sources-label').textContent='archived Weibo stories';
+    $('metric-window-title').textContent='ARCHIVE PERIOD';$('metric-window').textContent='All dates';
+    const published=rows.map(s=>s.published_at).filter(Boolean).sort();
+    $('coverage-detail').textContent=published.length?`${dates.format(new Date(published[0]))} – ${dates.format(new Date(published[published.length-1]))} UK`:'No archived stories yet';
+    $('edition-date').textContent='ARCHIVE';$('topic-all-count').textContent=rows.length;
   }
   $('sources-list').innerHTML=f.source_status.length?f.source_status.map(s=>`<div class="source-health"><span>${esc(s.name)}</span><span>${esc(s.status)}</span></div>`).join(''):'Coverage will appear with the first edition.';
 }
