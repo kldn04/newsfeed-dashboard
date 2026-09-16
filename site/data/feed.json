@@ -178,51 +178,6 @@
       "discovered": 8
     },
     {
-      "name": "Weibo · 手机晶片达人",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 数码闲聊站",
-      "status": "partial",
-      "discovered": 9
-    },
-    {
-      "name": "Weibo · 智慧芯片案内人",
-      "status": "ok",
-      "discovered": 6
-    },
-    {
-      "name": "Weibo · 芯谋研究顾文军",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 集微网官方微博",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
-      "name": "Weibo · 芯智讯官微",
-      "status": "ok",
-      "discovered": 6
-    },
-    {
-      "name": "Weibo · 电子工程专辑",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · Trendforce集邦咨询",
-      "status": "ok",
-      "discovered": 1
-    },
-    {
-      "name": "Weibo · 数码王小机",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
       "name": "@jukan05",
       "status": "ok",
       "discovered": 2,
@@ -293,6 +248,51 @@
       "status": "ok",
       "discovered": 0,
       "retrieval": "x_api"
+    },
+    {
+      "name": "Weibo · 手机晶片达人",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码闲聊站",
+      "status": "ok",
+      "discovered": 6
+    },
+    {
+      "name": "Weibo · 智慧芯片案内人",
+      "status": "partial",
+      "discovered": 9
+    },
+    {
+      "name": "Weibo · 芯谋研究顾文军",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 集微网官方微博",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Weibo · 芯智讯官微",
+      "status": "ok",
+      "discovered": 3
+    },
+    {
+      "name": "Weibo · 电子工程专辑",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · Trendforce集邦咨询",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码王小机",
+      "status": "partial",
+      "discovered": 10
     }
   ],
   "partial": true,
@@ -457,6 +457,71 @@
       "first_seen_at": "2026-09-16T05:00:01Z",
       "updated_at": "2026-09-16T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "adca7a5c5ce5c7d9f631",
+      "headline": "Bloomberg analysis sees DRAM tightness lasting into 2029–2030",
+      "bullets": [
+        "A Weibo industry account relays Bloomberg’s view that sustained cloud-AI infrastructure spending could keep DRAM supply tight through at least 2027 and possibly 2029–2030.",
+        "The cited market view favors Nanya Technology and Winbond Electronics among Taiwanese DRAM suppliers."
+      ],
+      "companies": [
+        {
+          "name": "Nanya Technology",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Winbond Electronics",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "DRAM · Supply Chain",
+      "categories": [
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Potentially prolonged DRAM tightness tied to AI infrastructure demand, with implications for memory pricing and supply planning.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343750567756754",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-16T04:28:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T04:28:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343750567756754",
+          "published_at": "2026-09-16T04:28:00Z",
+          "original_text": "【 #DRAM恐缺到2030年 法人看好南亚科、华邦电后市看旺# 】 全球DRAM供应吃紧情势恐比市场预期更久。彭博资讯最新分析指出，只要全球云端大咖持续加码AI基建，DRAM供需紧俏格局至少延续至2027年，甚至拉长到2029年至2030年。 这意味这波存储多头已不只是传统景气循环反弹，而是AI带动产业供需结构出现根本性改变。 法人看好，台厂当中，南亚科、华邦电掌握DRAM产能优势，后市运营同步看旺。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343750567756754",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/00221ubBgy1ih59k1ycgxj60p00go1c702.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "e45c8c4c29738d9c2047",
@@ -937,6 +1002,68 @@
       "revision": 2
     },
     {
+      "id": "6656db989a8f6f39f08a",
+      "headline": "Geekbench 7 may narrow the apparent A-series CPU lead, Weibo analysis argues",
+      "bullets": [
+        "The Weibo author says Geekbench 7 reduces the weighting of Scalable Matrix Extension workloads compared with Geekbench 6.",
+        "Using the cited A20 Pro comparison, single-core scores fall from roughly 4,719–4,725 in Geekbench 6 to 4,006–4,042 in Geekbench 7, while multi-core scores fall from 12,575–12,677 to 11,050–11,460."
+      ],
+      "companies": [
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Primate Labs",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 56,
+      "priority": "Medium",
+      "score_reason": "Relevant mobile-processor benchmarking analysis, but the effect is interpretive rather than a new product or supply event.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343735799874545",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-16T03:29:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T03:29:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343735799874545",
+          "published_at": "2026-09-16T03:29:19Z",
+          "original_text": "Primate Labs的Geekbench是CPU领域比较有代表性的专业性能测试工具，Geekbench已经升级到最新的Geekbench7，相比之前的GB6，GB7减少了SME（Scalable Matrix Extension）的跑分比例。 苹果A系列处理器过去今年的跑分相比安卓系的SOC领先比较多的原因，SME也贡献了很多。但实际的CPU应用中，SME的应用场景并不多，因为大家都有NPU或者eNPU。所以说去掉SME的跑分影响，苹果A系列SOC相比安卓SOC的领先并没有那么大。 大家可以参考一下A20 Pro 的GB6和GB7的跑分对比： 单核跑分               多核跑分 GB6    4,719～4,725      12,575～12,677 GB7    4,006～4,042      11,050~11,460",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343735799874545",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "7ae044c43b8ad112f072",
       "headline": "Shanghaojin argues compute access will keep Google from permanently lagging",
       "bullets": [
@@ -990,6 +1117,77 @@
       "updated_at": "2026-09-16T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "3d8f759e86d1a072b5fb",
+      "headline": "Micron demonstrates a 512GB DDR5 server module",
+      "bullets": [
+        "A Weibo industry account relays Micron’s announcement of a 512GB DDR5 module demonstrated on multiple server platforms.",
+        "The module is reported to reach up to 9,200 MT/s and is being validated by AMD and Intel for AI, analytics, in-memory database and simulation workloads."
+      ],
+      "companies": [
+        {
+          "name": "Micron Technology",
+          "ticker": "MU",
+          "aliases": []
+        },
+        {
+          "name": "AMD",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Intel",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "High-capacity server DRAM directly supports AI and data-center workloads and involves validation by two major processor suppliers.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343734214690361",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-16T03:23:01Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T03:23:01Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343734214690361",
+          "published_at": "2026-09-16T03:23:01Z",
+          "original_text": "【 #美光推出全球首款超高密度内存模组，助力下一代服务器创新# 】 #美光# 2026 年 9 月 16 日，爱达荷州博伊西市 — 美光科技股份有限公司（纳斯达克股票代码：MU）近日宣布，公司已在多个服务器平台上成功演示全球首款 512GB DDR5 模组，标志其在内存创新领域取得重要里程碑。这一成果进一步巩固了美光在高性能、大容量服务器内存领域的领先地位，并为企业数据中心及云计算客户高效应对大规模、高要求人工智能（AI）、数据分析、内存数据库及仿真密集型工作负载提供支持。领先的半导体生态合作伙伴 AMD 及英特尔正积极对该模组进行验证，其速率至高可达 9,200 MT/s。 美光推出全球首款超高密度内存模组，助力下一代服务器创新",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343734214690361",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/00221ubBgy1ih5ciaq4cqj60pw0ekqdw02.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "907379ac1c9c2c9e63a2",
@@ -1435,6 +1633,262 @@
       "source_category": "Twitter"
     },
     {
+      "id": "abda1fd9e38379c69a2d",
+      "headline": "Apple reportedly locks Samsung storage at nearly $2.0/Gb",
+      "bullets": [
+        "A Weibo industry account highlights a report that Apple agreed to Samsung storage pricing near $2.0 per gigabit ahead of a projected 2027 shortage.",
+        "The post supplies no additional transaction details beyond the article headline."
+      ],
+      "companies": [
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "DRAM · NAND · Supply Chain",
+      "categories": [
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "A reported long-term memory pricing agreement between two major companies could signal tighter supply and shifting bargaining power, despite limited supplied detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343729502390414",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-16T03:04:18Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T03:04:18Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343729502390414",
+          "published_at": "2026-09-16T03:04:18Z",
+          "original_text": "发布了头条文章：《苹果罕见让步：2.0美元/Gb锁定三星存储，2027年缺货战提前打响》 苹果罕见让步：2.0美元/Gb锁定三星存储，2027年缺货战提前打响",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343729502390414",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "e83351c50dbc91600e1c",
+      "headline": "Article claims Chinese open models are gaining global share",
+      "bullets": [
+        "The Weibo industry account says model distillation is a widely used knowledge-transfer technique and argues that the dispute concerns data acquisition rather than distillation itself.",
+        "The post claims Chinese open models account for 17% of global downloads versus 15.8% for U.S. models, with Alibaba’s Qwen reaching 2.045 billion downloads.",
+        "It also cites a 61% share of token calls on OpenRouter for Chinese models and a claimed 16.7-fold price advantage."
+      ],
+      "companies": [
+        {
+          "name": "Alibaba",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models · China Models",
+      "categories": [
+        "Models",
+        "China Models"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Substantive claims about model distribution, usage, pricing and the strategic role of open weights are material to frontier-AI competition.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343728717794671",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-16T03:01:11Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T03:01:11Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343728717794671",
+          "published_at": "2026-09-16T03:01:11Z",
+          "original_text": "【 #AI蒸馏之争与开源跃升：透视全球大模型竞争格局之变# 】 蒸馏是行业通用的知识迁移技术，争议核心不在技术而在数据获取方式。 蒸馏通过教师模型向学生模型迁移决策逻辑，被全球模型企业普遍使用；美方的指控实质是将一项正常技术和商业问题政治化，把未经授权的数据获取行为与蒸馏技术本身捆绑定性。 开源开放权重模式推动中国模型实现市场层面的整体跃升。 中国开放模型下载量占全球17%、首次超过美国的15.8%；阿里千问以20.45亿次下载登顶全球第一；OpenRouter上中国模型token调用量占61%，价格优势高达16.7倍，市场话语权已发生结构性变化。 AI蒸馏之争与开源跃升：透视全球大模型竞争格局之变",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343728717794671",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/00221ubBgy1ih5bvjd6pjj60xh0moaf402.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "cebbe51c49a7efaf51a2",
+      "headline": "Apple reportedly accepts higher Samsung DRAM and NAND pricing for Q1 2027",
+      "bullets": [
+        "A Weibo industry account reports that Apple accepted Samsung’s Q1 2027 pricing at nearly $2.0/Gb for DRAM and nearly $0.33/Gb for NAND, 30%–40% above Q3 2026 levels.",
+        "The post says Apple’s official response was unavailable and describes the deal as a sign that memory suppliers are regaining pricing power.",
+        "It also reports that Samsung and SK hynix had raised Apple LPDDR pricing sharply during earlier negotiations."
+      ],
+      "companies": [
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "SK hynix",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "DRAM · NAND · Supply Chain",
+      "categories": [
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 84,
+      "priority": "Critical",
+      "score_reason": "Potentially significant evidence of memory inflation and supplier bargaining power involving the world’s largest smartphone and major memory companies.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343728567059876",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-16T03:00:35Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T03:00:35Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343728567059876",
+          "published_at": "2026-09-16T03:00:35Z",
+          "original_text": "【苹果罕见让步： #2.0美元/Gb锁定三星存储，2027年缺货战提前打响# 】 苹果 据报道，9月15日，苹果已接受三星电子2027年一季度的存储芯片报价：DRAM接近2.0美元/Gb，NAND闪存接近0.33美元/Gb，比2026年三季度的报价高出30%至40%。截至发稿，苹果官方暂未对该消息作出回应。 这笔交易的意义超出订单本身——存储产业的定价权，正在从终端品牌向原厂回摆。苹果每年iPhone出货量约2.5亿台，长期稳居全球最大LPDDR买家，过去通常能以低于市场平均的价格获得内存供应。但今年一季度，三星与SK海力士在对苹果的LPDDR谈判中已将报价较上季拉高近一倍，三星涨幅超过80%，SK海力士接近100%；彼时苹果仅谈妥上半年单价、未签全年长约，被解读为对后市价格缺乏把握。 ​苹果罕见让步：2.0美元/Gb锁定三星存储，2027年缺货战提前打响",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343728567059876",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBgy1ih5bux9a8uj60xc0k00w902.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "5f1d7f10032e6be7fca2",
+      "headline": "Nvidia CEO Jensen Huang argues against new AI regulation",
+      "bullets": [
+        "A Weibo industry account relays Jensen Huang’s view that the AI industry does not need additional safety laws or regulations.",
+        "The post says Huang argued that market forces can support safe innovation and that framing AI development as a choice between safety and speed is incorrect."
+      ],
+      "companies": [
+        {
+          "name": "Nvidia",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "A major AI company executive’s position on regulation and the safety-versus-speed trade-off is material to frontier-AI policy debate.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343728382512959",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-16T02:59:51Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T02:59:51Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343728382512959",
+          "published_at": "2026-09-16T02:59:51Z",
+          "original_text": "【英伟达CEO黄仁勋： #AI行业无需新增监管，市场机制可促进行业安全创新# 】 英伟达首席执行官黄仁勋周二表示，人工智能行业不需要新增安全监管，市场力量将推动企业在确保安全的前提下持续创新。 黄仁勋在Salesforce举行的一场活动上说，AI行业不需要新的法律或监管规定。他还表示，认为AI发展只能在“安全”和“速度”之间二选一，是一种“错误的选择”。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343728382512959",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBgy1ih5bu86eqvj61jk111b2a02.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "9d57f2be60a7368df081",
       "headline": "Jeff Pu reiterates Intel 14A capacity and improving 18A yields",
       "bullets": [
@@ -1856,6 +2310,66 @@
       "updated_at": "2026-09-16T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "7475f974c7d0cc24cf1c",
+      "headline": "First-wave LPDDR6 mobile SoCs reportedly includes five flagship platforms",
+      "bullets": [
+        "The Weibo author lists XRing O3, Kirin 9050, Dimensity 9600 Pro, 8EE6 or SM8975, and Exynos 2700, scheduled for January 2027, as early LPDDR6-capable SoCs.",
+        "The post says these platforms also support LPDDR5X at 10,667 Mbps and expects overall LPDDR6 shipment volume to remain limited.",
+        "The author also says ChangXin Memory has begun LPDDR6 mass production."
+      ],
+      "companies": [
+        {
+          "name": "ChangXin Memory",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Potential transition to LPDDR6 affects mobile memory demand, platform compatibility and Chinese memory manufacturing, though the claims are not independently confirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343720660536757",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-16T02:29:10Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T02:29:10Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343720660536757",
+          "published_at": "2026-09-16T02:29:10Z",
+          "original_text": "新SOC的发布已经接近尾声。第一批支持LPDDR6的SOC包括： - XRing O3 - Kirin9050 - D9600 Pro - 8EE6（SM8975） - Exynos2700（2027年1月） 这些芯片都同时支持LPDDR5x 10667Mbps，LPDDR6的总体出货量不大。 #长鑫存储lpddr6量产#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343720660536757",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "aad69260c0468c7a0a94",
@@ -2356,6 +2870,58 @@
       "source_category": "Twitter"
     },
     {
+      "id": "0c128c040de09f281740",
+      "headline": "U.S. Defense Department reportedly invests $450 million in domestic tungsten",
+      "bullets": [
+        "A Weibo industry account reports that the U.S. Defense Department invested $450 million in a domestic tungsten company to reduce reliance on China.",
+        "The post identifies tungsten supply diversification as the stated rationale but does not name the company."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Materials & Inputs · Supply Chain",
+      "categories": [
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Large government-backed investment in a strategically important industrial input could affect critical-material supply chains.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343706015074274",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-16T01:30:58Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T01:30:58Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343706015074274",
+          "published_at": "2026-09-16T01:30:58Z",
+          "original_text": "发布了文章 《为摆脱对中国依赖，美国防部4.5亿美元入股本土钨企》 为摆脱对中国依赖，美国防部4.5亿美元入股本土钨企",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343706015074274",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "27d93b5022fd519455bc",
       "headline": "Elon Musk proposes cross-testing between rival AI labs, including China",
       "bullets": [
@@ -2408,6 +2974,65 @@
       "first_seen_at": "2026-09-16T05:00:01Z",
       "updated_at": "2026-09-16T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "618726afd978a0fc0d6b",
+      "headline": "Xiaomi 18 series reportedly uses 2nm chips across the lineup",
+      "bullets": [
+        "The Weibo author says the entire Xiaomi 18 series, including the standard model and not only the Pro version, uses 2nm chips.",
+        "The claim is presented as an unconfirmed disclosure about Xiaomi’s next mobile platform generation."
+      ],
+      "companies": [
+        {
+          "name": "Xiaomi",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "If accurate, broad 2nm adoption across a smartphone lineup would be significant for mobile semiconductor deployment, but the post is an unconfirmed claim.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343704308254475",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-16T01:24:11Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T01:24:11Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343704308254475",
+          "published_at": "2026-09-16T01:24:11Z",
+          "original_text": "不仅Pro，整个18系列都是2nm芯片，我在8月份已经说了。 含标准版全系2nm，国内安卓算是独一份了。 #曝小米18Pro全系双2nm芯片#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343704308254475",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/006tvJhcgy1ih590o317vj31220z2agt.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "95b74b0dd65f71e9a0b4",
@@ -3618,6 +4243,63 @@
       "first_seen_at": "2026-09-16T05:00:01Z",
       "updated_at": "2026-09-16T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "b637adbf5106a496d120",
+      "headline": "OpenAI reportedly buys an Apple-affiliated company for $300 million",
+      "bullets": [
+        "A Weibo industry account highlights a report that OpenAI acquired an Apple-affiliated company for $300 million.",
+        "The post does not identify the acquired company or provide additional transaction terms."
+      ],
+      "companies": [
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "A reported $300 million acquisition is a material frontier-AI company development, although the target and strategic rationale are unspecified.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343681580106768",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-15T23:53:52Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T23:53:52Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343681580106768",
+          "published_at": "2026-09-15T23:53:52Z",
+          "original_text": "发布了文章 《3亿美元，OpenAI又买下一家“苹果系”公司》 3亿美元，OpenAI又买下一家“苹果系”公司",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343681580106768",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "9aedf8f5d6f5db48f1d7",
@@ -5196,6 +5878,267 @@
       "revision": 1
     },
     {
+      "id": "9ef781edd7b2097a9852",
+      "headline": "MediaTek reportedly launches the 2nm Dimensity 9600 Pro",
+      "bullets": [
+        "A Weibo industry account highlights an article reporting that MediaTek launched the Dimensity 9600 Pro on a 2nm process.",
+        "The post describes CPU and GPU upgrades and a dual-NPU architecture, but provides no further launch details."
+      ],
+      "companies": [
+        {
+          "name": "MediaTek",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "A reported 2nm flagship mobile SoC launch is material to leading-edge mobile compute competition, though the supplied evidence is brief.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343460996417700",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-15T09:17:21Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T09:17:21Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343460996417700",
+          "published_at": "2026-09-15T09:17:21Z",
+          "original_text": "发布了文章 《联发科天玑9600 Pro发布：2nm，CPU/GPU全面升级，双NPU架构！》 联发科天玑9600 Pro发布：2nm，CPU/GPU全面升级，双NPU架构！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343460996417700",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "15f8fd04181dcd0535b7",
+      "headline": "Dimensity 9600 Pro performance is forecast to rise 17% in single-core testing",
+      "bullets": [
+        "The Weibo author estimates 17% single-core and 15% multi-core performance gains for the Dimensity 9600 Pro.",
+        "The author expects Qualcomm’s 8EE6 to score higher overall, while saying its single-core result may remain below Apple’s A20 Pro."
+      ],
+      "companies": [
+        {
+          "name": "MediaTek",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Qualcomm",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "Adds comparative performance expectations for leading mobile SoCs, but remains an analyst-style forecast rather than verified test reporting.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343455807015740",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-15T08:56:44Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T08:56:44Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343455807015740",
+          "published_at": "2026-09-15T08:56:44Z",
+          "original_text": "天玑9600 Pro的单核和多核性能提升分别为17%和15%。 估计高通8EE6还是会高一些，不过单核还是达不到A20 Pro的高度。 #天玑9600Pro旗舰芯#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343455807015740",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/006tvJhcgy1ih4gdu515rj31kw0xogql.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "165c91c2b814758068eb",
+      "headline": "Dimensity 9600 Pro adds AI-assisted rendering, Weibo analysis says",
+      "bullets": [
+        "The Weibo author reports Geekbench 6 scores of 4,276 single-core and 12,650 multi-core for the Dimensity 9600 Pro.",
+        "The post claims 3DMark Steel Nomad Light power consumption is 24% lower than the previous generation at the same peak performance.",
+        "The author says MediaTek’s neural-rendering architecture coordinates GPU and NPU resources to bring AI deeper into the mobile graphics pipeline."
+      ],
+      "companies": [
+        {
+          "name": "MediaTek",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Combines reported flagship mobile performance data with an AI-rendering architecture claim that could influence mobile compute design.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343455381557660",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-15T08:55:02Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T08:55:02Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343455381557660",
+          "published_at": "2026-09-15T08:55:02Z",
+          "original_text": "天玑9600 Pro来了，2nm工艺+双超大核CPU架构+G2 Ultra MC12 GPU，GB6单核4276多核12650，3DMark SNL较前代同峰值性能下功耗降低24％，性能和能效数据非常牛逼。 单看G2 Ultra GPU提升很明显，性能、光追帧率与能效都有升级，但属于旗舰芯片的常规补强。发哥真正的变量是——天玑神经网络渲染架构，它让GPU与NPU算力协同，让AI深度参与渲染管线，用有限的功耗实现更优的画质表现。 这是移动端AI深度参与游戏渲染的一次落地，长远价值远大于单次GPU升级。尤其手游画质越来越高是大家喜闻乐见的，天玑9600 Pro这波GPU+AI融合渲染，会有不小的影响力 #手机的DLSS来了# #天玑9600 Pro旗舰芯#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343455381557660",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/006QJqMgly8ih4fko4v35j36681jknpd.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "0061f60c40675c6400a1",
+      "headline": "d-Matrix Raptor is said to pair TSMC N4 with 3D DRAM",
+      "bullets": [
+        "The Weibo author says d-Matrix’s Raptor platform will use a TSMC N4 compute die and MicroBump-based TCB bonding with a 36-micron pitch for 3D DRAM.",
+        "The post claims bandwidth of up to 100 TB/s without hybrid bonding and says hybrid-bonded 3D DRAM could deliver 17 times the energy efficiency of conventional HBM stacking.",
+        "The author expects another supplier to launch a commercial hybrid-bonded 3D DRAM solution in September for edge AI-agent hardware."
+      ],
+      "companies": [
+        {
+          "name": "d-Matrix",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "TSMC",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "AMD",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Addresses emerging 3D DRAM, bonding and AI hardware architectures with potentially major bandwidth and efficiency implications, though the technical claims are unverified.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343447746611465",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-15T08:24:42Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T08:24:42Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343447746611465",
+          "published_at": "2026-09-15T08:24:42Z",
+          "original_text": "初创公司d-Matrix后续的产品Raptor平台也会采用3D DRAM技术，计算Die采用台积电的N4制程，采用MicroBump的类似HBM的TCB键合（pitch 36um），即使没有采用混合键合，带宽也达到了100TB/s。 3D DRAM堆叠已经成为下一个公认的高带宽DRAM技术。AMD也高度认可这个技术的能效。混合键合3D DRAM的能效比传统HBM堆叠式DRAM高出17倍。 9月份还有一家厂商要推出商用的混合键合3D DRAM方案，在端侧将成为一个重要的AI Agent硬件。",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343447746611465",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/006tvJhcgy1ih4fff03imj31kq0t67n5.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006tvJhcgy1ih4f9rjdr0j30o10fxwmo.jpg"
+          ],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "ff929b7c5ae3d86afcac",
       "headline": "Samsung reportedly starts 2nm AI5 chip prototypes at Taylor fab for Tesla",
       "bullets": [
@@ -5241,6 +6184,63 @@
       "first_seen_at": "2026-09-16T05:00:01Z",
       "updated_at": "2026-09-16T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "08c6b6b428e8a3de23d9",
+      "headline": "Qualcomm is expected to pursue two 2nm flagship mobile platforms",
+      "bullets": [
+        "The Weibo author says Qualcomm’s next generation will use a two-platform 2nm strategy centered on SM8975 and SM8950.",
+        "The post describes SM8975 as targeting peak performance above 5 GHz, while presenting SM8950 as the more promising new-generation design."
+      ],
+      "companies": [
+        {
+          "name": "Qualcomm",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "Potentially important 2nm mobile SoC competition and product segmentation, but the claims are forward-looking commentary.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343441869341323",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-15T08:01:20Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-15T08:01:20Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-16T05:35:24Z",
+      "updated_at": "2026-09-16T05:35:24Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343441869341323",
+          "published_at": "2026-09-15T08:01:20Z",
+          "original_text": "今年2nm SoC大乱斗，果子A20 Pro拿下单核之王，发哥天玑9600 Pro多核表现刷记录。 接下来轮到高通出牌了，几个月前说过这一代选择了双2nm旗舰平台策略： SM8975定义2nm综合实力最强的移动SoC，性能巅峰，主频突破5GHz，CPU/GPU全线拉满； 但实际上SM8950更有看头，同样是2nm+新一代核心架构，大概率会成为新一代“神U”",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343441869341323",
+          "images": [],
+          "retrieved_at": "2026-09-16T05:35:24Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "00b44411e324e2283f2c",
@@ -26676,14 +27676,6 @@
       ]
     }
   ],
-  "weibo_updated_at": "2026-09-15T05:24:43Z",
-  "weibo_published_at": "2026-09-15T05:34:27Z",
-  "weibo_schedule": "06:00 Europe/London · Monday–Friday",
-  "weibo_window": {
-    "start": "2026-09-14T05:24:43Z",
-    "end": "2026-09-15T05:24:43Z",
-    "weekend_coverage": false
-  },
   "twitter_stories": [
     {
       "id": "c3d2071d379096c793b4",
@@ -28294,5 +29286,13 @@
     "weekend_coverage": false
   },
   "twitter_published_at": "2026-09-16T05:35:20Z",
-  "published_at": "2026-09-16T05:35:20Z"
+  "published_at": "2026-09-16T05:35:20Z",
+  "weibo_published_at": "2026-09-16T05:48:16Z",
+  "weibo_updated_at": "2026-09-16T05:35:24Z",
+  "weibo_window": {
+    "start": "2026-09-15T05:35:24Z",
+    "end": "2026-09-16T05:35:24Z",
+    "weekend_coverage": false
+  },
+  "weibo_schedule": "06:00 Europe/London · Monday–Friday"
 }
