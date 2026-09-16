@@ -16184,6 +16184,66 @@
           "at": "2026-09-16T05:09:05Z",
           "stage": "fetch",
           "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:09:11Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1080049 bytes, 6.2s."
+        },
+        {
+          "at": "2026-09-16T05:09:11Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:09:13Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1149994 bytes, 2.1s."
+        },
+        {
+          "at": "2026-09-16T05:09:13Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:09:16Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1197652 bytes, 2.9s."
+        },
+        {
+          "at": "2026-09-16T05:09:16Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:09:29Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1116102 bytes, 12.6s."
+        },
+        {
+          "at": "2026-09-16T05:09:29Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:09:33Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1140225 bytes, 4.2s."
+        },
+        {
+          "at": "2026-09-16T05:09:33Z",
+          "stage": "web_discovery",
+          "message": "SCMP: 5 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-16T05:09:33Z",
+          "stage": "web_discovery",
+          "message": "Reading Seoul Economic Daily through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:09:33Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
         }
       ],
       "usage": [
@@ -16907,9 +16967,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:09:05Z",
+      "updated_at": "2026-09-16T05:09:33Z",
       "stage": "web_discovery"
     }
   ]
