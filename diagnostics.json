@@ -17724,6 +17724,86 @@
           "at": "2026-09-16T05:23:47Z",
           "stage": "fetch",
           "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:23:52Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 345749 bytes, 4.8s."
+        },
+        {
+          "at": "2026-09-16T05:23:52Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:23:55Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 365546 bytes, 2.6s."
+        },
+        {
+          "at": "2026-09-16T05:23:55Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:24:00Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 349395 bytes, 5.7s."
+        },
+        {
+          "at": "2026-09-16T05:24:01Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:24:02Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 347504 bytes, 1.7s."
+        },
+        {
+          "at": "2026-09-16T05:24:02Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:24:07Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 349779 bytes, 4.5s."
+        },
+        {
+          "at": "2026-09-16T05:24:07Z",
+          "stage": "fetch",
+          "message": "ngc.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:24:12Z",
+          "stage": "fetch",
+          "message": "ngc.nikkei.com: HTTP 200, 71311 bytes, 4.8s."
+        },
+        {
+          "at": "2026-09-16T05:24:12Z",
+          "stage": "web_discovery",
+          "message": "Nikkei: 19 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-16T05:24:12Z",
+          "stage": "web_discovery",
+          "message": "Reading MoneyToday through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:24:12Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:24:15Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: HTTP 200, 105550 bytes, 2.1s."
+        },
+        {
+          "at": "2026-09-16T05:24:15Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -19483,9 +19563,58 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:23:47Z",
+      "updated_at": "2026-09-16T05:24:15Z",
       "stage": "web_discovery"
     }
   ]
