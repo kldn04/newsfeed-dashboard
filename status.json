@@ -1,59 +1,30 @@
 {
   "state": "running",
-  "message": "Twitter API: fetching @fundaai in the requested window.",
-  "stage": "x_discovery",
-  "updated_at": "2026-09-16T05:31:24Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-16T05:31:54Z",
   "started_at": "2026-09-16T05:00:01Z",
   "counts": {
-    "x_candidates": 32,
-    "twitter_api_requests": 8,
-    "twitter_posts_fetched": 51
+    "x_candidates": 34,
+    "twitter_api_requests": 12,
+    "twitter_posts_fetched": 55,
+    "openai_calls": 1,
+    "input_tokens_estimated": 307113,
+    "input_text_shortened": false
   },
   "stored_totals": {
     "stories": 384,
-    "evidence": 1120,
+    "evidence": 1352,
     "model_cache": 53,
-    "reviews": 225
+    "reviews": 229
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 217
+    "Editorial exclusions": 221
   },
   "events": [
-    {
-      "at": "2026-09-16T05:31:12Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-16T05:31:14Z",
-      "message": "Initial article scrape: Anthropic"
-    },
-    {
-      "at": "2026-09-16T05:31:15Z",
-      "message": "Initial article scrape: apnews.com"
-    },
-    {
-      "at": "2026-09-16T05:31:22Z",
-      "message": "Twitter API: fetching @jukan05 in the requested window."
-    },
-    {
-      "at": "2026-09-16T05:31:22Z",
-      "message": "Twitter API: @jukan05 returned 2 posts."
-    },
-    {
-      "at": "2026-09-16T05:31:22Z",
-      "message": "Twitter API: fetching @zephyr_z9 in the requested window."
-    },
-    {
-      "at": "2026-09-16T05:31:23Z",
-      "message": "Twitter API: @zephyr_z9 returned 1 posts."
-    },
-    {
-      "at": "2026-09-16T05:31:23Z",
-      "message": "Twitter API: fetching @dnystedt in the requested window."
-    },
     {
       "at": "2026-09-16T05:31:23Z",
       "message": "Twitter API: @dnystedt returned 8 posts."
@@ -101,6 +72,38 @@
     {
       "at": "2026-09-16T05:31:24Z",
       "message": "Twitter API: fetching @fundaai in the requested window."
+    },
+    {
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: @fundaai returned 0 posts."
+    },
+    {
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: fetching @shanghaojin in the requested window."
+    },
+    {
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: @shanghaojin returned 2 posts."
+    },
+    {
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: fetching @mingchikuo in the requested window."
+    },
+    {
+      "at": "2026-09-16T05:31:25Z",
+      "message": "Twitter API: @mingchikuo returned 0 posts."
+    },
+    {
+      "at": "2026-09-16T05:31:25Z",
+      "message": "Twitter API: fetching @sean_________ in the requested window."
+    },
+    {
+      "at": "2026-09-16T05:31:25Z",
+      "message": "Twitter API: @sean_________ returned 0 posts."
+    },
+    {
+      "at": "2026-09-16T05:31:27Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
