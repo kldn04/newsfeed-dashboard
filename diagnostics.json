@@ -16784,6 +16784,26 @@
           "at": "2026-09-16T05:15:41Z",
           "stage": "fetch",
           "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:15:45Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 148821 bytes, 4.0s."
+        },
+        {
+          "at": "2026-09-16T05:15:45Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:15:59Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 136458 bytes, 14.7s."
+        },
+        {
+          "at": "2026-09-16T05:16:00Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
         }
       ],
       "usage": [
@@ -17906,9 +17926,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:15:41Z",
+      "updated_at": "2026-09-16T05:16:00Z",
       "stage": "web_discovery"
     }
   ]
