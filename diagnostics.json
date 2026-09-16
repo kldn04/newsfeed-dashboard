@@ -15634,6 +15634,66 @@
           "at": "2026-09-16T05:05:04Z",
           "stage": "fetch",
           "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:05:10Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 78666 bytes, 5.9s."
+        },
+        {
+          "at": "2026-09-16T05:05:10Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:05:16Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 78505 bytes, 6.5s."
+        },
+        {
+          "at": "2026-09-16T05:05:16Z",
+          "stage": "web_discovery",
+          "message": "TrendForce: 4 candidates (ok)."
+        },
+        {
+          "at": "2026-09-16T05:05:16Z",
+          "stage": "web_discovery",
+          "message": "Reading ZDNet Korea through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:05:17Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:05:23Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 72113 bytes, 6.2s."
+        },
+        {
+          "at": "2026-09-16T05:05:23Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:05:29Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 71913 bytes, 5.9s."
+        },
+        {
+          "at": "2026-09-16T05:05:30Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:05:32Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 73397 bytes, 2.3s."
+        },
+        {
+          "at": "2026-09-16T05:05:32Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -16007,9 +16067,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:05:04Z",
+      "updated_at": "2026-09-16T05:05:32Z",
       "stage": "web_discovery"
     }
   ]
