@@ -1,13 +1,17 @@
 {
   "state": "running",
-  "message": "Initial article scrape: Dario Amodei",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-16T05:30:53Z",
+  "message": "Twitter API: fetching @fundaai in the requested window.",
+  "stage": "x_discovery",
+  "updated_at": "2026-09-16T05:31:24Z",
   "started_at": "2026-09-16T05:00:01Z",
-  "counts": {},
+  "counts": {
+    "x_candidates": 32,
+    "twitter_api_requests": 8,
+    "twitter_posts_fetched": 51
+  },
   "stored_totals": {
     "stories": 384,
-    "evidence": 1088,
+    "evidence": 1120,
     "model_cache": 53,
     "reviews": 225
   },
@@ -19,84 +23,84 @@
   },
   "events": [
     {
-      "at": "2026-09-16T05:14:04Z",
-      "message": "Reading Hankook Ilbo through Bright Data."
+      "at": "2026-09-16T05:31:12Z",
+      "message": "Initial article scrape: Anthropic"
     },
     {
-      "at": "2026-09-16T05:17:56Z",
-      "message": "Hankook Ilbo: 18 dated articles captured (ok)."
+      "at": "2026-09-16T05:31:14Z",
+      "message": "Initial article scrape: Anthropic"
     },
     {
-      "at": "2026-09-16T05:17:56Z",
-      "message": "Reading Munhwa through Bright Data."
+      "at": "2026-09-16T05:31:15Z",
+      "message": "Initial article scrape: apnews.com"
     },
     {
-      "at": "2026-09-16T05:20:36Z",
-      "message": "Munhwa: 25 dated articles captured (partial)."
+      "at": "2026-09-16T05:31:22Z",
+      "message": "Twitter API: fetching @jukan05 in the requested window."
     },
     {
-      "at": "2026-09-16T05:20:36Z",
-      "message": "Reading ETNews through Bright Data."
+      "at": "2026-09-16T05:31:22Z",
+      "message": "Twitter API: @jukan05 returned 2 posts."
     },
     {
-      "at": "2026-09-16T05:22:26Z",
-      "message": "ETNews: 18 dated articles captured (ok)."
+      "at": "2026-09-16T05:31:22Z",
+      "message": "Twitter API: fetching @zephyr_z9 in the requested window."
     },
     {
-      "at": "2026-09-16T05:22:26Z",
-      "message": "Reading Nikkei through Bright Data."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: @zephyr_z9 returned 1 posts."
     },
     {
-      "at": "2026-09-16T05:24:12Z",
-      "message": "Nikkei: 19 dated articles captured (partial)."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: fetching @dnystedt in the requested window."
     },
     {
-      "at": "2026-09-16T05:24:12Z",
-      "message": "Reading MoneyToday through Bright Data."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: @dnystedt returned 8 posts."
     },
     {
-      "at": "2026-09-16T05:26:13Z",
-      "message": "MoneyToday: 24 dated articles captured (partial)."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: fetching @pequityresearch in the requested window."
     },
     {
-      "at": "2026-09-16T05:26:13Z",
-      "message": "Reading Financial News through Bright Data."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: @pequityresearch returned 16 posts."
     },
     {
-      "at": "2026-09-16T05:28:22Z",
-      "message": "Financial News: 22 dated articles captured (ok)."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: fetching @intelfabs in the requested window."
     },
     {
-      "at": "2026-09-16T05:28:22Z",
-      "message": "Reading Economic Daily (UDN) through Bright Data."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: @intelfabs returned 2 posts."
     },
     {
-      "at": "2026-09-16T05:30:08Z",
-      "message": "Economic Daily (UDN): 16 dated articles captured (partial)."
+      "at": "2026-09-16T05:31:23Z",
+      "message": "Twitter API: fetching @ryanhingshing in the requested window."
     },
     {
-      "at": "2026-09-16T05:30:08Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: @ryanhingshing returned 1 posts."
     },
     {
-      "at": "2026-09-16T05:30:19Z",
-      "message": "Checking direct AI announcements: Anthropic"
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: fetching @sssjeffpu in the requested window."
     },
     {
-      "at": "2026-09-16T05:30:24Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: @sssjeffpu returned 2 posts."
     },
     {
-      "at": "2026-09-16T05:30:28Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: fetching @zartbotf in the requested window."
     },
     {
-      "at": "2026-09-16T05:30:31Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: @zartbotf returned 0 posts."
     },
     {
-      "at": "2026-09-16T05:30:32Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-16T05:31:24Z",
+      "message": "Twitter API: fetching @fundaai in the requested window."
     }
   ]
 }
