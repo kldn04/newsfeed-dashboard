@@ -15564,6 +15564,76 @@
           "at": "2026-09-16T05:04:30Z",
           "stage": "fetch",
           "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:04:36Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 30587 bytes, 5.7s."
+        },
+        {
+          "at": "2026-09-16T05:04:36Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:04:41Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 30967 bytes, 5.8s."
+        },
+        {
+          "at": "2026-09-16T05:04:42Z",
+          "stage": "web_discovery",
+          "message": "Ijiwei: 20 candidates (partial)."
+        },
+        {
+          "at": "2026-09-16T05:04:42Z",
+          "stage": "web_discovery",
+          "message": "Reading TrendForce through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:04:42Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:04:47Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 81950 bytes, 4.8s."
+        },
+        {
+          "at": "2026-09-16T05:04:47Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:04:52Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 76887 bytes, 5.0s."
+        },
+        {
+          "at": "2026-09-16T05:04:53Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:04:58Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 78818 bytes, 5.1s."
+        },
+        {
+          "at": "2026-09-16T05:04:58Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:05:04Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 78658 bytes, 5.9s."
+        },
+        {
+          "at": "2026-09-16T05:05:04Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
         }
       ],
       "usage": [
@@ -15895,9 +15965,51 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:04:30Z",
+      "updated_at": "2026-09-16T05:05:04Z",
       "stage": "web_discovery"
     }
   ]
