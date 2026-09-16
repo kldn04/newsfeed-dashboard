@@ -18674,6 +18674,61 @@
           "at": "2026-09-16T05:29:53Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:29:56Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 266715 bytes, 2.7s."
+        },
+        {
+          "at": "2026-09-16T05:29:56Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:30:02Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 273785 bytes, 6.6s."
+        },
+        {
+          "at": "2026-09-16T05:30:03Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:30:08Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 271880 bytes, 5.0s."
+        },
+        {
+          "at": "2026-09-16T05:30:08Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 16 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-16T05:30:08Z",
+          "stage": "web_discovery",
+          "message": "Checking direct AI announcements: Dario Amodei"
+        },
+        {
+          "at": "2026-09-16T05:30:08Z",
+          "stage": "fetch",
+          "message": "www.darioamodei.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:30:19Z",
+          "stage": "fetch",
+          "message": "www.darioamodei.com: HTTP 200, 28947 bytes, 11.0s."
+        },
+        {
+          "at": "2026-09-16T05:30:19Z",
+          "stage": "web_discovery",
+          "message": "Checking direct AI announcements: Anthropic"
+        },
+        {
+          "at": "2026-09-16T05:30:19Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: fetch started."
         }
       ],
       "usage": [
@@ -21077,9 +21132,37 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:29:53Z",
+      "updated_at": "2026-09-16T05:30:19Z",
       "stage": "web_discovery"
     }
   ]
