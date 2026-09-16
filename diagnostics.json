@@ -16034,6 +16034,106 @@
           "at": "2026-09-16T05:08:07Z",
           "stage": "fetch",
           "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:14Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 131272 bytes, 7.1s."
+        },
+        {
+          "at": "2026-09-16T05:08:14Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:19Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 131061 bytes, 4.6s."
+        },
+        {
+          "at": "2026-09-16T05:08:19Z",
+          "stage": "web_discovery",
+          "message": "EET China: 8 candidates (ok)."
+        },
+        {
+          "at": "2026-09-16T05:08:19Z",
+          "stage": "web_discovery",
+          "message": "Reading IDC through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:08:20Z",
+          "stage": "fetch",
+          "message": "www.idc.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:24Z",
+          "stage": "fetch",
+          "message": "www.idc.com: HTTP 200, 122435 bytes, 4.2s."
+        },
+        {
+          "at": "2026-09-16T05:08:24Z",
+          "stage": "web_discovery",
+          "message": "IDC: 0 dated articles captured (ok)."
+        },
+        {
+          "at": "2026-09-16T05:08:24Z",
+          "stage": "web_discovery",
+          "message": "Reading Counterpoint Research through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:08:24Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:26Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: HTTP 200, 366686 bytes, 2.6s."
+        },
+        {
+          "at": "2026-09-16T05:08:27Z",
+          "stage": "web_discovery",
+          "message": "Counterpoint Research: 0 dated articles captured (failed)."
+        },
+        {
+          "at": "2026-09-16T05:08:27Z",
+          "stage": "web_discovery",
+          "message": "Reading SCMP through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:08:27Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:30Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 3548215 bytes, 3.8s."
+        },
+        {
+          "at": "2026-09-16T05:08:31Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:33Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1146907 bytes, 2.4s."
+        },
+        {
+          "at": "2026-09-16T05:08:33Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:08:37Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1126905 bytes, 3.7s."
+        },
+        {
+          "at": "2026-09-16T05:08:37Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
         }
       ],
       "usage": [
@@ -16673,9 +16773,58 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:08:07Z",
+      "updated_at": "2026-09-16T05:08:37Z",
       "stage": "web_discovery"
     }
   ]
