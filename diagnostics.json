@@ -17244,6 +17244,26 @@
           "at": "2026-09-16T05:20:44Z",
           "stage": "fetch",
           "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:20:59Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 55093 bytes, 14.7s."
+        },
+        {
+          "at": "2026-09-16T05:20:59Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:21:14Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 55010 bytes, 14.4s."
+        },
+        {
+          "at": "2026-09-16T05:21:14Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
         }
       ],
       "usage": [
@@ -18674,9 +18694,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:20:44Z",
+      "updated_at": "2026-09-16T05:21:14Z",
       "stage": "web_discovery"
     }
   ]
