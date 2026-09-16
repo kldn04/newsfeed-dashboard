@@ -14950,6 +14950,109 @@
       ],
       "updated_at": "2026-09-15T05:34:30Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-09-16T05:00:01Z",
+      "kind": "Web + Twitter",
+      "events": [
+        {
+          "at": "2026-09-16T05:00:01Z",
+          "stage": "starting",
+          "message": "Starting the weekday edition."
+        },
+        {
+          "at": "2026-09-16T05:00:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:00:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:00:08Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 85730 bytes, 7.5s."
+        },
+        {
+          "at": "2026-09-16T05:00:09Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 3 candidates (ok)."
+        },
+        {
+          "at": "2026-09-16T05:00:09Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:00:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:00:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 115852 bytes, 7.1s."
+        },
+        {
+          "at": "2026-09-16T05:00:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:00:24Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 118750 bytes, 8.3s."
+        },
+        {
+          "at": "2026-09-16T05:00:25Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:00:30Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 123936 bytes, 5.8s."
+        },
+        {
+          "at": "2026-09-16T05:00:31Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-16T05:00:31Z",
+      "stage": "web_discovery"
     }
   ]
 }
