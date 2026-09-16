@@ -15329,6 +15329,51 @@
           "at": "2026-09-16T05:02:28Z",
           "stage": "fetch",
           "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:02:40Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2095241 bytes, 11.5s."
+        },
+        {
+          "at": "2026-09-16T05:02:40Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-16T05:02:40Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:02:44Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2087965 bytes, 4.2s."
+        },
+        {
+          "at": "2026-09-16T05:02:44Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-09-16T05:02:44Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-16T05:02:55Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 2068201 bytes, 10.7s."
+        },
+        {
+          "at": "2026-09-16T05:02:55Z",
+          "stage": "web_discovery",
+          "message": "Reading Ijiwei through Bright Data."
+        },
+        {
+          "at": "2026-09-16T05:02:56Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
         }
       ],
       "usage": [
@@ -15506,9 +15551,30 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-16T05:02:28Z",
+      "updated_at": "2026-09-16T05:02:56Z",
       "stage": "web_discovery"
     }
   ]
