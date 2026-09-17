@@ -33505,6 +33505,36 @@
           "at": "2026-09-17T08:34:59Z",
           "stage": "fetch",
           "message": "www.anthropic.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:35:17Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: HTTP 200, 277628 bytes, 18.4s."
+        },
+        {
+          "at": "2026-09-17T08:35:17Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Anthropic"
+        },
+        {
+          "at": "2026-09-17T08:35:17Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:35:32Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: HTTP 200, 146242 bytes, 14.8s."
+        },
+        {
+          "at": "2026-09-17T08:35:32Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Anthropic"
+        },
+        {
+          "at": "2026-09-17T08:35:32Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: fetch started."
         }
       ],
       "usage": [
@@ -36020,9 +36050,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T08:34:59Z",
+      "updated_at": "2026-09-17T08:35:32Z",
       "stage": "web_discovery"
     }
   ]
