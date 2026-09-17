@@ -2,7 +2,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 数码王小机.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-17T05:43:03Z",
+  "updated_at": "2026-09-17T05:43:34Z",
   "started_at": "2026-09-17T05:33:22Z",
   "counts": {
     "weibo_candidates": 39
@@ -20,14 +20,6 @@
     "Editorial exclusions": 235
   },
   "events": [
-    {
-      "at": "2026-09-17T05:37:00Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
-    },
-    {
-      "at": "2026-09-17T05:37:15Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
-    },
     {
       "at": "2026-09-17T05:38:45Z",
       "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
@@ -98,6 +90,14 @@
     },
     {
       "at": "2026-09-17T05:43:01Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-17T05:43:13Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-17T05:43:27Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
     }
   ]
