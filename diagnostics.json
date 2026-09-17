@@ -32490,6 +32490,66 @@
           "at": "2026-09-17T08:23:52Z",
           "stage": "fetch",
           "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:23:58Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 351602 bytes, 5.5s."
+        },
+        {
+          "at": "2026-09-17T08:23:58Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:24:07Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 367133 bytes, 9.4s."
+        },
+        {
+          "at": "2026-09-17T08:24:07Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:24:09Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 365692 bytes, 1.5s."
+        },
+        {
+          "at": "2026-09-17T08:24:09Z",
+          "stage": "fetch",
+          "message": "ngc.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:24:16Z",
+          "stage": "fetch",
+          "message": "ngc.nikkei.com: HTTP 200, 61119 bytes, 6.9s."
+        },
+        {
+          "at": "2026-09-17T08:24:16Z",
+          "stage": "web_discovery",
+          "message": "Nikkei: 19 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-17T08:24:16Z",
+          "stage": "web_discovery",
+          "message": "Reading MoneyToday through Bright Data."
+        },
+        {
+          "at": "2026-09-17T08:24:17Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:24:19Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: HTTP 200, 102208 bytes, 2.5s."
+        },
+        {
+          "at": "2026-09-17T08:24:20Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -34361,9 +34421,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T08:23:52Z",
+      "updated_at": "2026-09-17T08:24:20Z",
       "stage": "web_discovery"
     }
   ]
