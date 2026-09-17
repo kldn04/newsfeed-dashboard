@@ -33705,6 +33705,41 @@
           "at": "2026-09-17T08:38:34Z",
           "stage": "summarising",
           "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-17T08:40:57Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-09-17T08:40:57Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-17T08:40:57Z",
+          "stage": "validation",
+          "message": "Batch complete: 26 stories ready."
+        },
+        {
+          "at": "2026-09-17T08:40:57Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-09-17T08:40:57Z",
+          "stage": "validation",
+          "message": "Wider feed and Twitter compilation finished."
+        },
+        {
+          "at": "2026-09-17T08:40:57Z",
+          "stage": "publishing",
+          "message": "Publishing the verified edition."
+        },
+        {
+          "at": "2026-09-17T08:41:01Z",
+          "stage": "complete",
+          "message": "Edition published."
         }
       ],
       "usage": [
@@ -36268,10 +36303,22 @@
           "cache_write_tokens": 300013,
           "cost_usd": 0.09408745000000002,
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-5.6-luna",
+          "input_tokens": 24235,
+          "output_tokens": 13984,
+          "reasoning_tokens": 7935,
+          "cached_tokens": 0,
+          "cache_write_tokens": 24232,
+          "cost_usd": 0.022839400000000003,
+          "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-17T08:38:34Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-17T08:41:01Z",
+      "stage": "complete"
     }
   ]
 }
