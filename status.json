@@ -1,15 +1,18 @@
 {
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 数码王小机.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-09-17T05:43:34Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-17T05:44:04Z",
   "started_at": "2026-09-17T05:33:22Z",
   "counts": {
-    "weibo_candidates": 39
+    "weibo_candidates": 39,
+    "openai_calls": 1,
+    "input_tokens_estimated": 18614,
+    "input_text_shortened": false
   },
   "stored_totals": {
     "stories": 490,
-    "evidence": 1642,
+    "evidence": 1681,
     "model_cache": 56,
     "reviews": 243
   },
@@ -20,14 +23,6 @@
     "Editorial exclusions": 235
   },
   "events": [
-    {
-      "at": "2026-09-17T05:38:45Z",
-      "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
-    },
-    {
-      "at": "2026-09-17T05:38:45Z",
-      "message": "Weibo: 数码王小机 — 10 posts in collection window, 10 new."
-    },
     {
       "at": "2026-09-17T05:38:45Z",
       "message": "Weibo: reading full text for a new post from 数码闲聊站."
@@ -99,6 +94,14 @@
     {
       "at": "2026-09-17T05:43:27Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-17T05:43:39Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-17T05:43:58Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
