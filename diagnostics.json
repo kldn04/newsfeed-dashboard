@@ -30730,6 +30730,26 @@
           "at": "2026-09-17T07:59:20Z",
           "stage": "fetch",
           "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T07:59:40Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1095778 bytes, 20.3s."
+        },
+        {
+          "at": "2026-09-17T07:59:40Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:00:01Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: HTTP 200, 1141000 bytes, 21.1s."
+        },
+        {
+          "at": "2026-09-17T08:00:01Z",
+          "stage": "fetch",
+          "message": "www.scmp.com: fetch started."
         }
       ],
       "usage": [
@@ -31411,9 +31431,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T07:59:20Z",
+      "updated_at": "2026-09-17T08:00:01Z",
       "stage": "web_discovery"
     }
   ]
