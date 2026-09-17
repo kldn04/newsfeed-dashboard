@@ -24145,6 +24145,56 @@
           "at": "2026-09-17T05:14:41Z",
           "stage": "fetch",
           "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:14:50Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 169733 bytes, 9.6s."
+        },
+        {
+          "at": "2026-09-17T05:14:50Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:14:56Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 168070 bytes, 6.1s."
+        },
+        {
+          "at": "2026-09-17T05:14:57Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:15:04Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 177211 bytes, 6.4s."
+        },
+        {
+          "at": "2026-09-17T05:15:04Z",
+          "stage": "web_discovery",
+          "message": "Asia Economy: 13 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-17T05:15:04Z",
+          "stage": "web_discovery",
+          "message": "Reading Hankook Ilbo through Bright Data."
+        },
+        {
+          "at": "2026-09-17T05:15:04Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:15:13Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 233919 bytes, 9.0s."
+        },
+        {
+          "at": "2026-09-17T05:15:13Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
         }
       ],
       "usage": [
@@ -25190,9 +25240,37 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T05:14:41Z",
+      "updated_at": "2026-09-17T05:15:13Z",
       "stage": "web_discovery"
     }
   ]
