@@ -33415,6 +33415,36 @@
           "at": "2026-09-17T08:33:50Z",
           "stage": "fetch",
           "message": "www.darioamodei.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:34:03Z",
+          "stage": "fetch",
+          "message": "www.darioamodei.com: HTTP 200, 56480 bytes, 13.5s."
+        },
+        {
+          "at": "2026-09-17T08:34:04Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Anthropic"
+        },
+        {
+          "at": "2026-09-17T08:34:04Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:34:13Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: HTTP 200, 449970 bytes, 9.4s."
+        },
+        {
+          "at": "2026-09-17T08:34:13Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Anthropic"
+        },
+        {
+          "at": "2026-09-17T08:34:13Z",
+          "stage": "fetch",
+          "message": "www.anthropic.com: fetch started."
         }
       ],
       "usage": [
@@ -35888,9 +35918,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T08:33:50Z",
+      "updated_at": "2026-09-17T08:34:13Z",
       "stage": "web_discovery"
     }
   ]
