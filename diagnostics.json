@@ -22456,6 +22456,92 @@
       ],
       "updated_at": "2026-09-16T05:48:19Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-09-17T05:00:01Z",
+      "kind": "Web + Twitter",
+      "events": [
+        {
+          "at": "2026-09-17T05:00:01Z",
+          "stage": "starting",
+          "message": "Starting the weekday edition."
+        },
+        {
+          "at": "2026-09-17T05:00:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE through Bright Data."
+        },
+        {
+          "at": "2026-09-17T05:00:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:00:08Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 85821 bytes, 7.1s."
+        },
+        {
+          "at": "2026-09-17T05:00:08Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 4 candidates (ok)."
+        },
+        {
+          "at": "2026-09-17T05:00:08Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec through Bright Data."
+        },
+        {
+          "at": "2026-09-17T05:00:08Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:00:20Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 115986 bytes, 12.0s."
+        },
+        {
+          "at": "2026-09-17T05:00:21Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:00:25Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 122179 bytes, 3.7s."
+        },
+        {
+          "at": "2026-09-17T05:00:25Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-17T05:00:25Z",
+      "stage": "web_discovery"
     }
   ]
 }
