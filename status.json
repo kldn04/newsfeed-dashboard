@@ -1,19 +1,24 @@
 {
-  "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-17T05:45:05Z",
+  "state": "idle",
+  "message": "Weibo edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-17T05:45:28Z",
   "started_at": "2026-09-17T05:33:22Z",
   "counts": {
     "weibo_candidates": 39,
     "openai_calls": 1,
     "input_tokens_estimated": 18614,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_tokens": 27225,
+    "openai_input_tokens": 18081,
+    "openai_output_tokens": 9144,
+    "eligible": 12,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 490,
+    "stories": 502,
     "evidence": 1681,
-    "model_cache": 56,
+    "model_cache": 57,
     "reviews": 243
   },
   "review_categories": {
@@ -23,22 +28,6 @@
     "Editorial exclusions": 235
   },
   "events": [
-    {
-      "at": "2026-09-17T05:38:45Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
-    },
-    {
-      "at": "2026-09-17T05:39:01Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-17T05:39:16Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-17T05:39:31Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
     {
       "at": "2026-09-17T05:39:49Z",
       "message": "Weibo: reading full text for a new post from 集微网官方微博."
@@ -102,6 +91,22 @@
     {
       "at": "2026-09-17T05:43:58Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-17T05:45:25Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-17T05:45:25Z",
+      "message": "Batch complete: 12 stories ready."
+    },
+    {
+      "at": "2026-09-17T05:45:25Z",
+      "message": "Publishing Weibo stories."
+    },
+    {
+      "at": "2026-09-17T05:45:28Z",
+      "message": "Weibo edition published."
     }
   ]
 }
