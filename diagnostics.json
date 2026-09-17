@@ -26380,6 +26380,11 @@
           "at": "2026-09-17T05:30:21Z",
           "stage": "summarising",
           "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-17T05:33:21Z",
+          "stage": "failed",
+          "message": "Collection stopped (ReadTimeout). The previous published edition is retained."
         }
       ],
       "usage": [
@@ -28807,8 +28812,32 @@
           "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-09-17T05:30:21Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-17T05:33:21Z",
+      "stage": "failed"
+    },
+    {
+      "started_at": "2026-09-17T05:33:22Z",
+      "kind": "Weibo",
+      "events": [
+        {
+          "at": "2026-09-17T05:33:22Z",
+          "stage": "starting",
+          "message": "Starting the separate Weibo collection."
+        },
+        {
+          "at": "2026-09-17T05:33:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 手机晶片达人, page 1."
+        },
+        {
+          "at": "2026-09-17T05:33:23Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-17T05:33:23Z",
+      "stage": "weibo_discovery"
     }
   ]
 }
