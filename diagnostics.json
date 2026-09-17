@@ -31740,6 +31740,66 @@
           "at": "2026-09-17T08:14:17Z",
           "stage": "fetch",
           "message": "www.munhwa.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:14:21Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: HTTP 200, 111801 bytes, 3.4s."
+        },
+        {
+          "at": "2026-09-17T08:14:21Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:14:29Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: HTTP 200, 108267 bytes, 8.1s."
+        },
+        {
+          "at": "2026-09-17T08:14:29Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:14:30Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: HTTP 200, 252 bytes, 1.0s."
+        },
+        {
+          "at": "2026-09-17T08:14:30Z",
+          "stage": "web_discovery",
+          "message": "Munhwa: 13 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-17T08:14:30Z",
+          "stage": "web_discovery",
+          "message": "Reading ETNews through Bright Data."
+        },
+        {
+          "at": "2026-09-17T08:14:31Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:14:40Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 27975 bytes, 9.4s."
+        },
+        {
+          "at": "2026-09-17T08:14:41Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:14:45Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 55314 bytes, 4.7s."
+        },
+        {
+          "at": "2026-09-17T08:14:46Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
         }
       ],
       "usage": [
@@ -33100,9 +33160,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T08:14:17Z",
+      "updated_at": "2026-09-17T08:14:46Z",
       "stage": "web_discovery"
     }
   ]
