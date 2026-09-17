@@ -22555,6 +22555,86 @@
           "at": "2026-09-17T05:01:00Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:01:03Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 119646 bytes, 2.9s."
+        },
+        {
+          "at": "2026-09-17T05:01:04Z",
+          "stage": "web_discovery",
+          "message": "TheLec: 18 candidates (ok)."
+        },
+        {
+          "at": "2026-09-17T05:01:04Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-17T05:01:04Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:01:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 121575 bytes, 7.3s."
+        },
+        {
+          "at": "2026-09-17T05:01:11Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-17T05:01:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:01:20Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 119404 bytes, 8.3s."
+        },
+        {
+          "at": "2026-09-17T05:01:20Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-17T05:01:20Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:01:23Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 118909 bytes, 3.6s."
+        },
+        {
+          "at": "2026-09-17T05:01:23Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-17T05:01:24Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:01:27Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 120333 bytes, 3.8s."
+        },
+        {
+          "at": "2026-09-17T05:01:27Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-09-17T05:01:27Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
         }
       ],
       "usage": [
@@ -22606,9 +22686,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T05:01:00Z",
+      "updated_at": "2026-09-17T05:01:27Z",
       "stage": "web_discovery"
     }
   ]
