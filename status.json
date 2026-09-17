@@ -2,20 +2,25 @@
   "state": "running",
   "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
   "stage": "summarising",
-  "updated_at": "2026-09-17T08:38:06Z",
+  "updated_at": "2026-09-17T08:38:37Z",
   "started_at": "2026-09-17T07:47:17Z",
   "counts": {
     "x_candidates": 48,
     "twitter_api_requests": 12,
     "twitter_posts_fetched": 73,
     "openai_calls": 1,
-    "input_tokens_estimated": 305056,
-    "input_text_shortened": false
+    "input_tokens_estimated": 25362,
+    "input_text_shortened": false,
+    "openai_tokens": 315919,
+    "openai_input_tokens": 300016,
+    "openai_output_tokens": 15903,
+    "eligible": 51,
+    "held": 0
   },
   "stored_totals": {
     "stories": 502,
     "evidence": 1764,
-    "model_cache": 57,
+    "model_cache": 58,
     "reviews": 245
   },
   "review_categories": {
@@ -25,18 +30,6 @@
     "Editorial exclusions": 237
   },
   "events": [
-    {
-      "at": "2026-09-17T08:35:45Z",
-      "message": "Twitter API: @dnystedt returned 10 posts."
-    },
-    {
-      "at": "2026-09-17T08:35:45Z",
-      "message": "Twitter API: fetching @pequityresearch in the requested window."
-    },
-    {
-      "at": "2026-09-17T08:35:45Z",
-      "message": "Twitter API: @pequityresearch returned 11 posts."
-    },
     {
       "at": "2026-09-17T08:35:45Z",
       "message": "Twitter API: fetching @intelfabs in the requested window."
@@ -103,6 +96,18 @@
     },
     {
       "at": "2026-09-17T08:35:49Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-17T08:38:33Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-17T08:38:34Z",
+      "message": "Batch complete: 51 stories ready."
+    },
+    {
+      "at": "2026-09-17T08:38:34Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
