@@ -1,102 +1,109 @@
 {
   "state": "running",
-  "message": "Initial article scrape: Anthropic",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-17T08:35:34Z",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "stage": "summarising",
+  "updated_at": "2026-09-17T08:36:04Z",
   "started_at": "2026-09-17T07:47:17Z",
-  "counts": {},
+  "counts": {
+    "x_candidates": 48,
+    "twitter_api_requests": 12,
+    "twitter_posts_fetched": 73,
+    "openai_calls": 1,
+    "input_tokens_estimated": 305056,
+    "input_text_shortened": false
+  },
   "stored_totals": {
     "stories": 502,
-    "evidence": 1681,
+    "evidence": 1764,
     "model_cache": 57,
-    "reviews": 243
+    "reviews": 245
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 235
+    "Editorial exclusions": 237
   },
   "events": [
     {
-      "at": "2026-09-17T08:24:16Z",
-      "message": "Reading MoneyToday through Bright Data."
+      "at": "2026-09-17T08:35:45Z",
+      "message": "Twitter API: @dnystedt returned 10 posts."
     },
     {
-      "at": "2026-09-17T08:26:41Z",
-      "message": "MoneyToday: 11 dated articles captured (partial)."
+      "at": "2026-09-17T08:35:45Z",
+      "message": "Twitter API: fetching @pequityresearch in the requested window."
     },
     {
-      "at": "2026-09-17T08:26:41Z",
-      "message": "Reading Financial News through Bright Data."
+      "at": "2026-09-17T08:35:45Z",
+      "message": "Twitter API: @pequityresearch returned 11 posts."
     },
     {
-      "at": "2026-09-17T08:31:10Z",
-      "message": "Financial News: 28 dated articles captured (partial)."
+      "at": "2026-09-17T08:35:45Z",
+      "message": "Twitter API: fetching @intelfabs in the requested window."
     },
     {
-      "at": "2026-09-17T08:31:10Z",
-      "message": "Reading Economic Daily (UDN) through Bright Data."
+      "at": "2026-09-17T08:35:45Z",
+      "message": "Twitter API: @intelfabs returned 1 posts."
     },
     {
-      "at": "2026-09-17T08:33:06Z",
-      "message": "Economic Daily (UDN): 13 dated articles captured (partial)."
+      "at": "2026-09-17T08:35:45Z",
+      "message": "Twitter API: fetching @ryanhingshing in the requested window."
     },
     {
-      "at": "2026-09-17T08:33:06Z",
-      "message": "Checking direct AI announcements: Dario Amodei"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: @ryanhingshing returned 2 posts."
     },
     {
-      "at": "2026-09-17T08:33:10Z",
-      "message": "Checking direct AI announcements: Anthropic"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: fetching @sssjeffpu in the requested window."
     },
     {
-      "at": "2026-09-17T08:33:26Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: @sssjeffpu returned 0 posts."
     },
     {
-      "at": "2026-09-17T08:33:39Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: fetching @zartbotf in the requested window."
     },
     {
-      "at": "2026-09-17T08:33:46Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: @zartbotf returned 2 posts."
     },
     {
-      "at": "2026-09-17T08:33:50Z",
-      "message": "Initial article scrape: Dario Amodei"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: fetching @fundaai in the requested window."
     },
     {
-      "at": "2026-09-17T08:34:04Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: @fundaai returned 5 posts."
     },
     {
-      "at": "2026-09-17T08:34:13Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: fetching @shanghaojin in the requested window."
     },
     {
-      "at": "2026-09-17T08:34:37Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: @shanghaojin returned 7 posts."
     },
     {
-      "at": "2026-09-17T08:34:45Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:46Z",
+      "message": "Twitter API: fetching @mingchikuo in the requested window."
     },
     {
-      "at": "2026-09-17T08:34:51Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:47Z",
+      "message": "Twitter API: @mingchikuo returned 0 posts."
     },
     {
-      "at": "2026-09-17T08:34:59Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:47Z",
+      "message": "Twitter API: fetching @sean_________ in the requested window."
     },
     {
-      "at": "2026-09-17T08:35:17Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:47Z",
+      "message": "Twitter API: @sean_________ returned 0 posts."
     },
     {
-      "at": "2026-09-17T08:35:32Z",
-      "message": "Initial article scrape: Anthropic"
+      "at": "2026-09-17T08:35:49Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
