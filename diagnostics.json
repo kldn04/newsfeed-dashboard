@@ -25765,6 +25765,66 @@
           "at": "2026-09-17T05:27:18Z",
           "stage": "fetch",
           "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:27:25Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 76321 bytes, 7.4s."
+        },
+        {
+          "at": "2026-09-17T05:27:25Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:27:32Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 75247 bytes, 6.8s."
+        },
+        {
+          "at": "2026-09-17T05:27:32Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:27:42Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 75349 bytes, 10.1s."
+        },
+        {
+          "at": "2026-09-17T05:27:43Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:27:46Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 78870 bytes, 2.8s."
+        },
+        {
+          "at": "2026-09-17T05:27:46Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:27:52Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 103901 bytes, 6.4s."
+        },
+        {
+          "at": "2026-09-17T05:27:52Z",
+          "stage": "web_discovery",
+          "message": "Financial News: 26 dated articles captured (ok)."
+        },
+        {
+          "at": "2026-09-17T05:27:52Z",
+          "stage": "web_discovery",
+          "message": "Reading Economic Daily (UDN) through Bright Data."
+        },
+        {
+          "at": "2026-09-17T05:27:53Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -27902,9 +27962,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T05:27:18Z",
+      "updated_at": "2026-09-17T05:27:53Z",
       "stage": "web_discovery"
     }
   ]
