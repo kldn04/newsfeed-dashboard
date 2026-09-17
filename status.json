@@ -1,20 +1,10 @@
 {
-  "state": "idle",
-  "message": "Weibo edition published.",
-  "stage": "complete",
-  "updated_at": "2026-09-17T05:45:28Z",
-  "started_at": "2026-09-17T05:33:22Z",
-  "counts": {
-    "weibo_candidates": 39,
-    "openai_calls": 1,
-    "input_tokens_estimated": 18614,
-    "input_text_shortened": false,
-    "openai_tokens": 27225,
-    "openai_input_tokens": 18081,
-    "openai_output_tokens": 9144,
-    "eligible": 12,
-    "held": 0
-  },
+  "state": "running",
+  "message": "Reading TheLec through Bright Data.",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-17T07:47:27Z",
+  "started_at": "2026-09-17T07:47:17Z",
+  "counts": {},
   "stored_totals": {
     "stories": 502,
     "evidence": 1681,
@@ -29,84 +19,20 @@
   },
   "events": [
     {
-      "at": "2026-09-17T05:39:49Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-17T07:47:17Z",
+      "message": "Starting the weekday edition."
     },
     {
-      "at": "2026-09-17T05:40:10Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-17T07:47:17Z",
+      "message": "Reading CTEE through Bright Data."
     },
     {
-      "at": "2026-09-17T05:40:30Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-17T07:47:24Z",
+      "message": "CTEE: 4 candidates (ok)."
     },
     {
-      "at": "2026-09-17T05:40:51Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-17T05:41:09Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-17T05:41:26Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-09-17T05:41:41Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:41:56Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:42:12Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:42:30Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:42:47Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:43:01Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:43:13Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:43:27Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:43:39Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
-    },
-    {
-      "at": "2026-09-17T05:43:58Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-17T05:45:25Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-17T05:45:25Z",
-      "message": "Batch complete: 12 stories ready."
-    },
-    {
-      "at": "2026-09-17T05:45:25Z",
-      "message": "Publishing Weibo stories."
-    },
-    {
-      "at": "2026-09-17T05:45:28Z",
-      "message": "Weibo edition published."
+      "at": "2026-09-17T07:47:24Z",
+      "message": "Reading TheLec through Bright Data."
     }
   ]
 }
