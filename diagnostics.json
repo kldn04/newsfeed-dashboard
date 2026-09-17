@@ -32170,6 +32170,56 @@
           "at": "2026-09-17T08:19:48Z",
           "stage": "fetch",
           "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:19:55Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 54473 bytes, 7.2s."
+        },
+        {
+          "at": "2026-09-17T08:19:56Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:19:59Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 56014 bytes, 3.5s."
+        },
+        {
+          "at": "2026-09-17T08:19:59Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:20:05Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 9133 bytes, 5.2s."
+        },
+        {
+          "at": "2026-09-17T08:20:05Z",
+          "stage": "web_discovery",
+          "message": "ETNews: 20 dated articles captured (ok)."
+        },
+        {
+          "at": "2026-09-17T08:20:05Z",
+          "stage": "web_discovery",
+          "message": "Reading Nikkei through Bright Data."
+        },
+        {
+          "at": "2026-09-17T08:20:05Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:20:21Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: HTTP 200, 474241 bytes, 16.4s."
+        },
+        {
+          "at": "2026-09-17T08:20:22Z",
+          "stage": "fetch",
+          "message": "www.nikkei.com: fetch started."
         }
       ],
       "usage": [
@@ -33824,9 +33874,37 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T08:19:48Z",
+      "updated_at": "2026-09-17T08:20:22Z",
       "stage": "web_discovery"
     }
   ]
