@@ -1,8 +1,8 @@
 {
-  "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-09-17T12:01:52Z",
+  "state": "idle",
+  "message": "Twitter-only refresh published.",
+  "stage": "complete",
+  "updated_at": "2026-09-17T12:02:06Z",
   "started_at": "2026-09-17T12:00:01Z",
   "counts": {
     "x_candidates": 21,
@@ -11,41 +11,28 @@
     "openai_calls": 1,
     "input_tokens_estimated": 15821,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 25200,
+    "openai_input_tokens": 15106,
+    "openai_output_tokens": 10094,
+    "eligible": 13,
+    "held": 0,
+    "twitter_openai_input_tokens": 15106,
+    "twitter_openai_output_tokens": 10094
   },
   "stored_totals": {
-    "stories": 574,
+    "stories": 587,
     "evidence": 1779,
-    "model_cache": 59,
-    "reviews": 256
+    "model_cache": 60,
+    "reviews": 258
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 248
+    "Editorial exclusions": 250
   },
   "events": [
-    {
-      "at": "2026-09-17T12:00:02Z",
-      "message": "Twitter API: fetching @intelfabs in the requested window."
-    },
-    {
-      "at": "2026-09-17T12:00:02Z",
-      "message": "Twitter API: @intelfabs returned 0 posts."
-    },
-    {
-      "at": "2026-09-17T12:00:02Z",
-      "message": "Twitter API: fetching @ryanhingshing in the requested window."
-    },
-    {
-      "at": "2026-09-17T12:00:03Z",
-      "message": "Twitter API: @ryanhingshing returned 3 posts."
-    },
-    {
-      "at": "2026-09-17T12:00:03Z",
-      "message": "Twitter API: fetching @sssjeffpu in the requested window."
-    },
     {
       "at": "2026-09-17T12:00:03Z",
       "message": "Twitter API: @sssjeffpu returned 1 posts."
@@ -105,6 +92,26 @@
     {
       "at": "2026-09-17T12:00:09Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-09-17T12:02:03Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-17T12:02:03Z",
+      "message": "Batch complete: 13 stories ready."
+    },
+    {
+      "at": "2026-09-17T12:02:03Z",
+      "message": "Separate Twitter Luna batch completed."
+    },
+    {
+      "at": "2026-09-17T12:02:03Z",
+      "message": "Publishing Twitter-only results."
+    },
+    {
+      "at": "2026-09-17T12:02:06Z",
+      "message": "Twitter-only refresh published."
     }
   ]
 }
