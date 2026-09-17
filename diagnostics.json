@@ -31840,6 +31840,16 @@
           "at": "2026-09-17T08:15:11Z",
           "stage": "fetch",
           "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-17T08:15:25Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 56070 bytes, 14.2s."
+        },
+        {
+          "at": "2026-09-17T08:15:25Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
         }
       ],
       "usage": [
@@ -33263,9 +33273,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T08:15:11Z",
+      "updated_at": "2026-09-17T08:15:25Z",
       "stage": "web_discovery"
     }
   ]
