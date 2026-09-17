@@ -257,12 +257,12 @@
     {
       "name": "Weibo · 数码闲聊站",
       "status": "ok",
-      "discovered": 6
+      "discovered": 7
     },
     {
       "name": "Weibo · 智慧芯片案内人",
-      "status": "partial",
-      "discovered": 9
+      "status": "ok",
+      "discovered": 5
     },
     {
       "name": "Weibo · 芯谋研究顾文军",
@@ -277,7 +277,7 @@
     {
       "name": "Weibo · 芯智讯官微",
       "status": "ok",
-      "discovered": 3
+      "discovered": 6
     },
     {
       "name": "Weibo · 电子工程专辑",
@@ -287,7 +287,7 @@
     {
       "name": "Weibo · Trendforce集邦咨询",
       "status": "ok",
-      "discovered": 0
+      "discovered": 1
     },
     {
       "name": "Weibo · 数码王小机",
@@ -353,6 +353,720 @@
     "7ae044c43b8ad112f072"
   ],
   "stories": [
+    {
+      "id": "7104b791f60c68023dee",
+      "headline": "Article says Huawei Ascend 960 supernodes will debut an NPO optical engine",
+      "bullets": [
+        "An industry Weibo account promotes an article claiming that Huawei's Ascend 960 was brought forward.",
+        "The article headline says the associated supernode will be the first to use an NPO optical engine.",
+        "The post supplies no schedule or further technical detail beyond the headline."
+      ],
+      "companies": [
+        {
+          "name": "Huawei",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Advanced Packaging · China Supply Chain",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "China Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Potentially significant AI-system interconnect development, though the supplied evidence is limited to an article headline.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344106139617658",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-17T04:00:55Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T04:00:55Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344106139617658",
+          "published_at": "2026-09-17T04:00:55Z",
+          "original_text": "发布了文章 《华为昇腾960提前就绪， 超节点将首发NPO光引擎！》 华为昇腾960提前就绪， 超节点将首发NPO光引擎！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344106139617658",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "af3911e054e4deabb756",
+      "headline": "Weibo report forecasts earlier Huawei Ascend 960 and Atlas 960 launches",
+      "bullets": [
+        "The post lists Ascend 960 DT for the first quarter of 2027 and Ascend 960 PR for the third quarter.",
+        "It lists an air-cooled Atlas 960 supernode for the second quarter of 2027 and a liquid-cooled version for the third quarter.",
+        "The post provides no further sourcing for the schedule."
+      ],
+      "companies": [
+        {
+          "name": "Huawei",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Potentially material Chinese AI-accelerator and supernode roadmap update, but based on an unsourced Weibo post.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344094949999177",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-17T03:16:27Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T03:16:27Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5344094949999177",
+          "published_at": "2026-09-17T03:16:27Z",
+          "original_text": "- 昇腾960DT 提前至2027Q1上市 - 昇腾960PR 提前至2027Q3上市 - Atlas 960 风冷超节点 2027Q2上市 - Atlas 960 液冷超节点 2027Q3上市 #华为全联接大会2026#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344094949999177",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/006tvJhcly1ih6hbwvv8jj335s2dcnpd.jpg"
+          ],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "2cae1576c6c2f6d02ab0",
+      "headline": "Anthropic combines Claude Chat and Cowork into one Claude",
+      "bullets": [
+        "A Weibo industry account reports that Anthropic announced the consolidation on September 16.",
+        "The unified entry point is intended to let users request tasks in one conversation while Claude selects the relevant capabilities.",
+        "Claude Docs and Claude Slides are described as still being in testing."
+      ],
+      "companies": [
+        {
+          "name": "Anthropic",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Material frontier-AI product and workflow change that broadens Claude beyond a separate chat-versus-task interface.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344094781440086",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-17T03:15:46Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T03:15:46Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344094781440086",
+          "published_at": "2026-09-17T03:15:46Z",
+          "original_text": "【 #Anthropic 将 Cowork 收束为统一 Claude# ：从“对话入口”转向可交付工作的 AI 工作台】 #Anthropic# #Cowork# Anthropic 正在重塑 Claude 的产品入口。9 月 16 日，该公司宣布把原本分开的 Claude Chat 与 Claude Cowork 合并为统一的 Claude。用户不再需要在“聊天”与“执行复杂任务”的模式之间作出选择，而是从同一个对话中提出需求，由 Claude 判断并调用相应能力；同时，Anthropic 推出仍处于测试阶段的 Claude Docs 与 Claude Slides，把文档与演示文稿的生成、修改、分享和导出纳入该入口。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344094781440086",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/00221ubBly1ih6hx3ia1lj60p00gon2i02.jpg"
+          ],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "2ba8e7a2951230b61d26",
+      "headline": "Winbond to acquire Infineon's NOR Flash and F-RAM business for $1.12 billion",
+      "bullets": [
+        "The post says Winbond will buy Infineon's NOR Flash and F-RAM business in an all-cash transaction and operate it independently as Spansion.",
+        "It cites 2025 shares of 23% for Winbond and 11% for Infineon, saying the combined position would exceed 30%.",
+        "The post argues that the deal, alongside a price-increase cycle, could reduce downstream bargaining power and space for smaller suppliers."
+      ],
+      "companies": [
+        {
+          "name": "Winbond",
+          "ticker": "TW2344",
+          "aliases": []
+        },
+        {
+          "name": "Infineon",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 84,
+      "priority": "Critical",
+      "score_reason": "Large cross-company memory transaction with potential implications for NOR Flash market concentration and supply-chain bargaining power.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344085508360361",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-17T02:38:56Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T02:38:56Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344085508360361",
+          "published_at": "2026-09-17T02:38:56Z",
+          "original_text": "发布了头条文章：《华邦电“吃下”英飞凌存储业务，NOR Flash市场寡头化加剧》 华邦电“吃下”英飞凌存储业务，NOR Flash市场寡头化加剧",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344085508360361",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "15df106000135d81fd88",
+      "headline": "OpenAI reportedly tests Sponsored Agents with selected U.S. advertisers",
+      "bullets": [
+        "A Weibo industry account, citing Forbes, reports that OpenAI began testing Sponsored Agents with some U.S. advertisers on September 16.",
+        "The post says brands can build sponsored experiences that AI agents can call inside ChatGPT.",
+        "It says the test also covers Codex, but provides no further implementation detail."
+      ],
+      "companies": [
+        {
+          "name": "OpenAI",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Material frontier-AI monetization and agent-platform development, reported secondhand through a Weibo post citing Forbes.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344084605797367",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-17T02:35:21Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T02:35:21Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344084605797367",
+          "published_at": "2026-09-17T02:35:21Z",
+          "original_text": "【 #OpenAI 推出 Sponsored Agents：AI 代理时代的广告革命正式启幕# 】 #OpenAI# #Sponsored Agents# 2026 年 9 月 16 日，OpenAI 正式宣布推出 Sponsored Agents（赞助型代理），面向美国部分广告主启动测试，允许品牌在 ChatGPT 内构建可被 AI 代理调用的赞助式体验（据 Forbes 报道，Sponsored Agents 将同时覆盖 ChatGPT 与 Codex 两大平台）。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344084605797367",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBly1ih6gqyqqmej60qi0eitk702.jpg"
+          ],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "6dd704a5c1e37714d69d",
+      "headline": "Report: Apple plans an AI-inference server with M8 Ultra and Nvidia NVLink",
+      "bullets": [
+        "An industry Weibo account promotes an article describing a planned AI-inference server using Apple's in-house M8 Ultra chip and Nvidia NVLink.",
+        "The post provides no launch timing or independent confirmation."
+      ],
+      "companies": [
+        {
+          "name": "Apple",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "Potentially important enterprise-AI hardware development involving two major chip companies, but the supplied claim is unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344082672227029",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-17T02:27:40Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T02:27:40Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344082672227029",
+          "published_at": "2026-09-17T02:27:40Z",
+          "original_text": "发布了文章 《苹果拟推出AI推理服务器：自研M8 Ultra芯片+英伟达NVLink》 苹果拟推出AI推理服务器：自研M8 Ultra芯片+英伟达NVLink",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344082672227029",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "053835ef63e166f4c89c",
+      "headline": "Report raises the possibility of 15% price increases by Japan's major photoresist makers",
+      "bullets": [
+        "An industry Weibo account promotes an article asking whether Japan's three major photoresist makers will jointly raise prices by 15%.",
+        "The post provides no named suppliers or confirmation of an implemented increase."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Materials & Inputs · Supply Chain",
+      "categories": [
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "A possible change in a critical semiconductor material input, with limited supplied detail and unresolved uncertainty.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344071881326766",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-17T01:44:46Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T01:44:46Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344071881326766",
+          "published_at": "2026-09-17T01:44:46Z",
+          "original_text": "发布了文章 《日本三大光刻胶巨头集体涨价15%？》 日本三大光刻胶巨头集体涨价15%？",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344071881326766",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "cc1ce4490b2b8cd4f4c3",
+      "headline": "Winbond reportedly spends $1.12 billion to revive Spansion",
+      "bullets": [
+        "An industry Weibo account promotes an article centered on Winbond's reported $1.12 billion spending and the revival of Spansion.",
+        "The post gives no additional transaction terms."
+      ],
+      "companies": [
+        {
+          "name": "Winbond",
+          "ticker": "TW2344",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "A large reported memory-sector transaction, although the supplied evidence is limited to the article headline.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344032441762939",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-16T23:08:04Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T23:08:04Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344032441762939",
+          "published_at": "2026-09-16T23:08:04Z",
+          "original_text": "发布了文章 《斥资11.2亿美元，华邦电子为何复活“Spansion”？》 斥资11.2亿美元，华邦电子为何复活“Spansion”？",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344032441762939",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "7d4d116d24adb9402032",
+      "headline": "Report puts the China–South Korea memory-technology gap at two years for DRAM and one for NAND",
+      "bullets": [
+        "An industry Weibo account promotes an article claiming that the technology gap is two years in DRAM and one year in NAND.",
+        "The post provides no methodology, process details or company-specific evidence."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "DRAM · NAND · China Supply Chain · Supply Chain",
+      "categories": [
+        "DRAM",
+        "NAND",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "Relevant comparative memory-technology assessment, but the supplied evidence is only a report headline.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343907236808985",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-16T14:50:33Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T14:50:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343907236808985",
+          "published_at": "2026-09-16T14:50:33Z",
+          "original_text": "发布了文章 《中韩存储技术差距缩小：DRAM差2年，NAND差1年！》 中韩存储技术差距缩小：DRAM差2年，NAND差1年！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343907236808985",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "ac9b1a4b6f2dfb73a89e",
+      "headline": "Supply-chain report links SmartSens sensors to Huawei Mate 90 and Mate X8",
+      "bullets": [
+        "The post says Huawei's Mate 90 may use SmartSens 50MP main sensors in 1/1.56-inch and 1/1.28-inch formats, both supporting SmartSens' next-generation LOFIC technology.",
+        "It says a 200MP, 1/1.28-inch telephoto sensor may debut, while front-facing and multispectral sensors are also reportedly supplied by SmartSens.",
+        "The claims are presented as supply-chain information and remain unconfirmed."
+      ],
+      "companies": [
+        {
+          "name": "SmartSens",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "Huawei",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "China Supply Chain · Supply Chain",
+      "categories": [
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "Potentially meaningful adoption of high-end domestic image sensors in major Huawei devices, but based on an unconfirmed supply-chain report.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343863813964407",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-16T11:58:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T11:58:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343863813964407",
+          "published_at": "2026-09-16T11:58:00Z",
+          "original_text": "一点供应链的信息，华为Mate90系列影像，主摄有50Mp 1/1.56  SC575XS、50Mp 1/1.28 SC595XS，都支持思特威新一代LOFIC技术。 PM长焦端疑似首发落地200Mp 1/1.28 SCC85XS，首颗高端国产化2亿高动态传感器。 听说前摄和多光谱也用了思特威Sensor，后面Mate X8也用思特威，国产Sensor立大功！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343863813964407",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "51fd4ff1d6eb42ba5150",
+      "headline": "TrendForce projects 31% growth in 2026 data-center electricity demand",
+      "bullets": [
+        "TrendForce estimates that global data-center electricity demand will increase 31% in 2026.",
+        "The research preview says the power-supply gap will widen from 2028.",
+        "The post is a research summary and does not provide the underlying methodology."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "A TrendForce forecast highlighting a potential power bottleneck for data-center and AI-compute expansion.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343824782036318",
+          "name": "Trendforce集邦咨询",
+          "published_at": "2026-09-16T09:22:54Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T09:22:54Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "Trendforce集邦咨询",
+          "source_uid": "2348354687",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5343824782036318",
+          "published_at": "2026-09-16T09:22:54Z",
+          "original_text": "发布了头条文章：《研报 | 预估2026年全球数据中心用电需求年增31%，电网供应缺口自2028年扩大》 研报 | 预估2026年全球数据中心用电需求年增31%",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343824782036318",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "c699753b5cab7a3329c6",
+      "headline": "Rumor: Intel and SK hynix may cooperate on U.S. memory production",
+      "bullets": [
+        "The post outlines two possible structures: SK hynix leasing part of Intel's Ohio facility, or forming a joint venture with Intel and large cloud companies.",
+        "It says either option could address SK hynix's U.S. mass-production needs.",
+        "The cooperation is presented as a rumor rather than a confirmed agreement."
+      ],
+      "companies": [
+        {
+          "name": "Intel",
+          "ticker": "",
+          "aliases": []
+        },
+        {
+          "name": "SK hynix",
+          "ticker": "",
+          "aliases": []
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Potentially major memory-capacity and U.S. manufacturing development involving Intel, SK hynix and cloud companies, but unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5343776197313096",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-16T06:09:51Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-16T06:09:51Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-17T05:33:22Z",
+      "updated_at": "2026-09-17T05:33:22Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5343776197313096",
+          "published_at": "2026-09-16T06:09:51Z",
+          "original_text": "Intel和SK Hynix的合作传言有些突然，在美国本土生产存储芯片，两种方案： - 方案1，SK 海力士将租赁英特尔俄亥俄州工厂的部分厂区 - 方案2，SK海力士与英特尔以及大型云厂商成立合资公司 不管哪种方案，都可以解决海力士在美国的量产问题，是一种给美国的利益返还。",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5343776197313096",
+          "images": [],
+          "retrieved_at": "2026-09-17T05:33:22Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
     {
       "id": "c61ca5f89301aa75bc60",
       "headline": "Research gives mixed signals on iPhone 18 demand and production",
@@ -29287,11 +30001,11 @@
   },
   "twitter_published_at": "2026-09-16T05:35:20Z",
   "published_at": "2026-09-16T05:35:20Z",
-  "weibo_published_at": "2026-09-16T05:48:16Z",
-  "weibo_updated_at": "2026-09-16T05:35:24Z",
+  "weibo_published_at": "2026-09-17T05:45:25Z",
+  "weibo_updated_at": "2026-09-17T05:33:22Z",
   "weibo_window": {
-    "start": "2026-09-15T05:35:24Z",
-    "end": "2026-09-16T05:35:24Z",
+    "start": "2026-09-16T05:33:22Z",
+    "end": "2026-09-17T05:33:22Z",
     "weekend_coverage": false
   },
   "weibo_schedule": "06:00 Europe/London · Monday–Friday"
