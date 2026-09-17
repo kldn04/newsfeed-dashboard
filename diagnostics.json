@@ -28893,6 +28893,41 @@
           "at": "2026-09-17T05:34:14Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:34:32Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 58459 bytes, 17.6s."
+        },
+        {
+          "at": "2026-09-17T05:34:32Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 芯谋研究顾文军 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-09-17T05:34:32Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 集微网官方微博, page 1."
+        },
+        {
+          "at": "2026-09-17T05:34:33Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-17T05:34:47Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 69611 bytes, 14.2s."
+        },
+        {
+          "at": "2026-09-17T05:34:47Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 集微网官方微博, page 2."
+        },
+        {
+          "at": "2026-09-17T05:34:47Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -28916,9 +28951,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-17T05:34:14Z",
+      "updated_at": "2026-09-17T05:34:47Z",
       "stage": "weibo_discovery"
     }
   ]
