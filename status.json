@@ -1,16 +1,11 @@
 {
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
-  "stage": "summarising",
-  "updated_at": "2026-09-17T05:32:57Z",
-  "started_at": "2026-09-17T05:00:01Z",
+  "message": "Weibo: fetching 手机晶片达人, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-17T05:33:27Z",
+  "started_at": "2026-09-17T05:33:22Z",
   "counts": {
-    "x_candidates": 49,
-    "twitter_api_requests": 12,
-    "twitter_posts_fetched": 77,
-    "openai_calls": 1,
-    "input_tokens_estimated": 286113,
-    "input_text_shortened": false
+    "weibo_candidates": 0
   },
   "stored_totals": {
     "stories": 490,
@@ -26,84 +21,12 @@
   },
   "events": [
     {
-      "at": "2026-09-17T05:30:16Z",
-      "message": "Twitter API: @dnystedt returned 10 posts."
+      "at": "2026-09-17T05:33:22Z",
+      "message": "Starting the separate Weibo collection."
     },
     {
-      "at": "2026-09-17T05:30:16Z",
-      "message": "Twitter API: fetching @pequityresearch in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:16Z",
-      "message": "Twitter API: @pequityresearch returned 16 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:16Z",
-      "message": "Twitter API: fetching @intelfabs in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: @intelfabs returned 1 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: fetching @ryanhingshing in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: @ryanhingshing returned 2 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: fetching @sssjeffpu in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: @sssjeffpu returned 0 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: fetching @zartbotf in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: @zartbotf returned 2 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:17Z",
-      "message": "Twitter API: fetching @fundaai in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: @fundaai returned 5 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: fetching @shanghaojin in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: @shanghaojin returned 5 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: fetching @mingchikuo in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: @mingchikuo returned 0 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: fetching @sean_________ in the requested window."
-    },
-    {
-      "at": "2026-09-17T05:30:18Z",
-      "message": "Twitter API: @sean_________ returned 0 posts."
-    },
-    {
-      "at": "2026-09-17T05:30:21Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-09-17T05:33:22Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     }
   ]
 }
