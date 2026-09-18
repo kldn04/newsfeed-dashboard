@@ -34408,6 +34408,26 @@
           "at": "2026-09-18T06:14:40Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-18T06:15:02Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 43525 bytes, 22.1s."
+        },
+        {
+          "at": "2026-09-18T06:15:02Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: Trendforce集邦咨询 — 1 posts in collection window, 1 new."
+        },
+        {
+          "at": "2026-09-18T06:15:02Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码王小机, page 1."
+        },
+        {
+          "at": "2026-09-18T06:15:02Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -34473,9 +34493,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T06:14:40Z",
+      "updated_at": "2026-09-18T06:15:02Z",
       "stage": "weibo_discovery"
     }
   ]
