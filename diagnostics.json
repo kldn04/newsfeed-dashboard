@@ -28803,6 +28803,41 @@
           "at": "2026-09-18T05:03:53Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:04:07Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 118962 bytes, 13.3s."
+        },
+        {
+          "at": "2026-09-18T05:04:07Z",
+          "stage": "web_discovery",
+          "message": "Reading Tom’s Hardware through Bright Data."
+        },
+        {
+          "at": "2026-09-18T05:04:07Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:04:25Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: HTTP 200, 1641588 bytes, 18.0s."
+        },
+        {
+          "at": "2026-09-18T05:04:25Z",
+          "stage": "web_discovery",
+          "message": "Tom’s Hardware: 0 candidates (failed)."
+        },
+        {
+          "at": "2026-09-18T05:04:25Z",
+          "stage": "web_discovery",
+          "message": "Reading Ijiwei through Bright Data."
+        },
+        {
+          "at": "2026-09-18T05:04:25Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
         }
       ],
       "usage": [
@@ -28952,9 +28987,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:03:53Z",
+      "updated_at": "2026-09-18T05:04:25Z",
       "stage": "web_discovery"
     }
   ]
