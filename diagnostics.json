@@ -31628,6 +31628,36 @@
           "at": "2026-09-18T05:58:29Z",
           "stage": "fetch",
           "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:58:46Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 101976 bytes, 17.0s."
+        },
+        {
+          "at": "2026-09-18T05:58:46Z",
+          "stage": "web_discovery",
+          "message": "Financial News: 24 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-18T05:58:46Z",
+          "stage": "web_discovery",
+          "message": "Reading Economic Daily (UDN) through Bright Data."
+        },
+        {
+          "at": "2026-09-18T05:58:46Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:58:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 240168 bytes, 8.4s."
+        },
+        {
+          "at": "2026-09-18T05:58:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -33611,9 +33641,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:58:29Z",
+      "updated_at": "2026-09-18T05:58:54Z",
       "stage": "web_discovery"
     }
   ]
