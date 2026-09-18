@@ -34263,6 +34263,31 @@
           "at": "2026-09-18T06:09:43Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-18T06:11:13Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-09-18T06:11:13Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 数码闲聊站 (ReadTimeout)."
+        },
+        {
+          "at": "2026-09-18T06:11:13Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码闲聊站 — 8 posts in collection window, 8 new."
+        },
+        {
+          "at": "2026-09-18T06:11:13Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 1."
+        },
+        {
+          "at": "2026-09-18T06:11:13Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -34279,9 +34304,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T06:09:43Z",
+      "updated_at": "2026-09-18T06:11:13Z",
       "stage": "weibo_discovery"
     }
   ]
