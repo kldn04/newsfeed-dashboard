@@ -30308,6 +30308,26 @@
           "at": "2026-09-18T05:31:14Z",
           "stage": "fetch",
           "message": "www.munhwa.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:31:20Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: HTTP 200, 102669 bytes, 5.7s."
+        },
+        {
+          "at": "2026-09-18T05:31:21Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:31:34Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: HTTP 200, 102902 bytes, 13.3s."
+        },
+        {
+          "at": "2026-09-18T05:31:35Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: fetch started."
         }
       ],
       "usage": [
@@ -31388,9 +31408,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:31:14Z",
+      "updated_at": "2026-09-18T05:31:35Z",
       "stage": "web_discovery"
     }
   ]
