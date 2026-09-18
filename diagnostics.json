@@ -29938,6 +29938,66 @@
           "at": "2026-09-18T05:24:03Z",
           "stage": "fetch",
           "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:24:12Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 146538 bytes, 9.7s."
+        },
+        {
+          "at": "2026-09-18T05:24:13Z",
+          "stage": "web_discovery",
+          "message": "Seoul Economic Daily: 19 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-18T05:24:13Z",
+          "stage": "web_discovery",
+          "message": "Reading Asia Economy through Bright Data."
+        },
+        {
+          "at": "2026-09-18T05:24:13Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:24:19Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 139890 bytes, 5.7s."
+        },
+        {
+          "at": "2026-09-18T05:24:20Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:24:24Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 166329 bytes, 3.8s."
+        },
+        {
+          "at": "2026-09-18T05:24:25Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:24:33Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 166568 bytes, 7.6s."
+        },
+        {
+          "at": "2026-09-18T05:24:33Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:24:40Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 170709 bytes, 7.0s."
+        },
+        {
+          "at": "2026-09-18T05:24:41Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -30780,9 +30840,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:24:03Z",
+      "updated_at": "2026-09-18T05:24:41Z",
       "stage": "web_discovery"
     }
   ]
