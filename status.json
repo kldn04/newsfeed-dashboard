@@ -1,11 +1,11 @@
 {
   "state": "running",
-  "message": "Weibo: fetching Trendforce集邦咨询, page 1.",
+  "message": "Weibo: fetching 数码王小机, page 1.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-18T06:14:52Z",
+  "updated_at": "2026-09-18T06:15:22Z",
   "started_at": "2026-09-18T06:08:37Z",
   "counts": {
-    "weibo_candidates": 27
+    "weibo_candidates": 28
   },
   "stored_totals": {
     "stories": 660,
@@ -20,14 +20,6 @@
     "Editorial exclusions": 272
   },
   "events": [
-    {
-      "at": "2026-09-18T06:08:37Z",
-      "message": "Weibo: fetching 手机晶片达人, page 1."
-    },
-    {
-      "at": "2026-09-18T06:09:25Z",
-      "message": "Weibo: fetch failed for 手机晶片达人 (SourceFetchError)."
-    },
     {
       "at": "2026-09-18T06:09:25Z",
       "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
@@ -99,6 +91,14 @@
     {
       "at": "2026-09-18T06:14:39Z",
       "message": "Weibo: fetching Trendforce集邦咨询, page 1."
+    },
+    {
+      "at": "2026-09-18T06:15:02Z",
+      "message": "Weibo: Trendforce集邦咨询 — 1 posts in collection window, 1 new."
+    },
+    {
+      "at": "2026-09-18T06:15:02Z",
+      "message": "Weibo: fetching 数码王小机, page 1."
     }
   ]
 }
