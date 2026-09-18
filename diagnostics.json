@@ -31858,6 +31858,161 @@
           "at": "2026-09-18T06:03:05Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T06:03:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 296964 bytes, 18.3s."
+        },
+        {
+          "at": "2026-09-18T06:03:23Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 16 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-18T06:03:23Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @jukan05 in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @jukan05 returned 5 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @zephyr_z9 in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @zephyr_z9 returned 0 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @dnystedt in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @dnystedt returned 12 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @pequityresearch in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @pequityresearch returned 13 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:24Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @intelfabs in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:25Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @intelfabs returned 1 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:25Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @ryanhingshing in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @ryanhingshing returned 2 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sssjeffpu in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sssjeffpu returned 0 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @zartbotf in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @zartbotf returned 0 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @fundaai in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @fundaai returned 1 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @shanghaojin in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @shanghaojin returned 1 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:26Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @mingchikuo in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:27Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @mingchikuo returned 0 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:27Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sean_________ in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:27Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sean_________ returned 1 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:27Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @qq_timmy in the requested window."
+        },
+        {
+          "at": "2026-09-18T06:03:27Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @qq_timmy returned 2 posts."
+        },
+        {
+          "at": "2026-09-18T06:03:27Z",
+          "stage": "usage",
+          "message": "Twitter API collection finished."
+        },
+        {
+          "at": "2026-09-18T06:03:31Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-18T06:03:33Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -33995,10 +34150,25 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "X API",
+          "component": "Twitter",
+          "requests": 13,
+          "post_resources": 58,
+          "cost_usd": 0.29,
+          "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-09-18T06:03:05Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-09-18T06:03:33Z",
+      "stage": "summarising"
     }
   ]
 }
