@@ -29178,6 +29178,36 @@
           "at": "2026-09-18T05:09:50Z",
           "stage": "fetch",
           "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:10:03Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 73995 bytes, 12.7s."
+        },
+        {
+          "at": "2026-09-18T05:10:03Z",
+          "stage": "web_discovery",
+          "message": "TrendForce: 4 candidates (ok)."
+        },
+        {
+          "at": "2026-09-18T05:10:03Z",
+          "stage": "web_discovery",
+          "message": "Reading ZDNet Korea through Bright Data."
+        },
+        {
+          "at": "2026-09-18T05:10:03Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:10:26Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 72197 bytes, 22.3s."
+        },
+        {
+          "at": "2026-09-18T05:10:26Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -29523,9 +29553,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:09:50Z",
+      "updated_at": "2026-09-18T05:10:26Z",
       "stage": "web_discovery"
     }
   ]
