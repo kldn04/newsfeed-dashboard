@@ -151,51 +151,6 @@
       "previews": 4
     },
     {
-      "name": "Weibo · 手机晶片达人",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 数码闲聊站",
-      "status": "ok",
-      "discovered": 7
-    },
-    {
-      "name": "Weibo · 智慧芯片案内人",
-      "status": "ok",
-      "discovered": 5
-    },
-    {
-      "name": "Weibo · 芯谋研究顾文军",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 集微网官方微博",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
-      "name": "Weibo · 芯智讯官微",
-      "status": "ok",
-      "discovered": 6
-    },
-    {
-      "name": "Weibo · 电子工程专辑",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · Trendforce集邦咨询",
-      "status": "ok",
-      "discovered": 1
-    },
-    {
-      "name": "Weibo · 数码王小机",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
       "name": "@jukan05",
       "status": "ok",
       "discovered": 5,
@@ -272,6 +227,51 @@
       "status": "ok",
       "discovered": 2,
       "retrieval": "x_api"
+    },
+    {
+      "name": "Weibo · 手机晶片达人",
+      "status": "failed",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码闲聊站",
+      "status": "partial",
+      "discovered": 8
+    },
+    {
+      "name": "Weibo · 智慧芯片案内人",
+      "status": "ok",
+      "discovered": 4
+    },
+    {
+      "name": "Weibo · 芯谋研究顾文军",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 集微网官方微博",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Weibo · 芯智讯官微",
+      "status": "ok",
+      "discovered": 5
+    },
+    {
+      "name": "Weibo · 电子工程专辑",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · Trendforce集邦咨询",
+      "status": "ok",
+      "discovered": 1
+    },
+    {
+      "name": "Weibo · 数码王小机",
+      "status": "partial",
+      "discovered": 10
     }
   ],
   "partial": true,
@@ -348,6 +348,350 @@
     "e01a3aecb3c479d9f20c"
   ],
   "stories": [
+    {
+      "id": "4b9656d29a522013e530",
+      "headline": "Weibo author posts Synopsys developer-conference recap",
+      "bullets": [
+        "The post announces a recap of Synopsys’ 2026 developer conference."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Synopsys"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 42,
+      "priority": "Medium",
+      "score_reason": "A separate industry post about a major EDA company’s developer conference, with limited captured detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344500588741033",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-18T06:08:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T06:08:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344500588741033",
+          "published_at": "2026-09-18T06:08:19Z",
+          "original_text": "发布了头条文章：《万物智能已来，工程未来重构 | 2026新思科技开发者大会回顾》 万物智能已来，工程未来重构 | 2026新思科技开发者大会回顾",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344500588741033",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "e778d947093adf38a0b7",
+      "headline": "Three-party cooperation announced for emerging-memory EDA",
+      "bullets": [
+        "The post announces a three-party strategic cooperation focused on emerging-memory EDA tools and design-technology co-optimization."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Peking University EDA Institute"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xinhuai Technology"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Yanxin Microelectronics"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry",
+      "categories": [
+        "Foundry"
+      ],
+      "importance": 45,
+      "priority": "Medium",
+      "score_reason": "A separate Weibo announcement of a semiconductor EDA and memory-process collaboration; limited detail lowers novelty and confidence.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344498755570710",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-18T06:01:02Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T06:01:02Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344498755570710",
+          "published_at": "2026-09-18T06:01:02Z",
+          "original_text": "发布了头条文章：《北大EDA研究院、芯怀科技与燕芯微电子达成三方战略合作》 北大EDA研究院、芯怀科技与燕芯微电子达成三方战略合作",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344498755570710",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "1d4d2b939a04227bc231",
+      "headline": "Peking University EDA Institute and partners target emerging-memory DTCO",
+      "bullets": [
+        "The post reports a three-party strategic cooperation among the Peking University EDA Institute, Xinhuai Technology, and Yanxin Microelectronics.",
+        "The partners will work on design automation and design-technology co-optimization for emerging memory devices.",
+        "The stated goal is to advance domestic memory-chip innovation and commercialization."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Peking University EDA Institute"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xinhuai Technology"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Yanxin Microelectronics"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry",
+      "categories": [
+        "Foundry"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "The cooperation links EDA tooling with emerging-memory process optimization, an area relevant to domestic memory development.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344498159716630",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-18T05:58:40Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T05:58:40Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344498159716630",
+          "published_at": "2026-09-18T05:58:40Z",
+          "original_text": "【 #北大EDA研究院、芯怀科技与燕芯微电子达成三方战略合作# ，共推新型存储EDA工具与DTCO流程协同创新！】 #北大EDA研究院# #芯怀科技# #新型存储EDA# 近日，无锡北京大学电子设计自动化研究院（以下简称\"研究院\"）、无锡芯怀科技有限公司（以下简称\"芯怀科技\"）与燕芯微电子（上海）有限公司（以下简称\"燕芯微\"）正式达成三方战略合作。三方将围绕新型存储器件的设计自动化与工艺协同优化（DTCO）开展深度合作，充分发挥各自在科研平台、EDA工具链与新型存储工艺、IP方面的技术积累，共同推动国产存储芯片的技术创新与产业化落地。 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344498159716630",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBly1ih7s8ues3nj60dk05o0uf02.jpg"
+          ],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "d5898013a7a0e796305f",
+      "headline": "Synopsys conference recap highlights agentic AI, co-design and digital twins",
+      "bullets": [
+        "The post recaps Synopsys’ 2026 developer conference and identifies president and CEO Sassine Ghazi as the keynote speaker.",
+        "It names agentic AI, co-design, and electronic digital twins as the conference’s three innovation directions.",
+        "The recap says agentic AI is entering engineering workflows, while co-design links chips, software, and systems."
+      ],
+      "companies": [
+        {
+          "ticker": "SNPS",
+          "aliases": [],
+          "name": "Synopsys"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Substantive semiconductor-design software coverage from a major EDA company, with implications for chip development workflows and AI-assisted engineering.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344496009086109",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-18T05:50:07Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T05:50:07Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344496009086109",
+          "published_at": "2026-09-18T05:50:07Z",
+          "original_text": "【万物智能已来，工程未来重构 | #2026新思科技开发者大会回顾# 】 #新思科技# 在 #2026新思科技开发者大会# 上，新思科技总裁兼 CEO 盖思新（Sassine Ghazi）先生在主题演讲中，重点分享了#新思科技 SNPS[股票]# 三大创新方向：Agentic AI（AI 智能体）、Co-design（协同设计）和电子数字孪生。其中，Agentic AI 加速融入工程研发流程，提升工程生产力；Co-design 推动芯片、软件与系统协同优化；电子数字孪生则通过高保真仿真和多物理场分析，加速产品设计、验证与落地。 万物智能已来，工程未来重构 | 2026新思科技开发者大会回顾",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344496009086109",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/00221ubBly1ih7rzz3kyqj60u00k049c02.jpg"
+          ],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "563782addf2632d9df9e",
+      "headline": "OpenAI reportedly hires Brian McCarthy to lead global sales",
+      "bullets": [
+        "The post reports that OpenAI hired Brian McCarthy as global sales vice president.",
+        "It says McCarthy joined SpaceX after its reported acquisition of Cursor in August and had previously led enterprise sales at Rubrik, ThoughtSpot, AppDynamics, and Qlik.",
+        "The post frames the appointment as an effort to accelerate OpenAI’s enterprise business."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SpaceX"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Cursor"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Rubrik"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ThoughtSpot"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "AppDynamics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qlik"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Material frontier-AI personnel news tied directly to enterprise growth and sales execution.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344493495652443",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-18T05:40:08Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T05:40:08Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344493495652443",
+          "published_at": "2026-09-18T05:40:08Z",
+          "original_text": "【 #OpenAI挖来SpaceX高管担任全球销售副总裁# ，以加快企业业务增长】 #OpenAI# #SpaceX# 据报道，OpenAI已聘请马斯克旗下太空探索技术公司（SpaceX）的布莱恩・麦卡锡（Brian McCarthy）担任全球销售副总裁。 麦卡锡于今年 8 月随Cursor被SpaceX收购而加入该公司。他在这两家公司均担任全球营收与全球现场运营总裁一职。此前，他曾在Rubrik、ThoughtSpot、AppDynamics以及Qlik等公司负责企业销售团队。 OpenAI挖来SpaceX高管担任全球销售副总裁，以加快企业业务增长",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344493495652443",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/00221ubBly1ih7rpkwb8bj60m00da79h02.jpg"
+          ],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
     {
       "id": "c1694928a92c849def07",
       "headline": "Solidigm considers first US NAND production line for AI-server demand",
@@ -1533,6 +1877,68 @@
       "source_category": "Twitter"
     },
     {
+      "id": "f506cf5b64490f1a9fce",
+      "headline": "Nexperia and Tata reportedly cooperate to address capacity gap",
+      "bullets": [
+        "The post reports that Nexperia and Tata have reached a strategic cooperation intended to address a production-capacity shortfall."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nexperia"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Tata"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "A capacity-focused cooperation involving a major semiconductor company could affect production availability and supply-chain resilience.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344439821147232",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-18T02:06:51Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T02:06:51Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344439821147232",
+          "published_at": "2026-09-18T02:06:51Z",
+          "original_text": "发布了文章 《为弥补产能缺口，安世与塔塔达成战略合作！》 为弥补产能缺口，安世与塔塔达成战略合作！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344439821147232",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "9198424c488d6db55523",
       "headline": "MediaTek launches 2nm Dimensity 9600 Pro smartphone SoC for agentic AI",
       "bullets": [
@@ -2227,6 +2633,63 @@
       "source_category": "Twitter"
     },
     {
+      "id": "8cc152146b6a5d875bb1",
+      "headline": "TSMC executive reportedly says AI is reshaping chip-design ecosystem",
+      "bullets": [
+        "The post attributes to TSMC’s Luo Zhenqiu the view that the AI era is restructuring the chip-design ecosystem."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute",
+      "categories": [
+        "Foundry",
+        "Compute"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "The item concerns a major foundry’s view on structural changes in AI-driven chip design.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344427519771906",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-18T01:17:58Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T01:17:58Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344427519771906",
+          "published_at": "2026-09-18T01:17:58Z",
+          "original_text": "发布了文章 《台积电罗镇球：AI时代，芯片设计生态重构！》 台积电罗镇球：AI时代，芯片设计生态重构！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344427519771906",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "62a9b907f532d5c87b3e",
       "headline": "Omdia forecasts explosive 2026 memory revenue and continuing tight supply",
       "bullets": [
@@ -2342,6 +2805,117 @@
       "updated_at": "2026-09-18T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "6444e5261feca5dff41d",
+      "headline": "Japan and United States reportedly plan nearly $20 billion wafer fab",
+      "bullets": [
+        "The post reports that Japan and the United States plan to jointly build a wafer fab with nearly $20 billion in investment."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Foundry · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Supply Chain"
+      ],
+      "importance": 82,
+      "priority": "Critical",
+      "score_reason": "Major new fab investment with direct implications for global manufacturing capacity and supply-chain diversification.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344425263236267",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-18T01:09:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T01:09:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344425263236267",
+          "published_at": "2026-09-18T01:09:00Z",
+          "original_text": "发布了文章 《投资近200亿美元，美日拟共建晶圆厂》 投资近200亿美元，美日拟共建晶圆厂",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344425263236267",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "9b888f11bdf3cb7d2698",
+      "headline": "OnePlus 16 reportedly enters filing with Snapdragon 8EE6",
+      "bullets": [
+        "The post says the OnePlus 16 has entered a network filing and uses a Snapdragon 8EE6 processor.",
+        "It lists 100W wired charging, 50W wireless charging, a 9,000mAh battery, N79 5G support, and up to 165Hz global or 185Hz gaming refresh rates.",
+        "The post also lists a 200MP main camera, 50MP ultrawide camera, and 50MP periscope telephoto camera."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OnePlus"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "A detailed handset filing tied to a new high-end mobile processor and substantial device specifications.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344424549942778",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-18T01:06:10Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-18T01:06:10Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5344424549942778",
+          "published_at": "2026-09-18T01:06:10Z",
+          "original_text": "一加16正式入网了，支持100W有线充+50W无线充，电池9000mAh，200Mp 1/1.4英寸主摄+50Mp超广角+50Mp 1/1.95英寸潜望长焦，支持N79 5G频段，骁龙8EE6处理器，全局165Hz/游戏185Hz，ID有花活儿，期待吗",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344424549942778",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/006BlblIgy1ih7jjcunqij30vk0n1te2.jpg"
+          ],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "e1d589e6ee5d2fe39ea2",
@@ -4526,6 +5100,75 @@
       "revision": 2
     },
     {
+      "id": "8a35f9aac9cf971fc473",
+      "headline": "XPeng G9L post claims up to three Turing AI chips and 2,250 TOPS",
+      "bullets": [
+        "The post says the XPeng G9L can use up to three Turing AI chips delivering 2,250 TOPS.",
+        "It says the vehicle debuts a new second-generation VLA version, with a distilled version on the Max trim.",
+        "The post claims the system improves time-aware decision-making and handling of complex road scenarios."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "XPeng"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "The post contains specific AI-compute hardware and model claims, although the source is unverified and promotional in tone.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344236058183046",
+          "name": "数码王小机",
+          "published_at": "2026-09-17T12:37:10Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T12:37:10Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码王小机",
+          "source_uid": "1810074673",
+          "source_quality": "UNVERIFIED",
+          "external_post_id": "5344236058183046",
+          "published_at": "2026-09-17T12:37:10Z",
+          "original_text": "小鹏G9L首发搭载小鹏第二代VLA全新版本，其中小鹏G9L Max版首发搭载小鹏第二代VLA蒸馏版，让更多用户也能享受到旗舰级智驾体验。 💻行业顶级算力加持：最高搭载3颗图灵AI芯片，有效算力达2250 TOPS。 ⏱️首次理解“时间”维度：模型规模更大、有效时序更长、决策响应更快、轨迹预判更超前，多维综合安全能力提升20倍。 🚦复杂路况更会“随机应变”：施工占道可自动绕行调头，水坑路段借道绕行后变回原车道，遇到鬼探头可预防性避让，操作媲美老司机；新增车头泊入功能，后备箱取放物品更方便。 🚀模型蒸馏让旗舰智驾能力加速普及：小鹏第二代VLA 蒸馏版完整保留模型能力，绝大部分场景表现媲美满血版，实测反馈远超预期。 #小鹏G9L起步即满配# #小鹏G9L发布会#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344236058183046",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/6be38c31ly1ih6y54cr31j20u00gw76n.jpg",
+            "https://wx2.sinaimg.cn/mw2000/6be38c31ly1ih6y53yz37j20u00gwtb7.jpg",
+            "https://wx2.sinaimg.cn/mw2000/6be38c31ly1ih6y54on4dj20u00gwgob.jpg",
+            "https://wx4.sinaimg.cn/mw2000/6be38c31ly1ih6y550jjej20u00gwjtk.jpg",
+            "https://wx1.sinaimg.cn/mw2000/6be38c31ly1ih6y55mhxlj20u00gw77f.jpg",
+            "https://wx1.sinaimg.cn/mw2000/6be38c31ly1ih6y55wsnej20u00gwacv.jpg",
+            "https://wx1.sinaimg.cn/mw2000/6be38c31ly1ih6y56aloej20u00gwgon.jpg",
+            "https://wx1.sinaimg.cn/mw2000/6be38c31ly1ih6y56o5qaj20u00gwn03.jpg",
+            "https://wx4.sinaimg.cn/mw2000/6be38c31ly1ih6y5702spj20u00gwwhb.jpg"
+          ],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "e01a3aecb3c479d9f20c",
       "headline": "Shanghao Jin says Google V4 is exceeding expectations",
       "bullets": [
@@ -4702,6 +5345,68 @@
       "first_seen_at": "2026-09-18T05:00:01Z",
       "updated_at": "2026-09-18T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "a867ee77e6be47bb1c03",
+      "headline": "Weibo author says 8EE6 appears in only two smartphone sub-brands",
+      "bullets": [
+        "The Weibo author says 8EE6 is used this year by only two smartphone sub-brands: OnePlus 16 and iQOO 16.",
+        "The author argues that pricing will be the main determinant of the two phones’ market performance."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OnePlus"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "iQOO"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "The post offers a product-adoption observation and pricing view around a current mobile processor platform.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344200360200503",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-17T10:15:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T10:15:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5344200360200503",
+          "published_at": "2026-09-17T10:15:19Z",
+          "original_text": "今年用8EE6的子品牌只有两个，分别是一加16和iQOO16。竞争变少，市场表现主要看两家的定价策略了。",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344200360200503",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "50ee59a649c60abec19d",
@@ -5210,6 +5915,115 @@
       "source_category": "Twitter"
     },
     {
+      "id": "8fff9c271a38ba5d8d1a",
+      "headline": "Weibo author previews Snapdragon 8EE6 OLED flagship tablet",
+      "bullets": [
+        "The Weibo author previews an OLED flagship compact tablet powered by a Snapdragon 8EE6 processor."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 38,
+      "priority": "Low",
+      "score_reason": "A hardware preview directly tied to a mobile processor, but the supplied text contains little detail beyond the product category and chip.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344169327068397",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-17T08:12:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T08:12:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5344169327068397",
+          "published_at": "2026-09-17T08:12:00Z",
+          "original_text": "你们期待的骁龙8EE6 OLED旗舰小平板，感受一下",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344169327068397",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/006BlblIgy1ih58rzozvnj335c2dcnpg.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006BlblIgy1ih58s50k6dj335c2dcb2b.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006BlblIgy1ih58s2yme2j335c2dce84.jpg",
+            "https://wx2.sinaimg.cn/mw2000/006BlblIgy1ih58s74ppuj335c2dc1kz.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006BlblIgy1ih58s8jrfbj335c2dc1ky.jpg"
+          ],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "fbcfd1d450cbdce5c92b",
+      "headline": "Huang reportedly forecasts China advanced lithography by 2030",
+      "bullets": [
+        "The post attributes a forecast to Huang that China will develop advanced lithography systems by 2030.",
+        "The claim is presented as a reported view rather than an independently verified development."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "WFE · China Supply Chain · Supply Chain",
+      "categories": [
+        "WFE",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Advanced lithography is a strategically important bottleneck, and the reported timeline would have major implications for China’s semiconductor supply chain.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344169234793111",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-17T08:11:37Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T08:11:37Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344169234793111",
+          "published_at": "2026-09-17T08:11:37Z",
+          "original_text": "发布了文章 《黄仁勋：中国将在2030年前开发出先进光刻系统！》 黄仁勋：中国将在2030年前开发出先进光刻系统！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344169234793111",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "48b3c46d69deafa833bb",
       "headline": "NC AI joins KRW1.4 trillion South Korean physical-AI manufacturing programme",
       "bullets": [
@@ -5385,6 +6199,56 @@
       "first_seen_at": "2026-09-17T07:47:17Z",
       "updated_at": "2026-09-17T07:47:17Z",
       "revision": 1
+    },
+    {
+      "id": "4a3a8afe4be4246da9c9",
+      "headline": "Dimensity 9600 Pro presented as an AI-native smartphone chip",
+      "bullets": [
+        "The post presents the Dimensity 9600 Pro as opening an AI-native era for smartphone chips."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "A direct smartphone-processor development with an AI-compute positioning, though the supplied post provides limited technical detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5344160485998701",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-17T07:36:51Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-17T07:36:51Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-18T06:08:36Z",
+      "updated_at": "2026-09-18T06:08:36Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5344160485998701",
+          "published_at": "2026-09-17T07:36:51Z",
+          "original_text": "发布了文章 《天玑9600 Pro，开启手机芯片“AI原生”时代！》 天玑9600 Pro，开启手机芯片“AI原生”时代！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5344160485998701",
+          "images": [],
+          "retrieved_at": "2026-09-18T06:08:36Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "f9cde330338160c3e2e2",
@@ -37028,14 +37892,6 @@
       ]
     }
   ],
-  "weibo_updated_at": "2026-09-17T05:33:22Z",
-  "weibo_published_at": "2026-09-17T05:45:25Z",
-  "weibo_schedule": "06:00 Europe/London · Monday–Friday",
-  "weibo_window": {
-    "start": "2026-09-16T05:33:22Z",
-    "end": "2026-09-17T05:33:22Z",
-    "weekend_coverage": false
-  },
   "twitter_stories": [
     {
       "id": "9793bc0da4630dadc699",
@@ -38536,5 +39392,13 @@
     "weekend_coverage": false
   },
   "twitter_published_at": "2026-09-18T06:08:33Z",
-  "published_at": "2026-09-18T06:08:33Z"
+  "published_at": "2026-09-18T06:08:33Z",
+  "weibo_published_at": "2026-09-18T06:23:53Z",
+  "weibo_updated_at": "2026-09-18T06:08:36Z",
+  "weibo_window": {
+    "start": "2026-09-17T06:08:36Z",
+    "end": "2026-09-18T06:08:36Z",
+    "weekend_coverage": false
+  },
+  "weibo_schedule": "06:00 Europe/London · Monday–Friday"
 }
