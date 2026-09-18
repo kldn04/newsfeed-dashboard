@@ -31578,6 +31578,26 @@
           "at": "2026-09-18T05:57:34Z",
           "stage": "fetch",
           "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:57:47Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 76682 bytes, 12.5s."
+        },
+        {
+          "at": "2026-09-18T05:57:47Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:57:50Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 70200 bytes, 3.1s."
+        },
+        {
+          "at": "2026-09-18T05:57:50Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
         }
       ],
       "usage": [
@@ -33526,9 +33546,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:57:34Z",
+      "updated_at": "2026-09-18T05:57:50Z",
       "stage": "web_discovery"
     }
   ]
