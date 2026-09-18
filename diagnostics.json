@@ -34428,6 +34428,21 @@
           "at": "2026-09-18T06:15:02Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-18T06:15:22Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 94156 bytes, 19.9s."
+        },
+        {
+          "at": "2026-09-18T06:15:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码王小机, page 2."
+        },
+        {
+          "at": "2026-09-18T06:15:22Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -34500,9 +34515,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T06:15:02Z",
+      "updated_at": "2026-09-18T06:15:22Z",
       "stage": "weibo_discovery"
     }
   ]
