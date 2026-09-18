@@ -30418,6 +30418,16 @@
           "at": "2026-09-18T05:33:17Z",
           "stage": "fetch",
           "message": "www.munhwa.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:33:42Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: HTTP 200, 111097 bytes, 25.0s."
+        },
+        {
+          "at": "2026-09-18T05:33:42Z",
+          "stage": "fetch",
+          "message": "www.munhwa.com: fetch started."
         }
       ],
       "usage": [
@@ -31575,9 +31585,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:33:17Z",
+      "updated_at": "2026-09-18T05:33:42Z",
       "stage": "web_discovery"
     }
   ]
