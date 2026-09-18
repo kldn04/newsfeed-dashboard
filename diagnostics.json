@@ -1,55 +1,6 @@
 {
   "runs": [
     {
-      "started_at": "2026-09-14T21:56:43Z",
-      "kind": "Local publication repair",
-      "events": [
-        {
-          "at": "2026-09-14T21:56:43Z",
-          "stage": "starting",
-          "message": "Starting local publication repair from saved responses. No provider requests."
-        },
-        {
-          "at": "2026-09-14T21:56:43Z",
-          "stage": "validation",
-          "message": "Batch complete: 72 stories ready."
-        },
-        {
-          "at": "2026-09-14T21:56:43Z",
-          "stage": "validation",
-          "message": "Batch complete: 67 stories ready."
-        },
-        {
-          "at": "2026-09-14T21:56:43Z",
-          "stage": "usage",
-          "message": "Saved responses reprocessed locally; original token costs remain in the earlier collection entry."
-        },
-        {
-          "at": "2026-09-14T21:56:43Z",
-          "stage": "publishing",
-          "message": "Publishing the locally repaired main and Twitter editions."
-        },
-        {
-          "at": "2026-09-14T21:56:46Z",
-          "stage": "complete",
-          "message": "Main and Twitter editions published from saved responses; no additional API calls."
-        }
-      ],
-      "usage": [
-        {
-          "provider": "OpenAI",
-          "component": "Saved response replay — no API call",
-          "input_tokens": 0,
-          "output_tokens": 0,
-          "reasoning_tokens": 0,
-          "cost_usd": 0,
-          "cost_basis": "No new provider requests."
-        }
-      ],
-      "updated_at": "2026-09-14T21:56:46Z",
-      "stage": "complete"
-    },
-    {
       "started_at": "2026-09-15T05:00:01Z",
       "kind": "Web + Twitter",
       "events": [
@@ -32038,6 +31989,41 @@
           "at": "2026-09-18T06:06:29Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-09-18T06:08:32Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-09-18T06:08:32Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-18T06:08:32Z",
+          "stage": "validation",
+          "message": "Batch complete: 25 stories ready."
+        },
+        {
+          "at": "2026-09-18T06:08:32Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-09-18T06:08:32Z",
+          "stage": "validation",
+          "message": "Wider feed and Twitter compilation finished."
+        },
+        {
+          "at": "2026-09-18T06:08:33Z",
+          "stage": "publishing",
+          "message": "Publishing the verified edition."
+        },
+        {
+          "at": "2026-09-18T06:08:36Z",
+          "stage": "complete",
+          "message": "Edition published."
         }
       ],
       "usage": [
@@ -34202,10 +34188,46 @@
           "cache_write_tokens": 219346,
           "cost_usd": 0.0748375,
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-5.6-luna",
+          "input_tokens": 19410,
+          "output_tokens": 11957,
+          "reasoning_tokens": 5711,
+          "cached_tokens": 0,
+          "cache_write_tokens": 19407,
+          "cost_usd": 0.01920075,
+          "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-18T06:06:29Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-18T06:08:36Z",
+      "stage": "complete"
+    },
+    {
+      "started_at": "2026-09-18T06:08:37Z",
+      "kind": "Weibo",
+      "events": [
+        {
+          "at": "2026-09-18T06:08:37Z",
+          "stage": "starting",
+          "message": "Starting the separate Weibo collection."
+        },
+        {
+          "at": "2026-09-18T06:08:37Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 手机晶片达人, page 1."
+        },
+        {
+          "at": "2026-09-18T06:08:37Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-18T06:08:37Z",
+      "stage": "weibo_discovery"
     }
   ]
 }
