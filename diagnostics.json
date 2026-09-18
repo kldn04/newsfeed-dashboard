@@ -31248,6 +31248,16 @@
           "at": "2026-09-18T05:50:11Z",
           "stage": "fetch",
           "message": "www.fnnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-18T05:50:56Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: HTTP 200, 0 bytes, 44.7s."
+        },
+        {
+          "at": "2026-09-18T05:50:56Z",
+          "stage": "fetch",
+          "message": "www.fnnews.com: fetch started."
         }
       ],
       "usage": [
@@ -32965,9 +32975,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-18T05:50:11Z",
+      "updated_at": "2026-09-18T05:50:56Z",
       "stage": "web_discovery"
     }
   ]
