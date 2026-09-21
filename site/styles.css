@@ -112,10 +112,10 @@ dialog {border-color:#e5e5ea;border-radius:20px;box-shadow:0 20px 80px #1d1d1f20
 }
 
 .collection-panel {margin:0 0 20px;border:1px solid #dce8eb;background:#f7fbfd;border-radius:14px;padding:14px 18px;color:#515154;font-size:12px}
-.collection-panel summary {display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;min-height:30px;color:#00828d;font-weight:600}
+.collection-panel .collection-heading {display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:30px;color:#00828d;font-weight:600}
 #collection-summary {font-weight:400}.collection-panel p {line-height:1.6}.collection-panel ul {padding-left:20px;line-height:1.8;max-height:240px;overflow:auto}
 .status-note,#collection-updated {font-size:11px;color:#86868b}
-@media(max-width:760px){.collection-panel {font-size:14px;padding:12px 14px}.collection-panel summary{min-height:44px}.collection-panel ul{font-size:13px}}
+@media(max-width:760px){.collection-panel {font-size:14px;padding:12px 14px}.collection-panel .collection-heading{min-height:44px}.collection-panel ul{font-size:13px}}
 
 #refresh-password {display:block;width:100%;font-size:16px;min-height:48px;padding:12px;border:1px solid #d1d1d6;border-radius:10px;margin-top:8px}
 #refresh-result {min-height:24px;font-size:14px;color:#515154}#refresh-dialog a {color:#00828d}#refresh-dialog label{font-size:14px}
