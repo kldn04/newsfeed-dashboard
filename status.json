@@ -1,8 +1,8 @@
 {
   "state": "running",
-  "message": "Weibo: fetching 数码王小机, page 1.",
+  "message": "Weibo: fetching 数码王小机, page 2.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-21T05:38:53Z",
+  "updated_at": "2026-09-21T05:39:23Z",
   "started_at": "2026-09-21T05:30:43Z",
   "counts": {
     "weibo_candidates": 37
@@ -20,10 +20,6 @@
     "Editorial exclusions": 321
   },
   "events": [
-    {
-      "at": "2026-09-21T05:31:41Z",
-      "message": "Weibo: fetching 数码闲聊站, page 2."
-    },
     {
       "at": "2026-09-21T05:33:11Z",
       "message": "Weibo: fetch failed for 数码闲聊站 (ReadTimeout)."
@@ -99,6 +95,10 @@
     {
       "at": "2026-09-21T05:38:34Z",
       "message": "Weibo: fetching 数码王小机, page 1."
+    },
+    {
+      "at": "2026-09-21T05:39:00Z",
+      "message": "Weibo: fetching 数码王小机, page 2."
     }
   ]
 }
