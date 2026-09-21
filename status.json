@@ -1,102 +1,110 @@
 {
   "state": "running",
-  "message": "Reading Economic Daily (UDN) through Bright Data.",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-21T05:23:41Z",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "stage": "summarising",
+  "updated_at": "2026-09-21T05:24:11Z",
   "started_at": "2026-09-21T05:00:01Z",
-  "counts": {},
+  "counts": {
+    "x_candidates": 116,
+    "twitter_api_requests": 13,
+    "twitter_posts_fetched": 170,
+    "openai_calls": 1,
+    "input_tokens_estimated": 387573,
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
+  },
   "stored_totals": {
     "stories": 674,
-    "evidence": 1997,
+    "evidence": 2283,
     "model_cache": 63,
-    "reviews": 280
+    "reviews": 294
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 272
+    "Editorial exclusions": 286
   },
   "events": [
     {
-      "at": "2026-09-21T05:05:02Z",
-      "message": "TrendForce: 4 candidates (ok)."
+      "at": "2026-09-21T05:23:49Z",
+      "message": "Twitter API: fetching @intelfabs in the requested window."
     },
     {
-      "at": "2026-09-21T05:05:02Z",
-      "message": "Reading ZDNet Korea through Bright Data."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: @intelfabs returned 4 posts."
     },
     {
-      "at": "2026-09-21T05:06:46Z",
-      "message": "ZDNet Korea: 11 candidates (ok)."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: fetching @ryanhingshing in the requested window."
     },
     {
-      "at": "2026-09-21T05:06:47Z",
-      "message": "Reading EET China through Bright Data."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: @ryanhingshing returned 8 posts."
     },
     {
-      "at": "2026-09-21T05:08:37Z",
-      "message": "EET China: 19 candidates (ok)."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: fetching @sssjeffpu in the requested window."
     },
     {
-      "at": "2026-09-21T05:08:39Z",
-      "message": "Reading IDC through Bright Data."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: @sssjeffpu returned 1 posts."
     },
     {
-      "at": "2026-09-21T05:08:40Z",
-      "message": "IDC: 0 dated articles captured (ok)."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: fetching @zartbotf in the requested window."
     },
     {
-      "at": "2026-09-21T05:08:40Z",
-      "message": "Reading Counterpoint Research through Bright Data."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: @zartbotf returned 0 posts."
     },
     {
-      "at": "2026-09-21T05:08:42Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
+      "at": "2026-09-21T05:23:50Z",
+      "message": "Twitter API: fetching @fundaai in the requested window."
     },
     {
-      "at": "2026-09-21T05:08:42Z",
-      "message": "Reading Seoul Economic Daily through Bright Data."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: @fundaai returned 1 posts."
     },
     {
-      "at": "2026-09-21T05:12:18Z",
-      "message": "Seoul Economic Daily: 26 dated articles captured (partial)."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: fetching @shanghaojin in the requested window."
     },
     {
-      "at": "2026-09-21T05:12:18Z",
-      "message": "Reading Asia Economy through Bright Data."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: @shanghaojin returned 6 posts."
     },
     {
-      "at": "2026-09-21T05:14:02Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: fetching @mingchikuo in the requested window."
     },
     {
-      "at": "2026-09-21T05:14:02Z",
-      "message": "Reading Hankook Ilbo through Bright Data."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: @mingchikuo returned 0 posts."
     },
     {
-      "at": "2026-09-21T05:15:47Z",
-      "message": "Hankook Ilbo: 10 dated articles captured (partial)."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: fetching @sean_________ in the requested window."
     },
     {
-      "at": "2026-09-21T05:15:47Z",
-      "message": "Reading ETNews through Bright Data."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: @sean_________ returned 1 posts."
     },
     {
-      "at": "2026-09-21T05:19:12Z",
-      "message": "ETNews: 26 dated articles captured (ok)."
+      "at": "2026-09-21T05:23:51Z",
+      "message": "Twitter API: fetching @qq_timmy in the requested window."
     },
     {
-      "at": "2026-09-21T05:19:13Z",
-      "message": "Reading MoneyToday through Bright Data."
+      "at": "2026-09-21T05:23:52Z",
+      "message": "Twitter API: @qq_timmy returned 15 posts."
     },
     {
-      "at": "2026-09-21T05:21:33Z",
-      "message": "MoneyToday: 23 dated articles captured (partial)."
+      "at": "2026-09-21T05:23:55Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     },
     {
-      "at": "2026-09-21T05:21:33Z",
-      "message": "Reading Economic Daily (UDN) through Bright Data."
+      "at": "2026-09-21T05:23:57Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
