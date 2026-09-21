@@ -1,20 +1,25 @@
 {
-  "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-09-21T05:45:28Z",
+  "state": "idle",
+  "message": "Weibo edition published.",
+  "stage": "complete",
+  "updated_at": "2026-09-21T05:45:32Z",
   "started_at": "2026-09-21T05:30:43Z",
   "counts": {
     "weibo_candidates": 47,
     "openai_calls": 1,
     "input_tokens_estimated": 20452,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 32181,
+    "openai_input_tokens": 19897,
+    "openai_output_tokens": 12284,
+    "eligible": 20,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 817,
+    "stories": 837,
     "evidence": 2330,
-    "model_cache": 65,
+    "model_cache": 66,
     "reviews": 329
   },
   "review_categories": {
@@ -24,22 +29,6 @@
     "Editorial exclusions": 321
   },
   "events": [
-    {
-      "at": "2026-09-21T05:38:34Z",
-      "message": "Weibo: Trendforce集邦咨询 — 0 posts in collection window, 0 new."
-    },
-    {
-      "at": "2026-09-21T05:38:34Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
-    },
-    {
-      "at": "2026-09-21T05:39:00Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
-    },
-    {
-      "at": "2026-09-21T05:39:41Z",
-      "message": "Weibo: fetch failed for 数码王小机 (SourceFetchError)."
-    },
     {
       "at": "2026-09-21T05:39:41Z",
       "message": "Weibo: 数码王小机 — 10 posts in collection window, 10 new."
@@ -103,6 +92,22 @@
     {
       "at": "2026-09-21T05:43:36Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-09-21T05:45:29Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-21T05:45:29Z",
+      "message": "Batch complete: 20 stories ready."
+    },
+    {
+      "at": "2026-09-21T05:45:29Z",
+      "message": "Publishing Weibo stories."
+    },
+    {
+      "at": "2026-09-21T05:45:32Z",
+      "message": "Weibo edition published."
     }
   ]
 }
