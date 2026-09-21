@@ -1,15 +1,19 @@
 {
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 数码王小机.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-09-21T05:43:26Z",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "stage": "summarising",
+  "updated_at": "2026-09-21T05:43:56Z",
   "started_at": "2026-09-21T05:30:43Z",
   "counts": {
-    "weibo_candidates": 47
+    "weibo_candidates": 47,
+    "openai_calls": 1,
+    "input_tokens_estimated": 20452,
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
     "stories": 817,
-    "evidence": 2283,
+    "evidence": 2330,
     "model_cache": 65,
     "reviews": 329
   },
@@ -20,14 +24,6 @@
     "Editorial exclusions": 321
   },
   "events": [
-    {
-      "at": "2026-09-21T05:38:09Z",
-      "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
-    },
-    {
-      "at": "2026-09-21T05:38:09Z",
-      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
-    },
     {
       "at": "2026-09-21T05:38:34Z",
       "message": "Weibo: Trendforce集邦咨询 — 0 posts in collection window, 0 new."
@@ -99,6 +95,14 @@
     {
       "at": "2026-09-21T05:43:17Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-21T05:43:35Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-09-21T05:43:36Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
