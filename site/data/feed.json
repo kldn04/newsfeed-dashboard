@@ -133,51 +133,6 @@
       "previews": 4
     },
     {
-      "name": "Weibo · 手机晶片达人",
-      "status": "failed",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 数码闲聊站",
-      "status": "partial",
-      "discovered": 8
-    },
-    {
-      "name": "Weibo · 智慧芯片案内人",
-      "status": "ok",
-      "discovered": 4
-    },
-    {
-      "name": "Weibo · 芯谋研究顾文军",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 集微网官方微博",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
-      "name": "Weibo · 芯智讯官微",
-      "status": "ok",
-      "discovered": 5
-    },
-    {
-      "name": "Weibo · 电子工程专辑",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · Trendforce集邦咨询",
-      "status": "ok",
-      "discovered": 1
-    },
-    {
-      "name": "Weibo · 数码王小机",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
       "name": "@jukan05",
       "status": "ok",
       "discovered": 28,
@@ -254,6 +209,51 @@
       "status": "ok",
       "discovered": 15,
       "retrieval": "x_api"
+    },
+    {
+      "name": "Weibo · 手机晶片达人",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码闲聊站",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Weibo · 智慧芯片案内人",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Weibo · 芯谋研究顾文军",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 集微网官方微博",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Weibo · 芯智讯官微",
+      "status": "ok",
+      "discovered": 7
+    },
+    {
+      "name": "Weibo · 电子工程专辑",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · Trendforce集邦咨询",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码王小机",
+      "status": "partial",
+      "discovered": 10
     }
   ],
   "partial": true,
@@ -420,6 +420,72 @@
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "ece2cd46516ab323b8d4",
+      "headline": "vivo X500 configuration roundup includes Dimensity 9600 chips",
+      "bullets": [
+        "The Weibo author lists three vivo X500 variants using Dimensity 9600M or Dimensity 9600 Pro processors.",
+        "The reported configurations include 144Hz displays, large batteries and camera systems with up to a 200MP periscope camera."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "vivo"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "MediaTek"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "The post contains detailed, attributed specifications for a new smartphone chipset deployment, but remains a product-rumor report.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345566281695692",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-21T04:43:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T04:43:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345566281695692",
+          "published_at": "2026-09-21T04:43:00Z",
+          "original_text": "vivo X500系列配置大汇总，分别猜猜价格吧： X500——6.59英寸1.5K+144Hz LTPS直屏；天玑9600M处理器，7500mAh+90W有线充+40W无线充；前置50Mp，后置50Mp LYT828主摄+50Mp超广角+64Mp LYT610 3.1X潜望长焦，支持长焦微距；3D超声波指纹，IP68/IP69 X500 Pro——6.36英寸1.5K+144Hz LTPO直屏；天玑9600 Pro处理器，6510mAh+90W有线充+40W无线充；前置50Mp，后置50Mp LYT-L910主摄+50Mp超广角+64Mp LYT610 3.5X潜望长焦，支持长焦微距；3D超声波指纹，IP68/IP69 X500 Pro Max——6.85英寸2K+144Hz LTPO直屏；天玑9600 Pro处理器，8000mAh+90W有线充+40W无线充；前置50Mp，后置50Mp LYT-L910主摄+50Mp超广角+200Mp HP0 3.5X潜望长焦，支持长焦微距；3D超声波指纹，IP68/IP69",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345566281695692",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/006BlblIgy1ihb4j2rpdgj30zb1sqe2p.jpg",
+            "https://wx2.sinaimg.cn/mw2000/006BlblIgy1ihb4j35flzj30zc30me81.jpg",
+            "https://wx2.sinaimg.cn/mw2000/006BlblIgy1ihb4j38n1bj30zc2n34qp.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "1bc8e53cdc0a738bb177",
@@ -867,6 +933,67 @@
       "first_seen_at": "2026-09-18T05:00:01Z",
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 2
+    },
+    {
+      "id": "f245a61dae51c17c0fcf",
+      "headline": "Chipsea says automotive SAR ADCs reach volume production",
+      "bullets": [
+        "Chipsea Technology says its CS1795X automotive SAR ADC family has passed AEC-Q100 Grade 1 certification.",
+        "The company says the devices have reached volume production with multiple Tier 1 suppliers and leading automakers.",
+        "The products target industrial, medical, consumer-electronics, communications and automotive applications."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Chipsea Technology"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · China Supply Chain",
+      "categories": [
+        "Analog",
+        "China Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Automotive analog-chip qualification and reported volume production are material developments for China’s semiconductor supply chain.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345547942627976",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-21T03:30:08Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T03:30:08Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345547942627976",
+          "published_at": "2026-09-21T03:30:08Z",
+          "original_text": "【 #芯海科技车规SAR ADC典型应用# 】 没有完美的ADC，只有无限接近客户需求的ADC。 #芯海科技# 持续深耕ADC根技术领域20多年，独创数字模拟混合双环Σ-Δ ADC架构，融合Cyclic技术，持续提升精度与转换效率，全面覆盖Σ-Δ ADC、SAR ADC等产品类型，广泛适用于工业、医疗、消费电子、通信及汽车等众多领域应用需求。 以客户需求为原点，芯海科技率先投入全国产、高可靠的车规级ADC产品开发。车规级SAR ADC芯片CS1795X系列已通过AEC-Q100 Grade 1认证，实现多家Tier1及龙头车企规模化量产，荣获工信部“中国芯”优秀技术创新产品奖，有力保障国产供应链安全。 芯海科技车规SAR ADC典型应用",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345547942627976",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/00221ubBgy1ihb4t9tijwj60v10hgwgj02.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "79f60ca8d830c4945ba4",
@@ -1472,6 +1599,192 @@
       "revision": 1
     },
     {
+      "id": "5ca7e555ea7144aa3546",
+      "headline": "TSMC executive says AI cannot independently design a 1.4nm process",
+      "bullets": [
+        "A TSMC executive said AI can substantially improve chip-design and software-development efficiency but cannot independently create next-generation manufacturing processes such as 1.4nm.",
+        "The executive said human engineers should remain the final decision-makers in critical decisions and unexplored areas."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Models",
+      "categories": [
+        "Foundry",
+        "Models"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "The statement addresses the limits of AI in advanced foundry-process development and was attributed to a TSMC executive.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345539239444629",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-21T02:55:32Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:55:32Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345539239444629",
+          "published_at": "2026-09-21T02:55:32Z",
+          "original_text": "【 #台积电高管：AI无法独立设计1.4纳米级先进制程 人类工程师仍不可替代# 】 在人工智能不断被视为改变半导体研发模式的重要工具之际，台积电高层近日公开对AI能力作出更为谨慎的评价。台积电共同营运长米玉杰表示，尽管人工智能已经能够大幅提升芯片设计和软件开发效率，但在创造下一代先进制造工艺方面，AI依然无法取代人类工程师发挥核心作用。米玉杰是在中国台湾大学相关活动中发表上述看法的。谈及人工智能时，他将其比喻为“一个三岁的超人”，虽然具备强大能力，但仍缺乏成熟判断力。因此，在涉及关键决策和未知领域探索时，人类仍应扮演最终决策者角色。 台积电高管：AI无法独立设计1.4纳米级先进制程 人类工程师仍不可替代",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345539239444629",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/00221ubBgy1ihb3t8q8ofj60p00gojvg02.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "be21b291d3b4f2fbddfc",
+      "headline": "Chipsea ASIL-D MCU named in Bosch GTM 4.1 launch list",
+      "bullets": [
+        "An Ijiwei roundup says Chipsea Technology’s ASIL-D MCU K7x series was included in Bosch GTM 4.1’s initial customer list."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Chipsea Technology"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Bosch"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · China Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 62,
+      "priority": "High",
+      "score_reason": "The reported automotive MCU qualification links a Chinese chip supplier with a major automotive technology company.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345538947679153",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-21T02:54:23Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:54:23Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345538947679153",
+          "published_at": "2026-09-21T02:54:23Z",
+          "original_text": "【 #芯海科技ASIL-D MCU K7x系列入选博世GTM 4.1首发客户名单# 】 1. 芯海科技ASIL-D MCU K7x系列入选博世GTM 4.1首发客户名单 2. 芯华章携手滴水智行推进可信AI车规安全应用，共建大模型车控安全保障体系 3. 比亚迪召回18.32万辆汽车：部分“唐”“秦”可能存在制动灯常亮隐患 4. 赛力斯高管：中国汽车不能靠压缩验证周期、降低安全标准来抢速度 5. 比亚迪：天神之眼辅助驾驶车型保有量超372万辆，每天生成数据超2.3亿公里 6. NewPhotonics® 与 Tower Semiconductor 批量出货集成激光器、可维护型光引擎 PIC，赋能横向与纵向扩容的AI互连应用 网页链接",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345538947679153",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/00221ubBgy1ihb3s0h2ctj60zk0bwq6d02.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "92b4f14c50ebaf40c558",
+      "headline": "Qizhong expects full display-chip packaging capacity in Q3",
+      "bullets": [
+        "An Ijiwei roundup says Qizhong Technology expects its display-chip packaging capacity to operate at full load in the third quarter.",
+        "It also says an advanced-packaging project is progressing in parallel."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qizhong Technology"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Advanced Packaging · China Supply Chain · Supply Chain",
+      "categories": [
+        "Advanced Packaging",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "The post reports both high packaging utilization and expansion into advanced packaging.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345538757103725",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-21T02:53:38Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:53:38Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345538757103725",
+          "published_at": "2026-09-21T02:53:38Z",
+          "original_text": "【 #概伦电子6名一致行动股东拟合计减持不超过总股本2%股份，减持价格按市场价格确定# 】 1. 概伦电子6名一致行动股东拟合计减持不超过总股本2%股份，减持价格按市场价格确定 2. 【财报快解】存储放量，万润科技H1归母净利润同比增长94.19% 3. 胜宏科技：华侨城（惠州）产业园将规划mSAP、HDI等高端PCB产能 4. 龙磁科技：芯片电感部分料号已通过客户认证，相关订单处于批量交付及产能爬坡阶段 5. 颀中科技：Q3显示芯片封测产能有望满负荷运行，先进封装项目同步启动 【概念股】概伦电子6名一致行动股东拟合计减持不超过总股本2%股份，减持价格按市场价格确定",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345538757103725",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBgy1ihb3rbiuujj60s90e010n02.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "6e82712a742cff67edbb",
       "headline": "AI infrastructure drives a new mature-node foundry pricing cycle in Taiwan",
       "bullets": [
@@ -1645,6 +1958,59 @@
       "revision": 1
     },
     {
+      "id": "686496a9fc66da7f6c1e",
+      "headline": "FD-SOI reportedly moves toward 7nm",
+      "bullets": [
+        "An article highlighted by the Weibo account says FD-SOI is entering the 7nm era.",
+        "It also says the domestic FD-SOI industry chain is accelerating its development."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Foundry · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "The post concerns advanced process technology and domestic foundry capability, although the captured evidence is limited to the article headline.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345535995151091",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-21T02:42:38Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:42:38Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345535995151091",
+          "published_at": "2026-09-21T02:42:38Z",
+          "original_text": "发布了文章 《FD-SOI将迈入7nm时代，本土产业链加速完善！》 FD-SOI将迈入7nm时代，本土产业链加速完善！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345535995151091",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "6d13f41c52da57c595c2",
       "headline": "Analysts expect TSMC September revenue to set another monthly record",
       "bullets": [
@@ -1738,6 +2104,234 @@
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "61342b6d65c7249b23b4",
+      "headline": "ReRAM and FD-SOI pitched for edge AI",
+      "bullets": [
+        "An article highlighted by the Weibo account presents ReRAM combined with FD-SOI as a strong solution for edge AI."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Foundry · Compute",
+      "categories": [
+        "Foundry",
+        "Compute"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "The post covers a semiconductor process-and-memory architecture for edge AI, but provides limited detail beyond the article title.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345534681287621",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-21T02:37:26Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:37:26Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345534681287621",
+          "published_at": "2026-09-21T02:37:26Z",
+          "original_text": "发布了文章 《ReRAM+“FD-SOI”，边缘AI的最优解！》 ReRAM+“FD-SOI”，边缘AI的最优解！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345534681287621",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "ab72ae8af6487b8047f0",
+      "headline": "GlobalFoundries CEO highlights FD-SOI for physical AI",
+      "bullets": [
+        "An article attributed to the GlobalFoundries CEO says FD-SOI’s advantages are becoming more pronounced in the physical-AI era."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "GlobalFoundries"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute",
+      "categories": [
+        "Foundry",
+        "Compute"
+      ],
+      "importance": 61,
+      "priority": "High",
+      "score_reason": "The claim comes from a major foundry executive and concerns the role of FD-SOI in an emerging compute market.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345533549086430",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-21T02:32:56Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:32:56Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345533549086430",
+          "published_at": "2026-09-21T02:32:56Z",
+          "original_text": "发布了文章 《格罗方德CEO：物理AI时代，FD-SOI优势凸显！》 格罗方德CEO：物理AI时代，FD-SOI优势凸显！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345533549086430",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "f3ac7fdebd1a2356cd4a",
+      "headline": "Glass-substrate RF chip module reportedly enters mass production",
+      "bullets": [
+        "An Ijiwei roundup reports that Dianbo Weixun has entered mass production of what it describes as the world’s first glass-substrate RF chip module.",
+        "The roundup says Dier Laser led a new funding round."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Dianbo Weixun"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Dier Laser"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Advanced Packaging · Substrates · China Supply Chain · Supply Chain",
+      "categories": [
+        "Advanced Packaging",
+        "Substrates",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "Glass-substrate RF module production is a potentially important packaging and substrate development; the first-of-kind claim remains attributed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345533062288120",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-21T02:31:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:31:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345533062288120",
+          "published_at": "2026-09-21T02:31:00Z",
+          "original_text": "【 #电波微讯量产全球首款玻璃基射频芯片模组，帝尔激光领投新一轮融资# 】 1. 电波微讯量产全球首款玻璃基射频芯片模组，帝尔激光领投新一轮融资 2. 倒计时 1 天！第五届GMIF创新峰会即将开启！ 3. 北京经开区发布新材料产业专项政策，半导体材料被划重点 4. 晶能微电子完成6.3亿元C轮融资，车规级封测基地二期进入收尾期 5. 安德利：拟7.93亿元收购甬强科技62.06%股权 6. 百亿项目！礼鼎半导体第二园区先进IC载板开工 【本土】电波微讯量产全球首款玻璃基射频芯片模组，帝尔激光领投新一轮融资",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345533062288120",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/00221ubBgy1ihb33pryb1j608g08hwez02.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "d4f39d7585b562ccb6e8",
+      "headline": "MLCC prices diverge as high-end AI parts remain tight",
+      "bullets": [
+        "An Ijiwei roundup says Huaqiangbei MLCC prices fell from 30 to 10, while high-end AI component part numbers remained in shortage and rose sharply."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "The reported split between broad passive-component pricing and constrained AI-related parts signals divergent hardware supply conditions.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345532908408273",
+          "name": "集微网官方微博",
+          "published_at": "2026-09-21T02:30:23Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T02:30:23Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "集微网官方微博",
+          "source_uid": "1862172703",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345532908408273",
+          "published_at": "2026-09-21T02:30:23Z",
+          "original_text": "【 #华强北MLCC价格崩了、从30元杀回10元！高阶AI料号却还在缺货疯涨# 】 1. 华强北MLCC价格崩了、从30元杀回10元！高阶AI料号却还在缺货疯涨 2. 万亿低空经济+卫星互联网，宸芯科技全栈通信芯片筑牢新兴产业底座 3. 共赴“芯”程，2026“楚才回家·中国光谷3551招才引智全球行”西安站圆满落幕！30余家光谷企业携近千“芯”岗位空降西安引才！ 4. 台积电高管：AI无法独立设计1.4纳米级先进制程 人类工程师仍不可替代 5. 成熟制程夯 联电发动“有感涨价” 力积电传报价大涨四成 6. 英特尔传携友达冲先进封装 布局CPO与高密度算力芯片整合方案 【头条】华强北MLCC价格崩了、从30元杀回10元！高阶AI料号却还在缺货疯涨",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345532908408273",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/00221ubBgy1ihb332br09j60ie0c2q3d02.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "53e48b0098a21863798e",
@@ -3377,6 +3971,67 @@
       "source_category": "Twitter"
     },
     {
+      "id": "54c79ea8650543ef08d5",
+      "headline": "vivo X500 reportedly debuts MediaTek Dimensity 9600 Pro",
+      "bullets": [
+        "The Weibo author says the vivo X500 series is the first major Android flagship launch of the season and the first device using MediaTek’s Dimensity 9600 Pro."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "vivo"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "MediaTek"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "The post reports a new mobile-processor platform launch in a major smartphone product line.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345495649880061",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-21T00:02:20Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T00:02:20Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345495649880061",
+          "published_at": "2026-09-21T00:02:20Z",
+          "original_text": "不知不觉，今年的安卓年度旗舰季拉开了帷幕。第一个登场的是蓝厂的X500系列，也是联发科D9600 Pro的首发。 #vivo X500系列#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345495649880061",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "883891dedc7c94acb661",
       "headline": "TSMC reportedly explores AUO facilities for CoPoS and advanced packaging",
       "bullets": [
@@ -4763,6 +5418,122 @@
       "source_category": "Twitter"
     },
     {
+      "id": "32eb85a7a4205f9dc613",
+      "headline": "300mm SOI wafer production reportedly begins",
+      "bullets": [
+        "The post says Xin'ao Xinyi has begun volume production of 300mm SOI wafers.",
+        "It says planned annual capacity is 1 million wafers."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xin'ao Xinyi"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Materials & Inputs · Supply Chain",
+      "categories": [
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "300mm SOI capacity is a material substrate-supply development with potential relevance to RF, power and specialty-process manufacturing.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345348626416446",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-20T14:18:06Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T14:18:06Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345348626416446",
+          "published_at": "2026-09-20T14:18:06Z",
+          "original_text": "发布了文章 《新傲芯翼：300mm SOI已量产，规划年产能100万片！》 新傲芯翼：300mm SOI已量产，规划年产能100万片！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345348626416446",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "9023f0fe2d160fcb196b",
+      "headline": "ChangXin Technology’s fifth-generation platform enters mass production",
+      "bullets": [
+        "An article highlighted by the Weibo account says ChangXin Technology’s fifth-generation technology platform has entered mass production."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ChangXin Technology"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Reported mass production on a fifth-generation semiconductor platform is a major capacity and process milestone.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345347979184111",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-20T14:15:33Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T14:15:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345347979184111",
+          "published_at": "2026-09-20T14:15:33Z",
+          "original_text": "发布了文章 《长鑫科技第五代技术平台正式量产！》 长鑫科技第五代技术平台正式量产！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345347979184111",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "2c02afd0c615854a9603",
       "headline": "Citi forecasts a 46.5% increase in global memory capex for 2027",
       "bullets": [
@@ -5141,6 +5912,67 @@
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "2b8792361172bf975745",
+      "headline": "Memory mix cited in iPhone 18 Pro pricing analysis",
+      "bullets": [
+        "The Weibo author lists reported domestic-market iPhone 18 Pro price increases of 1,000 at 256GB and 512GB, 2,500 at 1TB, and an additional 3,500 at 2TB for Pro Max.",
+        "The post attributes storage-tier cost differences to Apple using 12GB of DRAM and NAND configurations including QLC at 1TB.",
+        "It says domestic flagship phones often use 16GB of DRAM and non-QLC high-capacity NAND, creating higher memory costs."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "The post directly links smartphone pricing and configuration choices to DRAM and NAND economics, making it relevant to memory demand and supply.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345316842507992",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-20T12:11:49Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T12:11:49Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345316842507992",
+          "published_at": "2026-09-20T12:11:49Z",
+          "original_text": "苹果18Pro系列中国市场的价格涨幅是： 256GB     512GB   1TB      2TB Pro             +1000    +1000   +2500 Pro Max     +1000    +1000   +2500  +3500 因为苹果所有DRAM都是12GB，存储阶梯增长都是NAND的增长，1TB版本由于采用QLC，这部分的成本增长相比要少一些。 国内厂商旗舰机型都是12+256起，但高配都会到16GB DRAM，而且大容量NAND也没有采用QLC，所以成本增长高于苹果。 所以9月份国内厂商这波旗舰机如何定价呢？",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345316842507992",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "fc96ae2bfa90c54b19c7",
@@ -5536,6 +6368,70 @@
       "source_category": "Twitter"
     },
     {
+      "id": "775721c7c84797cad003",
+      "headline": "Xiaomi 18 Pro lineup reportedly uses Snapdragon 8E6 chips",
+      "bullets": [
+        "The Weibo author says Xiaomi 18 Pro uses a Snapdragon 8E6 processor and Xiaomi 18 Pro Max uses Snapdragon 8EE6.",
+        "The post also claims the series includes a large-motor design and telephoto macro capability."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qualcomm"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "The post reports processor deployments in a major smartphone family, but the information is product-leak commentary.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345253852447681",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-20T08:01:31Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T08:01:31Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345253852447681",
+          "published_at": "2026-09-20T08:01:31Z",
+          "original_text": "Xiaomi 18 Pro真机实拍图，黑/白/粉/蓝，Pro是骁龙8E6，Pro Max是骁龙8EE6，全系有大马达，Pro Max比大更大；另外从2亿大底潜望镜的开孔看，这代也有长焦微距……",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345253852447681",
+          "images": [
+            "https://wx1.sinaimg.cn/mw2000/006BlblIgy1iha6jhdk20j31kw2dck6n.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "15cd3ae5149c68111a26",
       "headline": "Union Tool raises tungsten-intensive cutting-tool prices 15%",
       "bullets": [
@@ -5885,6 +6781,125 @@
       "first_seen_at": "2026-09-21T05:00:01Z",
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "b89b67cb2ef61c075980",
+      "headline": "ChangXin G5 commercialization called a major milestone",
+      "bullets": [
+        "The Weibo author calls commercialization of ChangXin Technology’s G5 platform an important milestone.",
+        "The post says industry insiders view the process as a major improvement."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ChangXin Technology"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "The post adds industry commentary on the significance of the reported G5 commercialization, while preserving the author’s assessment.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345236085375668",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-20T06:50:55Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T06:50:55Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345236085375668",
+          "published_at": "2026-09-20T06:50:55Z",
+          "original_text": "长鑫G5平台商用是一个重要的里程碑。圈内的人都知道，这个制程是巨大的提升。 #长鑫科技第五代技术平台正式量产#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345236085375668",
+          "images": [
+            "https://wx3.sinaimg.cn/mw2000/006tvJhcgy1iha4pbg8nyj30xc1ep13t.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "7ea241e9a8b5713fba22",
+      "headline": "OnePlus 16 gaming claim cites SM8975 GPU technology",
+      "bullets": [
+        "The Weibo author says OnePlus 16 can reach 180 frames per second in Genshin Impact using a new gaming engine and technology based on the SM8975 GPU."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OnePlus"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "The post makes a specific mobile-GPU performance claim tied to a semiconductor platform, but it is unverified and gaming-focused.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345228967121318",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-20T06:22:38Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T06:22:38Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345228967121318",
+          "published_at": "2026-09-20T06:22:38Z",
+          "original_text": "一个超前瞻，加加16可以跑180FPS超高帧原神 新一代「风驰游戏内核」和通子深度合作，基于 SM8975 独占的GPU黑科技，首次在移动端实现了DLSS4同代的游戏体验，性能释放恐怖如斯，原神能裸机直接跑满180FPS，太丝滑辣",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345228967121318",
+          "images": [
+            "https://wx2.sinaimg.cn/mw2000/006BlblIgy1ih9zquf4rlj31ti15cnll.jpg"
+          ],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "639d73248f687fc3fd5c",
@@ -6389,6 +7404,122 @@
       "source_category": "Twitter"
     },
     {
+      "id": "fc841f56a441dd4175a4",
+      "headline": "International semiconductor investment in India reportedly increases",
+      "bullets": [
+        "An article highlighted by the Weibo account says international semiconductor leaders are increasing investment in India."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Supply Chain",
+      "categories": [
+        "Supply Chain"
+      ],
+      "importance": 63,
+      "priority": "High",
+      "score_reason": "The post concerns geographic diversification of semiconductor investment, but the captured evidence does not identify the companies or project sizes.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345198978633834",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-20T04:23:28Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T04:23:28Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345198978633834",
+          "published_at": "2026-09-20T04:23:28Z",
+          "original_text": "发布了文章 《这些国际半导体巨头，纷纷加码投资印度》 这些国际半导体巨头，纷纷加码投资印度",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345198978633834",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "6e02672fbb0d80b9ad2b",
+      "headline": "AMD Venice benchmark claims lead over Xeon 6980P and Nvidia Vera",
+      "bullets": [
+        "An article highlighted by the Weibo account says AMD Venice performance tests show a lead over Intel Xeon 6980P and Nvidia Vera."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "AMD"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Intel"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "NVIDIA"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "The claim compares major server and AI-compute platforms, though the captured evidence contains no test results beyond the headline.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345198759477916",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-20T04:22:35Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T04:22:35Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5345198759477916",
+          "published_at": "2026-09-20T04:22:35Z",
+          "original_text": "发布了文章 《AMD Venice性能测试公布：远超英特尔至强6980P与英伟达Vera！》 AMD Venice性能测试公布：远超英特尔至强6980P与英伟达Vera！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345198759477916",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
       "id": "b0bcc3c1a97c7b3e9e55",
       "headline": "Cited research questions Anthropic’s training and inference economics versus OpenAI",
       "bullets": [
@@ -6497,6 +7628,64 @@
       "first_seen_at": "2026-09-21T05:00:01Z",
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 1
+    },
+    {
+      "id": "7e36bfe81ac8c98d8d25",
+      "headline": "Xiaomi 18 Pro reportedly uses a 2nm flagship chip",
+      "bullets": [
+        "The Weibo author says the Xiaomi 18 Pro series will use a 2nm flagship chip.",
+        "The post also lists dual-size RGB OLED displays, large batteries and dual 200MP imaging hardware for the series."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute",
+      "categories": [
+        "Foundry",
+        "Compute"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "The reported 2nm smartphone-chip claim concerns leading-edge process adoption, although the source is an unverified product leak.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345164273134534",
+          "name": "数码闲聊站",
+          "published_at": "2026-09-20T02:05:34Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-20T02:05:34Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:30:43Z",
+      "updated_at": "2026-09-21T05:30:43Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "数码闲聊站",
+          "source_uid": "6048569942",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345164273134534",
+          "published_at": "2026-09-20T02:05:34Z",
+          "original_text": "小米18 Pro系列——全系2nm旗舰芯，全系M11 RGB OLED双尺寸直屏，全系0.99mm四等边，全系徕卡双2亿影像，Pro 7000mAh，Pro Max 8500mAh",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345164273134534",
+          "images": [],
+          "retrieved_at": "2026-09-21T05:30:43Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
     },
     {
       "id": "01e8c38a67c400f1afb5",
@@ -45732,14 +46921,6 @@
       ]
     }
   ],
-  "weibo_updated_at": "2026-09-18T06:08:36Z",
-  "weibo_published_at": "2026-09-18T06:23:53Z",
-  "weibo_schedule": "06:00 Europe/London · Monday–Friday",
-  "weibo_window": {
-    "start": "2026-09-17T06:08:36Z",
-    "end": "2026-09-18T06:08:36Z",
-    "weekend_coverage": false
-  },
   "twitter_stories": [
     {
       "id": "a2cee820dadc999c80df",
@@ -49516,5 +50697,13 @@
     "weekend_coverage": true
   },
   "twitter_published_at": "2026-09-21T05:30:39Z",
-  "published_at": "2026-09-21T05:30:39Z"
+  "published_at": "2026-09-21T05:30:39Z",
+  "weibo_published_at": "2026-09-21T05:45:29Z",
+  "weibo_updated_at": "2026-09-21T05:30:43Z",
+  "weibo_window": {
+    "start": "2026-09-19T05:30:43Z",
+    "end": "2026-09-21T05:30:43Z",
+    "weekend_coverage": true
+  },
+  "weibo_schedule": "06:00 Europe/London · Monday–Friday"
 }
