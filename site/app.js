@@ -101,12 +101,22 @@ function diagnosticVisibility(){const visible=state.view==='diagnostics';$('diag
 const numeric=value=>Number.isFinite(value)?value.toLocaleString():'—';
 const money=value=>Number.isFinite(value)?'$'+value.toFixed(4):'Unavailable';
 const diagnosticStages={starting:'Starting',web_discovery:'Fetching news',x_discovery:'Fetching Twitter',weibo_discovery:'Fetching Weibo',summarising:'Halcyon processing',validation:'Checking stories',publishing:'Publishing',complete:'Complete',failed:'Needs attention'};
+function costDays(runs,now=new Date()) {
+  const today=dayKey(now), anchor=new Date(today+'T12:00:00Z');
+  const days=Array.from({length:7},(_,i)=>{const d=new Date(anchor);d.setUTCDate(d.getUTCDate()-6+i);return {key:d.toISOString().slice(0,10),date:d,halcyon:0,twitter:0,recorded:false,unknown:false};});
+  for(const run of runs){if(!run.started_at||!Number.isFinite(Date.parse(run.started_at)))continue;const day=days.find(d=>d.key===dayKey(run.started_at));if(!day)continue;day.recorded=true;for(const u of run.usage||[]){const field=u.provider==='OpenAI'?'halcyon':u.provider==='X API'?'twitter':null;if(!field)continue;if(Number.isFinite(u.cost_usd)&&u.cost_usd>=0)day[field]+=u.cost_usd;else day.unknown=true;}}
+  return days;
+}
+function costChart(runs){
+  const days=costDays(runs), peak=Math.max(...days.map(d=>d.halcyon+d.twitter),0.01), h=days.reduce((s,d)=>s+d.halcyon,0),t=days.reduce((s,d)=>s+d.twitter,0);
+  return `<section class="diag-card cost-chart" aria-label="Rolling seven day costs"><div class="cost-chart-heading"><div><h2>Last 7 days</h2><p>Halcyon & Twitter · estimated USD · UK dates</p></div><strong>${money(h+t)}</strong></div><div class="cost-legend"><span><i class="cost-halcyon"></i>Halcyon ${money(h)}</span><span><i class="cost-twitter"></i>Twitter ${money(t)}</span></div><div class="cost-bars">${days.map(d=>{const total=d.halcyon+d.twitter;const description=`${d.key}: Halcyon ${money(d.halcyon)}, Twitter ${money(d.twitter)}, total ${money(total)}${!d.recorded?'; no records available':d.unknown?'; some costs unavailable':''}`;return `<div class="cost-day" tabindex="0" aria-label="${esc(description)}" title="${esc(description)}"><span class="cost-total">${d.recorded?money(total):'—'}</span><div class="cost-track"><div class="cost-stack" style="height:${total/peak*100}%"><div class="cost-twitter" style="flex:${d.twitter}"></div><div class="cost-halcyon" style="flex:${d.halcyon}"></div></div></div><span class="cost-date">${esc(dates.format(d.date))}</span></div>`;}).join('')}</div><p class="diag-note">Today plus the previous six days. Missing records are shown as —, not zero. Totals include recorded costs only; Bright Data is excluded.</p></section>`;
+}
 function renderDiagnostics(data){
   const openRuns=new Set([...document.querySelectorAll('.diag-card[data-run][open]')].map(el=>el.dataset.run));
   const logPositions=new Map([...document.querySelectorAll('.diag-card[data-run]')].map(el=>[el.dataset.run,el.querySelector('.diag-log ol')?.scrollTop||0]));
   const runs=data.runs||[];
-  if(!runs.length){$('diagnostics').innerHTML='<div class="diag-card"><h2>Ready for the next run</h2><p>Detailed fetch logs and usage will appear when collection starts. Earlier runs were not recorded in this format.</p></div>';return;}
-  $('diagnostics').innerHTML='<p class="diag-note">USD estimates, not invoices. Hyper Points are included in Output Points, not an additional total. Bright Data costs require account billing. Logs contain collection events; credentials and server identifiers are removed.</p>'+[...runs].reverse().map((run,index)=>{
+  if(!runs.length){$('diagnostics').innerHTML=costChart(runs)+'<div class="diag-card"><h2>Ready for the next run</h2><p>Detailed fetch logs and usage will appear when collection starts. Earlier runs were not recorded in this format.</p></div>';return;}
+  $('diagnostics').innerHTML=costChart(runs)+'<p class="diag-note">USD estimates, not invoices. Hyper Points are included in Output Points, not an additional total. Bright Data costs require account billing. Logs contain collection events; credentials and server identifiers are removed.</p>'+[...runs].reverse().map((run,index)=>{
     const usage=run.usage||[], models=usage.filter(u=>u.provider==='OpenAI');
     const fetches=usage.filter(u=>u.provider==='Bright Data');
     const rows=[...models,...usage.filter(u=>u.provider==='X API')];
