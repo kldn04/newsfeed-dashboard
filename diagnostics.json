@@ -31220,6 +31220,36 @@
           "at": "2026-09-21T05:23:08Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-21T05:23:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 274945 bytes, 4.9s."
+        },
+        {
+          "at": "2026-09-21T05:23:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-21T05:23:15Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 276132 bytes, 1.7s."
+        },
+        {
+          "at": "2026-09-21T05:23:15Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-21T05:23:33Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 277064 bytes, 17.8s."
+        },
+        {
+          "at": "2026-09-21T05:23:33Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -32909,9 +32939,30 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-21T05:23:08Z",
+      "updated_at": "2026-09-21T05:23:33Z",
       "stage": "web_discovery"
     }
   ]
