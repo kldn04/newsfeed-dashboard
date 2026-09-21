@@ -33154,6 +33154,21 @@
           "at": "2026-09-21T05:43:17Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-21T05:43:33Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2392 bytes, 16.2s."
+        },
+        {
+          "at": "2026-09-21T05:43:35Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-21T05:43:36Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -33331,10 +33346,17 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-21T05:43:17Z",
-      "stage": "weibo_discovery"
+      "updated_at": "2026-09-21T05:43:36Z",
+      "stage": "summarising"
     }
   ]
 }
