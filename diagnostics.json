@@ -32714,10 +32714,33 @@
           "at": "2026-09-21T05:30:44Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-21T05:31:18Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 55541 bytes, 34.0s."
+        },
+        {
+          "at": "2026-09-21T05:31:18Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-09-21T05:31:18Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码闲聊站, page 1."
         }
       ],
-      "usage": [],
-      "updated_at": "2026-09-21T05:30:44Z",
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-21T05:31:18Z",
       "stage": "weibo_discovery"
     }
   ]
