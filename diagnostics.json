@@ -32874,6 +32874,26 @@
           "at": "2026-09-21T05:37:13Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-21T05:37:36Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 42104 bytes, 22.9s."
+        },
+        {
+          "at": "2026-09-21T05:37:36Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 芯智讯官微 — 7 posts in collection window, 7 new."
+        },
+        {
+          "at": "2026-09-21T05:37:36Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 电子工程专辑, page 1."
+        },
+        {
+          "at": "2026-09-21T05:37:36Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -32932,9 +32952,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-21T05:37:13Z",
+      "updated_at": "2026-09-21T05:37:36Z",
       "stage": "weibo_discovery"
     }
   ]
