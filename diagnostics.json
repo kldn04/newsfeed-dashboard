@@ -42083,6 +42083,51 @@
           "at": "2026-09-22T07:44:10Z",
           "stage": "fetch",
           "message": "www.eet-china.com: HTTP 200, 134150 bytes, 8.6s."
+        },
+        {
+          "at": "2026-09-22T07:44:11Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:44:16Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 131747 bytes, 5.0s."
+        },
+        {
+          "at": "2026-09-22T07:44:16Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:44:24Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 137137 bytes, 8.1s."
+        },
+        {
+          "at": "2026-09-22T07:44:24Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:44:28Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 141620 bytes, 4.7s."
+        },
+        {
+          "at": "2026-09-22T07:44:29Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:44:38Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 137035 bytes, 9.2s."
+        },
+        {
+          "at": "2026-09-22T07:44:38Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -42628,9 +42673,37 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:44:10Z",
+      "updated_at": "2026-09-22T07:44:38Z",
       "stage": "web_discovery"
     },
     {
@@ -42751,6 +42824,21 @@
           "at": "2026-09-22T07:43:52Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:44:14Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 71124 bytes, 22.3s."
+        },
+        {
+          "at": "2026-09-22T07:44:14Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 集微网官方微博, page 2."
+        },
+        {
+          "at": "2026-09-22T07:44:15Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -42788,9 +42876,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:43:52Z",
+      "updated_at": "2026-09-22T07:44:15Z",
       "stage": "weibo_discovery"
     }
   ]
