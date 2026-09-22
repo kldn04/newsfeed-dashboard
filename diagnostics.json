@@ -33693,6 +33693,21 @@
           "at": "2026-09-22T05:10:58Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:12:28Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: ReadTimeout."
+        },
+        {
+          "at": "2026-09-22T05:12:29Z",
+          "stage": "web_discovery",
+          "message": "Reading Tom’s Hardware through Bright Data."
+        },
+        {
+          "at": "2026-09-22T05:12:29Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: fetch started."
         }
       ],
       "usage": [
@@ -33842,9 +33857,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:10:58Z",
+      "updated_at": "2026-09-22T05:12:29Z",
       "stage": "web_discovery"
     }
   ]
