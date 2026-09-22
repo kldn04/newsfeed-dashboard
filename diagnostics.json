@@ -33978,6 +33978,16 @@
           "at": "2026-09-22T05:25:17Z",
           "stage": "fetch",
           "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:26:02Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 73799 bytes, 44.5s."
+        },
+        {
+          "at": "2026-09-22T05:26:02Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
         }
       ],
       "usage": [
@@ -34302,9 +34312,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:25:17Z",
+      "updated_at": "2026-09-22T05:26:02Z",
       "stage": "web_discovery"
     }
   ]
