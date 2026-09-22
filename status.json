@@ -1,16 +1,23 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 数码王小机.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-09-22T07:53:48Z",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "stage": "summarising",
+  "updated_at": "2026-09-22T07:54:18Z",
   "started_at": "2026-09-22T07:41:27Z",
   "counts": {
-    "weibo_candidates": 38
+    "weibo_candidates": 38,
+    "x_candidates": 51,
+    "twitter_api_requests": 13,
+    "twitter_posts_fetched": 80,
+    "openai_calls": 1,
+    "input_tokens_estimated": 19155,
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
     "stories": 837,
-    "evidence": 2523,
+    "evidence": 2569,
     "model_cache": 67,
     "reviews": 341
   },
@@ -22,84 +29,84 @@
   },
   "events": [
     {
-      "at": "2026-09-22T07:46:31Z",
-      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: fetching @intelfabs in the requested window."
     },
     {
-      "at": "2026-09-22T07:46:52Z",
-      "message": "Weibo: Trendforce集邦咨询 — 1 posts in collection window, 1 new."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: @intelfabs returned 3 posts."
     },
     {
-      "at": "2026-09-22T07:46:52Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: fetching @ryanhingshing in the requested window."
     },
     {
-      "at": "2026-09-22T07:47:17Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: @ryanhingshing returned 3 posts."
     },
     {
-      "at": "2026-09-22T07:48:29Z",
-      "message": "Weibo: fetch failed for 数码王小机 (SourceFetchError)."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: fetching @sssjeffpu in the requested window."
     },
     {
-      "at": "2026-09-22T07:48:29Z",
-      "message": "Weibo: 数码王小机 — 10 posts in collection window, 10 new."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: @sssjeffpu returned 0 posts."
     },
     {
-      "at": "2026-09-22T07:48:29Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: fetching @zartbotf in the requested window."
     },
     {
-      "at": "2026-09-22T07:48:49Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: @zartbotf returned 0 posts."
     },
     {
-      "at": "2026-09-22T07:49:10Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+      "at": "2026-09-22T07:53:59Z",
+      "message": "Twitter API: fetching @fundaai in the requested window."
     },
     {
-      "at": "2026-09-22T07:49:40Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: @fundaai returned 1 posts."
     },
     {
-      "at": "2026-09-22T07:50:05Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: fetching @shanghaojin in the requested window."
     },
     {
-      "at": "2026-09-22T07:50:24Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: @shanghaojin returned 2 posts."
     },
     {
-      "at": "2026-09-22T07:50:44Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: fetching @mingchikuo in the requested window."
     },
     {
-      "at": "2026-09-22T07:51:10Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: @mingchikuo returned 0 posts."
     },
     {
-      "at": "2026-09-22T07:51:29Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: fetching @sean_________ in the requested window."
     },
     {
-      "at": "2026-09-22T07:51:51Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: @sean_________ returned 0 posts."
     },
     {
-      "at": "2026-09-22T07:52:13Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: fetching @qq_timmy in the requested window."
     },
     {
-      "at": "2026-09-22T07:52:36Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:00Z",
+      "message": "Twitter API: @qq_timmy returned 5 posts."
     },
     {
-      "at": "2026-09-22T07:52:58Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+      "at": "2026-09-22T07:54:03Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     },
     {
-      "at": "2026-09-22T07:53:36Z",
-      "message": "Weibo: reading full text for a new post from 数码王小机."
+      "at": "2026-09-22T07:54:04Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
