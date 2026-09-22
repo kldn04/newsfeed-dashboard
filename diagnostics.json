@@ -36175,6 +36175,26 @@
           "at": "2026-09-22T06:25:30Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:26:48Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 170648 bytes, 77.6s."
+        },
+        {
+          "at": "2026-09-22T06:26:48Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:26:54Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 122345 bytes, 5.9s."
+        },
+        {
+          "at": "2026-09-22T06:26:54Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
         }
       ],
       "usage": [
@@ -36198,9 +36218,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:25:30Z",
+      "updated_at": "2026-09-22T06:26:54Z",
       "stage": "web_discovery"
     }
   ]
