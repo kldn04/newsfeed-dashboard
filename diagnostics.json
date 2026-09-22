@@ -34828,6 +34828,26 @@
           "at": "2026-09-22T06:06:08Z",
           "stage": "fetch",
           "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:07:11Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 143863 bytes, 62.2s."
+        },
+        {
+          "at": "2026-09-22T06:07:11Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:07:29Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 140182 bytes, 18.2s."
+        },
+        {
+          "at": "2026-09-22T06:07:30Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
         }
       ],
       "usage": [
@@ -35684,9 +35704,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:06:08Z",
+      "updated_at": "2026-09-22T06:07:30Z",
       "stage": "web_discovery"
     }
   ]
