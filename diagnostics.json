@@ -37200,6 +37200,41 @@
           "at": "2026-09-22T06:45:37Z",
           "stage": "fetch",
           "message": "counterpointresearch.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:45:53Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: HTTP 200, 362957 bytes, 16.8s."
+        },
+        {
+          "at": "2026-09-22T06:45:53Z",
+          "stage": "web_discovery",
+          "message": "Counterpoint Research: 0 dated articles captured (failed)."
+        },
+        {
+          "at": "2026-09-22T06:45:54Z",
+          "stage": "web_discovery",
+          "message": "Reading Seoul Economic Daily through Bright Data."
+        },
+        {
+          "at": "2026-09-22T06:45:54Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:46:03Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 91204 bytes, 9.1s."
+        },
+        {
+          "at": "2026-09-22T06:46:03Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:46:10Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 139490 bytes, 6.4s."
         }
       ],
       "usage": [
@@ -37853,9 +37888,30 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:45:37Z",
+      "updated_at": "2026-09-22T06:46:10Z",
       "stage": "web_discovery"
     }
   ]
