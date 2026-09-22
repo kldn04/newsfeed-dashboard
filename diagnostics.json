@@ -41014,6 +41014,162 @@
       ],
       "updated_at": "2026-09-22T07:25:57Z",
       "stage": "summarising"
+    },
+    {
+      "started_at": "2026-09-22T07:41:27Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-09-22T07:41:27Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-09-22T07:41:27Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE."
+        },
+        {
+          "at": "2026-09-22T07:41:27Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:41:34Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 85100 bytes, 7.1s."
+        },
+        {
+          "at": "2026-09-22T07:41:34Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 11 candidates (ok)."
+        },
+        {
+          "at": "2026-09-22T07:41:34Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec."
+        },
+        {
+          "at": "2026-09-22T07:41:35Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-09-22T07:41:36Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 115890 bytes, 1.6s."
+        },
+        {
+          "at": "2026-09-22T07:41:36Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-09-22T07:41:37Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 119138 bytes, 0.3s."
+        },
+        {
+          "at": "2026-09-22T07:41:37Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-09-22T07:41:37Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 119990 bytes, 0.3s."
+        },
+        {
+          "at": "2026-09-22T07:41:37Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-09-22T07:41:38Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122345 bytes, 0.3s."
+        },
+        {
+          "at": "2026-09-22T07:41:38Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-09-22T07:41:38Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121804 bytes, 0.3s."
+        },
+        {
+          "at": "2026-09-22T07:41:38Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        }
+      ],
+      "updated_at": "2026-09-22T07:41:38Z",
+      "stage": "web_discovery"
+    },
+    {
+      "started_at": "2026-09-22T07:41:27Z",
+      "kind": "Weibo + Twitter",
+      "events": [
+        {
+          "at": "2026-09-22T07:41:27Z",
+          "stage": "starting",
+          "message": "Starting Weibo + Twitter social edition."
+        },
+        {
+          "at": "2026-09-22T07:41:27Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 手机晶片达人, page 1."
+        },
+        {
+          "at": "2026-09-22T07:41:27Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-22T07:41:27Z",
+      "stage": "weibo_discovery"
     }
   ]
 }
