@@ -33768,6 +33768,16 @@
           "at": "2026-09-22T05:15:21Z",
           "stage": "fetch",
           "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:15:37Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 69398 bytes, 15.7s."
+        },
+        {
+          "at": "2026-09-22T05:15:37Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
         }
       ],
       "usage": [
@@ -33959,9 +33969,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:15:21Z",
+      "updated_at": "2026-09-22T05:15:37Z",
       "stage": "web_discovery"
     }
   ]
