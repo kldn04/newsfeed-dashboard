@@ -34908,6 +34908,26 @@
           "at": "2026-09-22T06:11:17Z",
           "stage": "fetch",
           "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:12:48Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: ReadTimeout."
+        },
+        {
+          "at": "2026-09-22T06:12:48Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:12:59Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 165910 bytes, 10.7s."
+        },
+        {
+          "at": "2026-09-22T06:13:00Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -35813,9 +35833,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:11:17Z",
+      "updated_at": "2026-09-22T06:13:00Z",
       "stage": "web_discovery"
     }
   ]
