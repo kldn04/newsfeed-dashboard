@@ -34018,6 +34018,26 @@
           "at": "2026-09-22T05:27:12Z",
           "stage": "fetch",
           "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:28:20Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 73942 bytes, 68.0s."
+        },
+        {
+          "at": "2026-09-22T05:28:20Z",
+          "stage": "web_discovery",
+          "message": "TrendForce: 4 candidates (ok)."
+        },
+        {
+          "at": "2026-09-22T05:28:21Z",
+          "stage": "web_discovery",
+          "message": "Reading ZDNet Korea through Bright Data."
+        },
+        {
+          "at": "2026-09-22T05:28:21Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -34370,9 +34390,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:27:12Z",
+      "updated_at": "2026-09-22T05:28:21Z",
       "stage": "web_discovery"
     }
   ]
