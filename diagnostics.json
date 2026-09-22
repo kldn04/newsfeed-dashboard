@@ -34488,6 +34488,26 @@
           "at": "2026-09-22T05:49:23Z",
           "stage": "fetch",
           "message": "counterpointresearch.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:49:57Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: HTTP 200, 363569 bytes, 33.7s."
+        },
+        {
+          "at": "2026-09-22T05:49:57Z",
+          "stage": "web_discovery",
+          "message": "Counterpoint Research: 0 dated articles captured (failed)."
+        },
+        {
+          "at": "2026-09-22T05:49:57Z",
+          "stage": "web_discovery",
+          "message": "Reading Seoul Economic Daily through Bright Data."
+        },
+        {
+          "at": "2026-09-22T05:49:58Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
         }
       ],
       "usage": [
@@ -35141,9 +35161,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:49:23Z",
+      "updated_at": "2026-09-22T05:49:58Z",
       "stage": "web_discovery"
     }
   ]
