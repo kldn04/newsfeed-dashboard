@@ -34688,6 +34688,16 @@
           "at": "2026-09-22T05:59:21Z",
           "stage": "fetch",
           "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:59:41Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 139143 bytes, 19.9s."
+        },
+        {
+          "at": "2026-09-22T05:59:41Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
         }
       ],
       "usage": [
@@ -35453,9 +35463,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:59:21Z",
+      "updated_at": "2026-09-22T05:59:41Z",
       "stage": "web_discovery"
     }
   ]
