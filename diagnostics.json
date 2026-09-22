@@ -36680,6 +36680,26 @@
           "at": "2026-09-22T06:36:32Z",
           "stage": "fetch",
           "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:36:37Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 73510 bytes, 4.2s."
+        },
+        {
+          "at": "2026-09-22T06:36:37Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:36:49Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: HTTP 200, 73799 bytes, 11.8s."
+        },
+        {
+          "at": "2026-09-22T06:36:49Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: fetch started."
         }
       ],
       "usage": [
@@ -36997,9 +37017,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:36:32Z",
+      "updated_at": "2026-09-22T06:36:49Z",
       "stage": "web_discovery"
     }
   ]
