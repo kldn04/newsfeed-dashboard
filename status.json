@@ -1,11 +1,13 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Reading EET China.",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-22T07:43:09Z",
+  "message": "Weibo: fetching 芯谋研究顾文军, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-22T07:43:40Z",
   "started_at": "2026-09-22T07:41:27Z",
-  "counts": {},
+  "counts": {
+    "weibo_candidates": 13
+  },
   "stored_totals": {
     "stories": 837,
     "evidence": 2523,
@@ -20,84 +22,44 @@
   },
   "events": [
     {
-      "at": "2026-09-22T07:41:46Z",
-      "message": "Initial article scrape: TheLec"
+      "at": "2026-09-22T07:41:27Z",
+      "message": "Starting Weibo + Twitter social edition."
     },
     {
-      "at": "2026-09-22T07:41:47Z",
-      "message": "Reading Tom’s Hardware."
+      "at": "2026-09-22T07:41:27Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     },
     {
-      "at": "2026-09-22T07:41:48Z",
-      "message": "Tom’s Hardware: 10 candidates (partial)."
+      "at": "2026-09-22T07:41:59Z",
+      "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
     },
     {
-      "at": "2026-09-22T07:41:48Z",
-      "message": "Initial article scrape: Tom’s Hardware"
+      "at": "2026-09-22T07:41:59Z",
+      "message": "Weibo: fetching 数码闲聊站, page 1."
     },
     {
-      "at": "2026-09-22T07:41:48Z",
-      "message": "Initial article scrape: Tom’s Hardware"
+      "at": "2026-09-22T07:42:20Z",
+      "message": "Weibo: fetching 数码闲聊站, page 2."
     },
     {
-      "at": "2026-09-22T07:41:48Z",
-      "message": "Initial article scrape: Tom’s Hardware"
+      "at": "2026-09-22T07:43:10Z",
+      "message": "Weibo: fetch failed for 数码闲聊站 (SourceFetchError)."
     },
     {
-      "at": "2026-09-22T07:41:49Z",
-      "message": "Initial article scrape: Tom’s Hardware"
+      "at": "2026-09-22T07:43:10Z",
+      "message": "Weibo: 数码闲聊站 — 8 posts in collection window, 8 new."
     },
     {
-      "at": "2026-09-22T07:41:49Z",
-      "message": "Initial article scrape: Tom’s Hardware"
+      "at": "2026-09-22T07:43:10Z",
+      "message": "Weibo: fetching 智慧芯片案内人, page 1."
     },
     {
-      "at": "2026-09-22T07:41:50Z",
-      "message": "Initial article scrape: Tom’s Hardware"
+      "at": "2026-09-22T07:43:30Z",
+      "message": "Weibo: 智慧芯片案内人 — 5 posts in collection window, 5 new."
     },
     {
-      "at": "2026-09-22T07:41:50Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
-    {
-      "at": "2026-09-22T07:41:50Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
-    {
-      "at": "2026-09-22T07:41:51Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
-    {
-      "at": "2026-09-22T07:41:51Z",
-      "message": "Initial article scrape: Tom’s Hardware"
-    },
-    {
-      "at": "2026-09-22T07:41:52Z",
-      "message": "Reading Ijiwei."
-    },
-    {
-      "at": "2026-09-22T07:42:03Z",
-      "message": "Ijiwei: 20 candidates (partial)."
-    },
-    {
-      "at": "2026-09-22T07:42:04Z",
-      "message": "Reading TrendForce."
-    },
-    {
-      "at": "2026-09-22T07:42:09Z",
-      "message": "TrendForce: 5 candidates (partial)."
-    },
-    {
-      "at": "2026-09-22T07:42:09Z",
-      "message": "Reading ZDNet Korea."
-    },
-    {
-      "at": "2026-09-22T07:43:06Z",
-      "message": "ZDNet Korea: 8 candidates (ok)."
-    },
-    {
-      "at": "2026-09-22T07:43:06Z",
-      "message": "Reading EET China."
+      "at": "2026-09-22T07:43:30Z",
+      "message": "Weibo: fetching 芯谋研究顾文军, page 1."
     }
   ]
 }
