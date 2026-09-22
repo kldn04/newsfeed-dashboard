@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 集微网官方微博.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-22T07:50:45Z",
+  "updated_at": "2026-09-22T07:51:16Z",
   "started_at": "2026-09-22T07:41:27Z",
   "counts": {
     "weibo_candidates": 38
@@ -21,10 +21,6 @@
     "Editorial exclusions": 333
   },
   "events": [
-    {
-      "at": "2026-09-22T07:44:14Z",
-      "message": "Weibo: fetching 集微网官方微博, page 2."
-    },
     {
       "at": "2026-09-22T07:45:45Z",
       "message": "Weibo: fetch failed for 集微网官方微博 (ReadTimeout)."
@@ -99,6 +95,10 @@
     },
     {
       "at": "2026-09-22T07:50:44Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+    },
+    {
+      "at": "2026-09-22T07:51:10Z",
       "message": "Weibo: reading full text for a new post from 集微网官方微博."
     }
   ]
