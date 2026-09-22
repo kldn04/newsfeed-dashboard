@@ -35078,6 +35078,16 @@
           "at": "2026-09-22T06:23:23Z",
           "stage": "fetch",
           "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:23:53Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 132888 bytes, 30.6s."
+        },
+        {
+          "at": "2026-09-22T06:23:53Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
         }
       ],
       "usage": [
@@ -36095,9 +36105,40 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:23:23Z",
+      "updated_at": "2026-09-22T06:23:53Z",
+      "stage": "web_discovery"
+    },
+    {
+      "started_at": "2026-09-22T06:24:05Z",
+      "kind": "Web + Twitter",
+      "events": [
+        {
+          "at": "2026-09-22T06:24:05Z",
+          "stage": "starting",
+          "message": "Starting the weekday edition."
+        },
+        {
+          "at": "2026-09-22T06:24:05Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE through Bright Data."
+        },
+        {
+          "at": "2026-09-22T06:24:05Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-22T06:24:05Z",
       "stage": "web_discovery"
     }
   ]
