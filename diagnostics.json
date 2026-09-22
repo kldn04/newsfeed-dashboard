@@ -33883,6 +33883,31 @@
           "at": "2026-09-22T05:21:29Z",
           "stage": "fetch",
           "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:22:16Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 34441 bytes, 47.1s."
+        },
+        {
+          "at": "2026-09-22T05:22:16Z",
+          "stage": "web_discovery",
+          "message": "Ijiwei: retry succeeded."
+        },
+        {
+          "at": "2026-09-22T05:22:16Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:22:35Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 60381 bytes, 18.8s."
+        },
+        {
+          "at": "2026-09-22T05:22:35Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
         }
       ],
       "usage": [
@@ -34151,9 +34176,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:21:29Z",
+      "updated_at": "2026-09-22T05:22:35Z",
       "stage": "web_discovery"
     }
   ]
