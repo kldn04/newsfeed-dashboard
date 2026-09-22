@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "demo": false,
-  "generated_at": "2026-09-22T07:41:26Z",
+  "generated_at": "2026-09-22T07:41:27Z",
   "next_refresh_at": "2026-09-23T05:10:00Z",
   "window": {
     "start": "2026-09-21T07:41:26Z",
-    "end": "2026-09-22T07:41:26Z",
+    "end": "2026-09-22T07:41:27Z",
     "weekend_coverage": false
   },
   "schedule": "Web 05:30 · Twitter & Weibo 06:10 Europe/London · Monday–Friday",
@@ -25,113 +25,6 @@
     "qq_timmy"
   ],
   "source_status": [
-    {
-      "name": "CTEE",
-      "status": "ok",
-      "discovered": 8
-    },
-    {
-      "name": "TheLec",
-      "status": "partial",
-      "discovered": 20
-    },
-    {
-      "name": "Tom’s Hardware",
-      "status": "failed",
-      "discovered": 0
-    },
-    {
-      "name": "Ijiwei",
-      "status": "partial",
-      "discovered": 20
-    },
-    {
-      "name": "TrendForce",
-      "status": "ok",
-      "discovered": 4
-    },
-    {
-      "name": "ZDNet Korea",
-      "status": "ok",
-      "discovered": 11
-    },
-    {
-      "name": "EET China",
-      "status": "ok",
-      "discovered": 19
-    },
-    {
-      "name": "IDC",
-      "status": "ok",
-      "discovered": 0,
-      "captured": 0,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 0
-    },
-    {
-      "name": "Counterpoint Research",
-      "status": "failed",
-      "discovered": 0,
-      "captured": 0,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 0
-    },
-    {
-      "name": "Seoul Economic Daily",
-      "status": "partial",
-      "discovered": 28,
-      "captured": 26,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 0
-    },
-    {
-      "name": "Asia Economy",
-      "status": "partial",
-      "discovered": 14,
-      "captured": 14,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 0
-    },
-    {
-      "name": "Hankook Ilbo",
-      "status": "partial",
-      "discovered": 15,
-      "captured": 10,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 1
-    },
-    {
-      "name": "ETNews",
-      "status": "ok",
-      "discovered": 36,
-      "captured": 26,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 0
-    },
-    {
-      "name": "MoneyToday",
-      "status": "partial",
-      "discovered": 24,
-      "captured": 23,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 0
-    },
-    {
-      "name": "Economic Daily (UDN)",
-      "status": "partial",
-      "discovered": 20,
-      "captured": 14,
-      "retrieval_failures": 0,
-      "undated": 0,
-      "previews": 4
-    },
     {
       "name": "Weibo · 手机晶片达人",
       "status": "ok",
@@ -254,12 +147,119 @@
       "status": "ok",
       "discovered": 5,
       "retrieval": "x_api"
+    },
+    {
+      "name": "CTEE",
+      "status": "ok",
+      "discovered": 11
+    },
+    {
+      "name": "TheLec",
+      "status": "partial",
+      "discovered": 20
+    },
+    {
+      "name": "Tom’s Hardware",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "Ijiwei",
+      "status": "partial",
+      "discovered": 20
+    },
+    {
+      "name": "TrendForce",
+      "status": "partial",
+      "discovered": 5
+    },
+    {
+      "name": "ZDNet Korea",
+      "status": "ok",
+      "discovered": 8
+    },
+    {
+      "name": "EET China",
+      "status": "ok",
+      "discovered": 9
+    },
+    {
+      "name": "IDC",
+      "status": "ok",
+      "discovered": 0,
+      "captured": 0,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "Counterpoint Research",
+      "status": "failed",
+      "discovered": 0,
+      "captured": 0,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "Seoul Economic Daily",
+      "status": "partial",
+      "discovered": 28,
+      "captured": 20,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "Asia Economy",
+      "status": "partial",
+      "discovered": 14,
+      "captured": 14,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "Hankook Ilbo",
+      "status": "partial",
+      "discovered": 19,
+      "captured": 11,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "ETNews",
+      "status": "partial",
+      "discovered": 40,
+      "captured": 29,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "MoneyToday",
+      "status": "partial",
+      "discovered": 40,
+      "captured": 37,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 0
+    },
+    {
+      "name": "Economic Daily (UDN)",
+      "status": "partial",
+      "discovered": 19,
+      "captured": 18,
+      "retrieval_failures": 0,
+      "undated": 0,
+      "previews": 2
     }
   ],
   "partial": true,
   "x_digest_ids": [
-    "152d814bf596bf02ad3a",
     "909079950c5646c1e2c7",
+    "152d814bf596bf02ad3a",
     "8a8b143bb8bfcb3d78ae",
     "e0b7bbcb792e0fbad3ae",
     "fc22245c30032cd43c46",
@@ -267,19 +267,19 @@
     "65e115b5c8e00c1f7e4e",
     "298bbdc6790bca932461",
     "4c6f20c7934cf4eb8734",
-    "ffe1683df4f03ae209c0",
-    "ad785ecb1675628e398a",
-    "165ee1d0008a5c78c53c",
     "b3a4730724278d99f7f5",
-    "baebb523ab8fca300500",
+    "ffe1683df4f03ae209c0",
     "0a86e21e1e3e8f480e73",
+    "ad785ecb1675628e398a",
+    "e569d643bf72a0490693",
+    "165ee1d0008a5c78c53c",
+    "baebb523ab8fca300500",
     "06503644bb5a8f626b8f",
     "3c97f8554c40ea43d1c7",
     "0b5bb8c78985d9a57a04",
     "19d54b7ce6da1aa3738f",
     "6c3a04f75c208b89bd07",
     "56833c7dc65b3056421b",
-    "e569d643bf72a0490693",
     "cd4cf5b38616ed618838",
     "fed8561b3a9d68df9351",
     "503bf6a62a7a6fc37032",
@@ -292,6 +292,46 @@
     "29539bc238e2cafd6aa2"
   ],
   "stories": [
+    {
+      "id": "00f0e45c780873634526",
+      "headline": "Inventec expands Thai capacity for AI-server demand",
+      "bullets": [
+        "The report says Inventec will invest NT$2.324 billion in Thai production equipment, power and water-cooling infrastructure for AI-server demand.",
+        "The expansion is expected to begin operation by the end of the first quarter next year after certification by a US chipmaker.",
+        "Market sources say Inventec is discussing AI-server CPU and GPU production with two major US customers, but those potential awards are not confirmed."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Inventec"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 50,
+      "priority": "Medium",
+      "score_reason": "Material AI-server manufacturing-capacity expansion with explicit utilities and customer-certification requirements.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://money.udn.com/money/story/5612/9770801",
+          "name": "Economic Daily (UDN)",
+          "published_at": "2026-09-22T07:41:15Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:41:15Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
     {
       "id": "6c3a04f75c208b89bd07",
       "headline": "UBS data show memory taking a rising share of hyperscaler capex",
@@ -331,6 +371,226 @@
       "updated_at": "2026-09-22T07:41:26Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "bca37cc110936d4a8092",
+      "headline": "Akamai positions distributed GPU infrastructure for lower-latency AI inference",
+      "bullets": [
+        "Akamai says AI inference will increasingly use a distributed architecture spanning core datacenters, regional facilities and edge infrastructure.",
+        "The company is offering Nvidia RTX PRO 6000 Blackwell GPUs and says it is preparing next-generation GPU capacity for high-performance training demand.",
+        "Akamai also promotes layered security, API monitoring, bot defence and microsegmentation as AI expands attack surfaces."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Akamai"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "Relevant AI infrastructure and security strategy with explicit GPU deployment and distributed-compute implications.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000459",
+          "name": "ETNews",
+          "published_at": "2026-09-22T07:32:36Z"
+        },
+        {
+          "url": "https://www.asiae.co.kr/article/2026092215170757539",
+          "name": "Asia Economy",
+          "published_at": "2026-09-22T07:02:38Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:32:36Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "8dd035901c7fc6324c6f",
+      "headline": "TrendForce previews Micron earnings with HBM4 and contract pricing in focus",
+      "bullets": [
+        "TrendForce’s Micron earnings preview says AI demand remains strong and focuses on Micron’s September 30 results, HBM4 ramp and long-term customer agreements.",
+        "The article says Micron has shipped more than $1 billion of HBM4 and could add as much as 60,000 HBM wafers per month by year-end, according to cited industry reports.",
+        "TrendForce also discusses possible margin moderation from long-term agreements with price ceilings and Micron’s continuing gap with Samsung and SK hynix in HBM."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Micron"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 91,
+      "priority": "Critical",
+      "score_reason": "TrendForce-mandated research covering a major memory supplier, HBM capacity, pricing and contract structure.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.trendforce.com/news/2026/09/22/news-micron-earnings-preview-can-the-margin-boom-last-hbm4-ramp-and-long-term-contracts-in-focus/",
+          "name": "TrendForce",
+          "published_at": "2026-09-22T07:30:25Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:30:25Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "f5d1ad63eceffb405e16",
+      "headline": "TLB reaches production-level 3D-printed PCB circuit process",
+      "bullets": [
+        "TLB says it has reached mass-production readiness for PCB circuit printing at 60μm line width and technical feasibility at 50μm.",
+        "The digital metal-ink process removes several photolithography steps, potentially reducing takt time, equipment and chemical costs.",
+        "Commercialisation timing will depend on customer demand and validation."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TLB"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Advanced Packaging · Substrates",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "Substrates"
+      ],
+      "importance": 61,
+      "priority": "High",
+      "score_reason": "Substantive packaging and substrate manufacturing process development with potential cost and throughput benefits.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000293",
+          "name": "ETNews",
+          "published_at": "2026-09-22T07:30:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:30:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "e624f1d07cf522d86b2a",
+      "headline": "Naver Cloud leads 4,512-GPU sovereign cybersecurity-model project",
+      "bullets": [
+        "A Korea-based report says Naver Cloud’s sovereign cybersecurity-model project will use 4,512 GPUs and about 830TB of security data.",
+        "The 41-organisation consortium plans separate models focused on defensive and offensive cybersecurity capabilities, with a ten-month development period.",
+        "The models are intended to be open-sourced and integrated with domestic security products and APIs."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Naver Cloud"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG AI Research"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "Large disclosed GPU deployment and national-security AI programme with direct compute and model implications.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.asiae.co.kr/article/2026092216294613259",
+          "name": "Asia Economy",
+          "published_at": "2026-09-22T07:29:46Z"
+        },
+        {
+          "url": "https://www.asiae.co.kr/article/2026092215151899451",
+          "name": "Asia Economy",
+          "published_at": "2026-09-22T06:15:18Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:29:46Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "10480f5f48f9ff9e2f52",
+      "headline": "KH Vatec expands into AI-datacenter cooling and semiconductor packaging parts",
+      "bullets": [
+        "KH Vatec is developing liquid-cooling metal parts, high-thermal connectors and precision metal components for AI datacenters and semiconductor packaging.",
+        "The company says it is conducting customer evaluations across several products, with commercial revenue expected after development and validation.",
+        "It is also expanding into robot reducers and other precision components."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "KH Vatec"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "Relevant hardware-supply-chain expansion into datacenter cooling and semiconductor packaging components.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260922154147",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-22T07:24:22Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:24:22Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "2ad38e204cc813f545eb",
@@ -645,6 +905,174 @@
       ]
     },
     {
+      "id": "8c21aa4dbebe66ae5fb2",
+      "headline": "Hanmi Semiconductor ships first large-area 2.5D FC Bonder 75",
+      "bullets": [
+        "Hanmi Semiconductor has shipped its FC Bonder 75, its first equipment aimed at large-area 2.5D packaging for AI system semiconductors.",
+        "The tool supports 75mm × 75mm interposer packages, compared with 20mm × 20mm conventional packages, enabling larger dies and multi-chip integration.",
+        "Hanmi plans further 2.5D bonder launches and a US subsidiary to address expected AI, foundry, OSAT and memory investment."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Hanmi Semiconductor"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Compute · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "WFE",
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 93,
+      "priority": "Critical",
+      "score_reason": "A significant advanced-packaging equipment shipment from a major Korean supplier, directly tied to AI accelerators, HBM and large interposers.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260922153758",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-22T07:01:55Z"
+        },
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026092211290000415",
+          "name": "Hankook Ilbo",
+          "published_at": "2026-09-22T06:06:00Z"
+        },
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092209350671805",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T01:30:16Z"
+        },
+        {
+          "url": "https://m.etnews.com/20260922000221",
+          "name": "ETNews",
+          "published_at": "2026-09-22T01:54:29Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:01:55Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "70cc570cdc2a3cc99cb9",
+      "headline": "Memory inflation pushes TV-board costs above panel prices",
+      "bullets": [
+        "Omdia says semiconductor costs in small LCD TVs are set to exceed panel costs for the first time as memory and other TV-board components become scarce and expensive.",
+        "The video/audio processing board’s share of a 32-inch HD TV’s bill of materials reportedly rose from the low teens last year to the high 40s in the third quarter.",
+        "A 55-inch UHD TV mainboard is reported at $118.20 versus $33.90 a year earlier, nearly matching the panel price."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG Electronics"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Shows memory shortages spreading into consumer electronics cost structures and component demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260921000346",
+          "name": "ETNews",
+          "published_at": "2026-09-22T07:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "8358962a29e2a0af3137",
+      "headline": "LG and Microsoft expand AI-datacenter and physical-AI partnership",
+      "bullets": [
+        "LG and Microsoft agreed to expand cooperation across AI-datacenter infrastructure, physical AI and enterprise AI transformation.",
+        "LG plans to explore supplying cooling, power and IT infrastructure to Microsoft’s global datacenters, including prefabricated facilities.",
+        "LG also plans to use Microsoft cloud infrastructure for manufacturing, logistics and mobility models and deploy Copilot and Microsoft AI services across office staff."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Microsoft"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Large-company strategic partnership spanning AI infrastructure, cooling, power, cloud and physical AI.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092210414017052",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T07:00:00Z"
+        },
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026092211220000313",
+          "name": "Hankook Ilbo",
+          "published_at": "2026-09-22T04:46:00Z"
+        },
+        {
+          "url": "https://m.etnews.com/20260922000315",
+          "name": "ETNews",
+          "published_at": "2026-09-22T04:51:03Z"
+        },
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092209170967599",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T00:25:19Z"
+        },
+        {
+          "url": "https://sedaily.com/article/20093752",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-22T00:09:03Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T07:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
       "id": "0b5bb8c78985d9a57a04",
       "headline": "Ryan Hingshing says ABF substrate demand has surged",
       "bullets": [
@@ -688,6 +1116,184 @@
       "updated_at": "2026-09-22T07:41:26Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "f6fd7586045c71ff080c",
+      "headline": "Galaxy Microelectronics plans RMB1.078 billion power-device expansion",
+      "bullets": [
+        "Galaxy Microelectronics plans a RMB1.078 billion project for high-end power discrete and third-generation semiconductor devices.",
+        "The portfolio includes SGT MOS, superjunction MOS, IGBT, SiC, GaN, IPM and automotive TVS/ESD products for EV, storage and industrial applications.",
+        "The project is focused on higher-reliability products rather than the company’s traditional consumer small-signal devices."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Galaxy Microelectronics"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · China Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Material power-semiconductor capacity expansion, though the company’s scale is not established in the supplied evidence.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111169",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T06:56:25Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:56:25Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "eb69851ea3119d6e578d",
+      "headline": "Alibaba’s T-Head outlines two 2027 server CPUs and CPU–AI-chip interconnect",
+      "bullets": [
+        "T-Head disclosed plans for Yitian 720 and Yitian 730 server CPUs in 2027.",
+        "Yitian 730 is expected to use T-Head’s fully self-developed CPU microarchitecture, while a later Yitian 750 will connect directly to Zhenwu AI chips through the ICN interconnect.",
+        "T-Head says its portfolio now spans server CPUs, AI chips, interconnect, smart NICs and storage controllers."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "T-Head"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Significant Chinese server-compute roadmap and full-stack datacenter silicon development.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111166",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T06:53:11Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:53:11Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "4eb962fec792784f2d81",
+      "headline": "LG CNS signs KRW257.8 billion Microsoft AI-services contract with LG Electronics",
+      "bullets": [
+        "LG CNS signed a five-year, KRW257.8 billion contract to supply LG Electronics with Microsoft 365 and Copilot services.",
+        "The agreement follows the LG-Microsoft strategic-partnership meeting covering AI datacenters, physical AI and enterprise transformation.",
+        "The contract runs from November 2026 through October 2031."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG CNS"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Microsoft"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 71,
+      "priority": "High",
+      "score_reason": "Large disclosed enterprise-AI contract with a defined value and five-year duration.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://sedaily.com/article/20094039",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-22T06:51:37Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:51:37Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "0c111cc8fc4cb212b36f",
+      "headline": "Alibaba upgrades Qwen platform for enterprise agents and model services",
+      "bullets": [
+        "Alibaba upgraded its Qwen AI platform with model services, AgentStudio, API acceleration and enterprise agent hosting.",
+        "The platform reports sixfold customer growth over the past year and offers routing, monitoring, cost governance and support for multiple models and coding tools.",
+        "Alibaba says its cloud computing capacity is planned to exceed 20GW by 2032, linking model and agent expansion to infrastructure investment."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qwen"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models · China Models",
+      "categories": [
+        "Compute",
+        "Models",
+        "China Models"
+      ],
+      "importance": 77,
+      "priority": "High",
+      "score_reason": "Material Chinese model-platform, agent and AI-infrastructure development with disclosed service and capacity plans.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111163",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T06:47:29Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:47:29Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "1877b4652bff9b20c54c",
@@ -809,56 +1415,94 @@
       ]
     },
     {
-      "id": "909079950c5646c1e2c7",
-      "headline": "Jukan: Samsung weighs more 4nm capacity and a new 2nm line for HBM demand",
+      "id": "9546e9798f8313073ee4",
+      "headline": "Honor to deploy Alibaba’s QwenIntelligence on Magic9 phones",
       "bullets": [
-        "Jukan relays Korean media reports that Samsung is considering expanding 4nm capacity and investing in a new 2nm production line to meet HBM4 base-die demand and prepare for HBM5.",
-        "The report says Samsung has recently raised prices for new 4nm foundry orders and HBM4 base dies.",
-        "Samsung reportedly expects Q3 HBM4 revenue to more than triple sequentially, with HBM4 contributing more than 60% of total HBM revenue in the second half."
+        "Honor’s upcoming Magic9 series is reported to be among the first phones to use Alibaba’s QwenIntelligence AI-phone solution.",
+        "The solution combines a domain model with Honor’s MagicOS and claims 91.8% task accuracy, 3.6-second GUI operation and more than 90% end-to-end completion for complex tasks.",
+        "Honor’s RobotPhone is also reported to support the solution."
       ],
       "companies": [
         {
           "ticker": "",
           "aliases": [],
-          "name": "Samsung"
+          "name": "Honor"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "QwenIntelligence"
         }
       ],
-      "topic_tier": 1,
-      "topic": "Foundry · DRAM · Supply Chain",
+      "topic_tier": 3,
+      "topic": "Compute · Models · China Models",
       "categories": [
-        "Foundry",
-        "DRAM",
-        "Supply Chain"
+        "Compute",
+        "Models",
+        "China Models"
       ],
-      "importance": 85,
-      "priority": "Critical",
-      "score_reason": "Major foundry and HBM capacity, pricing and revenue claims with direct implications for advanced-node and memory supply.",
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "Material deployment of a Chinese AI-phone agent across a major device launch.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/jukan05/status/2102285095336096033",
-          "name": "@jukan05",
-          "published_at": "2026-09-22T06:33:19Z"
-        },
-        {
-          "url": "https://www.mt.co.kr/amp/industry/2026/09/21/2026092114333425215",
-          "name": "www.mt.co.kr",
-          "published_at": null
+          "url": "https://ijiwei.com/n/1111161",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T06:32:35Z"
         }
       ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2102285095336096033",
-          "handle": "jukan05",
-          "published_at": "2026-09-22T06:33:19Z"
-        }
-      ],
-      "published_at": "2026-09-22T06:33:19Z",
+      "highlights": [],
+      "published_at": "2026-09-22T06:32:35Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "5cf941997afaf9dcafcb",
+      "headline": "Huatian completes major Nanjing memory-packaging expansion phase",
+      "bullets": [
+        "Huatian Technology’s Nanjing advanced-packaging base has completed the second phase of its second-stage project, backed by RMB30 billion of reported total investment.",
+        "The project includes 2,772 pieces of equipment and a new memory-chip packaging and testing line targeted to start in the first quarter of 2027.",
+        "The site is described as part of Huatian’s expansion in storage, AI, datacenter and automotive packaging."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Huatian Technology"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Advanced Packaging · China Supply Chain",
+      "categories": [
+        "Foundry",
+        "Advanced Packaging",
+        "China Supply Chain"
+      ],
+      "importance": 83,
+      "priority": "Critical",
+      "score_reason": "Large Chinese OSAT capacity addition focused on memory packaging and testing.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111159",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T06:24:48Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:24:48Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "8a8b143bb8bfcb3d78ae",
@@ -910,6 +1554,95 @@
       "updated_at": "2026-09-22T07:41:26Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "7b677b87514f0a8a5e78",
+      "headline": "Huawei Cloud launches a HarmonyOS-specific coding model and agent",
+      "bullets": [
+        "Huawei Cloud launched a HarmonyOS coding model, agent and developer-practice centre for HarmonyOS developers.",
+        "Huawei claims the model reduces errors per 1,000 lines by more than 80%, increases one-pass compilation by more than 78% and cuts token use by more than 20%.",
+        "The supplied figures are company claims; the service is positioned to accelerate development as HarmonyOS devices and developers expand."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Huawei"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Huawei Cloud"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models · China Models",
+      "categories": [
+        "Compute",
+        "Models",
+        "China Models"
+      ],
+      "importance": 72,
+      "priority": "High",
+      "score_reason": "Substantive Chinese model and coding-platform launch tied to a growing operating-system ecosystem.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111157",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T06:15:05Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:15:05Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "c1f98f273cbae384a789",
+      "headline": "AI-video economics may hinge more on cost than model capability",
+      "bullets": [
+        "Ming-Tai’s interview says the key bottleneck for AI video generation is cost rather than model capability.",
+        "The interview argues that lower token costs could increase overall token consumption, making efficiency improvements important for AI-video economics.",
+        "The discussion cites OpenAI’s Sora shutdown as context but does not independently verify the underlying product history."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Ming-Tai Microelectronics"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 39,
+      "priority": "Low",
+      "score_reason": "Qualifying AI model-economics commentary with a semiconductor-adjacent VPU perspective and explicit attribution.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://www.eet-china.com/news/202609217771.html",
+          "name": "EET China",
+          "published_at": "2026-09-22T06:14:16Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T06:14:16Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "1578a8657d443844c703",
@@ -1093,6 +1826,239 @@
       "source_category": "Twitter"
     },
     {
+      "id": "fd1217b897e493318473",
+      "headline": "Si’En starts Qingdao semiconductor innovation centre",
+      "bullets": [
+        "Semiconductor manufacturer Si’En has started a Qingdao industrial innovation centre focused on process development, industry-academia collaboration and customer expansion.",
+        "The project is intended to connect R&D, production, sales and application activities and strengthen the company’s role in the local integrated-circuit chain.",
+        "Qingdao’s semiconductor industrial park is reported to contain 63 upstream and downstream projects with total investment of about RMB198.7 billion."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Si’En"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 80,
+      "priority": "Critical",
+      "score_reason": "Material Chinese semiconductor ecosystem and manufacturing-infrastructure development.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111155",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T05:56:45Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T05:56:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "152ddeb7fcbadf62d865",
+      "headline": "Japan and the US reportedly discuss a large GlobalFoundries fab",
+      "bullets": [
+        "GlobalFoundries is reportedly set to operate a Japan-US-backed US logic-semiconductor fab with a total project value estimated at $12.8 billion–$19.3 billion.",
+        "The project would be financed with Japanese public-sector participation, but the site, process node and final transaction have not been confirmed by either government.",
+        "The report frames the project as a possible extension of Japan’s investment commitments into strategic semiconductor manufacturing."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "GlobalFoundries"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 85,
+      "priority": "Critical",
+      "score_reason": "Potentially very large new foundry capacity, though the project remains unconfirmed and lacks a specified site or process node.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.eet-china.com/news/202609216950.html",
+          "name": "EET China",
+          "published_at": "2026-09-22T05:45:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T05:45:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "910784d38bdb967ccfd7",
+      "headline": "Korean humanoid-robot competition shifts toward data and real deployment",
+      "bullets": [
+        "The report says Korea’s humanoid-robot competition is shifting from hardware demonstrations toward deployment, AI, data and open development ecosystems.",
+        "Participants identify manufacturing, shipbuilding and other labour-short industries as early markets, while reliability and simulation-to-reality transfer remain key challenges.",
+        "Robotis is pursuing an open platform and Nvidia-linked simulation and training environment."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Robotis"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 46,
+      "priority": "Medium",
+      "score_reason": "Substantive industry-development story on physical AI, deployment economics and data infrastructure.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000286",
+          "name": "ETNews",
+          "published_at": "2026-09-22T04:16:31Z"
+        },
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092212335164441",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T05:25:53Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T05:25:53Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "8256e37f4f60c2a98feb",
+      "headline": "Global Technology and ADST target a localised Micro LED production ecosystem",
+      "bullets": [
+        "Global Technology and ADST signed an MOU to optimise Micro LED mass-production processes and equipment and localise key equipment components.",
+        "Global Technology contributes driver-IC, TSV micro-packaging and module capabilities; ADST contributes optical and semiconductor back-end equipment expertise.",
+        "The companies plan to address Korean and overseas markets, while commercial scale and timing remain unspecified."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Global Technology"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ADST"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Sungho Electronics"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 56,
+      "priority": "Medium",
+      "score_reason": "Distinct Micro LED semiconductor, packaging and equipment-supply-chain collaboration.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62655",
+          "name": "TheLec",
+          "published_at": "2026-09-22T04:34:10Z"
+        },
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260922094535",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-22T01:36:17Z"
+        },
+        {
+          "url": "https://m.etnews.com/20260922000168",
+          "name": "ETNews",
+          "published_at": "2026-09-22T01:14:59Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T04:34:10Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "1dc83313fb7487474c35",
+      "headline": "Zhipu open-sources ZCode after code-upload dispute and third-party review",
+      "bullets": [
+        "Zhipu says it has open-sourced its ZCode AI coding tool after a dispute over an encrypted 313MB workspace archive being uploaded to cloud storage.",
+        "China’s Information and Communications Technology Academy reportedly found zero data in the relevant storage bucket, while NSFocus said the bucket and objects had been deleted.",
+        "Zhipu says version 3.14.0 removed the Repo Wiki upload path and that it will publish regular security audits; the report says further questions about logs, private-key custody and possible cross-border transfer remain."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Zhipu"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ZCode"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models · China Models",
+      "categories": [
+        "Models",
+        "China Models"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "Material Chinese AI-model and developer-tool security event involving enterprise code, cloud storage and trust controls.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://ijiwei.com/n/1111120",
+          "name": "Ijiwei",
+          "published_at": "2026-09-22T04:28:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T04:28:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
       "id": "fed8561b3a9d68df9351",
       "headline": "Ryan Hingshing links agent demand with rising CXL attention",
       "bullets": [
@@ -1135,6 +2101,87 @@
       "updated_at": "2026-09-22T07:41:26Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "5e119de329b94a126730",
+      "headline": "BOE prepares mass-production investment for semiconductor glass carriers",
+      "bullets": [
+        "BOE says it is preparing investment in a mass-production line for semiconductor glass carriers after three years of R&D.",
+        "The company says it is co-developing glass carriers with customers and is expanding display optoelectronics capabilities into semiconductor packaging.",
+        "The report links the work to larger AI packages and growing interest in glass cores, interposers and carriers."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "BOE"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Advanced Packaging · Substrates · China Supply Chain",
+      "categories": [
+        "Foundry",
+        "Advanced Packaging",
+        "Substrates",
+        "China Supply Chain"
+      ],
+      "importance": 63,
+      "priority": "High",
+      "score_reason": "Material Chinese substrate and advanced-packaging development from a large display manufacturer entering semiconductor packaging.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260922125725",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-22T04:14:01Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T04:14:01Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "bcfd77aef723cd23a861",
+      "headline": "Lesingers unveils 3.2Tbps glass-substrate near-package optics platform",
+      "bullets": [
+        "Resonac’s Lesingers unveiled a 3.2Tbps glass-substrate near-package optics platform at ECOC 2026.",
+        "The design places the optical engine close to the host ASIC, uses through-glass vias and polymer waveguides, and targets copper-interconnect power and signal-loss limits.",
+        "The company claims potential AI-cluster power reductions of up to 50% and support for 51.2T and 102.4T switches."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Lesingers"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "Distinct advanced-packaging and optical-interconnect technology aimed at AI datacenter scaling.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000284",
+          "name": "ETNews",
+          "published_at": "2026-09-22T04:12:32Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T04:12:32Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "19d54b7ce6da1aa3738f",
@@ -1247,6 +2294,50 @@
           "text_truncated": false
         }
       ]
+    },
+    {
+      "id": "9bfdec9f06661b21420a",
+      "headline": "Alibaba launches Zhenwu V900 and outlines a 20GW AI-infrastructure plan",
+      "bullets": [
+        "Alibaba’s T-Head subsidiary launched the Zhenwu V900 AI chip and claims three times the compute performance of its M890 predecessor.",
+        "The V900-based cluster can reportedly scale to 500,000 cards and target 50,000–100,000-parameter-class models, with mass production planned for the first quarter of 2027.",
+        "Alibaba also disclosed a long-term plan for more than 20GW of global cloud datacenter capacity by 2032 and more than $53 billion of AI-infrastructure investment over three years."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "T-Head"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 86,
+      "priority": "Critical",
+      "score_reason": "Large Chinese hyperscaler chip launch combined with major datacenter-capacity and infrastructure commitments.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.eet-china.com/news/202609227841.html",
+          "name": "EET China",
+          "published_at": "2026-09-22T03:40:44Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T03:40:44Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "c01f8cabb0aac7ddd6a7",
@@ -1451,74 +2542,63 @@
       ]
     },
     {
-      "id": "b3a4730724278d99f7f5",
-      "headline": "onsemi announces broad price adjustments from October 10",
+      "id": "554e96af0972a3477c0a",
+      "headline": "Persona AI begins autonomous-welding trials for industrial humanoids",
       "bullets": [
-        "onsemi's customer notice says broad product price adjustments will take effect on October 10, citing higher raw-material, manufacturing, energy and infrastructure costs as well as demand from power, industrial and data-center applications.",
-        "A separate recap says onsemi has raised prices further and expects industrial semiconductor prices to continue rising in 2027.",
-        "The same market roundup says Renesas plans a January 2027 adjustment and Taiwanese suppliers may raise prices on non-contract products by about 10%–15%; these broader claims are attributed to the roundup."
+        "Persona AI says its humanoid robots have moved from teleoperation to autonomous welding trials at customer sites.",
+        "The company is collecting performance data from real work and feeding it back into training pipelines, with a Gen3 robot planned for later this autumn.",
+        "The work involves HD Korea Shipbuilding, HD Hyundai Robotics and Posco-related industrial applications."
       ],
       "companies": [
         {
-          "ticker": "ON",
-          "aliases": [
-            "onsemi",
-            "ON Semiconductor"
-          ],
-          "name": "onsemi"
+          "ticker": "",
+          "aliases": [],
+          "name": "Persona AI"
         },
         {
           "ticker": "",
           "aliases": [],
-          "name": "Renesas"
+          "name": "HD Korea Shipbuilding & Offshore Engineering"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "HD Hyundai Robotics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Posco"
         }
       ],
-      "topic_tier": 1,
-      "topic": "Analog · Materials & Inputs · Supply Chain",
+      "topic_tier": 3,
+      "topic": "Compute · Models",
       "categories": [
-        "Analog",
-        "Materials & Inputs",
-        "Supply Chain"
+        "Compute",
+        "Models"
       ],
-      "importance": 72,
-      "priority": "High",
-      "score_reason": "Material power-semiconductor pricing and input-cost development, with potential spillover across mature-node and industrial supply chains.",
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "Material physical-AI deployment with real industrial data, autonomous operation and major Korean industrial partners.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/dnystedt/status/2102199326118445074",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:52:30Z"
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092210251928957",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T02:51:50Z"
         },
         {
-          "url": "https://x.com/qq_timmy/status/2102230706902675595",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T02:57:12Z"
-        },
-        {
-          "url": "https://m.moneydj.com/f1a.aspx?a=f9a43fe5-3291-4a1c-9bdd-7ba38dbde097",
-          "name": "m.moneydj.com",
-          "published_at": null
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092210565116413",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T03:00:50Z"
         }
       ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199326118445074",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:52:30Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2102230706902675595",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T02:57:12Z"
-        }
-      ],
-      "published_at": "2026-09-22T02:57:12Z",
+      "highlights": [],
+      "published_at": "2026-09-22T03:00:50Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "e0b7bbcb792e0fbad3ae",
@@ -1638,6 +2718,52 @@
           "text_truncated": false
         }
       ]
+    },
+    {
+      "id": "e05261706b8724e31bca",
+      "headline": "Korean experts call for an open 300mm semiconductor research fab",
+      "bullets": [
+        "South Korea’s engineering community is calling for a national semiconductor research institute with an open 300mm fab and integrated front-end and back-end capabilities.",
+        "Proposals include 20nm manufacturing and design verification in a production-like environment, domestic equipment validation and a hub connecting regional specialised fabs.",
+        "Speakers said existing Korean public facilities remain fragmented and generally smaller than 300mm, while Samsung and SK hynix fabs are not open industry platforms."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK hynix"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Advanced Packaging · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Advanced Packaging",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 79,
+      "priority": "High",
+      "score_reason": "National infrastructure proposal addressing Korea’s R&D, equipment-validation and process-development bottlenecks.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260922112358",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-22T02:23:58Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T02:23:58Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "d134217534c608979318",
@@ -1788,6 +2914,96 @@
       "source_category": "Twitter"
     },
     {
+      "id": "fc5544fb2a81ab39ab58",
+      "headline": "LG Energy Solution joins Nvidia’s DSX Ready BESS ecosystem",
+      "bullets": [
+        "LG Energy Solution has joined Nvidia’s DSX Ready programme as one of three certified BESS suppliers and the only Korean battery company named.",
+        "Its LFP-based JF2 AC Link is designed for AI-server load smoothing, voltage ride-through and grid-forming operation.",
+        "LG Energy Solution plans more than 50GWh of North American ESS capacity by year-end and says it will pursue AI-datacenter orders."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG Energy Solution"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "Directly connects battery storage and power management to AI-datacenter deployment and Nvidia’s infrastructure standards.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000175",
+          "name": "ETNews",
+          "published_at": "2026-09-22T01:18:22Z"
+        },
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092208085443959",
+          "name": "MoneyToday",
+          "published_at": "2026-09-21T23:27:21Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T01:18:22Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "d07eea178e0fe8b75854",
+      "headline": "Coherent launches integrated Photolink platform for AI optical interconnects",
+      "bullets": [
+        "Coherent launched Photolink, an integrated optical platform combining InP lasers, VCSEL arrays, silicon photonics, optical fibre and photodetectors.",
+        "The platform targets CPO, NPO and chip-to-chip optical interconnects for AI datacenters.",
+        "Coherent says it has more than ten customer projects in both CPO and NPO and expects related revenue to accelerate from the fourth quarter."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Coherent"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "Major optical-component supplier expands into integrated CPO/NPO solutions as AI networking demand rises.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000167",
+          "name": "ETNews",
+          "published_at": "2026-09-22T01:14:03Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T01:14:03Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
       "id": "fc22245c30032cd43c46",
       "headline": "StatementDog analyst sees DRAM shortages spilling into enterprise SSD demand",
       "bullets": [
@@ -1897,6 +3113,78 @@
       "updated_at": "2026-09-22T07:41:26Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "79dda3c8dc63d58a6c2e",
+      "headline": "Intel and AUO reportedly explore glass-substrate CPO packaging",
+      "bullets": [
+        "Intel is reportedly exploring CPO and high-density-compute packaging cooperation with AUO using glass substrates, Micro LED and through-glass vias.",
+        "AUO has demonstrated a Micro LED-based optical module, while Intel has developed glass-substrate prototypes and related packaging patents.",
+        "Both companies have not formally confirmed the cooperation."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Intel"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "AUO"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 62,
+      "priority": "High",
+      "score_reason": "Potentially important glass-substrate and CPO collaboration, but the partnership remains unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260922094131",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-22T00:53:58Z"
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2101817510681260446",
+          "name": "@dnystedt",
+          "published_at": "2026-09-20T23:35:19Z"
+        },
+        {
+          "url": "https://x.com/qq_timmy/status/2101849472385130736",
+          "name": "@qq_timmy",
+          "published_at": "2026-09-21T01:42:19Z"
+        },
+        {
+          "url": "https://money.udn.com/money/story/5612/9766808?dark_mode=1",
+          "name": "money.udn.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2101817510681260446",
+          "handle": "dnystedt",
+          "published_at": "2026-09-20T23:35:19Z"
+        },
+        {
+          "url": "https://x.com/qq_timmy/status/2101849472385130736",
+          "handle": "qq_timmy",
+          "published_at": "2026-09-21T01:42:19Z"
+        }
+      ],
+      "published_at": "2026-09-22T00:53:58Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:00:01Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
     },
     {
       "id": "56833c7dc65b3056421b",
@@ -2021,113 +3309,6 @@
       "source_category": "Twitter"
     },
     {
-      "id": "e569d643bf72a0490693",
-      "headline": "Microsoft's self-developed AI chips are reported to target 2027 mass production",
-      "bullets": [
-        "Media citing Microsoft Taiwan head Sean Pien says Microsoft's self-developed AI chips are now expected to enter mass production in 2027, with design work and capacity allocation described as progressing smoothly.",
-        "The report says the chips will initially serve Microsoft's internal needs rather than third parties and are intended to reduce overall computing costs.",
-        "The 2027 timing is reported as later than prior leaks that had pointed to the second half of 2026."
-      ],
-      "companies": [
-        {
-          "ticker": "MSFT",
-          "aliases": [],
-          "name": "Microsoft"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute · Supply Chain",
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 74,
-      "priority": "High",
-      "score_reason": "Major hyperscaler's custom-chip schedule has implications for internal compute economics and merchant silicon demand.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198554853040180",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:49:27Z"
-        },
-        {
-          "url": "https://money.udn.com/money/story/11162/9769220?from=edn_subcatelist_cate",
-          "name": "money.udn.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198554853040180",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:49:27Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:49:27Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "0a86e21e1e3e8f480e73",
-      "headline": "Microsoft reportedly doubles its Taiwan AI-data-center plan to four sites",
-      "bullets": [
-        "Microsoft has reportedly expanded its Taiwan AI-data-center plan from two sites to four because of strong demand.",
-        "The sites are reported to be in Gueishan and Luzhu, with semiconductor and other high-tech companies among the leading Taiwan customers.",
-        "A separate recap says Microsoft's Taiwan general manager expects AI-computing demand to exceed supply for the next two to three years."
-      ],
-      "companies": [
-        {
-          "ticker": "MSFT",
-          "aliases": [],
-          "name": "Microsoft"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Compute · Supply Chain",
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 68,
-      "priority": "High",
-      "score_reason": "Direct capacity expansion tied to persistent AI-compute shortages and semiconductor-sector demand.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198290699948107",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:48:24Z"
-        },
-        {
-          "url": "https://x.com/pequityresearch/status/2102173779720089899",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-21T23:11:00Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198290699948107",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:48:24Z"
-        },
-        {
-          "url": "https://x.com/pequityresearch/status/2102173779720089899",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-21T23:11:00Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:48:24Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
       "id": "1dc1e16b6f5474a66a57",
       "headline": "Bernstein meetings: Intel can sell all available server chips into 2027",
       "bullets": [
@@ -2174,6 +3355,175 @@
       "updated_at": "2026-09-22T07:41:26Z",
       "revision": 1,
       "source_category": "Twitter"
+    },
+    {
+      "id": "b1a94d5478a428cf5b1c",
+      "headline": "Boston Dynamics opens Hyundai factory training centre for Atlas humanoids",
+      "bullets": [
+        "Boston Dynamics opened a robotics application centre at Hyundai Motor Group’s Georgia plant to train Atlas humanoids in production tasks.",
+        "Atlas will learn logistics preparation and parts sequencing in a factory-like environment; the facility is planned to expand tenfold next year.",
+        "Hyundai Motor Group says it plans to deploy 25,000 Atlas robots across global operations over several years."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Boston Dynamics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Hyundai Motor Group"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 47,
+      "priority": "Medium",
+      "score_reason": "Large-company physical-AI deployment with a defined training facility, expansion plan and deployment target.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092209264070827",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T00:35:35Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T00:35:35Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "e0e41aa9c781c152a952",
+      "headline": "LS Electric deploys Spot robots for transformer-factory predictive maintenance",
+      "bullets": [
+        "LS Electric has started operating two Boston Dynamics Spot robots at its Busan transformer plant after a two-month trial.",
+        "The robots monitor vacuum-drying equipment, temperature, vibration, sound and environmental conditions for predictive maintenance and safety.",
+        "LS plans to use the collected data to build AI analysis models and extend the system to other factories."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LS Electric"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Boston Dynamics"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 49,
+      "priority": "Medium",
+      "score_reason": "Concrete AI-enabled industrial deployment at a power-equipment manufacturing site, relevant to datacenter power supply.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092208594156572",
+          "name": "MoneyToday",
+          "published_at": "2026-09-22T00:33:33Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T00:33:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "2018eb4f186ead787f0a",
+      "headline": "RF-SOI analysis highlights reconfigurable front ends for 6G and NTN",
+      "bullets": [
+        "The 6G RF-SOI analysis says upper-6GHz spectrum, non-terrestrial networks and reconfigurable RF front ends will drive future RF-semiconductor demand.",
+        "SmarterMicro’s reconfigurable RF platform is presented as consolidating multiple bands and reducing chip area and power consumption.",
+        "The article is an industry technology analysis rather than a disclosed production order."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SmarterMicro"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 51,
+      "priority": "Medium",
+      "score_reason": "Substantive RF semiconductor technology analysis tied to future 6G and satellite-connectivity demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.eet-china.com/news/202609211607.html",
+          "name": "EET China",
+          "published_at": "2026-09-22T00:22:08Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T00:22:08Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "ed0187023f87efdb0731",
+      "headline": "Advantest highlights test requirements for silicon photonics and CPO",
+      "bullets": [
+        "Advantest Korea presented scalable automated-test equipment for silicon photonics and CPO high-volume manufacturing at an optical-semiconductor workshop.",
+        "Its portfolio spans SoC and memory testers, handlers, device interfaces, software and data analytics.",
+        "The company says optical and advanced-packaging products require more scalable production-stage validation as AI and HPC systems grow."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Advantest"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "WFE · Compute · Advanced Packaging",
+      "categories": [
+        "WFE",
+        "Compute",
+        "Advanced Packaging"
+      ],
+      "importance": 51,
+      "priority": "Medium",
+      "score_reason": "Relevant semiconductor test and advanced-packaging equipment development tied to optical AI infrastructure.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260922000105",
+          "name": "ETNews",
+          "published_at": "2026-09-22T00:20:48Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T00:20:48Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "503bf6a62a7a6fc37032",
@@ -2443,56 +3793,49 @@
       "source_category": "Twitter"
     },
     {
-      "id": "152d814bf596bf02ad3a",
-      "headline": "TSMC reportedly targets A14 trial production in Q1 next year",
+      "id": "0fb9a1a29966c0a83750",
+      "headline": "LG Electronics wins Nvidia certification for 2.5MW AI cooling unit",
       "bullets": [
-        "Media reports say TSMC will begin 1.4nm/A14 trial production in the first quarter of next year, with equipment already moving into Hsinchu Fab 20 P3.",
-        "TSMC's Fab 25 in Taichung is reported to be the second A14 fab, with phase-one construction due to finish in April and trial production potentially beginning in Q3 2027.",
-        "The report describes the schedule as ahead of schedule relative to earlier expectations and says Taichung will be the main A14 cluster."
+        "LG Electronics’ 2.5MW coolant-distribution unit has received Nvidia’s DSX Ready certification for AI-factory infrastructure.",
+        "The certification completes LG’s reported 600kW, 1MW and 2.5MW CDU range, targeting high-density in-row cooling for AI server groups.",
+        "LG says it now offers a chip-to-chiller portfolio including chillers, CRAH units, CDUs and cold plates."
       ],
       "companies": [
         {
-          "ticker": "TSM",
+          "ticker": "",
           "aliases": [],
-          "name": "TSMC"
+          "name": "LG Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
         }
       ],
       "topic_tier": 1,
-      "topic": "WFE · Foundry · Supply Chain",
+      "topic": "Analog · Compute · Supply Chain",
       "categories": [
-        "WFE",
-        "Foundry",
+        "Analog",
+        "Compute",
         "Supply Chain"
       ],
-      "importance": 88,
-      "priority": "Critical",
-      "score_reason": "High-impact leading-edge foundry and fab-equipment milestone with capacity and timing implications.",
-      "verification": "reported",
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "Major AI-datacenter thermal infrastructure certification with direct implications for high-power accelerator deployment.",
+      "verification": "source_checked",
       "sources": [
         {
-          "url": "https://x.com/dnystedt/status/2102184471193858390",
-          "name": "@dnystedt",
-          "published_at": "2026-09-21T23:53:29Z"
-        },
-        {
-          "url": "https://www.ctee.com.tw/news/20260922700039-430501",
-          "name": "www.ctee.com.tw",
-          "published_at": null
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092208293294304",
+          "name": "MoneyToday",
+          "published_at": "2026-09-21T23:34:11Z"
         }
       ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102184471193858390",
-          "handle": "dnystedt",
-          "published_at": "2026-09-21T23:53:29Z"
-        }
-      ],
-      "published_at": "2026-09-21T23:53:29Z",
+      "highlights": [],
+      "published_at": "2026-09-21T23:34:11Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "cfb26d4c492639b43962",
@@ -2565,6 +3908,52 @@
           "text_truncated": false
         }
       ]
+    },
+    {
+      "id": "359a1bd0fdf20a274d7c",
+      "headline": "SK hynix’s $4 billion Indiana HBM packaging hub advances",
+      "bullets": [
+        "SK hynix says its West Lafayette, Indiana project is a $4 billion AI-memory production hub focused on HBM packaging.",
+        "Construction began in March, with the first cleanroom targeted for completion in October 2028.",
+        "HanmiGlobal is managing planning, procurement, construction, quality, safety and coordination with SK hynix’s partners."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK hynix"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "HanmiGlobal"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 88,
+      "priority": "Critical",
+      "score_reason": "Large US-based HBM packaging capacity with a defined construction schedule and major-supplier involvement.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62629",
+          "name": "TheLec",
+          "published_at": "2026-09-21T22:49:37Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T22:49:37Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
     },
     {
       "id": "298bbdc6790bca932461",
@@ -2884,6 +4273,990 @@
       "source_category": "Twitter"
     },
     {
+      "id": "909079950c5646c1e2c7",
+      "headline": "Samsung weighs more 4nm capacity and a 2nm HBM5 line",
+      "bullets": [
+        "Samsung is reportedly considering additional 4nm foundry capacity for HBM4 base dies as existing lines run at full utilisation.",
+        "Samsung’s HBM4 combines 1c DRAM core dies with 4nm logic base dies; the company is also reportedly evaluating a 2nm line for HBM5 base dies.",
+        "Citi expects Samsung’s HBM supply to rise 2.3x next year, with market share reaching 42%; these forecasts are attributed to cited research."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · DRAM · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 94,
+      "priority": "Critical",
+      "score_reason": "Major foundry-capacity and HBM-supply development with implications for AI memory and Samsung’s competitive position.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/21/2026092114333425215",
+          "name": "MoneyToday",
+          "published_at": "2026-09-21T08:20:00Z"
+        },
+        {
+          "url": "https://x.com/jukan05/status/2102285095336096033",
+          "name": "@jukan05",
+          "published_at": "2026-09-22T06:33:19Z"
+        },
+        {
+          "url": "https://www.mt.co.kr/amp/industry/2026/09/21/2026092114333425215",
+          "name": "www.mt.co.kr",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2102285095336096033",
+          "handle": "jukan05",
+          "published_at": "2026-09-22T06:33:19Z"
+        }
+      ],
+      "published_at": "2026-09-21T19:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:26Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
+    },
+    {
+      "id": "412b1a972993420ddc77",
+      "headline": "Samsung’s HBM4 base-die demand tightens 4nm foundry capacity",
+      "bullets": [
+        "Samsung is reportedly reviewing further 4nm expansion because HBM4 base-die demand has pushed current capacity to full utilisation.",
+        "HBM4E is also expected to use 4nm base dies, while Samsung is evaluating 2nm production for HBM5.",
+        "The report says Samsung expects third-quarter HBM4 revenue to more than triple sequentially; the company reportedly has assigned more than half of current 4nm capacity to HBM4 base dies."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · DRAM · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 90,
+      "priority": "Critical",
+      "score_reason": "Directly links HBM demand to leading-edge foundry capacity and future process investment.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/22/2026092119545912109",
+          "name": "MoneyToday",
+          "published_at": "2026-09-21T19:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T19:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "27e4b66dafb5591d8bc1",
+      "headline": "Reported low yields threaten Apple’s first foldable-phone ramp",
+      "bullets": [
+        "A report says foldable iPhone Duo production yield at Foxconn is still in the low 60% range, with first-batch output limited.",
+        "The cited supply-chain view says hinge and display crease issues are key variables and that mature yield could take six months to a year.",
+        "Omdia data cited in the report puts first-half global foldable-phone shipments down 21.6% year over year."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Foxconn"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Display"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 42,
+      "priority": "Medium",
+      "score_reason": "Material supply-chain and manufacturing-yield issue for a major new device category with semiconductor and display implications.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://money.udn.com/money/story/5612/9769184",
+          "name": "Economic Daily (UDN)",
+          "published_at": "2026-09-21T18:27:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T18:27:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "927c6e0c9af261bc55a3",
+      "headline": "QLC NAND testing exposes sustained-write trade-offs in a flagship phone",
+      "bullets": [
+        "Tom’s Hardware reports that a 1TB iPhone 18 Pro Max using QLC NAND fell sharply in sustained-write testing after cache exhaustion.",
+        "The cited test found direct QLC writes averaging 79.4MB/s and occasionally falling to 1.1MB/s at 60% drive capacity.",
+        "The article cautions that the results are synthetic worst-case tests and may not affect typical phone use."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · DRAM · NAND",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND"
+      ],
+      "importance": 43,
+      "priority": "Medium",
+      "score_reason": "Included as a semiconductor storage development; Tom’s Hardware’s consumer-review blacklist does not exclude this NAND technology report under the supplied rules.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/pc-components/ssds/iphone-18-pro-max-storage-can-drop-lower-than-a-hard-drive-at-1-1-mb-s-during-heavy-writes-qlc-nand-offers-higher-capacity-but-reportedly-suffers-38-percent-drop-compared-to-tlc-based-pro",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-21T17:34:47Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T17:34:47Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "0a86e21e1e3e8f480e73",
+      "headline": "Microsoft expands Taiwan AI-data-center plan to four sites",
+      "bullets": [
+        "Microsoft Taiwan says its data-center plan has expanded from two sites to four because AI-computing demand is expected to exceed supply for the next two to three years.",
+        "The Taiwan region’s services have reportedly expanded from more than 70 to more than 200, with semiconductor and high-tech customers among the largest users.",
+        "The expansion is expected to benefit regional AI-server suppliers, according to the cited market coverage."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Hon Hai"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Quanta Computer"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Wiwynn"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "Major regional AI-capacity expansion with explicit supply-demand imbalance and server supply-chain implications.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700068-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        },
+        {
+          "url": "https://money.udn.com/money/story/11162/9769218",
+          "name": "Economic Daily (UDN)",
+          "published_at": "2026-09-21T17:22:28Z"
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2102198290699948107",
+          "name": "@dnystedt",
+          "published_at": "2026-09-22T00:48:24Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2102173779720089899",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-21T23:11:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102198290699948107",
+          "handle": "dnystedt",
+          "published_at": "2026-09-22T00:48:24Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2102173779720089899",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-21T23:11:00Z"
+        }
+      ],
+      "published_at": "2026-09-21T17:22:28Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:26Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
+    },
+    {
+      "id": "e569d643bf72a0490693",
+      "headline": "Microsoft’s in-house AI chips reportedly target 2027 mass production",
+      "bullets": [
+        "Microsoft Taiwan’s general manager says Microsoft’s self-developed AI chips are progressing in design, capacity and deployment and are expected to enter mass production next year.",
+        "The chips are expected to serve Microsoft’s own AI services first, particularly predictable front-end inference workloads, rather than third parties.",
+        "The report says Microsoft is seeking more than 300,000 chips from TSMC for delivery in 2027; that capacity claim is attributed to earlier external reporting."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "Material custom-ASIC and foundry-demand development from a major hyperscaler, with direct implications for Nvidia dependence and inference economics.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://money.udn.com/money/story/11162/9769220",
+          "name": "Economic Daily (UDN)",
+          "published_at": "2026-09-21T17:20:15Z"
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2102198554853040180",
+          "name": "@dnystedt",
+          "published_at": "2026-09-22T00:49:27Z"
+        },
+        {
+          "url": "https://money.udn.com/money/story/11162/9769220?from=edn_subcatelist_cate",
+          "name": "money.udn.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102198554853040180",
+          "handle": "dnystedt",
+          "published_at": "2026-09-22T00:49:27Z"
+        }
+      ],
+      "published_at": "2026-09-21T17:20:15Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:26Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
+    },
+    {
+      "id": "0b5f9f644c5f7bcccc96",
+      "headline": "MediaTek’s AI-ASIC and 2nm smartphone roadmap draws market attention",
+      "bullets": [
+        "MediaTek says its AI ASIC business is expected to enter mass production in the fourth quarter, while its Dimensity 9600 Pro targets 2nm flagship smartphones.",
+        "The company is also expanding Nvidia cooperation into AI PCs and automotive chips.",
+        "The claims are contained in a market recap of MediaTek’s share-price drivers rather than a detailed company announcement."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "MediaTek"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Foundry · Compute · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 53,
+      "priority": "Medium",
+      "score_reason": "Qualifying semiconductor roadmap and market update, but with limited primary detail in the supplied evidence.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://money.udn.com/money/story/11162/9769313",
+          "name": "Economic Daily (UDN)",
+          "published_at": "2026-09-21T16:02:21Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T16:02:21Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "152d814bf596bf02ad3a",
+      "headline": "TSMC reportedly targets A14 trial production in early 2027",
+      "bullets": [
+        "Media reports say TSMC has started CyberShuttle service for A14 and could begin trial production in Hsinchu in the first quarter of 2027.",
+        "A second A14 site in Taichung is reportedly targeted for trial production as early as the third quarter of 2027.",
+        "The schedule is described as consistent with TSMC’s previously stated 2027 risk-production and 2028 mass-production roadmap."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Foundry · Advanced Packaging · Supply Chain",
+      "categories": [
+        "WFE",
+        "Foundry",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 88,
+      "priority": "Critical",
+      "score_reason": "Leading-edge process timing and fab deployment are material to foundry capacity and AI-chip supply.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700039-430501",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2102184471193858390",
+          "name": "@dnystedt",
+          "published_at": "2026-09-21T23:53:29Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102184471193858390",
+          "handle": "dnystedt",
+          "published_at": "2026-09-21T23:53:29Z"
+        }
+      ],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-22T07:41:26Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
+    },
+    {
+      "id": "01d83a3ca497dd194853",
+      "headline": "TrendForce sees enterprise-SSD orders and prices rising in Q4",
+      "bullets": [
+        "TrendForce says US cloud providers have continued to raise enterprise-SSD demand expectations as AI infrastructure deployment expands.",
+        "The research expects fourth-quarter enterprise-SSD orders to exceed the third-quarter peak and prices to continue rising.",
+        "Higher enterprise-SSD demand is increasing memory manufacturers’ allocation and bargaining power in the enterprise market."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 87,
+      "priority": "Critical",
+      "score_reason": "TrendForce research identifies an AI-driven storage bottleneck with direct implications for NAND demand and pricing.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700183-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "61203ad2ae1ea9c6efd6",
+      "headline": "Kaohsiung launches semiconductor equipment and materials validation hub",
+      "bullets": [
+        "Taiwan’s Kaohsiung Baipu Industrial Park has begun construction as an advanced-equipment and materials validation base for the southern semiconductor corridor.",
+        "TSMC, ASE and Hon Hai are among the companies reported to be establishing a presence; the park is intended to support advanced-packaging and AI-manufacturing supply chains.",
+        "Industry reports say Hon Hai may invest more than NT$20 billion in an AI-computing smart-manufacturing base, but the investment is not presented as confirmed."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ASE Technology"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Hon Hai"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Foundry · Advanced Packaging · Supply Chain",
+      "categories": [
+        "WFE",
+        "Foundry",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 86,
+      "priority": "Critical",
+      "score_reason": "Material regional infrastructure for equipment qualification, advanced packaging and semiconductor supply-chain localisation.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700086-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        },
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700089-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        },
+        {
+          "url": "https://www.ctee.com.tw/news/20260921700052-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-20T16:00:00Z"
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2101829018136006920",
+          "name": "@dnystedt",
+          "published_at": "2026-09-21T00:21:02Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2101829018136006920",
+          "handle": "dnystedt",
+          "published_at": "2026-09-21T00:21:02Z"
+        }
+      ],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-21T05:00:01Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
+    },
+    {
+      "id": "3f7b663dadbab65d8178",
+      "headline": "Memory shortages lift Korean assembly and test demand",
+      "bullets": [
+        "Memory supply remains tight, with DRAM and NAND price increases lifting demand for memory assembly and testing.",
+        "South Korean reports say OSAT utilisation, pricing and product mix are improving as memory manufacturers maintain high capacity.",
+        "The report highlights South Korean suppliers including South M and Powertech-related companies, without providing a full market forecast."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "DRAM · NAND · Advanced Packaging · Supply Chain",
+      "categories": [
+        "DRAM",
+        "NAND",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "A direct downstream consequence of the memory shortage affecting packaging and testing capacity.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700198-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "b3a4730724278d99f7f5",
+      "headline": "onsemi joins broad power-semiconductor price increases",
+      "bullets": [
+        "onsemi reportedly notified customers that selected product prices will be adjusted from October 10.",
+        "The report says broader price increases by Texas Instruments and Renesas are helping Taiwanese power-semiconductor suppliers negotiate higher prices.",
+        "Taiwanese suppliers are reported to be considering 10%–15% increases on some non-contract products."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "onsemi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Texas Instruments"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Renesas"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 75,
+      "priority": "High",
+      "score_reason": "Material pricing and supply-chain development across power semiconductors, with direct effects on industrial and AI infrastructure costs.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700058-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        },
+        {
+          "url": "https://x.com/dnystedt/status/2102199326118445074",
+          "name": "@dnystedt",
+          "published_at": "2026-09-22T00:52:30Z"
+        },
+        {
+          "url": "https://x.com/qq_timmy/status/2102230706902675595",
+          "name": "@qq_timmy",
+          "published_at": "2026-09-22T02:57:12Z"
+        },
+        {
+          "url": "https://m.moneydj.com/f1a.aspx?a=f9a43fe5-3291-4a1c-9bdd-7ba38dbde097",
+          "name": "m.moneydj.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102199326118445074",
+          "handle": "dnystedt",
+          "published_at": "2026-09-22T00:52:30Z"
+        },
+        {
+          "url": "https://x.com/qq_timmy/status/2102230706902675595",
+          "handle": "qq_timmy",
+          "published_at": "2026-09-22T02:57:12Z"
+        }
+      ],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-22T07:41:26Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
+    },
+    {
+      "id": "95ced07aedb08e3da986",
+      "headline": "HannStar unveils fifth-generation SiC platform for 800V power",
+      "bullets": [
+        "HannStar reportedly launched a fifth-generation SiC DMOS platform aimed at electric vehicles, energy storage, smart grids and 800V AI-datacenter power.",
+        "The company says channel engineering and structural scaling reduce on-resistance and increase power density.",
+        "HannStar’s general manager says compound-semiconductor competition now depends on performance, reliability, yield and delivery capacity."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "HannStar"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 75,
+      "priority": "High",
+      "score_reason": "Power-semiconductor technology directly relevant to EVs, storage and AI-datacenter power delivery.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700217-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "4ba4198d6ef57a244d30",
+      "headline": "MediaTek launches 3nm Dimensity CX C10 Max for Googlebooks",
+      "bullets": [
+        "MediaTek launched the 3nm Dimensity CX C10 Max for Googlebook devices, with up to 55 TOPS of AI performance.",
+        "The chip uses eight CPU cores, an 11-core GPU and LPDDR5X support up to 9,600MT/s, and is manufactured on TSMC N3.",
+        "MediaTek’s comparative performance claims are based on different test platforms and lack complete published numbers, according to the supplied review."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "MediaTek"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Google"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Foundry · Compute · DRAM · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 60,
+      "priority": "High",
+      "score_reason": "New leading-edge client-compute SoC and Google partnership with clear AI-PC and foundry relevance.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.ctee.com.tw/news/20260922700418-430501",
+          "name": "CTEE",
+          "published_at": "2026-09-21T16:00:00Z"
+        },
+        {
+          "url": "https://www.tomshardware.com/pc-components/cpus/mediateks-next-gen-dimensity-cx-c10-max-will-power-new-googlebook-initiative-3nm-soc-has-similar-specs-to-kompanio-ultra-in-chromebook-plus-devices-despite-claims-of-elevating-computing-portfolio",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-21T13:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "day",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "51941d79583733d53d75",
+      "headline": "US opposition reportedly delays $68 billion of AI-datacenter projects",
+      "bullets": [
+        "A report says AI datacenter opposition blocked or delayed $68 billion of projects in the second quarter of 2026, citing Data Center Watch through Bloomberg.",
+        "The reported opposition centres on land, power, water, noise and environmental impacts, while hyperscaler infrastructure investment continues to expand.",
+        "The article says data-center investment remains projected to reach $32 trillion by 2050, an attributed long-range estimate."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Meta"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Amazon"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 40,
+      "priority": "Medium",
+      "score_reason": "Material AI-infrastructure deployment and permitting bottleneck with implications for power, water and accelerator demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/local-opposition-blocked-usd68-billion-worth-of-data-center-projects-in-the-second-quarter-of-2026-data-center-investments-reportedly-still-on-track-to-hit-usd32-trillion-by-2050",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-21T16:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T16:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "8209a667846978169a87",
+      "headline": "Huawei shelves broad global AI-chip rollout as Chinese demand outstrips supply",
+      "bullets": [
+        "Huawei says its next-generation Ascend 900-series accelerators will be offered primarily in China because domestic demand already exceeds available capacity.",
+        "The reported roadmap includes Ascend 960, 970 and 980 NPUs, with projected inference performance rising across future generations.",
+        "Huawei’s Atlas clusters can scale to 15,488 chips, but the article says SMIC’s difficulty ramping 7nm/6nm-class production limits supply."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Huawei"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SMIC"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · China Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 88,
+      "priority": "Critical",
+      "score_reason": "Major China AI-chip supply constraint linked to domestic demand, manufacturing capacity and Nvidia competition.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-shelves-global-ai-chip-rollout-as-chinas-own-demand-outstrips-supply-15-488-chip-atlas-clusters-leverage-optical-networking-to-counter-nvidia-scales-to-120-eflops",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-21T14:30:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T14:30:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "8f5d8efd0c9fa9d58fe8",
+      "headline": "Trump proposes an AI force and AI czar while rejecting development limits",
+      "bullets": [
+        "President Trump announced plans for an AI force and an AI czar while saying the administration will support rather than restrict AI growth.",
+        "He did not provide implementation details and dismissed recent AI-safety warnings as hoaxes.",
+        "The announcement comes amid debate involving Anthropic, OpenAI, Google DeepMind and Nvidia executives over safety, pacing and regulation."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Anthropic"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Google DeepMind"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Nvidia"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "Material frontier-AI policy and safety development with potential implications for US AI governance.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/president-trump-has-announced-plans-for-new-ai-force-and-ai-czar-amid-growing-ai-safety-concerns-new-unit-will-cherish-ai-and-not-stifle-it-trump-clarifies-while-dismissing-safety-warnings-as-hoaxes",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-21T13:15:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T13:15:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "23ada5b1e89a3d07417d",
+      "headline": "TypeSafe AI launches Jev for structured decisions rather than open-ended chat",
+      "bullets": [
+        "TypeSafe AI launched Jev, a System One model designed for structured statement evaluation and probabilistic decision-making rather than open-ended chat.",
+        "The company claims Jev is up to 194 times faster and 445 times cheaper than frontier models in its target workloads, but practical performance remains unverified.",
+        "Jev returns structured outputs and confidence scores for code-controlled workflows, while TypeSafe says open-ended tasks remain better suited to conventional LLMs."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TypeSafe AI"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "Distinct model architecture and model-economics development with explicit, attributed performance claims and uncertainty.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
+          "name": "Tom’s Hardware",
+          "published_at": "2026-09-21T13:09:27Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T13:09:27Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "dea4639b283562469dcf",
+      "headline": "Qualcomm brings Snapdragon X Elite to Googlebook devices",
+      "bullets": [
+        "Qualcomm says its Snapdragon X Elite platform will power Googlebook devices optimised for Google’s Gemini Intelligence experience.",
+        "The devices are intended to connect with Snapdragon Android phones and tablets and run Android applications and games.",
+        "Qualcomm and Google say they are working with global OEMs on the new category."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qualcomm"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Google"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 59,
+      "priority": "Medium",
+      "score_reason": "Relevant client-compute and on-device-AI platform partnership, distinct from MediaTek’s Googlebook silicon.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62617",
+          "name": "TheLec",
+          "published_at": "2026-09-21T11:00:00Z"
+        },
+        {
+          "url": "https://m.etnews.com/20260921000071",
+          "name": "ETNews",
+          "published_at": "2026-09-21T13:00:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T13:00:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
       "id": "b86e987b3336765436b3",
       "headline": "vivo review highlights a 2nm Dimensity 9600 Pro smartphone platform",
       "bullets": [
@@ -2957,6 +5330,478 @@
       ]
     },
     {
+      "id": "f850be24733a5c945a0f",
+      "headline": "EST prepares listing around semiconductor electrostatic-chuck technology",
+      "bullets": [
+        "South Korea’s EST filed for a technology-special listing with an expected post-listing market value of about KRW172.5 billion.",
+        "The company makes semiconductor and display electrostatic chucks using plasma coating, multilayer ceramic and precision-sintering processes.",
+        "EST is also preparing products for semiconductor glass substrates and OLED-on-silicon applications."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "EST"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "WFE · Foundry · Advanced Packaging · Materials & Inputs · China Supply Chain",
+      "categories": [
+        "WFE",
+        "Foundry",
+        "Advanced Packaging",
+        "Materials & Inputs",
+        "China Supply Chain"
+      ],
+      "importance": 52,
+      "priority": "Medium",
+      "score_reason": "Relevant semiconductor-equipment component and materials development with a defined listing process.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://m.etnews.com/20260921000439",
+          "name": "ETNews",
+          "published_at": "2026-09-21T11:21:32Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T11:21:32Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "bf83c4c8faf5a6d0d8c9",
+      "headline": "SK hynix says new global sites will underpin next-generation AI memory",
+      "bullets": [
+        "SK hynix’s CEO said AI-memory demand should remain high and that new global production sites and research centres will support its next-generation memory position.",
+        "The company highlighted its Yongin cluster, Indiana fab and US AI R&D centre.",
+        "The comments were made at SK hynix’s 2026 global forum and were accompanied by technical discussions on memory, interfaces and packaging."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK hynix"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Foundry",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 45,
+      "priority": "Medium",
+      "score_reason": "Qualifying major Korean-memory management and capacity update with global manufacturing implications.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62626",
+          "name": "TheLec",
+          "published_at": "2026-09-21T10:42:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T10:42:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "beaacd74e6c1a871c97b",
+      "headline": "Supergate and KAI begin national drone-AI-chip project",
+      "bullets": [
+        "Supergate and Korea Aerospace Industries are developing an AI chip and autonomous-control system for airborne drones under a 54-month, approximately KRW130 billion national project.",
+        "Supergate will develop the AI chip and software, KAI the drone platform and control system, and Samsung is named as the foundry.",
+        "Gaonchips is assisting the chip design; the companies say the project targets defence-AI semiconductor independence."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Supergate"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Korea Aerospace Industries"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Gaonchips"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Foundry · Compute · China Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "Material national AI-chip and foundry collaboration for an operational defence platform.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62627",
+          "name": "TheLec",
+          "published_at": "2026-09-21T10:42:15Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T10:42:15Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "0b8b38557450dab7597c",
+      "headline": "KAIST reduces device-to-server AI calls with accumulated local knowledge",
+      "bullets": [
+        "A KAIST research team developed CURE, a device–server collaboration method that stores summarised server knowledge on a small local model.",
+        "The team says server calls fell 55.61% on image-classification tests, with speed up to 2.8 times higher than an earlier collaboration method and 3.67 times higher than sending all inputs to a server.",
+        "The work was presented at ECCV 2026 and may extend to smartphones, robots and wearables."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "KAIST"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Amazon"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "LG AI Research"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Models",
+      "categories": [
+        "Compute",
+        "Models"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "Substantive edge-AI efficiency research with measured reductions in server calls and latency.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026092117270000585",
+          "name": "Hankook Ilbo",
+          "published_at": "2026-09-21T09:03:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T09:03:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "b8cea3832d5161b8c0c6",
+      "headline": "Global Technology secures first automotive-semiconductor production order",
+      "bullets": [
+        "Global Technology secured an initial 2027 production order for an automotive smart mood-lamp driver semiconductor.",
+        "The chip is being fabricated by SK keyfoundry and packaged by Dongbu LED; Global Technology also says it is developing CAN transceivers, DC/DC power-and-communication devices and 48V CAN ICs.",
+        "The company claims up to 30% lower current and 40% lower power consumption versus competitors for the lighting device."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Global Technology"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK keyfoundry"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Dongbu LED"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Analog · Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Analog",
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 57,
+      "priority": "Medium",
+      "score_reason": "Concrete automotive-chip production milestone with foundry, packaging and power-management relevance.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62562",
+          "name": "TheLec",
+          "published_at": "2026-09-21T08:53:29Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:53:29Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "08977330289d7ea69396",
+      "headline": "GPU scarcity lifts even older AI-compute rental prices",
+      "bullets": [
+        "A Korean report says GPU and memory shortages have pushed domestic AI-cloud provider VESSL Cloud to raise H100 rental prices by 24.7% to $2.98 per hour.",
+        "The company reportedly operates about 7,000 GPUs and plans to reach 10,000 by year-end, but says securing H100 supply is difficult.",
+        "Another marketplace cited in the report recorded a 21.9% monthly increase in H100 rental prices."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "VESSL Cloud"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 77,
+      "priority": "High",
+      "score_reason": "Clear evidence of AI infrastructure supply tightness and rising compute costs, with direct implications for model developers.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://sedaily.com/article/20093605",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-21T08:52:17Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:52:17Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "b49d69627fc4529b563e",
+      "headline": "CXMT expands fifth-generation DRAM and mobile-memory output",
+      "bullets": [
+        "CXMT says it has begun mass production of two 24Gb LPDDR5X products using a fifth-generation DRAM platform with a 11.95nm critical pitch.",
+        "The company says dies per wafer are more than 50% higher than in the prior generation, potentially improving cost competitiveness if yields stabilise.",
+        "Counterpoint data cited in the report put CXMT’s second-quarter global DRAM revenue share at 10%, its first double-digit result."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "CXMT"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK hynix"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · DRAM · China Supply Chain · Supply Chain",
+      "categories": [
+        "Foundry",
+        "DRAM",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 85,
+      "priority": "Critical",
+      "score_reason": "A material Chinese DRAM capacity and customer-expansion development with potential effects on mobile memory competition.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2026/09/21/2026092114132524875",
+          "name": "MoneyToday",
+          "published_at": "2026-09-21T08:50:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:50:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "bd4257871af688346f4b",
+      "headline": "Experts say Chinese memory suppliers are becoming direct competitors",
+      "bullets": [
+        "A Korean semiconductor expert says CXMT has moved beyond a pure follower position in DRAM while YMTC is becoming a global top-tier NAND competitor.",
+        "The assessment says China is rapidly learning, validating and scaling across memory, system semiconductors, smartphones and AI models despite lithography restrictions.",
+        "The discussion warns that high memory prices could widen Chinese customer opportunities and that power and compound semiconductors may become strategic supply-chain tools."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "CXMT"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "YMTC"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK hynix"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "DRAM · NAND · China Supply Chain · Supply Chain",
+      "categories": [
+        "DRAM",
+        "NAND",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 84,
+      "priority": "Critical",
+      "score_reason": "Strategically significant assessment of China’s semiconductor ecosystem and competitive implications for Korean memory leaders.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026092115190000424",
+          "name": "Hankook Ilbo",
+          "published_at": "2026-09-21T08:50:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:50:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "c77f4682866fc6c6158e",
+      "headline": "GPU-support expiry threatens continuity of Korean AI research",
+      "bullets": [
+        "A Korean AI research project lost access to 256 B200 GPUs after its government programme ended and is now operating on two GPUs.",
+        "The researchers say two GPUs are enough for inference but not for large-scale retraining or model improvement.",
+        "The report says other university teams face similar gaps between short government allocations and the longer-term compute needed for AI research."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "KAIST"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "Highlights a structural compute-access bottleneck affecting model development and national AI capability.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://sedaily.com/article/20093588",
+          "name": "Seoul Economic Daily",
+          "published_at": "2026-09-21T08:44:19Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:44:19Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
+      "id": "8ab6cf83e8d48b043d1f",
+      "headline": "Former Samsung chairman Kwon Oh-hyun appointed KAIST board chair",
+      "bullets": [
+        "Samsung Electronics’ former chairman Kwon Oh-hyun was appointed chair of the KAIST board through August 2029.",
+        "Kwon is a semiconductor engineer and former Samsung Electronics CEO and Samsung Advanced Institute of Technology chair.",
+        "The appointment is relevant to Korean semiconductor research governance and industry–academia links."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "KAIST"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Foundry · Compute · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 37,
+      "priority": "Low",
+      "score_reason": "Qualifying semiconductor leadership and research-governance change involving a major industry executive.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.hankookilbo.com/news/article/A2026092117110002406",
+          "name": "Hankook Ilbo",
+          "published_at": "2026-09-21T08:39:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:39:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-22T07:41:27Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 1
+    },
+    {
       "id": "7167fd114cc6b016b977",
       "headline": "TrendForce posts September 2026 panel price update",
       "bullets": [
@@ -3006,6 +5851,60 @@
           "text_truncated": false
         }
       ]
+    },
+    {
+      "id": "ecfad15608868f945378",
+      "headline": "Rebellions expands NPU deployment across four SK Telecom AI services",
+      "bullets": [
+        "Rebellions says its AtomMax NPU now supports four commercial SK Telecom AI services, including speech synthesis, an AI contact centre and scam detection.",
+        "The infrastructure handles about 14 million requests and more than 4 billion tokens per day, according to the companies.",
+        "SK Telecom combines Rebellions NPUs with GPUs and accelerator farms to allocate resources by workload."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Rebellions"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK Telecom"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 59,
+      "priority": "Medium",
+      "score_reason": "Concrete commercial deployment and usage scale for a domestic AI accelerator.",
+      "verification": "source_checked",
+      "sources": [
+        {
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=62583",
+          "name": "TheLec",
+          "published_at": "2026-09-21T08:27:53Z"
+        },
+        {
+          "url": "https://m.etnews.com/20260921000417",
+          "name": "ETNews",
+          "published_at": "2026-09-21T08:02:36Z"
+        },
+        {
+          "url": "https://zdnet.co.kr/view/?no=20260921091152",
+          "name": "ZDNet Korea",
+          "published_at": "2026-09-21T00:22:21Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-21T08:27:53Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-21T05:00:01Z",
+      "updated_at": "2026-09-22T07:41:27Z",
+      "revision": 2
     },
     {
       "id": "e6f068130937c53bdef7",
@@ -5408,73 +8307,6 @@
       "revision": 1
     },
     {
-      "id": "79dda3c8dc63d58a6c2e",
-      "headline": "Intel and AUO reportedly explore glass-substrate CPO packaging",
-      "bullets": [
-        "Media reports say Intel is in talks with AUO on co-packaged optics and high-density compute packaging, potentially using glass substrates and Micro LED-related technology.",
-        "Intel declined comment; AUO’s chair confirmed the company is developing advanced packaging and glass-substrate technologies with unnamed partners.",
-        "The cited technology discussion includes EMIB, through-glass vias, redistribution layers and optical interconnects."
-      ],
-      "companies": [
-        {
-          "ticker": "INTC",
-          "aliases": [],
-          "name": "Intel"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "AUO"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Compute · Advanced Packaging · Substrates",
-      "categories": [
-        "Compute",
-        "Advanced Packaging",
-        "Substrates"
-      ],
-      "importance": 76,
-      "priority": "High",
-      "score_reason": "Strategic advanced-packaging and glass-substrate development involving two established companies and CPO applications.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2101817510681260446",
-          "name": "@dnystedt",
-          "published_at": "2026-09-20T23:35:19Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2101849472385130736",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-21T01:42:19Z"
-        },
-        {
-          "url": "https://money.udn.com/money/story/5612/9766808?dark_mode=1",
-          "name": "money.udn.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2101817510681260446",
-          "handle": "dnystedt",
-          "published_at": "2026-09-20T23:35:19Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2101849472385130736",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-21T01:42:19Z"
-        }
-      ],
-      "published_at": "2026-09-21T01:42:19Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-21T05:00:01Z",
-      "updated_at": "2026-09-21T05:00:01Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
       "id": "95f33508221f77b45215",
       "headline": "CJ Logistics and Real World to develop logistics-specific robot foundation model",
       "bullets": [
@@ -6084,50 +8916,6 @@
       "source_category": "Twitter"
     },
     {
-      "id": "ecfad15608868f945378",
-      "headline": "Rebellions NPU expands across four SK Telecom commercial AI services",
-      "bullets": [
-        "Rebellions says its NPU now powers four SK Telecom commercial AI services, including call summarisation, streaming speech synthesis, an AI contact centre and scam-message detection.",
-        "The infrastructure handles roughly 14 million requests and more than 4 billion tokens per day, according to the companies.",
-        "SK Telecom has built an NPU farm combining dozens of NPUs and hundreds of accelerator cards, reallocating GPU and NPU resources by workload."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Rebellions"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "SK Telecom"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute · Supply Chain",
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 72,
-      "priority": "High",
-      "score_reason": "This is a concrete commercial deployment of a Korean AI accelerator at significant daily traffic scale.",
-      "verification": "source_checked",
-      "sources": [
-        {
-          "url": "https://zdnet.co.kr/view/?no=20260921091152",
-          "name": "ZDNet Korea",
-          "published_at": "2026-09-21T00:22:21Z"
-        }
-      ],
-      "highlights": [],
-      "published_at": "2026-09-21T00:22:21Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-21T05:00:01Z",
-      "updated_at": "2026-09-21T05:00:01Z",
-      "revision": 1
-    },
-    {
       "id": "04e9706c79b7e193d2d5",
       "headline": "Commentary sees high-end wafer-material tightness despite Chinese capacity growth",
       "bullets": [
@@ -6165,57 +8953,6 @@
       "updated_at": "2026-09-21T05:00:01Z",
       "revision": 1,
       "source_category": "Twitter"
-    },
-    {
-      "id": "61203ad2ae1ea9c6efd6",
-      "headline": "TSMC to anchor Kaohsiung advanced-packaging equipment validation hub",
-      "bullets": [
-        "TSMC is expected to serve as the core tenant of Kaohsiung’s Baipu Industrial Park, using a Mini-Loop production line to qualify and certify advanced-packaging equipment and materials before mass production.",
-        "The 88.73-hectare park is reportedly fully booked, with TSMC occupying the southern section.",
-        "The site is intended to support CoWoS-related equipment integration and Taiwanese supply-chain standardisation."
-      ],
-      "companies": [
-        {
-          "ticker": "TSM",
-          "aliases": [],
-          "name": "TSMC"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Foundry · Advanced Packaging · Supply Chain",
-      "categories": [
-        "Foundry",
-        "Advanced Packaging",
-        "Supply Chain"
-      ],
-      "importance": 82,
-      "priority": "Critical",
-      "score_reason": "The project addresses advanced-packaging equipment qualification and local supply-chain capacity, not just a real-estate expansion.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://www.ctee.com.tw/news/20260921700052-430501",
-          "name": "CTEE",
-          "published_at": "2026-09-20T16:00:00Z"
-        },
-        {
-          "url": "https://x.com/dnystedt/status/2101829018136006920",
-          "name": "@dnystedt",
-          "published_at": "2026-09-21T00:21:02Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2101829018136006920",
-          "handle": "dnystedt",
-          "published_at": "2026-09-21T00:21:02Z"
-        }
-      ],
-      "published_at": "2026-09-21T00:21:02Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-21T05:00:01Z",
-      "updated_at": "2026-09-21T05:00:01Z",
-      "revision": 1
     },
     {
       "id": "849211d22f2e083844e7",
@@ -51373,6 +54110,7 @@
     "503bf6a62a7a6fc37032",
     "c58071384cc3eeaf44eb"
   ],
+  "web_edition_day": "2026-09-22",
   "current_edition_supplement_ids": [
     "909079950c5646c1e2c7",
     "7139170420e939bc9796",
@@ -51407,5 +54145,5 @@
     "503bf6a62a7a6fc37032",
     "c58071384cc3eeaf44eb"
   ],
-  "published_at": "2026-09-22T07:58:01Z"
+  "published_at": "2026-09-22T08:00:36Z"
 }
