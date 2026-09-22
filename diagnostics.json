@@ -33503,6 +33503,16 @@
           "at": "2026-09-22T05:02:58Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:03:40Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 119388 bytes, 42.1s."
+        },
+        {
+          "at": "2026-09-22T05:03:41Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
         }
       ],
       "usage": [
@@ -33561,9 +33571,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:02:58Z",
+      "updated_at": "2026-09-22T05:03:41Z",
       "stage": "web_discovery"
     }
   ]
