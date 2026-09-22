@@ -34888,6 +34888,16 @@
           "at": "2026-09-22T06:10:02Z",
           "stage": "fetch",
           "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:10:53Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 138608 bytes, 51.3s."
+        },
+        {
+          "at": "2026-09-22T06:10:54Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -35779,9 +35789,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T06:10:02Z",
+      "updated_at": "2026-09-22T06:10:54Z",
       "stage": "web_discovery"
     }
   ]
