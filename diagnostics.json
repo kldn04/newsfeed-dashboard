@@ -33413,10 +33413,55 @@
           "at": "2026-09-22T05:00:01Z",
           "stage": "fetch",
           "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:00:27Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 130514 bytes, 25.8s."
+        },
+        {
+          "at": "2026-09-22T05:00:27Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 11 candidates (ok)."
+        },
+        {
+          "at": "2026-09-22T05:00:27Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec through Bright Data."
+        },
+        {
+          "at": "2026-09-22T05:00:27Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:00:39Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: HTTP 200, 115867 bytes, 11.5s."
+        },
+        {
+          "at": "2026-09-22T05:00:39Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: fetch started."
         }
       ],
-      "usage": [],
-      "updated_at": "2026-09-22T05:00:01Z",
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-22T05:00:39Z",
       "stage": "web_discovery"
     }
   ]
