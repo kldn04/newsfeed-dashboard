@@ -34698,6 +34698,36 @@
           "at": "2026-09-22T05:59:41Z",
           "stage": "fetch",
           "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:01:11Z",
+          "stage": "fetch",
+          "message": "sedaily.com: ReadTimeout."
+        },
+        {
+          "at": "2026-09-22T06:01:11Z",
+          "stage": "web_discovery",
+          "message": "Seoul Economic Daily: fetch failed; retrying once before moving on."
+        },
+        {
+          "at": "2026-09-22T06:01:13Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T06:01:31Z",
+          "stage": "fetch",
+          "message": "sedaily.com: HTTP 200, 139546 bytes, 17.7s."
+        },
+        {
+          "at": "2026-09-22T06:01:31Z",
+          "stage": "web_discovery",
+          "message": "Seoul Economic Daily: retry succeeded."
+        },
+        {
+          "at": "2026-09-22T06:01:31Z",
+          "stage": "fetch",
+          "message": "sedaily.com: fetch started."
         }
       ],
       "usage": [
@@ -35470,9 +35500,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:59:41Z",
+      "updated_at": "2026-09-22T06:01:31Z",
       "stage": "web_discovery"
     }
   ]
