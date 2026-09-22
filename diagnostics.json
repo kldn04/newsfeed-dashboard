@@ -38610,6 +38610,26 @@
           "at": "2026-09-22T07:15:53Z",
           "stage": "fetch",
           "message": "www.mt.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:16:13Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: HTTP 200, 79078 bytes, 20.1s."
+        },
+        {
+          "at": "2026-09-22T07:16:13Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:16:27Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: HTTP 200, 77994 bytes, 14.4s."
+        },
+        {
+          "at": "2026-09-22T07:16:27Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -40215,9 +40235,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:15:53Z",
+      "updated_at": "2026-09-22T07:16:27Z",
       "stage": "web_discovery"
     }
   ]
