@@ -42188,6 +42188,36 @@
           "at": "2026-09-22T07:45:36Z",
           "stage": "fetch",
           "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:45:42Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 149541 bytes, 6.3s."
+        },
+        {
+          "at": "2026-09-22T07:45:42Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:46:03Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 132485 bytes, 20.5s."
+        },
+        {
+          "at": "2026-09-22T07:46:03Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:46:09Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 131687 bytes, 5.6s."
+        },
+        {
+          "at": "2026-09-22T07:46:09Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -42803,9 +42833,30 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:45:36Z",
+      "updated_at": "2026-09-22T07:46:09Z",
       "stage": "web_discovery"
     },
     {
@@ -42941,6 +42992,51 @@
           "at": "2026-09-22T07:44:15Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:45:45Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-09-22T07:45:45Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 集微网官方微博 (ReadTimeout)."
+        },
+        {
+          "at": "2026-09-22T07:45:45Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 集微网官方微博 — 9 posts in collection window, 9 new."
+        },
+        {
+          "at": "2026-09-22T07:45:45Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 芯智讯官微, page 1."
+        },
+        {
+          "at": "2026-09-22T07:45:46Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:46:06Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 42388 bytes, 20.4s."
+        },
+        {
+          "at": "2026-09-22T07:46:06Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 芯智讯官微 — 3 posts in collection window, 3 new."
+        },
+        {
+          "at": "2026-09-22T07:46:06Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 电子工程专辑, page 1."
+        },
+        {
+          "at": "2026-09-22T07:46:06Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -42985,9 +43081,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:44:15Z",
+      "updated_at": "2026-09-22T07:46:06Z",
       "stage": "weibo_discovery"
     }
   ]
