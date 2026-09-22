@@ -1,11 +1,13 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Web scrape saved; waiting for the social edition before final compilation and merge.",
-  "stage": "waiting_social",
-  "updated_at": "2026-09-22T07:50:15Z",
+  "message": "Weibo: reading full text for a new post from 集微网官方微博.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-22T07:50:45Z",
   "started_at": "2026-09-22T07:41:27Z",
-  "counts": {},
+  "counts": {
+    "weibo_candidates": 38
+  },
   "stored_totals": {
     "stories": 837,
     "evidence": 2523,
@@ -20,84 +22,84 @@
   },
   "events": [
     {
-      "at": "2026-09-22T07:43:06Z",
-      "message": "ZDNet Korea: 8 candidates (ok)."
+      "at": "2026-09-22T07:44:14Z",
+      "message": "Weibo: fetching 集微网官方微博, page 2."
     },
     {
-      "at": "2026-09-22T07:43:06Z",
-      "message": "Reading EET China."
+      "at": "2026-09-22T07:45:45Z",
+      "message": "Weibo: fetch failed for 集微网官方微博 (ReadTimeout)."
     },
     {
-      "at": "2026-09-22T07:46:16Z",
-      "message": "EET China: 9 candidates (ok)."
+      "at": "2026-09-22T07:45:45Z",
+      "message": "Weibo: 集微网官方微博 — 9 posts in collection window, 9 new."
     },
     {
-      "at": "2026-09-22T07:46:17Z",
-      "message": "Reading IDC."
+      "at": "2026-09-22T07:45:45Z",
+      "message": "Weibo: fetching 芯智讯官微, page 1."
     },
     {
-      "at": "2026-09-22T07:46:17Z",
-      "message": "IDC: 0 dated articles captured (ok)."
+      "at": "2026-09-22T07:46:06Z",
+      "message": "Weibo: 芯智讯官微 — 3 posts in collection window, 3 new."
     },
     {
-      "at": "2026-09-22T07:46:17Z",
-      "message": "Reading Counterpoint Research."
+      "at": "2026-09-22T07:46:06Z",
+      "message": "Weibo: fetching 电子工程专辑, page 1."
     },
     {
-      "at": "2026-09-22T07:46:27Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
+      "at": "2026-09-22T07:46:31Z",
+      "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
     },
     {
-      "at": "2026-09-22T07:46:27Z",
-      "message": "Reading Seoul Economic Daily."
+      "at": "2026-09-22T07:46:31Z",
+      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
     },
     {
-      "at": "2026-09-22T07:47:04Z",
-      "message": "Seoul Economic Daily: 20 dated articles captured (partial)."
+      "at": "2026-09-22T07:46:52Z",
+      "message": "Weibo: Trendforce集邦咨询 — 1 posts in collection window, 1 new."
     },
     {
-      "at": "2026-09-22T07:47:04Z",
-      "message": "Reading Asia Economy."
+      "at": "2026-09-22T07:46:52Z",
+      "message": "Weibo: fetching 数码王小机, page 1."
     },
     {
-      "at": "2026-09-22T07:47:35Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
+      "at": "2026-09-22T07:47:17Z",
+      "message": "Weibo: fetching 数码王小机, page 2."
     },
     {
-      "at": "2026-09-22T07:47:35Z",
-      "message": "Reading Hankook Ilbo."
+      "at": "2026-09-22T07:48:29Z",
+      "message": "Weibo: fetch failed for 数码王小机 (SourceFetchError)."
     },
     {
-      "at": "2026-09-22T07:47:52Z",
-      "message": "Hankook Ilbo: 11 dated articles captured (partial)."
+      "at": "2026-09-22T07:48:29Z",
+      "message": "Weibo: 数码王小机 — 10 posts in collection window, 10 new."
     },
     {
-      "at": "2026-09-22T07:47:52Z",
-      "message": "Reading ETNews."
+      "at": "2026-09-22T07:48:29Z",
+      "message": "Weibo: reading full text for a new post from 数码闲聊站."
     },
     {
-      "at": "2026-09-22T07:48:43Z",
-      "message": "ETNews: 29 dated articles captured (partial)."
+      "at": "2026-09-22T07:48:49Z",
+      "message": "Weibo: reading full text for a new post from 数码闲聊站."
     },
     {
-      "at": "2026-09-22T07:48:43Z",
-      "message": "Reading MoneyToday."
+      "at": "2026-09-22T07:49:10Z",
+      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
     },
     {
-      "at": "2026-09-22T07:49:44Z",
-      "message": "MoneyToday: 37 dated articles captured (partial)."
+      "at": "2026-09-22T07:49:40Z",
+      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
     },
     {
-      "at": "2026-09-22T07:49:44Z",
-      "message": "Reading Economic Daily (UDN)."
+      "at": "2026-09-22T07:50:05Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
     },
     {
-      "at": "2026-09-22T07:50:13Z",
-      "message": "Economic Daily (UDN): 18 dated articles captured (partial)."
+      "at": "2026-09-22T07:50:24Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
     },
     {
-      "at": "2026-09-22T07:50:13Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+      "at": "2026-09-22T07:50:44Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
     }
   ]
 }
