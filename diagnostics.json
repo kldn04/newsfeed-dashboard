@@ -33678,6 +33678,16 @@
           "at": "2026-09-22T05:09:28Z",
           "stage": "fetch",
           "message": "www.thelec.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:10:58Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: ReadTimeout."
+        },
+        {
+          "at": "2026-09-22T05:10:58Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
         }
       ],
       "usage": [
@@ -33820,9 +33830,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:09:28Z",
+      "updated_at": "2026-09-22T05:10:58Z",
       "stage": "web_discovery"
     }
   ]
