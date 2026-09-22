@@ -34148,6 +34148,16 @@
           "at": "2026-09-22T05:32:39Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-09-22T05:33:41Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 76869 bytes, 61.5s."
+        },
+        {
+          "at": "2026-09-22T05:33:41Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
         }
       ],
       "usage": [
@@ -34584,9 +34594,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T05:32:39Z",
+      "updated_at": "2026-09-22T05:33:41Z",
       "stage": "web_discovery"
     }
   ]
