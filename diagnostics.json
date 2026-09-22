@@ -38880,6 +38880,26 @@
           "at": "2026-09-22T07:20:51Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:21:12Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 271204 bytes, 21.2s."
+        },
+        {
+          "at": "2026-09-22T07:21:12Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:21:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 269128 bytes, 10.6s."
+        },
+        {
+          "at": "2026-09-22T07:21:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -40667,9 +40687,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:20:51Z",
+      "updated_at": "2026-09-22T07:21:23Z",
       "stage": "web_discovery"
     }
   ]
