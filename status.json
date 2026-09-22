@@ -2,7 +2,7 @@
   "state": "running",
   "message": "Seoul Economic Daily: retry succeeded.",
   "stage": "web_discovery",
-  "updated_at": "2026-09-22T06:01:06Z",
+  "updated_at": "2026-09-22T06:01:36Z",
   "started_at": "2026-09-22T05:00:01Z",
   "counts": {},
   "stored_totals": {
@@ -18,14 +18,6 @@
     "Editorial exclusions": 321
   },
   "events": [
-    {
-      "at": "2026-09-22T05:21:27Z",
-      "message": "Ijiwei: fetch failed; retrying once before moving on."
-    },
-    {
-      "at": "2026-09-22T05:22:16Z",
-      "message": "Ijiwei: retry succeeded."
-    },
     {
       "at": "2026-09-22T05:24:16Z",
       "message": "Ijiwei: 20 candidates (partial)."
@@ -96,6 +88,14 @@
     },
     {
       "at": "2026-09-22T05:58:07Z",
+      "message": "Seoul Economic Daily: retry succeeded."
+    },
+    {
+      "at": "2026-09-22T06:01:11Z",
+      "message": "Seoul Economic Daily: fetch failed; retrying once before moving on."
+    },
+    {
+      "at": "2026-09-22T06:01:31Z",
       "message": "Seoul Economic Daily: retry succeeded."
     }
   ]
