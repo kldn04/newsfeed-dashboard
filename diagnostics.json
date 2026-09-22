@@ -44108,6 +44108,16 @@
           "at": "2026-09-22T07:50:13Z",
           "stage": "waiting_social",
           "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+        },
+        {
+          "at": "2026-09-22T07:58:11Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-22T07:58:11Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -45820,8 +45830,8 @@
           "cost_usd": 0
         }
       ],
-      "updated_at": "2026-09-22T07:50:13Z",
-      "stage": "waiting_social"
+      "updated_at": "2026-09-22T07:58:11Z",
+      "stage": "summarising"
     },
     {
       "started_at": "2026-09-22T07:41:27Z",
@@ -46451,6 +46461,36 @@
           "at": "2026-09-22T07:55:47Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-09-22T07:58:01Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-09-22T07:58:01Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-22T07:58:01Z",
+          "stage": "validation",
+          "message": "Batch complete: 32 stories ready."
+        },
+        {
+          "at": "2026-09-22T07:58:01Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-09-22T07:58:01Z",
+          "stage": "publishing",
+          "message": "Publishing social edition."
+        },
+        {
+          "at": "2026-09-22T07:58:05Z",
+          "stage": "complete",
+          "message": "Twitter & Weibo ready."
         }
       ],
       "usage": [
@@ -46655,10 +46695,22 @@
           "cache_write_tokens": 18643,
           "cost_usd": 0.01774735,
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-5.6-luna",
+          "input_tokens": 27313,
+          "output_tokens": 16044,
+          "reasoning_tokens": 8134,
+          "cached_tokens": 0,
+          "cache_write_tokens": 27310,
+          "cost_usd": 0.0260809,
+          "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-22T07:55:47Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-22T07:58:05Z",
+      "stage": "complete"
     }
   ]
 }
