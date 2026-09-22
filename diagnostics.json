@@ -38930,6 +38930,16 @@
           "at": "2026-09-22T07:22:06Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:22:22Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 280513 bytes, 15.8s."
+        },
+        {
+          "at": "2026-09-22T07:22:22Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -40752,9 +40762,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:22:06Z",
+      "updated_at": "2026-09-22T07:22:22Z",
       "stage": "web_discovery"
     }
   ]
