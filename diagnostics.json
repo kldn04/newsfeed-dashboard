@@ -37860,6 +37860,66 @@
           "at": "2026-09-22T07:00:47Z",
           "stage": "fetch",
           "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:00:53Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 146573 bytes, 6.1s."
+        },
+        {
+          "at": "2026-09-22T07:00:53Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:00:58Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 233313 bytes, 4.9s."
+        },
+        {
+          "at": "2026-09-22T07:00:58Z",
+          "stage": "web_discovery",
+          "message": "Hankook Ilbo: 12 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-22T07:00:58Z",
+          "stage": "web_discovery",
+          "message": "Reading ETNews through Bright Data."
+        },
+        {
+          "at": "2026-09-22T07:00:59Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:01:04Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 27779 bytes, 4.9s."
+        },
+        {
+          "at": "2026-09-22T07:01:04Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:01:13Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 56063 bytes, 8.1s."
+        },
+        {
+          "at": "2026-09-22T07:01:13Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-09-22T07:01:19Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 53245 bytes, 5.8s."
+        },
+        {
+          "at": "2026-09-22T07:01:20Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
         }
       ],
       "usage": [
@@ -38954,9 +39014,44 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-09-22T07:00:47Z",
+      "updated_at": "2026-09-22T07:01:20Z",
       "stage": "web_discovery"
     }
   ]
