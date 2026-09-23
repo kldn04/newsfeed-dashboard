@@ -1,9 +1,9 @@
 {
-  "summary": "Twitter & Weibo ready · Web collection in progress",
-  "state": "running",
-  "message": "Publishing web edition.",
-  "stage": "publishing",
-  "updated_at": "2026-09-23T05:30:26Z",
+  "summary": "Twitter & Weibo ready · Web ready",
+  "state": "idle",
+  "message": "Web stories added to the current edition.",
+  "stage": "complete",
+  "updated_at": "2026-09-23T05:30:28Z",
   "started_at": "2026-09-23T04:30:01Z",
   "counts": {
     "openai_calls": 1,
@@ -29,10 +29,6 @@
     "Editorial exclusions": 368
   },
   "events": [
-    {
-      "at": "2026-09-23T04:33:51Z",
-      "message": "Reading Counterpoint Research."
-    },
     {
       "at": "2026-09-23T04:33:54Z",
       "message": "Counterpoint Research: 0 dated articles captured (failed)."
@@ -108,6 +104,10 @@
     {
       "at": "2026-09-23T05:30:24Z",
       "message": "Publishing web edition."
+    },
+    {
+      "at": "2026-09-23T05:30:28Z",
+      "message": "Web stories added to the current edition."
     }
   ]
 }
