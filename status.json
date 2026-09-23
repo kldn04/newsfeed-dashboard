@@ -1,11 +1,13 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: fetching 手机晶片达人, page 1.",
+  "message": "Weibo: fetching 数码闲聊站, page 1.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-23T05:10:12Z",
+  "updated_at": "2026-09-23T05:10:43Z",
   "started_at": "2026-09-23T05:10:00Z",
-  "counts": {},
+  "counts": {
+    "weibo_candidates": 0
+  },
   "stored_totals": {
     "stories": 942,
     "evidence": 2651,
@@ -26,6 +28,14 @@
     {
       "at": "2026-09-23T05:10:00Z",
       "message": "Weibo: fetching 手机晶片达人, page 1."
+    },
+    {
+      "at": "2026-09-23T05:10:28Z",
+      "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
+    },
+    {
+      "at": "2026-09-23T05:10:28Z",
+      "message": "Weibo: fetching 数码闲聊站, page 1."
     }
   ]
 }
