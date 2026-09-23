@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 数码王小机.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-23T05:21:20Z",
+  "updated_at": "2026-09-23T05:21:50Z",
   "started_at": "2026-09-23T05:10:00Z",
   "counts": {
     "weibo_candidates": 26
@@ -21,14 +21,6 @@
     "Editorial exclusions": 347
   },
   "events": [
-    {
-      "at": "2026-09-23T05:13:40Z",
-      "message": "Weibo: fetching 集微网官方微博, page 1."
-    },
-    {
-      "at": "2026-09-23T05:14:32Z",
-      "message": "Weibo: fetch failed for 集微网官方微博 (SourceFetchError)."
-    },
     {
       "at": "2026-09-23T05:14:32Z",
       "message": "Weibo: 集微网官方微博 — 0 posts in collection window, 0 new."
@@ -99,6 +91,14 @@
     },
     {
       "at": "2026-09-23T05:20:59Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-23T05:21:20Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-09-23T05:21:41Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
     }
   ]
