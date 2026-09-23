@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "demo": false,
-  "generated_at": "2026-09-22T07:41:27Z",
-  "next_refresh_at": "2026-09-23T05:10:00Z",
+  "generated_at": "2026-09-23T05:10:00Z",
+  "next_refresh_at": "2026-09-24T05:10:00Z",
   "window": {
-    "start": "2026-09-21T07:41:26Z",
-    "end": "2026-09-22T07:41:27Z",
+    "start": "2026-09-22T05:10:00Z",
+    "end": "2026-09-23T05:10:00Z",
     "weekend_coverage": false
   },
   "schedule": "Web 05:30 · Twitter & Weibo 06:10 Europe/London · Monday–Friday",
@@ -25,129 +25,6 @@
     "qq_timmy"
   ],
   "source_status": [
-    {
-      "name": "Weibo · 手机晶片达人",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · 数码闲聊站",
-      "status": "partial",
-      "discovered": 8
-    },
-    {
-      "name": "Weibo · 智慧芯片案内人",
-      "status": "ok",
-      "discovered": 5
-    },
-    {
-      "name": "Weibo · 芯谋研究顾文军",
-      "status": "ok",
-      "discovered": 2
-    },
-    {
-      "name": "Weibo · 集微网官方微博",
-      "status": "partial",
-      "discovered": 9
-    },
-    {
-      "name": "Weibo · 芯智讯官微",
-      "status": "ok",
-      "discovered": 3
-    },
-    {
-      "name": "Weibo · 电子工程专辑",
-      "status": "ok",
-      "discovered": 0
-    },
-    {
-      "name": "Weibo · Trendforce集邦咨询",
-      "status": "ok",
-      "discovered": 1
-    },
-    {
-      "name": "Weibo · 数码王小机",
-      "status": "partial",
-      "discovered": 10
-    },
-    {
-      "name": "@jukan05",
-      "status": "ok",
-      "discovered": 12,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@zephyr_z9",
-      "status": "ok",
-      "discovered": 3,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@dnystedt",
-      "status": "ok",
-      "discovered": 10,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@pequityresearch",
-      "status": "ok",
-      "discovered": 12,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@intelfabs",
-      "status": "ok",
-      "discovered": 3,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@ryanhingshing",
-      "status": "ok",
-      "discovered": 3,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@sssjeffpu",
-      "status": "ok",
-      "discovered": 0,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@zartbotf",
-      "status": "ok",
-      "discovered": 0,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@fundaai",
-      "status": "ok",
-      "discovered": 1,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@shanghaojin",
-      "status": "ok",
-      "discovered": 2,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@mingchikuo",
-      "status": "ok",
-      "discovered": 0,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@sean_________",
-      "status": "ok",
-      "discovered": 0,
-      "retrieval": "x_api"
-    },
-    {
-      "name": "@qq_timmy",
-      "status": "ok",
-      "discovered": 5,
-      "retrieval": "x_api"
-    },
     {
       "name": "CTEE",
       "status": "ok",
@@ -254,44 +131,2072 @@
       "retrieval_failures": 0,
       "undated": 0,
       "previews": 2
+    },
+    {
+      "name": "Weibo · 手机晶片达人",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码闲聊站",
+      "status": "failed",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 智慧芯片案内人",
+      "status": "partial",
+      "discovered": 11
+    },
+    {
+      "name": "Weibo · 芯谋研究顾文军",
+      "status": "ok",
+      "discovered": 1
+    },
+    {
+      "name": "Weibo · 集微网官方微博",
+      "status": "failed",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 芯智讯官微",
+      "status": "ok",
+      "discovered": 6
+    },
+    {
+      "name": "Weibo · 电子工程专辑",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · Trendforce集邦咨询",
+      "status": "ok",
+      "discovered": 0
+    },
+    {
+      "name": "Weibo · 数码王小机",
+      "status": "partial",
+      "discovered": 10
+    },
+    {
+      "name": "@jukan05",
+      "status": "ok",
+      "discovered": 2,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@zephyr_z9",
+      "status": "ok",
+      "discovered": 5,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@dnystedt",
+      "status": "ok",
+      "discovered": 8,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@pequityresearch",
+      "status": "ok",
+      "discovered": 11,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@intelfabs",
+      "status": "ok",
+      "discovered": 1,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@ryanhingshing",
+      "status": "ok",
+      "discovered": 1,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@sssjeffpu",
+      "status": "ok",
+      "discovered": 0,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@zartbotf",
+      "status": "ok",
+      "discovered": 2,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@fundaai",
+      "status": "ok",
+      "discovered": 3,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@shanghaojin",
+      "status": "ok",
+      "discovered": 2,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@mingchikuo",
+      "status": "ok",
+      "discovered": 0,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@sean_________",
+      "status": "ok",
+      "discovered": 1,
+      "retrieval": "x_api"
+    },
+    {
+      "name": "@qq_timmy",
+      "status": "ok",
+      "discovered": 2,
+      "retrieval": "x_api"
     }
   ],
   "partial": true,
   "x_digest_ids": [
-    "909079950c5646c1e2c7",
-    "152d814bf596bf02ad3a",
+    "00c40b4206690dfffc84",
+    "9615d1a04724668e02a3",
     "8a8b143bb8bfcb3d78ae",
-    "e0b7bbcb792e0fbad3ae",
-    "fc22245c30032cd43c46",
-    "1dc1e16b6f5474a66a57",
-    "65e115b5c8e00c1f7e4e",
-    "298bbdc6790bca932461",
-    "4c6f20c7934cf4eb8734",
-    "b3a4730724278d99f7f5",
+    "c31ab76f8e45ec939ae1",
+    "fe9a4792f5dbc57d8a58",
     "ffe1683df4f03ae209c0",
-    "0a86e21e1e3e8f480e73",
+    "3c95c010bd44ca3a5456",
     "ad785ecb1675628e398a",
-    "e569d643bf72a0490693",
-    "165ee1d0008a5c78c53c",
-    "baebb523ab8fca300500",
-    "06503644bb5a8f626b8f",
-    "3c97f8554c40ea43d1c7",
+    "b3b5a08d1f73205dd9d4",
+    "98dc267658b6d600b3cd",
+    "d758b1213eee298e4063",
+    "73485e9046525cd5b04c",
+    "bbaccbf020a0438d034c",
+    "a8d1268dba151c5ba15a",
     "0b5bb8c78985d9a57a04",
-    "19d54b7ce6da1aa3738f",
     "6c3a04f75c208b89bd07",
-    "56833c7dc65b3056421b",
-    "cd4cf5b38616ed618838",
-    "fed8561b3a9d68df9351",
-    "503bf6a62a7a6fc37032",
-    "c50d60e2dcc4c6db40cb",
-    "c58071384cc3eeaf44eb",
-    "7099294e1ff31987497c",
-    "d134217534c608979318",
+    "02d8683ee0fe67622b2c",
+    "db83a9625ed0dcee434d",
+    "6228cc674ae4e37eb7f2",
+    "60fcb036447981020119",
+    "678364bd0c7c2ed0c398",
+    "3b9b1476023fdac9ad4b",
+    "2b977f34df08120bf7b1",
+    "ef3f3c8db6214fb1a4c5",
     "1578a8657d443844c703",
-    "7139170420e939bc9796",
-    "29539bc238e2cafd6aa2"
+    "65294c32ee6347d244b3",
+    "da6ea3c8a935cffc937b"
   ],
   "stories": [
+    {
+      "id": "db83a9625ed0dcee434d",
+      "headline": "Jukan flags China’s push for full-stack hardware independence",
+      "bullets": [
+        "@jukan05 characterizes China as pursuing full-stack hardware independence, including network switches."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · China Supply Chain · Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "A relevant China hardware-supply-chain observation, but the post offers little detail on scope or implementation.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2102623753582883049",
+          "name": "@jukan05",
+          "published_at": "2026-09-23T04:59:02Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2102623753582883049",
+          "handle": "jukan05",
+          "published_at": "2026-09-23T04:59:02Z"
+        }
+      ],
+      "published_at": "2026-09-23T04:59:02Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "c31ab76f8e45ec939ae1",
+      "headline": "Deutsche Bank sees DRAM imbalance worsening before possible 2030 oversupply",
+      "bullets": [
+        "Deutsche Bank forecasts the DRAM supply-demand imbalance worsening in 2027 and 2028.",
+        "The bank expects the market to approach equilibrium by 2029 and potentially move into oversupply in 2030, depending on the pace of fab construction."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 77,
+      "priority": "High",
+      "score_reason": "A multi-year DRAM supply outlook is material to memory capacity planning; the post preserves the bank’s conditional forecast.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102611664881262752",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T04:11:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102611664881262752",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T04:11:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T04:11:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "fe9a4792f5dbc57d8a58",
+      "headline": "ASML warns Europe risks falling behind as it reports no chip-tool sales there",
+      "bullets": [
+        "Bloomberg reported that ASML said it is not selling chipmaking machines in Europe.",
+        "The report says the company warned Europe risks falling behind the US, China and India in semiconductors."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ASML"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Supply Chain",
+      "categories": [
+        "WFE",
+        "Supply Chain"
+      ],
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "The reported lack of equipment sales and warning about regional competitiveness are significant to European fab investment and equipment demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102599540197200343",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T03:22:49Z"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-22/asml-executive-says-europe-s-biggest-firm-has-no-sales-in-europe?taid=6ab2959c6c6dc70001a5ab3e",
+          "name": "www.bloomberg.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102599540197200343",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T03:22:49Z"
+        }
+      ],
+      "published_at": "2026-09-23T03:22:49Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "253217d728e028ba968a",
+      "headline": "Weibo author reports 4% first-week unit growth for iPhone 18 Pro models",
+      "bullets": [
+        "The Weibo author reports that combined first-week unit sales for the iPhone 18 Pro models rose 4% versus the previous generation's two Pro models, while sales revenue increased 14%.",
+        "The author says total first-week sales were still nearly 20% lower than the previous generation's lineup, which included a standard model, and that Apple's weekly share returned to first place last week."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 70,
+      "priority": "High",
+      "score_reason": "Fresh smartphone sales and share data with implications for device demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346266966134309",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-23T03:07:16Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-23T03:07:16Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346266966134309",
+          "published_at": "2026-09-23T03:07:16Z",
+          "original_text": "iPhone18 Pro系列的首周数据还是挺好的，综合比上代两款Pro的销量增长了4%，但销售额涨了14%。因为上代有标准版，所以整体首周比上代还是下降了接近20%。 即便如此，苹果上周的周份额还是轻松回到了第一，远超第二名。 #手机市场数据分析#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346266966134309",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "00c40b4206690dfffc84",
+      "headline": "UBS raises 2027 AI-chip and packaging estimates across hyperscalers",
+      "bullets": [
+        "UBS raised its 2027 Nvidia AI-GPU production estimate from 8.2 million to 8.8 million; it also expects Rubin Ultra to ramp more smoothly from mid-2027 and raised AMD’s 2027 CoWoS demand estimate by 11%, citing a stronger Venice server-CPU ramp.",
+        "The recap says UBS expects Maia 200/300 units, OpenAI Jalapeño units and Meta MTIA units to rise in 2027; it gives respective estimates of 50,000–350,000, 600,000–700,000 and about 450,000. Visibility for Meta was described as lower.",
+        "UBS estimates Google TPU packages at 9 million and Amazon Trainium at 3.2 million in 2027, up from 4.1 million and 2.5 million in 2026, respectively; it keeps AMD accelerators at 1.9 million for 2027 because of tight supply."
+      ],
+      "companies": [
+        {
+          "ticker": "AMD",
+          "aliases": [],
+          "name": "AMD"
+        },
+        {
+          "ticker": "TSM",
+          "aliases": [],
+          "name": "TSMC"
+        },
+        {
+          "ticker": "GOOGL",
+          "aliases": [],
+          "name": "Google"
+        },
+        {
+          "ticker": "AMZN",
+          "aliases": [],
+          "name": "Amazon"
+        },
+        {
+          "ticker": "MSFT",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "META",
+          "aliases": [],
+          "name": "Meta"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 87,
+      "priority": "Critical",
+      "score_reason": "The UBS recap materially revises forecasts across accelerators, custom silicon and advanced packaging; the estimates are attributed to the bank and remain forecasts.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102595056268161434",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T03:05:00Z"
+        },
+        {
+          "url": "https://x.com/i/web/status/2102311185202958381",
+          "name": "x.com",
+          "published_at": null
+        },
+        {
+          "url": "https://twitter.com/knockouttrader/status/2101959059842761121",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102595056268161434",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T03:05:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T03:05:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "8f501e4501fdf56d522a",
+      "headline": "Yiswei Computing passes Hong Kong listing hearing, according to a Weibo post",
+      "bullets": [
+        "An industry Weibo account says Yiswei Computing has passed the Hong Kong listing hearing.",
+        "The article title says the company is seeking to become the first listed RISC-V chip company; the captured post provides no further listing details."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Yiswei Computing"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain"
+      ],
+      "importance": 63,
+      "priority": "High",
+      "score_reason": "A public-listing milestone for a RISC-V chip company.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346249974219230",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-23T01:59:44Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-23T01:59:44Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5346249974219230",
+          "published_at": "2026-09-23T01:59:44Z",
+          "original_text": "发布了文章 《奕斯伟计算通过港交所聆讯：冲刺“RISC-V芯片第一股”！》 奕斯伟计算通过港交所聆讯：冲刺“RISC-V芯片第一股”！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346249974219230",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "d758b1213eee298e4063",
+      "headline": "Intelfabs argues HBM supply still cannot fully meet demand",
+      "bullets": [
+        "The post argues that HBM would remain undersupplied even after lowering supply assumptions."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "HBM supply constraints are material to accelerator production, but the post gives no supporting estimates in captured text.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/intelfabs/status/2102568752248496439",
+          "name": "@intelfabs",
+          "published_at": "2026-09-23T01:20:29Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/intelfabs/status/2102568752248496439",
+          "handle": "intelfabs",
+          "published_at": "2026-09-23T01:20:29Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:20:29Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "a8d1268dba151c5ba15a",
+      "headline": "Earlier report cited by DNystedt describes underused Chinese AI data-center capacity",
+      "bullets": [
+        "A post highlighting an earlier Science & Technology Daily report says some Chinese AI data centers had utilization of about 30% last year.",
+        "The cited account describes rushed, fragmented investment and warns that some new centers may be outdated or lack customers; the post notes the article is from last year."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · China Supply Chain · Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "Underutilization and low-quality capacity are relevant to China’s AI-compute buildout, but the highlighted source is older rather than a new underlying study.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568039778857033",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T01:17:39Z"
+        },
+        {
+          "url": "https://www.digitalchina.gov.cn/2025/xwzx/qwfb/202507/t20250717_5048811.htm",
+          "name": "www.digitalchina.gov.cn",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568039778857033",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T01:17:39Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:17:39Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "6228cc674ae4e37eb7f2",
+      "headline": "Alibaba’s T-Head unveils Zhenwu V900 AI processor and 2027 CPU roadmap",
+      "bullets": [
+        "Alibaba’s T-Head introduced the Zhenwu V900 for AI training and inference, saying it can handle high-precision training and ultra-low-precision inference and delivers three times the performance of its predecessor.",
+        "Alibaba says Zhenwu chips serve more than 650 customers across industries.",
+        "The company also outlined next-generation Yitian CPUs for agentic-AI tasks, scheduled for launch in 2027."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "T-Head"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain · Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "A major Chinese company announced an AI processor and a next-generation CPU roadmap, with stated performance and customer figures.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568003502280889",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T01:17:30Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568003502280889",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T01:17:30Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:17:30Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "7fae988538c38e27808c",
+      "headline": "Weibo author flags crowded phone launches and on-device AI competition around Xiaomi 18 Pro",
+      "bullets": [
+        "The Weibo author says Xiaomi's 18 Pro series was due to launch that evening and would be the first to use Qualcomm's sixth-generation Snapdragon 8 Elite flagship chip.",
+        "The author describes this year's pre-holiday phone launch calendar as crowded and says on-device AI is a key area of competition."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qualcomm"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 61,
+      "priority": "High",
+      "score_reason": "Market commentary tied to a new flagship chip and smartphone launch cycle.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346239184896860",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-23T01:16:53Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-23T01:16:53Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346239184896860",
+          "published_at": "2026-09-23T01:16:53Z",
+          "original_text": "#小米18Pro系列# 今晚发布。各厂商今年国庆节前的集中发布，相比去年国庆之前只有果和粮两家，今年的市场高度拥挤。也把各厂商都拉到同一起跑线。 粮厂今年和高通的发布会事实上是在一天举行，算是极限时间管理了。除了传统的影像，屏幕，游戏，电池之类的卖点，今年的AI端侧落地也是一个必争的领域。 #小米18Pro系列今日发布# #小米首发第六代骁龙8超级至尊版#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346239184896860",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "9615d1a04724668e02a3",
+      "headline": "Wafer-price forecasts rise alongside projected AI and memory demand",
+      "bullets": [
+        "The cited reporting expects 2027 contract prices for 12-inch epitaxial wafers to rise 15%–25% and polished wafers by more than 40%; some second-tier customers may face increases above 50%. Analysts also see spot prices potentially exceeding existing contract prices in 2026’s fourth quarter.",
+        "The cited forecasts put GlobalWafers’ 12-inch wafer average selling price at $92 in 2026, $122 in 2027 and $166 in 2028; quarterly shipments are forecast at 11.907 million, 16.174 million and 21.237 million, respectively.",
+        "The research recap forecasts 2027 CoWoS capacity growth of 70.9%, GPU and AI-ASIC shipments up 44.9%, CPU shipments up 36%, and DRAM bit supply up 22%."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "GlobalWafers"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 83,
+      "priority": "Critical",
+      "score_reason": "The merged posts cover the same 12-inch wafer pricing and supply outlook, including major input-cost increases and related packaging and chip-demand forecasts.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102567627570938188",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T01:16:00Z"
+        },
+        {
+          "url": "https://www.ctee.com.tw/news/20260923700097-430501",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2102535161254441147",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T23:07:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102567627570938188",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T01:16:00Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2102535161254441147",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T23:07:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:16:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "2b977f34df08120bf7b1",
+      "headline": "LIWEI_TWCapital sees possible upside for Google TPU and Axion suppliers",
+      "bullets": [
+        "LIWEI_TWCapital argues that if agentic workloads expand, inference costs could lead Google to rely more heavily on its TPU and Axion silicon.",
+        "The post names AVGO, ARM, TSM, CLS, LITE and COHR as potential beneficiaries; it does not provide further supply-chain details in the captured text."
+      ],
+      "companies": [
+        {
+          "ticker": "GOOGL",
+          "aliases": [],
+          "name": "Google"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 61,
+      "priority": "High",
+      "score_reason": "The conditional analysis links potential agentic-AI workloads and inference costs to in-house silicon demand; the post provides only a limited supplier list.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102564857149095980",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T01:05:00Z"
+        },
+        {
+          "url": "https://twitter.com/LIWEI_TWCapital/status/2102559123208626678",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102564857149095980",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T01:05:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:05:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "394cdcfce18f98a33618",
+      "headline": "Weibo article headline reports a Yangtze Memory Technologies patent win and Micron sales ban in Germany",
+      "bullets": [
+        "An industry Weibo account's article headline says Yangtze Memory Technologies won a German patent dispute and Micron was barred from sales there.",
+        "The captured post contains no further details, so the reported ruling and its scope are not independently established here."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Yangtze Memory Technologies"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Micron"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "NAND · China Supply Chain · Supply Chain",
+      "categories": [
+        "NAND",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 78,
+      "priority": "High",
+      "score_reason": "Potentially material legal and market-access development involving major memory suppliers.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346235679772057",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-23T01:02:57Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-23T01:02:57Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5346235679772057",
+          "published_at": "2026-09-23T01:02:57Z",
+          "original_text": "发布了文章 《长江存储德国专利战获胜：美光被禁售！》 长江存储德国专利战获胜：美光被禁售！",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346235679772057",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "b3b5a08d1f73205dd9d4",
+      "headline": "Media report places TSMC 2nm chips in new and upcoming flagship phones",
+      "bullets": [
+        "A media report says TSMC-made 2nm chips are already in Apple’s iPhone 18 Pro series.",
+        "The same report lists upcoming Xiaomi 18 Pro-series phones with Qualcomm Snapdragon 8 Elite Gen 6 chips, and Vivo X500 Pro/Pro Max and Oppo Find X10 Pro Max models expected to use MediaTek Dimensity 9600 Pro 2nm chips."
+      ],
+      "companies": [
+        {
+          "ticker": "TSM",
+          "aliases": [],
+          "name": "TSMC"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        },
+        {
+          "ticker": "QCOM",
+          "aliases": [],
+          "name": "Qualcomm"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "MediaTek"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Vivo"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Oppo"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "The reported deployment of a leading process node across several flagship-phone platforms is material to foundry and mobile-chip supply chains.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102561166044369129",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T00:50:20Z"
+        },
+        {
+          "url": "https://www.ctee.com.tw/news/20260923700094-430502",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102561166044369129",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T00:50:20Z"
+        }
+      ],
+      "published_at": "2026-09-23T00:50:20Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "98dc267658b6d600b3cd",
+      "headline": "Taiwan’s record August export orders were driven by AI and custom-ASIC demand",
+      "bullets": [
+        "Taiwan’s August export orders rose 71.4% year over year to a record US$102.96 billion, with the statistics bureau director-general attributing the upside surprise to AI demand and custom-ASIC design orders.",
+        "ICT orders rose 100.5% to US$34.21 billion and electronics orders increased 83.9% to US$45.75 billion.",
+        "The post reports an official September export-order range of US$106 billion–US$109.1 billion and says full-year 2026 orders could reach US$1.1 trillion."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "The reported record orders and explicit custom-ASIC and AI contribution provide a material signal for semiconductor demand and supply chains.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102556551378846092",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T00:32:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102556551378846092",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T00:32:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T00:32:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "b87be9684e31605afbff",
+      "headline": "Weibo analysis highlights LPDDR6 support and 30B-model capability in 8EE6",
+      "bullets": [
+        "The Weibo author says the 8EE6 generation's efficiency gains appear modest, speculating that cache changes and LPDDR6 support may be factors; the author expects the 8E6 to offer greater gains.",
+        "The author says three SoC makers have announced LPDDR6 support and identifies the Fold18 with XRing O3 as the first commercial phone using it.",
+        "The author says 8EE6 supports a 30-billion-parameter mixture-of-experts model on-device."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qualcomm"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · DRAM · Models",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Models"
+      ],
+      "importance": 71,
+      "priority": "High",
+      "score_reason": "Commentary on mobile SoC efficiency, next-generation memory and on-device AI capability.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346222571521872",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-23T00:10:52Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-23T00:10:52Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346222571521872",
+          "published_at": "2026-09-23T00:10:52Z",
+          "original_text": "8EE6这代的能效提升感觉算是比较克制吧，估计是Cache架构上的调整，和首次引入LPDDR6的原因。相比之下8E6有机会能带来更多的能效提升。 已经有三家厂商的SOC都宣布了支持LPDDR6，手机商用第一个支持LPDDR6的是XRingO3的Fold18。D9600Pro的两大手机厂商都已经发布，还没看到LPDDR6版本。估计8EE6的LPDDR6版本手机也是在某些定制型号上出现。 8EE6给我最大的惊喜是支持MoE架构下的30B的模型，这个在端侧确实是很优秀的。 #高通发布会#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346222571521872",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/006tvJhcgy1ihd9y5snw9j33c01o0h60.jpg",
+            "https://wx3.sinaimg.cn/mw2000/006tvJhcgy1ihd9y6bhbcj31m635sap3.jpg"
+          ],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "3b9b1476023fdac9ad4b",
+      "headline": "EY forecasts a roughly US$1 trillion semiconductor market by 2027",
+      "bullets": [
+        "EY estimates the semiconductor market could reach about US$1 trillion by 2027, at a compound annual growth rate of approximately 12.1%."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "The broad market forecast is relevant to industry demand, though the post provides no segment breakdown or methodology.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102550008906346578",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T00:06:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102550008906346578",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T00:06:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T00:06:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "3c95c010bd44ca3a5456",
+      "headline": "JPM sees 16-high HBM adoption no earlier than 2029",
+      "bullets": [
+        "Jukan’s recap says JPM updated its HBM model and expects adoption of 16-high HBM no earlier than 2029."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "The timing of higher-stack HBM adoption is material to memory and packaging roadmaps, although the post gives only one forecast.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2102543040858775930",
+          "name": "@jukan05",
+          "published_at": "2026-09-22T23:38:18Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2102543040858775930",
+          "handle": "jukan05",
+          "published_at": "2026-09-22T23:38:18Z"
+        }
+      ],
+      "published_at": "2026-09-22T23:38:18Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "678364bd0c7c2ed0c398",
+      "headline": "Stifel cites efficiency-driven capacity and OpenAI contribution in Azure acceleration",
+      "bullets": [
+        "Stifel’s Microsoft upgrade commentary says Azure accelerated versus expectations in June, benefiting from incremental capacity derived from efficiency improvements.",
+        "Stifel also believes a step-up in OpenAI contribution reflected acceleration in OpenAI’s business during the quarter."
+      ],
+      "companies": [
+        {
+          "ticker": "MSFT",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "A sell-side recap links Azure growth to available capacity and OpenAI demand; the post is a short excerpt and preserves Stifel’s attribution and qualification.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/sean_________/status/2102516928459743593",
+          "name": "@sean_________",
+          "published_at": "2026-09-22T21:54:33Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/sean_________/status/2102516928459743593",
+          "handle": "sean_________",
+          "published_at": "2026-09-22T21:54:33Z"
+        }
+      ],
+      "published_at": "2026-09-22T21:54:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "bbaccbf020a0438d034c",
+      "headline": "FundaAI’s checks point to stronger-than-expected memory pricing into early 2027",
+      "bullets": [
+        "FundaAI says a note published the prior afternoon summarized checks suggesting prices associated with $MU and $SNDK could exceed expectations in 2026’s third and fourth quarters and may continue rising in 2027’s first quarter."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "The post gives a near-term memory-pricing outlook tied to named market tickers, while leaving the underlying checks and product detail unspecified.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2102515984330534975",
+          "name": "@fundaai",
+          "published_at": "2026-09-22T21:50:48Z"
+        },
+        {
+          "url": "https://fundaai.substack.com/p/previewmu-fy26q4-focusing-on-earnings",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2102515984330534975",
+          "handle": "fundaai",
+          "published_at": "2026-09-22T21:50:48Z"
+        }
+      ],
+      "published_at": "2026-09-22T21:50:48Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "61b26da83c5947a96a6a",
+      "headline": "Qualcomm launches its sixth-generation Snapdragon 8 Elite lineup; Xiaomi 18 Pro debuts first",
+      "bullets": [
+        "The Weibo industry account says Qualcomm officially launched its sixth-generation Snapdragon 8 Elite dual-flagship lineup, positioned for agentic AI.",
+        "It reports that the Xiaomi 18 Pro series is the first to feature the new chips."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Qualcomm"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "New flagship smartphone processors and a named first device launch.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346184793424045",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-22T21:40:45Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T21:40:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5346184793424045",
+          "published_at": "2026-09-22T21:40:45Z",
+          "original_text": "为智能体AI而生，高通第六代骁龙8至尊版双旗舰正式发布，小米18 Pro系列首发",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346184793424045",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/006iDZQzgy1ihd5x3thbwj31400u0q56.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006iDZQzgy1ihd5x9jbvrj335s2dchdu.jpg",
+            "https://wx2.sinaimg.cn/mw2000/006iDZQzgy1ihd5xd6r7wj335s2dcnpe.jpg",
+            "https://wx2.sinaimg.cn/mw2000/006iDZQzgy1ihd5xgj1zij335s2dcqv6.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006iDZQzgy1ihd5xjo5lpj335s2dcx6q.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006iDZQzgy1ihd5xmc8knj335s2dcnpe.jpg",
+            "https://wx2.sinaimg.cn/mw2000/006iDZQzgy1ihd5xp6hl3j335s2dchdu.jpg",
+            "https://wx4.sinaimg.cn/mw2000/006iDZQzgy1ihd5xq1besj31bc0zk789.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006iDZQzgy1ihd5xsmjt3j335s2dcb2a.jpg"
+          ],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "02d8683ee0fe67622b2c",
+      "headline": "Singapore’s August chip exports to Mexico were dominated by processors and controllers",
+      "bullets": [
+        "The cited August 2026 trade figures put Singapore’s IC and IC-parts exports to Mexico at S$2.54 billion, of which processors and controllers accounted for S$2.45 billion.",
+        "Memory ICs were reported at S$25.9 million, about 1% of the route’s IC-and-parts export value."
+      ],
+      "companies": [
+        {
+          "ticker": "2317.TW",
+          "aliases": [],
+          "name": "Foxconn"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "The post supplies a specific semiconductor trade-route composition, offering a useful but geographically limited supply-chain signal.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102504710163087687",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T21:06:00Z"
+        },
+        {
+          "url": "https://twitter.com/skylabintel/status/2102242482486435884",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102504710163087687",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T21:06:00Z"
+        }
+      ],
+      "published_at": "2026-09-22T21:06:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "73485e9046525cd5b04c",
+      "headline": "Samsung Securities identifies equipment beneficiaries of Terafab’s planned Intel 14A start",
+      "bullets": [
+        "Samsung Securities says Terafab initially plans to use Intel’s 14A process technology and supply chain.",
+        "The research identifies ASML, AMAT, LRCX and KLAC among the equipment vendors positioned as early beneficiaries."
+      ],
+      "companies": [
+        {
+          "ticker": "INTC",
+          "aliases": [],
+          "name": "Intel"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Foundry · Supply Chain",
+      "categories": [
+        "WFE",
+        "Foundry",
+        "Supply Chain"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "The research links a planned advanced process and supply chain to equipment demand; the post provides limited project detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102491120647205283",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T20:12:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102491120647205283",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T20:12:00Z"
+        }
+      ],
+      "published_at": "2026-09-22T20:12:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "65294c32ee6347d244b3",
+      "headline": "An unverified test suggests Anthropic classifiers may target Chinese hardware",
+      "bullets": [
+        "A quick test shared by @xlr8harder suggests Anthropic’s classifiers may target Chinese hardware; the post calls for further probing, so the claim remains unconfirmed."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Anthropic"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "A potentially relevant model-behavior claim, but it is based on a preliminary test and is explicitly unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102476752476099063",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-22T19:14:54Z"
+        },
+        {
+          "url": "https://twitter.com/xlr8harder/status/2102476236891234697",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102476752476099063",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-22T19:14:54Z"
+        }
+      ],
+      "published_at": "2026-09-22T19:14:54Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "60fcb036447981020119",
+      "headline": "BofA forecasts strong cloud-revenue growth at US and Chinese hyperscalers",
+      "bullets": [
+        "BofA forecasts revenue at the leading US hyperscalers—Amazon, Microsoft, Oracle and Alphabet—rising from US$290 billion in 2025 to US$975 billion in 2028.",
+        "It forecasts China’s leading hyperscalers—Alibaba, Tencent, ByteDance and Baidu—growing from US$28 billion to US$94 billion over the same period."
+      ],
+      "companies": [
+        {
+          "ticker": "AMZN",
+          "aliases": [],
+          "name": "Amazon"
+        },
+        {
+          "ticker": "MSFT",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Oracle"
+        },
+        {
+          "ticker": "GOOGL",
+          "aliases": [],
+          "name": "Alphabet"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Tencent"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ByteDance"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Baidu"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 75,
+      "priority": "High",
+      "score_reason": "The bank’s multi-year cloud-revenue forecast is material compute-market commentary and includes both US and Chinese hyperscalers.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102475517824032825",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T19:10:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102475517824032825",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T19:10:00Z"
+        }
+      ],
+      "published_at": "2026-09-22T19:10:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "da6ea3c8a935cffc937b",
+      "headline": "A DeepSeek Elastic Compute summary reports large-scale sandbox capacity",
+      "bullets": [
+        "A reposted summary of a DeepSeek Elastic Compute paper describes a production-scale unit spanning about 160 nodes and serving roughly 3 million sandboxes per day.",
+        "The same summary says it supports more than 380,000 concurrent sandboxes and over 5,000 sandbox creations per second."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "DeepSeek"
+        }
+      ],
+      "topic_tier": 4,
+      "topic": "Compute · Models · China Models",
+      "categories": [
+        "Compute",
+        "Models",
+        "China Models"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "The figures describe production-scale infrastructure for a major Chinese AI model developer; the post is a reposted summary rather than independent verification.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102453404320878702",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-22T17:42:07Z"
+        },
+        {
+          "url": "https://twitter.com/teortaxesTex/status/2102453018260025415",
+          "name": "twitter.com",
+          "published_at": null
+        },
+        {
+          "url": "https://twitter.com/54158zxc/status/2102345473915052412",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102453404320878702",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-22T17:42:07Z"
+        }
+      ],
+      "published_at": "2026-09-22T17:42:07Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "ef3f3c8db6214fb1a4c5",
+      "headline": "Anthropic system-card claim cites multi-agent scaling to 100 parallel agents",
+      "bullets": [
+        "A post says Anthropic’s system card reports multi-agent scaling to as many as 100 parallel agents."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Anthropic"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 63,
+      "priority": "High",
+      "score_reason": "A substantive model-development capability claim, attributed to a post describing Anthropic’s system card.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102447846071189972",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-22T17:20:02Z"
+        },
+        {
+          "url": "https://twitter.com/scaling01/status/2102438640211423585",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102447846071189972",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-22T17:20:02Z"
+        }
+      ],
+      "published_at": "2026-09-22T17:20:02Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "d029b9bbd42341127a85",
+      "headline": "Weibo author says Xiaomi's MiMo-V2.6-Pro leads an Artificial Analysis open-model evaluation",
+      "bullets": [
+        "The Weibo author says Artificial Analysis's composite evaluation ranks Xiaomi's MiMo-V2.6-Pro highest among open-source models, with competitive pricing.",
+        "The author argues that greater investment and a separate product line could make Xiaomi a leading global foundation-model company; this is the author's outlook."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Artificial Analysis"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models · China Models",
+      "categories": [
+        "Models",
+        "China Models"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "AI model performance and pricing assessment, plus a stated expansion thesis.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346049578244377",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-22T12:43:27Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T12:43:27Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346049578244377",
+          "published_at": "2026-09-22T12:43:27Z",
+          "original_text": "Artificial Analysis的综合评测中MiMo-V2.6-Pro成为开源模型得分最高，价格也很有竞争力。小米的模型从技术能力角度看，已经跻身第一梯队。 这个业务如果成为一个独立的产品线，继续投入加大，小米很有机会成为全球头部大模型公司之一。 #小米MiMo为何登顶开源第一#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346049578244377",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/006tvJhcly1ihcq2pikb3j30i60witnq.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006tvJhcly1ihcq1ol9jwj31vm1rw4qc.jpg"
+          ],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "b0c8fb7027aecfd6954f",
+      "headline": "Citi forecasts a 21% HBM supply shortfall in 2027, according to a Weibo post",
+      "bullets": [
+        "The Weibo author cites Citi forecasts for global HBM demand of 45.6 billion gigabits in 2026, 75.2 billion in 2027 and 128 billion in 2028; projected 2027 supply of 59.4 billion gigabits would leave a 21% shortfall.",
+        "The author says Samsung plans to expand SF2 and SF4 capacity, and describes Samsung's HBM base-die process plans and SK hynix's use of TSMC processes for HBM4 and HBM4E.",
+        "The author expects logic-process prices to rise; this is a forecast, not a confirmed pricing change."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Citi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "SK hynix"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "TSMC"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · DRAM · Supply Chain",
+      "categories": [
+        "Foundry",
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 88,
+      "priority": "Critical",
+      "score_reason": "Large projected memory shortfall and implications for advanced-node capacity.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346044065879544",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-22T12:21:33Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T12:21:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346044065879544",
+          "published_at": "2026-09-22T12:21:33Z",
+          "original_text": "花旗数据，未来两年的全球HBM需求将从2026年的456亿Gb，增长到2027年的752亿Gb，以及2028年的1280亿Gb。但2027年的供应只有594亿Gb，相比需求量短缺21%。 之前分析过，三星的HBM4和HBM4E的Base Die都采用三星自家的SF4制程，未来HBM5将升级到SF2制程。所以当前的SF4和SF2产能未来两年已经远不能满足自己的HBM以及其他客户的先进制程需求。三星准备扩建SF2和SF4的产线。 相比之下，SK海力士的HBM4 Base Die采用台积的N12，制程上确实落后了，不过HBM4E的Base Die将采用台积电的N4制程，这也给台积电的N4供应带来很大的压力。 不出意外，逻辑制程的价格要继续上涨了。",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346044065879544",
+          "images": [
+            "https://wx4.sinaimg.cn/mw2000/006tvJhcgy1ihcphpkqjaj30xc0k2ado.jpg"
+          ],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": true,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "9f852b112fbe64351055",
+      "headline": "Weibo post links memory-cost pressure to OPPO Find X10 Pro Max pricing and Samsung sensors",
+      "bullets": [
+        "The Weibo author says rising memory costs are putting pressure on Pro Max phone pricing.",
+        "The author says OPPO's Find X10 Pro Max uses three 200-megapixel Samsung sensors: an HPC main camera and HP5 ultra-wide and 3x periscope cameras."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OPPO"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Samsung Electronics"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 55,
+      "priority": "Medium",
+      "score_reason": "Reports smartphone component sourcing alongside memory-cost and pricing pressure.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346036014122343",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-22T11:49:33Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T11:49:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346036014122343",
+          "published_at": "2026-09-22T11:49:33Z",
+          "original_text": "由于存储成本的快速增长，这代大家的Pro Max在定价上都承压，所以用Pro Max对标Ultra的影像配置已经成为共识。绿厂这次的FindX10 Pro Max三摄3x200MP，都来自三星：HPC主摄 + HP5超广 + HP5 3x潜望。 #OPPO发布会#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346036014122343",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "6b7bbdd7af8c55d73168",
+      "headline": "Weibo post reports August smartphone shipment mix below the 2K tier",
+      "bullets": [
+        "The Weibo author reports the share of each label's August shipments that fell below the 2K price tier: Other 61%, Liangchang 47%, Yaozi 46%, Lüxi 33%, Lanchang 28%, Huachang 26% and Apple 0%.",
+        "The author gives the market average as 32%. The non-English brand nicknames are rendered here in Latin letters rather than assigned company identities."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "Specific smartphone pricing-tier shipment data, though brand labels are partly ambiguous.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346023041666276",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-22T10:58:00Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T10:58:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346023041666276",
+          "published_at": "2026-09-22T10:58:00Z",
+          "original_text": "8月份2K以下档位占各自的出货比例： 其他   61% 粮厂   47% 耀子   46% 绿系   33% ------市场平均32%------ 蓝厂   28% 🌸厂  26% 果子    0% #手机市场数据分析#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346023041666276",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "2849f5a0f81bf39b2223",
+      "headline": "Weibo post reports August smartphone shipment mix in the 2K–4K tier",
+      "bullets": [
+        "For the 2K–4K tier, the Weibo author reports that the price band accounted for 50% of Lanchang's August shipments, 47% of Lüxi's and 44% of Yaozi's.",
+        "The post gives the market average as 33%, and also reports Huachang at 31%, Liangchang at 29%, Other at 5% and Apple at 0%. The non-English brand nicknames are rendered in Latin letters rather than assigned company identities."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "Specific smartphone pricing-tier shipment data, though brand labels are partly ambiguous.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346008049389720",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-22T09:58:26Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T09:58:26Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5346008049389720",
+          "published_at": "2026-09-22T09:58:26Z",
+          "original_text": "8月份2-4K档位占各自的出货比例： 蓝厂  50% 绿系  47% 耀子  44% ------市场平均33%------ 🌸厂 31% 粮厂   29% 其他   5% 果子   0% #手机市场数据分析#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346008049389720",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "3031c06c9c7ba35cac46",
+      "headline": "Weibo article raises prospect of Intel-AUO Micro LED co-packaged optics",
+      "bullets": [
+        "The Weibo account's article title presents an Intel-AUO collaboration and asks whether Micro LED co-packaged optics is forthcoming.",
+        "The captured post gives no further technical or commercial details."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Intel"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "AUO"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Advanced Packaging",
+      "categories": [
+        "Compute",
+        "Advanced Packaging"
+      ],
+      "importance": 56,
+      "priority": "Medium",
+      "score_reason": "Potential photonics and co-packaged-optics development, but the supplied preview is limited.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5346004859882399",
+          "name": "芯智讯官微",
+          "published_at": "2026-09-22T09:45:45Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T09:45:45Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "芯智讯官微",
+          "source_uid": "5772303575",
+          "source_quality": "INDUSTRY",
+          "external_post_id": "5346004859882399",
+          "published_at": "2026-09-22T09:45:45Z",
+          "original_text": "发布了文章 《英特尔携手友达，Micro LED CPO要来了？》 英特尔携手友达，Micro LED CPO要来了？",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5346004859882399",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
+    {
+      "id": "f4126045c773849adc7c",
+      "headline": "Weibo post reports August smartphone shipment mix above the 4K tier",
+      "bullets": [
+        "For the above-4K tier, the Weibo author reports that the band accounted for 100% of Apple's August shipments and 43% of Huachang's.",
+        "The post gives the market average as 35%, and reports Liangchang at 23%, Lanchang at 22%, Lüxi at 20%, Other at 14% and Yaozi at 9%. The non-English brand nicknames are rendered in Latin letters rather than assigned company identities."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Apple"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 50,
+      "priority": "Medium",
+      "score_reason": "Specific high-end smartphone shipment-mix data, though brand labels are partly ambiguous.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://m.weibo.cn/status/5345993323449911",
+          "name": "智慧芯片案内人",
+          "published_at": "2026-09-22T08:59:55Z"
+        }
+      ],
+      "highlights": [],
+      "published_at": "2026-09-22T08:59:55Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Weibo",
+      "weibo_posts": [
+        {
+          "source_category": "Weibo",
+          "source_name": "智慧芯片案内人",
+          "source_uid": "5932872950",
+          "source_quality": "HIGH_SIGNAL",
+          "external_post_id": "5345993323449911",
+          "published_at": "2026-09-22T08:59:55Z",
+          "original_text": "8月份4K以上档位占各自的出货比例： 果子  100% 🌸厂  43% ------市场平均35%------ 粮厂  23% 蓝厂  22% 绿系  20% 其他  14% 耀子  9% 以后再统计高端应该从5K+起了，4K已经逐步沦落到中高档位了。 #手机市场数据分析#",
+          "original_language": "zh",
+          "url": "https://m.weibo.cn/status/5345993323449911",
+          "images": [],
+          "retrieved_at": "2026-09-23T05:10:00Z",
+          "own_text_truncated": false,
+          "repost_truncated": false,
+          "reposted_text": "",
+          "text_truncated": false
+        }
+      ]
+    },
     {
       "id": "00f0e45c780873634526",
       "headline": "Inventec expands Thai capacity for AI-server demand",
@@ -52297,1549 +54202,33 @@
   ],
   "twitter_stories": [
     {
-      "id": "152d814bf596bf02ad3a",
-      "headline": "TSMC reportedly targets A14 trial production in Q1 next year",
+      "id": "00c40b4206690dfffc84",
+      "headline": "UBS raises 2027 AI-chip and packaging estimates across hyperscalers",
       "bullets": [
-        "Media reports say TSMC will begin 1.4nm/A14 trial production in the first quarter of next year, with equipment already moving into Hsinchu Fab 20 P3.",
-        "TSMC's Fab 25 in Taichung is reported to be the second A14 fab, with phase-one construction due to finish in April and trial production potentially beginning in Q3 2027.",
-        "The report describes the schedule as ahead of schedule relative to earlier expectations and says Taichung will be the main A14 cluster."
+        "UBS raised its 2027 Nvidia AI-GPU production estimate from 8.2 million to 8.8 million; it also expects Rubin Ultra to ramp more smoothly from mid-2027 and raised AMD’s 2027 CoWoS demand estimate by 11%, citing a stronger Venice server-CPU ramp.",
+        "The recap says UBS expects Maia 200/300 units, OpenAI Jalapeño units and Meta MTIA units to rise in 2027; it gives respective estimates of 50,000–350,000, 600,000–700,000 and about 450,000. Visibility for Meta was described as lower.",
+        "UBS estimates Google TPU packages at 9 million and Amazon Trainium at 3.2 million in 2027, up from 4.1 million and 2.5 million in 2026, respectively; it keeps AMD accelerators at 1.9 million for 2027 because of tight supply."
       ],
       "companies": [
+        {
+          "ticker": "AMD",
+          "aliases": [],
+          "name": "AMD"
+        },
         {
           "ticker": "TSM",
           "aliases": [],
           "name": "TSMC"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "WFE · Foundry · Supply Chain",
-      "categories": [
-        "WFE",
-        "Foundry",
-        "Supply Chain"
-      ],
-      "importance": 88,
-      "priority": "Critical",
-      "score_reason": "High-impact leading-edge foundry and fab-equipment milestone with capacity and timing implications.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102184471193858390",
-          "name": "@dnystedt",
-          "published_at": "2026-09-21T23:53:29Z"
-        },
-        {
-          "url": "https://www.ctee.com.tw/news/20260922700039-430501",
-          "name": "www.ctee.com.tw",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102184471193858390",
-          "handle": "dnystedt",
-          "published_at": "2026-09-21T23:53:29Z"
-        }
-      ],
-      "published_at": "2026-09-21T23:53:29Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "909079950c5646c1e2c7",
-      "headline": "Jukan: Samsung weighs more 4nm capacity and a new 2nm line for HBM demand",
-      "bullets": [
-        "Jukan relays Korean media reports that Samsung is considering expanding 4nm capacity and investing in a new 2nm production line to meet HBM4 base-die demand and prepare for HBM5.",
-        "The report says Samsung has recently raised prices for new 4nm foundry orders and HBM4 base dies.",
-        "Samsung reportedly expects Q3 HBM4 revenue to more than triple sequentially, with HBM4 contributing more than 60% of total HBM revenue in the second half."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Samsung"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Foundry · DRAM · Supply Chain",
-      "categories": [
-        "Foundry",
-        "DRAM",
-        "Supply Chain"
-      ],
-      "importance": 85,
-      "priority": "Critical",
-      "score_reason": "Major foundry and HBM capacity, pricing and revenue claims with direct implications for advanced-node and memory supply.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/jukan05/status/2102285095336096033",
-          "name": "@jukan05",
-          "published_at": "2026-09-22T06:33:19Z"
-        },
-        {
-          "url": "https://www.mt.co.kr/amp/industry/2026/09/21/2026092114333425215",
-          "name": "www.mt.co.kr",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2102285095336096033",
-          "handle": "jukan05",
-          "published_at": "2026-09-22T06:33:19Z"
-        }
-      ],
-      "published_at": "2026-09-22T06:33:19Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "8a8b143bb8bfcb3d78ae",
-      "headline": "UBS sees DRAM and NAND contract prices rising through 2027",
-      "bullets": [
-        "UBS expects DRAM and NAND contract prices to continue rising through the end of 2027, with the cited cycle measures at 766% over 13 quarters for DRAM and 471% over nine quarters for NAND.",
-        "@intelfabs says shortages through 2027 are supported by major-bank views but argues UBS may overstate how smoothly prices can compound into 2028 if demand or capacity responds.",
-        "The outlook combines a cited UBS forecast with an attributed analytical caution, not an independently verified price forecast."
-      ],
-      "companies": [],
-      "topic_tier": 1,
-      "topic": "DRAM · NAND · Supply Chain",
-      "categories": [
-        "DRAM",
-        "NAND",
-        "Supply Chain"
-      ],
-      "importance": 82,
-      "priority": "Critical",
-      "score_reason": "Material memory-pricing and shortage outlook affecting the supply chain, with explicit uncertainty around the longer-term extension.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102280918035575035",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-22T06:16:44Z"
-        },
-        {
-          "url": "https://x.com/intelfabs/status/2102252465714516287",
-          "name": "@intelfabs",
-          "published_at": "2026-09-22T04:23:40Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102280918035575035",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-22T06:16:44Z"
-        },
-        {
-          "url": "https://x.com/intelfabs/status/2102252465714516287",
-          "handle": "intelfabs",
-          "published_at": "2026-09-22T04:23:40Z"
-        }
-      ],
-      "published_at": "2026-09-22T06:16:44Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "e0b7bbcb792e0fbad3ae",
-      "headline": "TrendForce forecasts double-digit Q3 DRAM and NAND contract-price gains",
-      "bullets": [
-        "TrendForce, as relayed by @QQ_Timmy, forecasts third-quarter conventional DRAM contract prices rising 13%–18% sequentially and NAND contract prices rising 10%–15%.",
-        "The roundup says second-quarter DRAM revenue rose nearly 59.5% sequentially and supplier inventories are low, leaving supply growth behind demand.",
-        "It also says Samsung and SK hynix are accelerating expansion while CXMT is advancing fifth-generation DRAM; the supplied text presents these as market observations."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Samsung"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "SK hynix"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "CXMT"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · NAND · Supply Chain",
-      "categories": [
-        "DRAM",
-        "NAND",
-        "Supply Chain"
-      ],
-      "importance": 82,
-      "priority": "Critical",
-      "score_reason": "Mandatory TrendForce-linked memory research with specific near-term contract-price forecasts and supply indicators.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102230706902675595",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T02:57:12Z"
-        },
-        {
-          "url": "https://m.moneydj.com/f1a.aspx?a=f9a43fe5-3291-4a1c-9bdd-7ba38dbde097",
-          "name": "m.moneydj.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102230706902675595",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T02:57:12Z"
-        }
-      ],
-      "published_at": "2026-09-22T02:57:12Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "fc22245c30032cd43c46",
-      "headline": "StatementDog analyst sees DRAM shortages spilling into enterprise SSD demand",
-      "bullets": [
-        "A recap of StatementDog analyst Ken says NAND prices are still rising in the second half of 2026, but quarterly increases are moderating to low double digits from 80%–100% jumps in the first half.",
-        "The recap says memory has risen from 10%–15% to 35%–45% of phone and PC bill of materials, prompting lower-end production cuts and premium-device prioritization.",
-        "It also says hyperscaler enterprise-SSD demand remains strong, DRAM shortages are pushing KV-cache data toward SSDs, and NAND may remain undersupplied through the first half of 2027 despite projected 20% bit-supply growth in 2027."
-      ],
-      "companies": [
-        {
-          "ticker": "MU",
-          "aliases": [],
-          "name": "Micron"
-        },
-        {
-          "ticker": "NVDA",
-          "aliases": [],
-          "name": "NVIDIA"
-        },
-        {
-          "ticker": "CXMT",
-          "aliases": [],
-          "name": "CXMT"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Compute · DRAM · NAND · China Supply Chain · Supply Chain",
-      "categories": [
-        "Compute",
-        "DRAM",
-        "NAND",
-        "China Supply Chain",
-        "Supply Chain"
-      ],
-      "importance": 82,
-      "priority": "Critical",
-      "score_reason": "Broad, detailed memory-cycle analysis covering pricing, device BOMs, hyperscaler demand, storage substitution and Chinese technology catch-up.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102204230832427383",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-22T01:12:00Z"
-        },
-        {
-          "url": "https://x.com/i/article/2101927745752367104",
-          "name": "x.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102204230832427383",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-22T01:12:00Z"
-        }
-      ],
-      "published_at": "2026-09-22T01:12:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "1dc1e16b6f5474a66a57",
-      "headline": "Bernstein meetings: Intel can sell all available server chips into 2027",
-      "bullets": [
-        "@intelfabs' recap of Bernstein management meetings says Intel's margin improvement reflected mix, volume and price rather than a completed turnaround.",
-        "The recap says Intel can sell all the server chips it can make into 2027, while packaging and custom chips are expected to grow quickly but initially carry weaker margins.",
-        "It says older plants are profitable, new 18A plants need substantial scale, and 2028 will be the key test as new industry capacity arrives."
-      ],
-      "companies": [
-        {
-          "ticker": "INTC",
-          "aliases": [],
-          "name": "Intel"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Foundry · Compute · Advanced Packaging · Supply Chain",
-      "categories": [
-        "Foundry",
-        "Compute",
-        "Advanced Packaging",
-        "Supply Chain"
-      ],
-      "importance": 80,
-      "priority": "Critical",
-      "score_reason": "Major foundry, server-demand and packaging commentary tied to Intel's turnaround economics and future capacity.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/intelfabs/status/2102195239691903036",
-          "name": "@intelfabs",
-          "published_at": "2026-09-22T00:36:16Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/intelfabs/status/2102195239691903036",
-          "handle": "intelfabs",
-          "published_at": "2026-09-22T00:36:16Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:36:16Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "65e115b5c8e00c1f7e4e",
-      "headline": "Jukan disputes EMIB explanation for Malaysia's HBM export surge",
-      "bullets": [
-        "Quoted SemiAnalysis ChipBook data show a reported 467% year-on-year jump in HBM exports from Korea to Malaysia, worth about $3 billion over two months; the quoted analysis links the flow to Intel's advanced-packaging activity in Penang and roughly 50 back-end job openings.",
-        "Jukan disputes that EMIB is the main explanation, instead alleging that China is smuggling South Korean-made HBM through Malaysia.",
-        "Jukan also says the timing does not fit EMIB entering high-volume production; the competing explanations and smuggling allegation are not independently verified here."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Intel"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · Advanced Packaging · China Supply Chain · Supply Chain",
-      "categories": [
-        "DRAM",
-        "Advanced Packaging",
-        "China Supply Chain",
-        "Supply Chain"
-      ],
-      "importance": 80,
-      "priority": "Critical",
-      "score_reason": "Potentially material HBM diversion and advanced-packaging supply-chain development, with clearly disputed and unverified interpretations.",
-      "verification": "opinion",
-      "sources": [
-        {
-          "url": "https://x.com/jukan05/status/2102171495795744781",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T23:01:55Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102167963403170252",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T22:47:53Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102166543983685961",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T22:42:15Z"
-        },
-        {
-          "url": "https://x.com/dnystedt/status/2102209229650342204",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T01:31:52Z"
-        },
-        {
-          "url": "https://twitter.com/semianalysis_/status/2102166043108004235",
-          "name": "twitter.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2102171495795744781",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T23:01:55Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102167963403170252",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T22:47:53Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102166543983685961",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T22:42:15Z"
-        },
-        {
-          "url": "https://x.com/dnystedt/status/2102209229650342204",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T01:31:52Z"
-        }
-      ],
-      "published_at": "2026-09-22T01:31:52Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "298bbdc6790bca932461",
-      "headline": "DigiTimes: YMTC and CXMT are moving into each other's memory markets",
-      "bullets": [
-        "DigiTimes, as relayed by Jukan, reports that YMTC is moving toward LPDDR5 DRAM trial production by the end of 2026 and plans roughly 25,000 wafers of initial DRAM capacity at its Phase 3 project.",
-        "The report says CXMT is seeking to expand beyond DRAM into NAND, while YMTC is moving into DRAM; CXMT is reportedly planning a Beijing NAND research and production line.",
-        "DigiTimes says the companies could compete directly as early as 2028, with patent disputes and supplier alignment becoming important; CXMT mass production is described as 2028–2029 at the earliest."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "YMTC"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "CXMT"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · NAND · China Supply Chain · Supply Chain",
-      "categories": [
-        "DRAM",
-        "NAND",
-        "China Supply Chain",
-        "Supply Chain"
-      ],
-      "importance": 78,
-      "priority": "High",
-      "score_reason": "Potentially significant Chinese memory-capacity and technology competition spanning both DRAM and NAND.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/jukan05/status/2102166078508126388",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T22:40:24Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102166075966468376",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T22:40:23Z"
-        },
-        {
-          "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=1&Cat=40&id=0000769230_RRC3R0BZ22T1NV17PI2MP",
-          "name": "www.digitimes.com.tw",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2102166078508126388",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T22:40:24Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102166075966468376",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T22:40:23Z"
-        }
-      ],
-      "published_at": "2026-09-21T22:40:24Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "4c6f20c7934cf4eb8734",
-      "headline": "Bernstein forecasts CXMT approaching 20% of global DRAM wafer capacity in 2028",
-      "bullets": [
-        "Bernstein projects CXMT's wafer-capacity share could surpass Micron's in 2028 and reach nearly 20% globally.",
-        "The figure is an analyst forecast relayed by @pequityresearch, not a reported current market-share measurement."
-      ],
-      "companies": [
-        {
-          "ticker": "MU",
-          "aliases": [],
-          "name": "Micron"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "CXMT"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · China Supply Chain · Supply Chain",
-      "categories": [
-        "DRAM",
-        "China Supply Chain",
-        "Supply Chain"
-      ],
-      "importance": 77,
-      "priority": "High",
-      "score_reason": "Material forecast for Chinese DRAM capacity and competitive pressure on a major global memory producer.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102158715847643156",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-21T22:11:08Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102158715847643156",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-21T22:11:08Z"
-        }
-      ],
-      "published_at": "2026-09-21T22:11:08Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "ffe1683df4f03ae209c0",
-      "headline": "GUC finalizes HBM4E IP for TSMC N2P and CoWoS-L AI ASICs",
-      "bullets": [
-        "GUC says its HBM4E PHY and controller IP, designed for TSMC N2P and CoWoS-L, has completed design finalization and been adopted by a customer AI ASIC.",
-        "The company says the IP raises transfer speed from 12Gbps in its silicon-validated N3P HBM4 base to 16Gbps, while targeting power efficiency and a small footprint.",
-        "GUC also offers a face-up version for SoIC-X with TSV support and says the platform covers HBM, GLink, UCIe and 3D SoIC interfaces."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "GUC"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "TSMC"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Foundry · Compute · DRAM · Advanced Packaging",
-      "categories": [
-        "Foundry",
-        "Compute",
-        "DRAM",
-        "Advanced Packaging"
-      ],
-      "importance": 74,
-      "priority": "High",
-      "score_reason": "Concrete advanced-packaging and HBM interface design win tied to a customer AI ASIC and leading-edge TSMC process technology.",
-      "verification": "source_checked",
-      "sources": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102276713959031172",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T06:00:01Z"
-        },
-        {
-          "url": "https://www.guc-asic.com/tw/news/all/PR_20260922",
-          "name": "www.guc-asic.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102276713959031172",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T06:00:01Z"
-        }
-      ],
-      "published_at": "2026-09-22T06:00:01Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "ad785ecb1675628e398a",
-      "headline": "Aletheia initiates GUC at Buy on custom-ASIC and packaging demand",
-      "bullets": [
-        "Aletheia Capital initiated coverage of GUC with a Buy rating, a target price of NT$12,000 and a high-risk designation; the supplied recap says this implies about 58% upside from NT$7,615.",
-        "The research forecasts 2027 allocations of about 180,000 N3 wafers and 50,000 N5 wafers, versus roughly 35,000 wafers in 2026, alongside sharply higher revenue forecasts.",
-        "Potential upside not included in the model includes Google TPU v10, AWS and Meta custom silicon, HBF and CPO projects; the report flags demand visibility and execution as risks."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "GUC"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Google"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "AWS"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Meta"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Foundry · Compute · Advanced Packaging · Supply Chain",
-      "categories": [
-        "Foundry",
-        "Compute",
-        "Advanced Packaging",
-        "Supply Chain"
-      ],
-      "importance": 73,
-      "priority": "High",
-      "score_reason": "Substantial sell-side forecast for a custom-ASIC and advanced-packaging supplier, including wafer allocations, revenue estimates and explicit risks.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102276204761870671",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T05:58:00Z"
-        },
-        {
-          "url": "https://finance.technews.tw/2026/09/22/creative-electronics-benefits-from-accelerated-market-for-self-developed-asics/",
-          "name": "finance.technews.tw",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102276204761870671",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T05:58:00Z"
-        }
-      ],
-      "published_at": "2026-09-22T05:58:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "165ee1d0008a5c78c53c",
-      "headline": "BofA sees 2030 memory sales reaching $2 trillion",
-      "bullets": [
-        "BofA forecasts memory sales reaching $2 trillion in 2030, including about $1.4 trillion from DRAM and $600 billion from NAND.",
-        "The forecast attributes the outcome to sustained average selling prices and limited price cuts.",
-        "The figures are a sell-side research recap supplied by @pequityresearch."
-      ],
-      "companies": [
-        {
-          "ticker": "MU",
-          "aliases": [],
-          "name": "Micron"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · NAND · Supply Chain",
-      "categories": [
-        "DRAM",
-        "NAND",
-        "Supply Chain"
-      ],
-      "importance": 72,
-      "priority": "High",
-      "score_reason": "Large long-term memory-market forecast with direct DRAM and NAND implications.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102203868658409862",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-22T01:10:34Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102203868658409862",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-22T01:10:34Z"
-        }
-      ],
-      "published_at": "2026-09-22T01:10:34Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "b3a4730724278d99f7f5",
-      "headline": "onsemi announces broad price adjustments from October 10",
-      "bullets": [
-        "onsemi's customer notice says broad product price adjustments will take effect on October 10, citing higher raw-material, manufacturing, energy and infrastructure costs as well as demand from power, industrial and data-center applications.",
-        "A separate recap says onsemi has raised prices further and expects industrial semiconductor prices to continue rising in 2027.",
-        "The same market roundup says Renesas plans a January 2027 adjustment and Taiwanese suppliers may raise prices on non-contract products by about 10%–15%; these broader claims are attributed to the roundup."
-      ],
-      "companies": [
-        {
-          "ticker": "ON",
-          "aliases": [
-            "onsemi",
-            "ON Semiconductor"
-          ],
-          "name": "onsemi"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Renesas"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Analog · Materials & Inputs · Supply Chain",
-      "categories": [
-        "Analog",
-        "Materials & Inputs",
-        "Supply Chain"
-      ],
-      "importance": 72,
-      "priority": "High",
-      "score_reason": "Material power-semiconductor pricing and input-cost development, with potential spillover across mature-node and industrial supply chains.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199326118445074",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:52:30Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2102230706902675595",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T02:57:12Z"
-        },
-        {
-          "url": "https://m.moneydj.com/f1a.aspx?a=f9a43fe5-3291-4a1c-9bdd-7ba38dbde097",
-          "name": "m.moneydj.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199326118445074",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:52:30Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2102230706902675595",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T02:57:12Z"
-        }
-      ],
-      "published_at": "2026-09-22T02:57:12Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "baebb523ab8fca300500",
-      "headline": "Vicor more than doubles its Q3 growth guide on VPD royalties",
-      "bullets": [
-        "Vicor raised its Q3 2026 sequential revenue-growth guidance from nearly 10% to more than 20%, citing royalties from a newly announced non-exclusive Vertical Power Delivery license.",
-        "The company says four leading OEMs and hyperscalers have secured licenses to its power-system technology.",
-        "CEO Patrizio Vinciarelli says unlicensed suppliers could face supply disruption, damages or exclusion from covered power-system markets; those are company statements."
-      ],
-      "companies": [
-        {
-          "ticker": "VICR",
-          "aliases": [],
-          "name": "Vicor"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Analog · Compute · Supply Chain",
-      "categories": [
-        "Analog",
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 72,
-      "priority": "High",
-      "score_reason": "Material data-center power-delivery guidance change and licensing development affecting hyperscaler hardware supply chains.",
-      "verification": "source_checked",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199160426705341",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:51:51Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2102177616459694257",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-21T23:26:14Z"
-        },
-        {
-          "url": "https://vicorcorporation.gcs-web.com/news-releases/news-release-details/vicor-corporation-raises-q3-2026-revenue-guidance",
-          "name": "vicorcorporation.gcs-web.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199160426705341",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:51:51Z"
-        },
-        {
-          "url": "https://x.com/qq_timmy/status/2102177616459694257",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-21T23:26:14Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:51:51Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "0a86e21e1e3e8f480e73",
-      "headline": "Microsoft reportedly doubles its Taiwan AI-data-center plan to four sites",
-      "bullets": [
-        "Microsoft has reportedly expanded its Taiwan AI-data-center plan from two sites to four because of strong demand.",
-        "The sites are reported to be in Gueishan and Luzhu, with semiconductor and other high-tech companies among the leading Taiwan customers.",
-        "A separate recap says Microsoft's Taiwan general manager expects AI-computing demand to exceed supply for the next two to three years."
-      ],
-      "companies": [
-        {
-          "ticker": "MSFT",
-          "aliases": [],
-          "name": "Microsoft"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "Compute · Supply Chain",
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 68,
-      "priority": "High",
-      "score_reason": "Direct capacity expansion tied to persistent AI-compute shortages and semiconductor-sector demand.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198290699948107",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:48:24Z"
-        },
-        {
-          "url": "https://x.com/pequityresearch/status/2102173779720089899",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-21T23:11:00Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198290699948107",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:48:24Z"
-        },
-        {
-          "url": "https://x.com/pequityresearch/status/2102173779720089899",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-21T23:11:00Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:48:24Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "06503644bb5a8f626b8f",
-      "headline": "Micron faces a potential strike vote at its Taoyuan site",
-      "bullets": [
-        "Micron faces a potential strike at its Taoyuan site after mediation with the union collapsed, according to media reporting.",
-        "The union says it will proceed to a strike vote over a profit-sharing system, while talks with a separate Taichung union are scheduled to resume on October 22.",
-        "The supplied report does not state whether production has been disrupted."
-      ],
-      "companies": [
-        {
-          "ticker": "MU",
-          "aliases": [],
-          "name": "Micron"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · Supply Chain",
-      "categories": [
-        "DRAM",
-        "Supply Chain"
-      ],
-      "importance": 65,
-      "priority": "High",
-      "score_reason": "Potential labor disruption at a major memory producer, though no production impact is yet reported.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102185033587159393",
-          "name": "@dnystedt",
-          "published_at": "2026-09-21T23:55:43Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102185033587159393",
-          "handle": "dnystedt",
-          "published_at": "2026-09-21T23:55:43Z"
-        }
-      ],
-      "published_at": "2026-09-21T23:55:43Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "3c97f8554c40ea43d1c7",
-      "headline": "Daishin says Samsung customers are seeking decade-long memory contracts",
-      "bullets": [
-        "Daishin Securities says some Samsung customers are requesting 10-year contracts.",
-        "The research recap judges that extension contracts have already been successfully concluded with some customers, without specifying the customers or volumes."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Samsung Electronics"
-        }
-      ],
-      "topic_tier": 1,
-      "topic": "DRAM · Supply Chain",
-      "categories": [
-        "DRAM",
-        "Supply Chain"
-      ],
-      "importance": 65,
-      "priority": "High",
-      "score_reason": "Potentially material long-term memory-commitment signal, although customer and volume details are not supplied.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102188879172563185",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-22T00:11:00Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102188879172563185",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-22T00:11:00Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:11:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "0b5bb8c78985d9a57a04",
-      "headline": "Ryan Hingshing says ABF substrate demand has surged",
-      "bullets": [
-        "Ryan Hingshing says ABF substrate activity has 'exploded' and asks when the market will turn to T-glass.",
-        "The post is a short attributed market observation and does not provide volume, company or pricing data."
-      ],
-      "companies": [],
-      "topic_tier": 1,
-      "topic": "Advanced Packaging · Substrates · Supply Chain",
-      "categories": [
-        "Advanced Packaging",
-        "Substrates",
-        "Supply Chain"
-      ],
-      "importance": 60,
-      "priority": "High",
-      "score_reason": "Relevant substrate commentary on advanced-package inputs, but with limited supporting detail.",
-      "verification": "opinion",
-      "sources": [
-        {
-          "url": "https://x.com/ryanhingshing/status/2102291493889425820",
-          "name": "@ryanhingshing",
-          "published_at": "2026-09-22T06:58:45Z"
-        },
-        {
-          "url": "https://money.udn.com/money/story/5607/9770226",
-          "name": "money.udn.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/ryanhingshing/status/2102291493889425820",
-          "handle": "ryanhingshing",
-          "published_at": "2026-09-22T06:58:45Z"
-        }
-      ],
-      "published_at": "2026-09-22T06:58:45Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "19d54b7ce6da1aa3738f",
-      "headline": "Cited discussion points to Chinese buyers as potential HBF customers",
-      "bullets": [
-        "@pequityresearch relays a claim from @bubbleboi that Chinese customers unable to secure or produce high-end HBM may be the main customers for HBF.",
-        "The cited discussion argues that the bottleneck has shifted from chip design toward the physical stack spanning silicon, packaging, HBM and racks.",
-        "The customer claim is hearsay from the cited discussion and is not independently verified in the supplied text."
-      ],
-      "companies": [],
-      "topic_tier": 1,
-      "topic": "Compute · DRAM · China Supply Chain · Supply Chain",
-      "categories": [
-        "Compute",
-        "DRAM",
-        "China Supply Chain",
-        "Supply Chain"
-      ],
-      "importance": 60,
-      "priority": "High",
-      "score_reason": "Potentially relevant HBM and AI-infrastructure demand observation, but based on an attributed informal claim with limited definition of HBF.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102249276994961715",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-22T04:11:00Z"
-        },
-        {
-          "url": "https://twitter.com/LoganJastremski/status/2102066111726432306",
-          "name": "twitter.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102249276994961715",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-22T04:11:00Z"
-        }
-      ],
-      "published_at": "2026-09-22T04:11:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "6c3a04f75c208b89bd07",
-      "headline": "UBS data show memory taking a rising share of hyperscaler capex",
-      "bullets": [
-        "@intelfabs combines two UBS tables to argue that memory is taking an increasingly large share of hyperscaler capital expenditure.",
-        "The post supplies a chart-based interpretation but no underlying figures beyond the cited UBS pages."
-      ],
-      "companies": [],
-      "topic_tier": 1,
-      "topic": "Compute · DRAM · Supply Chain",
-      "categories": [
-        "Compute",
-        "DRAM",
-        "Supply Chain"
-      ],
-      "importance": 60,
-      "priority": "High",
-      "score_reason": "Relevant supply-chain and AI-infrastructure allocation commentary, though the supplied text lacks the chart's numerical detail.",
-      "verification": "opinion",
-      "sources": [
-        {
-          "url": "https://x.com/intelfabs/status/2102301042482544806",
-          "name": "@intelfabs",
-          "published_at": "2026-09-22T07:36:42Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/intelfabs/status/2102301042482544806",
-          "handle": "intelfabs",
-          "published_at": "2026-09-22T07:36:42Z"
-        }
-      ],
-      "published_at": "2026-09-22T07:36:42Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "56833c7dc65b3056421b",
-      "headline": "AMD adds detail to its EPYC Venice performance claims",
-      "bullets": [
-        "AMD's blog and white paper, as recapped by Ryan Shrout and reposted by Dnystedt, put EPYC Venice at a claimed 2.24x platform and 1.2x per-core advantage over NVIDIA Vera in SPECrate 2026 Integer; the figures use estimated scores, specified compiler versions and memory configurations.",
-        "AMD's 256-core EPYC 9996 is reported at roughly 1.5x–1.8x the performance of the 192-core Turin flagship across Redis, NGINX, MySQL, MongoDB and server-side Java in AMD testing.",
-        "The recap notes that the results are based on AMD internal testing or estimates, and that the paper does not substantiate the keynote's agents-per-watt and performance-per-watt claims."
-      ],
-      "companies": [
-        {
-          "ticker": "AMD",
-          "aliases": [],
-          "name": "AMD"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "NVIDIA"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute",
-      "categories": [
-        "Compute"
-      ],
-      "importance": 75,
-      "priority": "High",
-      "score_reason": "Important server-processor performance update with direct competitive implications, tempered by reliance on vendor testing and estimates.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199239233388992",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:52:10Z"
-        },
-        {
-          "url": "https://newsroom.amd.com/news/amd-epyc-cpus-deliver-every-layer-agentic-ai-stack/",
-          "name": "newsroom.amd.com",
-          "published_at": null
-        },
-        {
-          "url": "https://www.amd.com/content/dam/amd/en/documents/epyc-business-docs/white-papers/amd-epyc-9006-server-cpus-architectural-leadership.pdf",
-          "name": "www.amd.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102199239233388992",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:52:10Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:52:10Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "e569d643bf72a0490693",
-      "headline": "Microsoft's self-developed AI chips are reported to target 2027 mass production",
-      "bullets": [
-        "Media citing Microsoft Taiwan head Sean Pien says Microsoft's self-developed AI chips are now expected to enter mass production in 2027, with design work and capacity allocation described as progressing smoothly.",
-        "The report says the chips will initially serve Microsoft's internal needs rather than third parties and are intended to reduce overall computing costs.",
-        "The 2027 timing is reported as later than prior leaks that had pointed to the second half of 2026."
-      ],
-      "companies": [
-        {
-          "ticker": "MSFT",
-          "aliases": [],
-          "name": "Microsoft"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute · Supply Chain",
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 74,
-      "priority": "High",
-      "score_reason": "Major hyperscaler's custom-chip schedule has implications for internal compute economics and merchant silicon demand.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198554853040180",
-          "name": "@dnystedt",
-          "published_at": "2026-09-22T00:49:27Z"
-        },
-        {
-          "url": "https://money.udn.com/money/story/11162/9769220?from=edn_subcatelist_cate",
-          "name": "money.udn.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/dnystedt/status/2102198554853040180",
-          "handle": "dnystedt",
-          "published_at": "2026-09-22T00:49:27Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:49:27Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "cd4cf5b38616ed618838",
-      "headline": "Morgan Stanley sees a sharp rise in memory content for NVIDIA VR200",
-      "bullets": [
-        "Morgan Stanley says memory costs in NVIDIA's VR200 bill of materials are 435% higher than in GB300.",
-        "The recap puts memory at about 26% of VR200 bill of materials, versus roughly 10% for GB300."
-      ],
-      "companies": [
-        {
-          "ticker": "NVDA",
-          "aliases": [],
-          "name": "NVIDIA"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute · DRAM",
-      "categories": [
-        "Compute",
-        "DRAM"
-      ],
-      "importance": 66,
-      "priority": "High",
-      "score_reason": "Direct evidence of rising memory intensity in an AI-compute platform, with implications for accelerator costs and DRAM demand.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102142574144225688",
-          "name": "@pequityresearch",
-          "published_at": "2026-09-21T21:07:00Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/pequityresearch/status/2102142574144225688",
-          "handle": "pequityresearch",
-          "published_at": "2026-09-21T21:07:00Z"
-        }
-      ],
-      "published_at": "2026-09-21T21:07:00Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "fed8561b3a9d68df9351",
-      "headline": "Ryan Hingshing links agent demand with rising CXL attention",
-      "bullets": [
-        "Ryan Hingshing says agent-driven demand is also lifting attention around CXL and that CXL has been heavily promoted on X.",
-        "He links the discussion to rapidly rising CPU demand but supplies no quantitative CXL or CPU forecast."
-      ],
-      "companies": [],
-      "topic_tier": 2,
-      "topic": "Compute · Supply Chain",
-      "categories": [
-        "Compute",
-        "Supply Chain"
-      ],
-      "importance": 55,
-      "priority": "Medium",
-      "score_reason": "Qualifying processor and memory-interconnect commentary with limited quantitative evidence.",
-      "verification": "opinion",
-      "sources": [
-        {
-          "url": "https://x.com/ryanhingshing/status/2102250148567077213",
-          "name": "@ryanhingshing",
-          "published_at": "2026-09-22T04:14:27Z"
-        },
-        {
-          "url": "https://twitter.com/ryanhingshing/status/2102100795374329895",
-          "name": "twitter.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/ryanhingshing/status/2102250148567077213",
-          "handle": "ryanhingshing",
-          "published_at": "2026-09-22T04:14:27Z"
-        }
-      ],
-      "published_at": "2026-09-22T04:14:27Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "503bf6a62a7a6fc37032",
-      "headline": "Sell-side view remains positive on 3665–ams OSRAM optical packaging collaboration",
-      "bullets": [
-        "An unnamed U.S. bank remains positive on a partnership between 3665 and ams OSRAM, although the collaboration has not yet contributed revenue.",
-        "The cited commentary says the companies combine fiber-array integration, optical packaging and volume-production capability with ams OSRAM's 850nm thin-film micro-VCSEL technology for data-interconnect applications.",
-        "The research highlights NPO/CPO and alternative optical sources as ways to address interconnect power consumption."
-      ],
-      "companies": [
-        {
-          "ticker": "3665",
-          "aliases": [
-            "貿聯"
-          ],
-          "name": "3665"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "ams OSRAM"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute · Advanced Packaging · Supply Chain",
-      "categories": [
-        "Compute",
-        "Advanced Packaging",
-        "Supply Chain"
-      ],
-      "importance": 50,
-      "priority": "Medium",
-      "score_reason": "Relevant optical-packaging and data-interconnect development, but the partnership has not yet generated reported revenue.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102191138920882641",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T00:19:58Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102191138920882641",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T00:19:58Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:19:58Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "c50d60e2dcc4c6db40cb",
-      "headline": "AMD reaches a reported $1 trillion market value",
-      "bullets": [
-        "A Wall Street Engine post, amplified by Jukan, says AMD has reached a $1 trillion market value.",
-        "The supplied posts provide no further operating or financial detail."
-      ],
-      "companies": [
-        {
-          "ticker": "AMD",
-          "aliases": [],
-          "name": "AMD"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Compute",
-      "categories": [
-        "Compute"
-      ],
-      "importance": 45,
-      "priority": "Medium",
-      "score_reason": "Material market milestone for a major semiconductor company, though the supplied evidence is a short market report.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/jukan05/status/2102153257510752500",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T21:49:27Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102151261282033944",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T21:41:31Z"
-        },
-        {
-          "url": "https://twitter.com/wallstengine/status/2102039628325011580",
-          "name": "twitter.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2102153257510752500",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T21:49:27Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102151261282033944",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T21:41:31Z"
-        }
-      ],
-      "published_at": "2026-09-21T21:49:27Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "c58071384cc3eeaf44eb",
-      "headline": "Broker remains positive on 6515 despite probe-card mix and depreciation pressure",
-      "bullets": [
-        "An Asian broker reiterates a positive view on 6515, saying capacity expansion is driving revenue estimates higher.",
-        "The recap says third-quarter 2026 gross-margin expectations were cut by 1.8 percentage points because probe-card revenue is higher than expected and a new plant adds depreciation.",
-        "Socket-capacity expansion is described as remaining on schedule."
-      ],
-      "companies": [
-        {
-          "ticker": "6515",
-          "aliases": [
-            "穎崴"
-          ],
-          "name": "6515"
-        }
-      ],
-      "topic_tier": 2,
-      "topic": "Supply Chain",
-      "categories": [
-        "Supply Chain"
-      ],
-      "importance": 45,
-      "priority": "Medium",
-      "score_reason": "Qualifying semiconductor test-capacity update, though the supplied company and broker details are limited.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102191138920882641",
-          "name": "@qq_timmy",
-          "published_at": "2026-09-22T00:19:58Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/qq_timmy/status/2102191138920882641",
-          "handle": "qq_timmy",
-          "published_at": "2026-09-22T00:19:58Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:19:58Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "7099294e1ff31987497c",
-      "headline": "Chinese AI labs may shift next-generation models from open source to licensing",
-      "bullets": [
-        "Ryan Hingshing relays a claim attributed to SemiAnalysis's Dylan Patel that several Chinese model labs have told inference providers their next models may move to a licensing model rather than remain open source.",
-        "The accompanying commentary argues that labs, inference providers and application companies may all have commercial incentives for more closed models because fully open weights pressure prices and reduce switching costs.",
-        "The claim about multiple labs is secondhand and not independently verified in the supplied text."
-      ],
-      "companies": [
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "SemiAnalysis"
-        }
-      ],
-      "topic_tier": 3,
-      "topic": "Models · China Models",
-      "categories": [
-        "Models",
-        "China Models"
-      ],
-      "importance": 63,
-      "priority": "High",
-      "score_reason": "Material China-model commercialization and open-source strategy development, presented as a secondhand industry claim.",
-      "verification": "reported",
-      "sources": [
-        {
-          "url": "https://x.com/ryanhingshing/status/2102148585173491793",
-          "name": "@ryanhingshing",
-          "published_at": "2026-09-21T21:30:53Z"
-        },
-        {
-          "url": "https://twitter.com/sleepy0x13/status/2101942954227372313",
-          "name": "twitter.com",
-          "published_at": null
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/ryanhingshing/status/2102148585173491793",
-          "handle": "ryanhingshing",
-          "published_at": "2026-09-21T21:30:53Z"
-        }
-      ],
-      "published_at": "2026-09-21T21:30:53Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "d134217534c608979318",
-      "headline": "Morgan Stanley forecasts a hyperscaler ROIIC trough in 2027",
-      "bullets": [
-        "Morgan Stanley sees combined ROIIC for Amazon, Alphabet, Microsoft, Meta and Oracle bottoming around Q4 2027 before recovering.",
-        "The cited consensus path puts the measure at about 23% in Q3 2027 and roughly 35% in 2030.",
-        "This is a sell-side forecast relayed by @pequityresearch."
-      ],
-      "companies": [
-        {
-          "ticker": "AMZN",
-          "aliases": [],
-          "name": "Amazon"
         },
         {
           "ticker": "GOOGL",
           "aliases": [],
-          "name": "Alphabet"
+          "name": "Google"
+        },
+        {
+          "ticker": "AMZN",
+          "aliases": [],
+          "name": "Amazon"
         },
         {
           "ticker": "MSFT",
@@ -53852,119 +54241,913 @@
           "name": "Meta"
         },
         {
-          "ticker": "ORCL",
+          "ticker": "",
           "aliases": [],
-          "name": "Oracle"
+          "name": "OpenAI"
         }
       ],
-      "topic_tier": 3,
-      "topic": "Models",
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Supply Chain",
       "categories": [
-        "Models"
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
       ],
-      "importance": 62,
-      "priority": "High",
-      "score_reason": "Qualifying hyperscaler model-economics forecast tied to AI infrastructure returns.",
+      "importance": 87,
+      "priority": "Critical",
+      "score_reason": "The UBS recap materially revises forecasts across accelerators, custom silicon and advanced packaging; the estimates are attributed to the bank and remain forecasts.",
       "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/pequityresearch/status/2102219330012512708",
+          "url": "https://x.com/pequityresearch/status/2102595056268161434",
           "name": "@pequityresearch",
-          "published_at": "2026-09-22T02:12:00Z"
+          "published_at": "2026-09-23T03:05:00Z"
+        },
+        {
+          "url": "https://x.com/i/web/status/2102311185202958381",
+          "name": "x.com",
+          "published_at": null
+        },
+        {
+          "url": "https://twitter.com/knockouttrader/status/2101959059842761121",
+          "name": "twitter.com",
+          "published_at": null
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/pequityresearch/status/2102219330012512708",
+          "url": "https://x.com/pequityresearch/status/2102595056268161434",
           "handle": "pequityresearch",
-          "published_at": "2026-09-22T02:12:00Z"
+          "published_at": "2026-09-23T03:05:00Z"
         }
       ],
-      "published_at": "2026-09-22T02:12:00Z",
+      "published_at": "2026-09-23T03:05:00Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
       "revision": 1,
       "source_category": "Twitter"
     },
     {
-      "id": "1578a8657d443844c703",
-      "headline": "FundaAI says competitive pressure may delay Anthropic's IPO timing",
+      "id": "9615d1a04724668e02a3",
+      "headline": "Wafer-price forecasts rise alongside projected AI and memory demand",
       "bullets": [
-        "FundaAI argues that Anthropic is facing increased competitive pressure and therefore may no longer be in a rush to pursue an IPO in September or October.",
-        "It says Anthropic's timing could depend on Fable 5.2/5.5 and that Gemini 4, Fable 5.2 and GPT-6 Sol could launch around the same time.",
-        "The post also relays an unverified scoop about prospective OpenAI and Anthropic model releases; the timing and model names are not independently confirmed here."
+        "The cited reporting expects 2027 contract prices for 12-inch epitaxial wafers to rise 15%–25% and polished wafers by more than 40%; some second-tier customers may face increases above 50%. Analysts also see spot prices potentially exceeding existing contract prices in 2026’s fourth quarter.",
+        "The cited forecasts put GlobalWafers’ 12-inch wafer average selling price at $92 in 2026, $122 in 2027 and $166 in 2028; quarterly shipments are forecast at 11.907 million, 16.174 million and 21.237 million, respectively.",
+        "The research recap forecasts 2027 CoWoS capacity growth of 70.9%, GPU and AI-ASIC shipments up 44.9%, CPU shipments up 36%, and DRAM bit supply up 22%."
       ],
       "companies": [
         {
           "ticker": "",
           "aliases": [],
-          "name": "Anthropic"
+          "name": "GlobalWafers"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Materials & Inputs · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Materials & Inputs",
+        "Supply Chain"
+      ],
+      "importance": 83,
+      "priority": "Critical",
+      "score_reason": "The merged posts cover the same 12-inch wafer pricing and supply outlook, including major input-cost increases and related packaging and chip-demand forecasts.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102567627570938188",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T01:16:00Z"
+        },
+        {
+          "url": "https://www.ctee.com.tw/news/20260923700097-430501",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2102535161254441147",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T23:07:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102567627570938188",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T01:16:00Z"
+        },
+        {
+          "url": "https://x.com/pequityresearch/status/2102535161254441147",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T23:07:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:16:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "c31ab76f8e45ec939ae1",
+      "headline": "Deutsche Bank sees DRAM imbalance worsening before possible 2030 oversupply",
+      "bullets": [
+        "Deutsche Bank forecasts the DRAM supply-demand imbalance worsening in 2027 and 2028.",
+        "The bank expects the market to approach equilibrium by 2029 and potentially move into oversupply in 2030, depending on the pace of fab construction."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 77,
+      "priority": "High",
+      "score_reason": "A multi-year DRAM supply outlook is material to memory capacity planning; the post preserves the bank’s conditional forecast.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102611664881262752",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T04:11:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102611664881262752",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T04:11:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T04:11:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "fe9a4792f5dbc57d8a58",
+      "headline": "ASML warns Europe risks falling behind as it reports no chip-tool sales there",
+      "bullets": [
+        "Bloomberg reported that ASML said it is not selling chipmaking machines in Europe.",
+        "The report says the company warned Europe risks falling behind the US, China and India in semiconductors."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ASML"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Supply Chain",
+      "categories": [
+        "WFE",
+        "Supply Chain"
+      ],
+      "importance": 74,
+      "priority": "High",
+      "score_reason": "The reported lack of equipment sales and warning about regional competitiveness are significant to European fab investment and equipment demand.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102599540197200343",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T03:22:49Z"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-22/asml-executive-says-europe-s-biggest-firm-has-no-sales-in-europe?taid=6ab2959c6c6dc70001a5ab3e",
+          "name": "www.bloomberg.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102599540197200343",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T03:22:49Z"
+        }
+      ],
+      "published_at": "2026-09-23T03:22:49Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "3c95c010bd44ca3a5456",
+      "headline": "JPM sees 16-high HBM adoption no earlier than 2029",
+      "bullets": [
+        "Jukan’s recap says JPM updated its HBM model and expects adoption of 16-high HBM no earlier than 2029."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Advanced Packaging · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Advanced Packaging",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "The timing of higher-stack HBM adoption is material to memory and packaging roadmaps, although the post gives only one forecast.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2102543040858775930",
+          "name": "@jukan05",
+          "published_at": "2026-09-22T23:38:18Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2102543040858775930",
+          "handle": "jukan05",
+          "published_at": "2026-09-22T23:38:18Z"
+        }
+      ],
+      "published_at": "2026-09-22T23:38:18Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "b3b5a08d1f73205dd9d4",
+      "headline": "Media report places TSMC 2nm chips in new and upcoming flagship phones",
+      "bullets": [
+        "A media report says TSMC-made 2nm chips are already in Apple’s iPhone 18 Pro series.",
+        "The same report lists upcoming Xiaomi 18 Pro-series phones with Qualcomm Snapdragon 8 Elite Gen 6 chips, and Vivo X500 Pro/Pro Max and Oppo Find X10 Pro Max models expected to use MediaTek Dimensity 9600 Pro 2nm chips."
+      ],
+      "companies": [
+        {
+          "ticker": "TSM",
+          "aliases": [],
+          "name": "TSMC"
         },
         {
           "ticker": "",
           "aliases": [],
-          "name": "OpenAI"
+          "name": "Apple"
+        },
+        {
+          "ticker": "QCOM",
+          "aliases": [],
+          "name": "Qualcomm"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "MediaTek"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Xiaomi"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Vivo"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Oppo"
         }
       ],
-      "topic_tier": 3,
-      "topic": "Models",
+      "topic_tier": 1,
+      "topic": "Foundry · Compute · Supply Chain",
       "categories": [
-        "Models"
+        "Foundry",
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 73,
+      "priority": "High",
+      "score_reason": "The reported deployment of a leading process node across several flagship-phone platforms is material to foundry and mobile-chip supply chains.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102561166044369129",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T00:50:20Z"
+        },
+        {
+          "url": "https://www.ctee.com.tw/news/20260923700094-430502",
+          "name": "www.ctee.com.tw",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102561166044369129",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T00:50:20Z"
+        }
+      ],
+      "published_at": "2026-09-23T00:50:20Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "98dc267658b6d600b3cd",
+      "headline": "Taiwan’s record August export orders were driven by AI and custom-ASIC demand",
+      "bullets": [
+        "Taiwan’s August export orders rose 71.4% year over year to a record US$102.96 billion, with the statistics bureau director-general attributing the upside surprise to AI demand and custom-ASIC design orders.",
+        "ICT orders rose 100.5% to US$34.21 billion and electronics orders increased 83.9% to US$45.75 billion.",
+        "The post reports an official September export-order range of US$106 billion–US$109.1 billion and says full-year 2026 orders could reach US$1.1 trillion."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "The reported record orders and explicit custom-ASIC and AI contribution provide a material signal for semiconductor demand and supply chains.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102556551378846092",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T00:32:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102556551378846092",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T00:32:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T00:32:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "d758b1213eee298e4063",
+      "headline": "Intelfabs argues HBM supply still cannot fully meet demand",
+      "bullets": [
+        "The post argues that HBM would remain undersupplied even after lowering supply assumptions."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "Supply Chain"
+      ],
+      "importance": 68,
+      "priority": "High",
+      "score_reason": "HBM supply constraints are material to accelerator production, but the post gives no supporting estimates in captured text.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/intelfabs/status/2102568752248496439",
+          "name": "@intelfabs",
+          "published_at": "2026-09-23T01:20:29Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/intelfabs/status/2102568752248496439",
+          "handle": "intelfabs",
+          "published_at": "2026-09-23T01:20:29Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:20:29Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "73485e9046525cd5b04c",
+      "headline": "Samsung Securities identifies equipment beneficiaries of Terafab’s planned Intel 14A start",
+      "bullets": [
+        "Samsung Securities says Terafab initially plans to use Intel’s 14A process technology and supply chain.",
+        "The research identifies ASML, AMAT, LRCX and KLAC among the equipment vendors positioned as early beneficiaries."
+      ],
+      "companies": [
+        {
+          "ticker": "INTC",
+          "aliases": [],
+          "name": "Intel"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "WFE · Foundry · Supply Chain",
+      "categories": [
+        "WFE",
+        "Foundry",
+        "Supply Chain"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "The research links a planned advanced process and supply chain to equipment demand; the post provides limited project detail.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102491120647205283",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T20:12:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102491120647205283",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T20:12:00Z"
+        }
+      ],
+      "published_at": "2026-09-22T20:12:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "bbaccbf020a0438d034c",
+      "headline": "FundaAI’s checks point to stronger-than-expected memory pricing into early 2027",
+      "bullets": [
+        "FundaAI says a note published the prior afternoon summarized checks suggesting prices associated with $MU and $SNDK could exceed expectations in 2026’s third and fourth quarters and may continue rising in 2027’s first quarter."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · DRAM · NAND · Supply Chain",
+      "categories": [
+        "Compute",
+        "DRAM",
+        "NAND",
+        "Supply Chain"
+      ],
+      "importance": 66,
+      "priority": "High",
+      "score_reason": "The post gives a near-term memory-pricing outlook tied to named market tickers, while leaving the underlying checks and product detail unspecified.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/fundaai/status/2102515984330534975",
+          "name": "@fundaai",
+          "published_at": "2026-09-22T21:50:48Z"
+        },
+        {
+          "url": "https://fundaai.substack.com/p/previewmu-fy26q4-focusing-on-earnings",
+          "name": "fundaai.substack.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/fundaai/status/2102515984330534975",
+          "handle": "fundaai",
+          "published_at": "2026-09-22T21:50:48Z"
+        }
+      ],
+      "published_at": "2026-09-22T21:50:48Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "a8d1268dba151c5ba15a",
+      "headline": "Earlier report cited by DNystedt describes underused Chinese AI data-center capacity",
+      "bullets": [
+        "A post highlighting an earlier Science & Technology Daily report says some Chinese AI data centers had utilization of about 30% last year.",
+        "The cited account describes rushed, fragmented investment and warns that some new centers may be outdated or lack customers; the post notes the article is from last year."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · China Supply Chain · Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 65,
+      "priority": "High",
+      "score_reason": "Underutilization and low-quality capacity are relevant to China’s AI-compute buildout, but the highlighted source is older rather than a new underlying study.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568039778857033",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T01:17:39Z"
+        },
+        {
+          "url": "https://www.digitalchina.gov.cn/2025/xwzx/qwfb/202507/t20250717_5048811.htm",
+          "name": "www.digitalchina.gov.cn",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568039778857033",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T01:17:39Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:17:39Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "02d8683ee0fe67622b2c",
+      "headline": "Singapore’s August chip exports to Mexico were dominated by processors and controllers",
+      "bullets": [
+        "The cited August 2026 trade figures put Singapore’s IC and IC-parts exports to Mexico at S$2.54 billion, of which processors and controllers accounted for S$2.45 billion.",
+        "Memory ICs were reported at S$25.9 million, about 1% of the route’s IC-and-parts export value."
+      ],
+      "companies": [
+        {
+          "ticker": "2317.TW",
+          "aliases": [],
+          "name": "Foxconn"
+        }
+      ],
+      "topic_tier": 1,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
       ],
       "importance": 58,
       "priority": "Medium",
-      "score_reason": "Frontier-AI company timing, competition and model-economics commentary, with explicit uncertainty around the underlying scoop.",
-      "verification": "opinion",
+      "score_reason": "The post supplies a specific semiconductor trade-route composition, offering a useful but geographically limited supply-chain signal.",
+      "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/fundaai/status/2102279545395220799",
-          "name": "@fundaai",
-          "published_at": "2026-09-22T06:11:16Z"
+          "url": "https://x.com/pequityresearch/status/2102504710163087687",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T21:06:00Z"
         },
         {
-          "url": "https://twitter.com/synthwavedd/status/2102060292175782035",
+          "url": "https://twitter.com/skylabintel/status/2102242482486435884",
           "name": "twitter.com",
           "published_at": null
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/fundaai/status/2102279545395220799",
-          "handle": "fundaai",
-          "published_at": "2026-09-22T06:11:16Z"
+          "url": "https://x.com/pequityresearch/status/2102504710163087687",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T21:06:00Z"
         }
       ],
-      "published_at": "2026-09-22T06:11:16Z",
+      "published_at": "2026-09-22T21:06:00Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
       "revision": 1,
       "source_category": "Twitter"
     },
     {
-      "id": "7139170420e939bc9796",
-      "headline": "Jukan discussion weighs distribution and strategy in the Muse race",
+      "id": "db83a9625ed0dcee434d",
+      "headline": "Jukan flags China’s push for full-stack hardware independence",
       "bullets": [
-        "Jukan asks whether existing Muse users would remain if Anthropic or OpenAI launched competing versions, and why those companies did not lead the next-generation product.",
-        "The surrounding discussion argues that Meta's distribution through Instagram, Facebook and WhatsApp could be decisive, while another commenter attributes the lead to Anthropic's business focus and OpenAI's consumer focus.",
-        "These are attributed opinions and questions rather than independently verified product or market data."
+        "@jukan05 characterizes China as pursuing full-stack hardware independence, including network switches."
+      ],
+      "companies": [],
+      "topic_tier": 1,
+      "topic": "Compute · China Supply Chain · Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 58,
+      "priority": "Medium",
+      "score_reason": "A relevant China hardware-supply-chain observation, but the post offers little detail on scope or implementation.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/jukan05/status/2102623753582883049",
+          "name": "@jukan05",
+          "published_at": "2026-09-23T04:59:02Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/jukan05/status/2102623753582883049",
+          "handle": "jukan05",
+          "published_at": "2026-09-23T04:59:02Z"
+        }
+      ],
+      "published_at": "2026-09-23T04:59:02Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "6228cc674ae4e37eb7f2",
+      "headline": "Alibaba’s T-Head unveils Zhenwu V900 AI processor and 2027 CPU roadmap",
+      "bullets": [
+        "Alibaba’s T-Head introduced the Zhenwu V900 for AI training and inference, saying it can handle high-precision training and ultra-low-precision inference and delivers three times the performance of its predecessor.",
+        "Alibaba says Zhenwu chips serve more than 650 customers across industries.",
+        "The company also outlined next-generation Yitian CPUs for agentic-AI tasks, scheduled for launch in 2027."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "T-Head"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · China Supply Chain · Supply Chain",
+      "categories": [
+        "Compute",
+        "China Supply Chain",
+        "Supply Chain"
+      ],
+      "importance": 76,
+      "priority": "High",
+      "score_reason": "A major Chinese company announced an AI processor and a next-generation CPU roadmap, with stated performance and customer figures.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568003502280889",
+          "name": "@dnystedt",
+          "published_at": "2026-09-23T01:17:30Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/dnystedt/status/2102568003502280889",
+          "handle": "dnystedt",
+          "published_at": "2026-09-23T01:17:30Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:17:30Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "60fcb036447981020119",
+      "headline": "BofA forecasts strong cloud-revenue growth at US and Chinese hyperscalers",
+      "bullets": [
+        "BofA forecasts revenue at the leading US hyperscalers—Amazon, Microsoft, Oracle and Alphabet—rising from US$290 billion in 2025 to US$975 billion in 2028.",
+        "It forecasts China’s leading hyperscalers—Alibaba, Tencent, ByteDance and Baidu—growing from US$28 billion to US$94 billion over the same period."
+      ],
+      "companies": [
+        {
+          "ticker": "AMZN",
+          "aliases": [],
+          "name": "Amazon"
+        },
+        {
+          "ticker": "MSFT",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Oracle"
+        },
+        {
+          "ticker": "GOOGL",
+          "aliases": [],
+          "name": "Alphabet"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Alibaba"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Tencent"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "ByteDance"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Baidu"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute",
+      "categories": [
+        "Compute"
+      ],
+      "importance": 75,
+      "priority": "High",
+      "score_reason": "The bank’s multi-year cloud-revenue forecast is material compute-market commentary and includes both US and Chinese hyperscalers.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102475517824032825",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-22T19:10:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102475517824032825",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-22T19:10:00Z"
+        }
+      ],
+      "published_at": "2026-09-22T19:10:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "678364bd0c7c2ed0c398",
+      "headline": "Stifel cites efficiency-driven capacity and OpenAI contribution in Azure acceleration",
+      "bullets": [
+        "Stifel’s Microsoft upgrade commentary says Azure accelerated versus expectations in June, benefiting from incremental capacity derived from efficiency improvements.",
+        "Stifel also believes a step-up in OpenAI contribution reflected acceleration in OpenAI’s business during the quarter."
+      ],
+      "companies": [
+        {
+          "ticker": "MSFT",
+          "aliases": [],
+          "name": "Microsoft"
+        },
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "OpenAI"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "A sell-side recap links Azure growth to available capacity and OpenAI demand; the post is a short excerpt and preserves Stifel’s attribution and qualification.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/sean_________/status/2102516928459743593",
+          "name": "@sean_________",
+          "published_at": "2026-09-22T21:54:33Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/sean_________/status/2102516928459743593",
+          "handle": "sean_________",
+          "published_at": "2026-09-22T21:54:33Z"
+        }
+      ],
+      "published_at": "2026-09-22T21:54:33Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "3b9b1476023fdac9ad4b",
+      "headline": "EY forecasts a roughly US$1 trillion semiconductor market by 2027",
+      "bullets": [
+        "EY estimates the semiconductor market could reach about US$1 trillion by 2027, at a compound annual growth rate of approximately 12.1%."
+      ],
+      "companies": [],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 64,
+      "priority": "High",
+      "score_reason": "The broad market forecast is relevant to industry demand, though the post provides no segment breakdown or methodology.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102550008906346578",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T00:06:00Z"
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102550008906346578",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T00:06:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T00:06:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "2b977f34df08120bf7b1",
+      "headline": "LIWEI_TWCapital sees possible upside for Google TPU and Axion suppliers",
+      "bullets": [
+        "LIWEI_TWCapital argues that if agentic workloads expand, inference costs could lead Google to rely more heavily on its TPU and Axion silicon.",
+        "The post names AVGO, ARM, TSM, CLS, LITE and COHR as potential beneficiaries; it does not provide further supply-chain details in the captured text."
+      ],
+      "companies": [
+        {
+          "ticker": "GOOGL",
+          "aliases": [],
+          "name": "Google"
+        }
+      ],
+      "topic_tier": 2,
+      "topic": "Compute · Supply Chain",
+      "categories": [
+        "Compute",
+        "Supply Chain"
+      ],
+      "importance": 61,
+      "priority": "High",
+      "score_reason": "The conditional analysis links potential agentic-AI workloads and inference costs to in-house silicon demand; the post provides only a limited supplier list.",
+      "verification": "opinion",
+      "sources": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102564857149095980",
+          "name": "@pequityresearch",
+          "published_at": "2026-09-23T01:05:00Z"
+        },
+        {
+          "url": "https://twitter.com/LIWEI_TWCapital/status/2102559123208626678",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/pequityresearch/status/2102564857149095980",
+          "handle": "pequityresearch",
+          "published_at": "2026-09-23T01:05:00Z"
+        }
+      ],
+      "published_at": "2026-09-23T01:05:00Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "ef3f3c8db6214fb1a4c5",
+      "headline": "Anthropic system-card claim cites multi-agent scaling to 100 parallel agents",
+      "bullets": [
+        "A post says Anthropic’s system card reports multi-agent scaling to as many as 100 parallel agents."
       ],
       "companies": [
         {
           "ticker": "",
           "aliases": [],
           "name": "Anthropic"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "OpenAI"
-        },
-        {
-          "ticker": "",
-          "aliases": [],
-          "name": "Meta"
         }
       ],
       "topic_tier": 3,
@@ -53972,178 +55155,202 @@
       "categories": [
         "Models"
       ],
-      "importance": 45,
-      "priority": "Medium",
-      "score_reason": "Substantive frontier-AI product-strategy commentary, but based on an informal discussion rather than verified company disclosures.",
-      "verification": "opinion",
+      "importance": 63,
+      "priority": "High",
+      "score_reason": "A substantive model-development capability claim, attributed to a post describing Anthropic’s system card.",
+      "verification": "reported",
       "sources": [
         {
-          "url": "https://x.com/jukan05/status/2102189294429593983",
-          "name": "@jukan05",
-          "published_at": "2026-09-22T00:12:39Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102171633184338329",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T23:02:28Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102170476261118296",
-          "name": "@jukan05",
-          "published_at": "2026-09-21T22:57:52Z"
-        }
-      ],
-      "highlights": [
-        {
-          "url": "https://x.com/jukan05/status/2102189294429593983",
-          "handle": "jukan05",
-          "published_at": "2026-09-22T00:12:39Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102171633184338329",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T23:02:28Z"
-        },
-        {
-          "url": "https://x.com/jukan05/status/2102170476261118296",
-          "handle": "jukan05",
-          "published_at": "2026-09-21T22:57:52Z"
-        }
-      ],
-      "published_at": "2026-09-22T00:12:39Z",
-      "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
-      "revision": 1,
-      "source_category": "Twitter"
-    },
-    {
-      "id": "29539bc238e2cafd6aa2",
-      "headline": "JigsawCap sees agentic tools approaching an adoption inflection",
-      "bullets": [
-        "JigsawCap argues that agentic tools may have crossed a tipping point in ease of use and mainstream adoption, with broader tool rollouts potentially representing a major inflection.",
-        "Zephyr signals agreement with that view; the post is commentary rather than independently verified adoption data."
-      ],
-      "companies": [],
-      "topic_tier": 3,
-      "topic": "Models",
-      "categories": [
-        "Models"
-      ],
-      "importance": 42,
-      "priority": "Medium",
-      "score_reason": "Qualifying frontier-AI adoption commentary with a substantive thesis, but no reported company metric.",
-      "verification": "opinion",
-      "sources": [
-        {
-          "url": "https://x.com/zephyr_z9/status/2102158249986535488",
+          "url": "https://x.com/zephyr_z9/status/2102447846071189972",
           "name": "@zephyr_z9",
-          "published_at": "2026-09-21T22:09:17Z"
+          "published_at": "2026-09-22T17:20:02Z"
         },
         {
-          "url": "https://twitter.com/JigsawCap/status/2102156619161166043",
+          "url": "https://twitter.com/scaling01/status/2102438640211423585",
           "name": "twitter.com",
           "published_at": null
         }
       ],
       "highlights": [
         {
-          "url": "https://x.com/zephyr_z9/status/2102158249986535488",
+          "url": "https://x.com/zephyr_z9/status/2102447846071189972",
           "handle": "zephyr_z9",
-          "published_at": "2026-09-21T22:09:17Z"
+          "published_at": "2026-09-22T17:20:02Z"
         }
       ],
-      "published_at": "2026-09-21T22:09:17Z",
+      "published_at": "2026-09-22T17:20:02Z",
       "date_precision": "time",
-      "first_seen_at": "2026-09-22T07:41:26Z",
-      "updated_at": "2026-09-22T07:41:26Z",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "65294c32ee6347d244b3",
+      "headline": "An unverified test suggests Anthropic classifiers may target Chinese hardware",
+      "bullets": [
+        "A quick test shared by @xlr8harder suggests Anthropic’s classifiers may target Chinese hardware; the post calls for further probing, so the claim remains unconfirmed."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "Anthropic"
+        }
+      ],
+      "topic_tier": 3,
+      "topic": "Models",
+      "categories": [
+        "Models"
+      ],
+      "importance": 48,
+      "priority": "Medium",
+      "score_reason": "A potentially relevant model-behavior claim, but it is based on a preliminary test and is explicitly unconfirmed.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102476752476099063",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-22T19:14:54Z"
+        },
+        {
+          "url": "https://twitter.com/xlr8harder/status/2102476236891234697",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102476752476099063",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-22T19:14:54Z"
+        }
+      ],
+      "published_at": "2026-09-22T19:14:54Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
+      "revision": 1,
+      "source_category": "Twitter"
+    },
+    {
+      "id": "da6ea3c8a935cffc937b",
+      "headline": "A DeepSeek Elastic Compute summary reports large-scale sandbox capacity",
+      "bullets": [
+        "A reposted summary of a DeepSeek Elastic Compute paper describes a production-scale unit spanning about 160 nodes and serving roughly 3 million sandboxes per day.",
+        "The same summary says it supports more than 380,000 concurrent sandboxes and over 5,000 sandbox creations per second."
+      ],
+      "companies": [
+        {
+          "ticker": "",
+          "aliases": [],
+          "name": "DeepSeek"
+        }
+      ],
+      "topic_tier": 4,
+      "topic": "Compute · Models · China Models",
+      "categories": [
+        "Compute",
+        "Models",
+        "China Models"
+      ],
+      "importance": 67,
+      "priority": "High",
+      "score_reason": "The figures describe production-scale infrastructure for a major Chinese AI model developer; the post is a reposted summary rather than independent verification.",
+      "verification": "reported",
+      "sources": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102453404320878702",
+          "name": "@zephyr_z9",
+          "published_at": "2026-09-22T17:42:07Z"
+        },
+        {
+          "url": "https://twitter.com/teortaxesTex/status/2102453018260025415",
+          "name": "twitter.com",
+          "published_at": null
+        },
+        {
+          "url": "https://twitter.com/54158zxc/status/2102345473915052412",
+          "name": "twitter.com",
+          "published_at": null
+        }
+      ],
+      "highlights": [
+        {
+          "url": "https://x.com/zephyr_z9/status/2102453404320878702",
+          "handle": "zephyr_z9",
+          "published_at": "2026-09-22T17:42:07Z"
+        }
+      ],
+      "published_at": "2026-09-22T17:42:07Z",
+      "date_precision": "time",
+      "first_seen_at": "2026-09-23T05:10:00Z",
+      "updated_at": "2026-09-23T05:10:00Z",
       "revision": 1,
       "source_category": "Twitter"
     }
   ],
   "twitter_window": {
-    "start": "2026-09-21T19:41:26Z",
-    "end": "2026-09-22T07:41:26Z",
+    "start": "2026-09-22T17:10:00Z",
+    "end": "2026-09-23T05:10:00Z",
     "weekend_coverage": false
   },
-  "twitter_published_at": "2026-09-22T07:58:01Z",
-  "weibo_published_at": "2026-09-22T07:58:01Z",
-  "weibo_updated_at": "2026-09-22T07:41:26Z",
+  "twitter_published_at": "2026-09-23T05:26:32Z",
+  "weibo_published_at": "2026-09-23T05:26:32Z",
+  "weibo_updated_at": "2026-09-23T05:10:00Z",
   "weibo_window": {
-    "start": "2026-09-21T07:41:26Z",
-    "end": "2026-09-22T07:41:26Z",
+    "start": "2026-09-22T05:10:00Z",
+    "end": "2026-09-23T05:10:00Z",
     "weekend_coverage": false
   },
   "weibo_schedule": "06:10 Europe/London · Monday–Friday",
-  "social_edition_day": "2026-09-22",
-  "social_story_ids": [
-    "909079950c5646c1e2c7",
-    "7139170420e939bc9796",
-    "65e115b5c8e00c1f7e4e",
-    "298bbdc6790bca932461",
-    "c50d60e2dcc4c6db40cb",
-    "29539bc238e2cafd6aa2",
-    "56833c7dc65b3056421b",
-    "baebb523ab8fca300500",
-    "e569d643bf72a0490693",
-    "0a86e21e1e3e8f480e73",
-    "06503644bb5a8f626b8f",
-    "152d814bf596bf02ad3a",
-    "8a8b143bb8bfcb3d78ae",
-    "19d54b7ce6da1aa3738f",
-    "d134217534c608979318",
-    "fc22245c30032cd43c46",
-    "165ee1d0008a5c78c53c",
-    "3c97f8554c40ea43d1c7",
-    "4c6f20c7934cf4eb8734",
-    "cd4cf5b38616ed618838",
-    "6c3a04f75c208b89bd07",
-    "1dc1e16b6f5474a66a57",
-    "0b5bb8c78985d9a57a04",
-    "fed8561b3a9d68df9351",
-    "7099294e1ff31987497c",
-    "1578a8657d443844c703",
-    "ffe1683df4f03ae209c0",
-    "ad785ecb1675628e398a",
-    "b3a4730724278d99f7f5",
-    "e0b7bbcb792e0fbad3ae",
-    "503bf6a62a7a6fc37032",
-    "c58071384cc3eeaf44eb"
-  ],
+  "social_edition_day": "2026-09-23",
   "web_edition_day": "2026-09-22",
-  "current_edition_supplement_ids": [
-    "909079950c5646c1e2c7",
-    "7139170420e939bc9796",
-    "65e115b5c8e00c1f7e4e",
-    "298bbdc6790bca932461",
-    "c50d60e2dcc4c6db40cb",
-    "29539bc238e2cafd6aa2",
-    "56833c7dc65b3056421b",
-    "baebb523ab8fca300500",
-    "e569d643bf72a0490693",
-    "0a86e21e1e3e8f480e73",
-    "06503644bb5a8f626b8f",
-    "152d814bf596bf02ad3a",
-    "8a8b143bb8bfcb3d78ae",
-    "19d54b7ce6da1aa3738f",
-    "d134217534c608979318",
-    "fc22245c30032cd43c46",
-    "165ee1d0008a5c78c53c",
-    "3c97f8554c40ea43d1c7",
-    "4c6f20c7934cf4eb8734",
-    "cd4cf5b38616ed618838",
-    "6c3a04f75c208b89bd07",
-    "1dc1e16b6f5474a66a57",
-    "0b5bb8c78985d9a57a04",
-    "fed8561b3a9d68df9351",
-    "7099294e1ff31987497c",
-    "1578a8657d443844c703",
-    "ffe1683df4f03ae209c0",
-    "ad785ecb1675628e398a",
-    "b3a4730724278d99f7f5",
-    "e0b7bbcb792e0fbad3ae",
-    "503bf6a62a7a6fc37032",
-    "c58071384cc3eeaf44eb"
+  "social_story_ids": [
+    "db83a9625ed0dcee434d",
+    "3c95c010bd44ca3a5456",
+    "65294c32ee6347d244b3",
+    "da6ea3c8a935cffc937b",
+    "ef3f3c8db6214fb1a4c5",
+    "fe9a4792f5dbc57d8a58",
+    "a8d1268dba151c5ba15a",
+    "6228cc674ae4e37eb7f2",
+    "9615d1a04724668e02a3",
+    "b3b5a08d1f73205dd9d4",
+    "98dc267658b6d600b3cd",
+    "c31ab76f8e45ec939ae1",
+    "00c40b4206690dfffc84",
+    "2b977f34df08120bf7b1",
+    "3b9b1476023fdac9ad4b",
+    "02d8683ee0fe67622b2c",
+    "73485e9046525cd5b04c",
+    "60fcb036447981020119",
+    "d758b1213eee298e4063",
+    "678364bd0c7c2ed0c398",
+    "bbaccbf020a0438d034c"
   ],
-  "published_at": "2026-09-22T08:00:36Z"
+  "current_edition_supplement_ids": [
+    "db83a9625ed0dcee434d",
+    "3c95c010bd44ca3a5456",
+    "65294c32ee6347d244b3",
+    "da6ea3c8a935cffc937b",
+    "ef3f3c8db6214fb1a4c5",
+    "fe9a4792f5dbc57d8a58",
+    "a8d1268dba151c5ba15a",
+    "6228cc674ae4e37eb7f2",
+    "9615d1a04724668e02a3",
+    "b3b5a08d1f73205dd9d4",
+    "98dc267658b6d600b3cd",
+    "c31ab76f8e45ec939ae1",
+    "00c40b4206690dfffc84",
+    "2b977f34df08120bf7b1",
+    "3b9b1476023fdac9ad4b",
+    "02d8683ee0fe67622b2c",
+    "73485e9046525cd5b04c",
+    "60fcb036447981020119",
+    "d758b1213eee298e4063",
+    "678364bd0c7c2ed0c398",
+    "bbaccbf020a0438d034c"
+  ],
+  "published_at": "2026-09-23T05:26:32Z"
 }
