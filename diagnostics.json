@@ -31634,6 +31634,16 @@
           "at": "2026-09-22T07:25:57Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-09-24T08:49:22Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-24T08:49:23Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -33506,7 +33516,7 @@
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-22T07:25:57Z",
+      "updated_at": "2026-09-24T08:49:23Z",
       "stage": "summarising"
     },
     {
