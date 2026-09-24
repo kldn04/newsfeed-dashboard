@@ -31644,6 +31644,16 @@
           "at": "2026-09-24T08:49:23Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-09-24T08:50:46Z",
+          "stage": "usage",
+          "message": "Other OpenAI response received."
+        },
+        {
+          "at": "2026-09-24T08:50:46Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
         }
       ],
       "usage": [
@@ -33514,10 +33524,22 @@
           "cache_write_tokens": 218043,
           "cost_usd": 0.07911495,
           "cost_basis": "Estimated USD; Luna input $0.20/M, cached $0.02/M, cache write $0.25/M, output $1.20/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Other",
+          "model": "gpt-6-luna",
+          "input_tokens": 11195,
+          "output_tokens": 9289,
+          "reasoning_tokens": 1380,
+          "cached_tokens": 0,
+          "cache_write_tokens": 11192,
+          "cost_usd": 0.0060438,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-24T08:49:23Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-24T08:50:46Z",
+      "stage": "validation"
     },
     {
       "started_at": "2026-09-22T07:41:27Z",
