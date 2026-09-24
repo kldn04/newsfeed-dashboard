@@ -1,9 +1,9 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
   "stage": "summarising",
-  "updated_at": "2026-09-24T05:29:21Z",
+  "updated_at": "2026-09-24T05:29:51Z",
   "started_at": "2026-09-24T05:10:00Z",
   "counts": {
     "weibo_candidates": 27,
@@ -11,14 +11,19 @@
     "twitter_api_requests": 13,
     "twitter_posts_fetched": 51,
     "openai_calls": 1,
-    "input_tokens_estimated": 15011,
+    "input_tokens_estimated": 23913,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 20426,
+    "openai_input_tokens": 14555,
+    "openai_output_tokens": 5871,
+    "eligible": 7,
+    "held": 0
   },
   "stored_totals": {
     "stories": 1013,
     "evidence": 2939,
-    "model_cache": 73,
+    "model_cache": 74,
     "reviews": 376
   },
   "review_categories": {
@@ -28,18 +33,6 @@
     "Editorial exclusions": 368
   },
   "events": [
-    {
-      "at": "2026-09-24T05:28:53Z",
-      "message": "Twitter API: fetching @intelfabs in the requested window."
-    },
-    {
-      "at": "2026-09-24T05:28:54Z",
-      "message": "Twitter API: @intelfabs returned 2 posts."
-    },
-    {
-      "at": "2026-09-24T05:28:54Z",
-      "message": "Twitter API: fetching @ryanhingshing in the requested window."
-    },
     {
       "at": "2026-09-24T05:28:54Z",
       "message": "Twitter API: @ryanhingshing returned 3 posts."
@@ -107,6 +100,18 @@
     {
       "at": "2026-09-24T05:28:59Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-09-24T05:29:51Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-09-24T05:29:51Z",
+      "message": "Batch complete: 7 stories ready."
+    },
+    {
+      "at": "2026-09-24T05:29:51Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     }
   ]
 }
