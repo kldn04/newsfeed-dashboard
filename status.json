@@ -1,9 +1,9 @@
 {
   "summary": "Twitter & Weibo ready · Web ready",
   "state": "idle",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-09-24T08:49:23Z",
+  "message": "OpenAI batch received; applying local format and link checks.",
+  "stage": "validation",
+  "updated_at": "2026-09-24T08:50:46Z",
   "started_at": "2026-09-22T06:24:05Z",
   "counts": {
     "x_candidates": 51,
@@ -13,9 +13,9 @@
     "input_tokens_estimated": 11774,
     "input_text_shortened": false,
     "openai_generation_attempts": 1,
-    "openai_tokens": 238549,
-    "openai_input_tokens": 218046,
-    "openai_output_tokens": 20503,
+    "openai_tokens": 20484,
+    "openai_input_tokens": 11195,
+    "openai_output_tokens": 9289,
     "eligible": 65,
     "held": 0
   },
@@ -32,10 +32,6 @@
     "Editorial exclusions": 380
   },
   "events": [
-    {
-      "at": "2026-09-22T07:22:54Z",
-      "message": "Twitter API: fetching @zartbotf in the requested window."
-    },
     {
       "at": "2026-09-22T07:22:55Z",
       "message": "Twitter API: @zartbotf returned 0 posts."
@@ -111,6 +107,10 @@
     {
       "at": "2026-09-24T08:49:23Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-09-24T08:50:46Z",
+      "message": "OpenAI batch received; applying local format and link checks."
     }
   ]
 }
