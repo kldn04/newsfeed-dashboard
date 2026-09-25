@@ -49524,6 +49524,30 @@
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ]
+    },
+    {
+      "started_at": "2026-09-25T04:30:01Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-09-25T04:30:01Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-09-25T04:30:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE."
+        },
+        {
+          "at": "2026-09-25T04:30:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-25T04:30:01Z",
+      "stage": "web_discovery"
     }
   ]
 }
