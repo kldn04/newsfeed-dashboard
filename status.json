@@ -1,24 +1,11 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "OpenAI batch received; applying local format and link checks.",
-  "stage": "validation",
-  "updated_at": "2026-09-24T08:50:46Z",
-  "started_at": "2026-09-22T06:24:05Z",
-  "counts": {
-    "x_candidates": 51,
-    "twitter_api_requests": 13,
-    "twitter_posts_fetched": 83,
-    "openai_calls": 1,
-    "input_tokens_estimated": 11774,
-    "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 20484,
-    "openai_input_tokens": 11195,
-    "openai_output_tokens": 9289,
-    "eligible": 65,
-    "held": 0
-  },
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Reading CTEE.",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-25T04:30:25Z",
+  "started_at": "2026-09-25T04:30:01Z",
+  "counts": {},
   "stored_totals": {
     "stories": 1078,
     "evidence": 3090,
@@ -33,84 +20,12 @@
   },
   "events": [
     {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: @zartbotf returned 0 posts."
+      "at": "2026-09-25T04:30:01Z",
+      "message": "Starting web edition."
     },
     {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: fetching @fundaai in the requested window."
-    },
-    {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: @fundaai returned 2 posts."
-    },
-    {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: fetching @shanghaojin in the requested window."
-    },
-    {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: @shanghaojin returned 2 posts."
-    },
-    {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: fetching @mingchikuo in the requested window."
-    },
-    {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: @mingchikuo returned 0 posts."
-    },
-    {
-      "at": "2026-09-22T07:22:55Z",
-      "message": "Twitter API: fetching @sean_________ in the requested window."
-    },
-    {
-      "at": "2026-09-22T07:22:56Z",
-      "message": "Twitter API: @sean_________ returned 0 posts."
-    },
-    {
-      "at": "2026-09-22T07:22:56Z",
-      "message": "Twitter API: fetching @qq_timmy in the requested window."
-    },
-    {
-      "at": "2026-09-22T07:22:56Z",
-      "message": "Twitter API: @qq_timmy returned 3 posts."
-    },
-    {
-      "at": "2026-09-22T07:22:59Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-22T07:23:00Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-09-22T07:25:56Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-22T07:25:56Z",
-      "message": "Batch complete: 65 stories ready."
-    },
-    {
-      "at": "2026-09-22T07:25:57Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-22T07:25:57Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-09-24T08:49:22Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-24T08:49:23Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-09-24T08:50:46Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-09-25T04:30:01Z",
+      "message": "Reading CTEE."
     }
   ]
 }
