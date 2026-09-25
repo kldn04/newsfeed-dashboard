@@ -51448,6 +51448,116 @@
           "at": "2026-09-25T04:34:26Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 271862 bytes, 3.1s."
+        },
+        {
+          "at": "2026-09-25T04:34:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:30Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 268073 bytes, 0.4s."
+        },
+        {
+          "at": "2026-09-25T04:34:30Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:30Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 268945 bytes, 0.5s."
+        },
+        {
+          "at": "2026-09-25T04:34:30Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-09-25T04:34:30Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:33Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 268945 bytes, 3.0s."
+        },
+        {
+          "at": "2026-09-25T04:34:33Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 278780 bytes, 0.5s."
+        },
+        {
+          "at": "2026-09-25T04:34:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:35Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 279756 bytes, 0.5s."
+        },
+        {
+          "at": "2026-09-25T04:34:35Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:35Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 277957 bytes, 0.5s."
+        },
+        {
+          "at": "2026-09-25T04:34:35Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:36Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 277080 bytes, 0.4s."
+        },
+        {
+          "at": "2026-09-25T04:34:36Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:37Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 282039 bytes, 0.5s."
+        },
+        {
+          "at": "2026-09-25T04:34:37Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-09-25T04:34:37Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 272959 bytes, 0.4s."
+        },
+        {
+          "at": "2026-09-25T04:34:37Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 17 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-09-25T04:34:37Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -52485,10 +52595,72 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-09-25T04:34:26Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-09-25T04:34:37Z",
+      "stage": "waiting_social"
     }
   ]
 }
