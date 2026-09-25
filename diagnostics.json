@@ -46842,6 +46842,36 @@
           "at": "2026-09-25T05:21:38Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-09-25T05:24:31Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-09-25T05:24:31Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-09-25T05:24:31Z",
+          "stage": "validation",
+          "message": "Batch complete: 16 stories ready."
+        },
+        {
+          "at": "2026-09-25T05:24:31Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-09-25T05:24:32Z",
+          "stage": "publishing",
+          "message": "Publishing social edition."
+        },
+        {
+          "at": "2026-09-25T05:24:35Z",
+          "stage": "complete",
+          "message": "Twitter & Weibo ready."
         }
       ],
       "usage": [
@@ -47004,10 +47034,22 @@
           "cache_write_tokens": 16196,
           "cost_usd": 0.0062693,
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-6-luna",
+          "input_tokens": 22055,
+          "output_tokens": 17093,
+          "reasoning_tokens": 11409,
+          "cached_tokens": 0,
+          "cache_write_tokens": 22052,
+          "cost_usd": 0.011303299999999999,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-09-25T05:21:38Z",
-      "stage": "summarising"
+      "updated_at": "2026-09-25T05:24:35Z",
+      "stage": "complete"
     }
   ]
 }
