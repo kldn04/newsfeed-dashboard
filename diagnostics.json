@@ -46303,6 +46303,30 @@
       ],
       "updated_at": "2026-09-25T04:34:37Z",
       "stage": "waiting_social"
+    },
+    {
+      "started_at": "2026-09-25T05:10:00Z",
+      "kind": "Weibo + Twitter",
+      "events": [
+        {
+          "at": "2026-09-25T05:10:00Z",
+          "stage": "starting",
+          "message": "Starting Weibo + Twitter social edition."
+        },
+        {
+          "at": "2026-09-25T05:10:00Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 手机晶片达人, page 1."
+        },
+        {
+          "at": "2026-09-25T05:10:01Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-09-25T05:10:01Z",
+      "stage": "weibo_discovery"
     }
   ]
 }
