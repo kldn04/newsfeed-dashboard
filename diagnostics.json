@@ -35640,6 +35640,16 @@
           "at": "2026-09-28T04:35:20Z",
           "stage": "waiting_social",
           "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+        },
+        {
+          "at": "2026-09-28T05:35:38Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-09-28T05:35:39Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -37097,8 +37107,8 @@
           "cost_usd": 0
         }
       ],
-      "updated_at": "2026-09-28T04:35:20Z",
-      "stage": "waiting_social"
+      "updated_at": "2026-09-28T05:35:39Z",
+      "stage": "summarising"
     },
     {
       "started_at": "2026-09-28T05:10:00Z",
