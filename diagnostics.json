@@ -37118,10 +37118,38 @@
           "at": "2026-09-28T05:10:01Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-28T05:10:29Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 66797 bytes, 28.3s."
+        },
+        {
+          "at": "2026-09-28T05:10:29Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 手机晶片达人 — 3 posts in collection window, 3 new."
+        },
+        {
+          "at": "2026-09-28T05:10:29Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码闲聊站, page 1."
+        },
+        {
+          "at": "2026-09-28T05:10:29Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
-      "usage": [],
-      "updated_at": "2026-09-28T05:10:01Z",
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-28T05:10:29Z",
       "stage": "weibo_discovery"
     }
   ]
