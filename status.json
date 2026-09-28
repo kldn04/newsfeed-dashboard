@@ -1,9 +1,9 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Reading MoneyToday.",
-  "stage": "web_discovery",
-  "updated_at": "2026-09-28T04:34:51Z",
+  "message": "Web scrape saved; waiting for the social edition before final compilation and merge.",
+  "stage": "waiting_social",
+  "updated_at": "2026-09-28T04:35:21Z",
   "started_at": "2026-09-28T04:30:01Z",
   "counts": {},
   "stored_totals": {
@@ -19,22 +19,6 @@
     "Editorial exclusions": 403
   },
   "events": [
-    {
-      "at": "2026-09-28T04:30:39Z",
-      "message": "Ijiwei: 20 candidates (partial)."
-    },
-    {
-      "at": "2026-09-28T04:30:47Z",
-      "message": "Reading TrendForce."
-    },
-    {
-      "at": "2026-09-28T04:30:52Z",
-      "message": "TrendForce: 2 candidates (ok)."
-    },
-    {
-      "at": "2026-09-28T04:30:52Z",
-      "message": "Reading ZDNet Korea."
-    },
     {
       "at": "2026-09-28T04:31:51Z",
       "message": "ZDNet Korea: 14 candidates (ok)."
@@ -98,6 +82,22 @@
     {
       "at": "2026-09-28T04:34:39Z",
       "message": "Reading MoneyToday."
+    },
+    {
+      "at": "2026-09-28T04:35:10Z",
+      "message": "MoneyToday: 38 dated articles captured (partial)."
+    },
+    {
+      "at": "2026-09-28T04:35:10Z",
+      "message": "Reading Economic Daily (UDN)."
+    },
+    {
+      "at": "2026-09-28T04:35:20Z",
+      "message": "Economic Daily (UDN): 12 dated articles captured (partial)."
+    },
+    {
+      "at": "2026-09-28T04:35:20Z",
+      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
     }
   ]
 }
