@@ -1,21 +1,11 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "Web stories added to the current edition.",
-  "stage": "complete",
-  "updated_at": "2026-09-28T05:38:38Z",
-  "started_at": "2026-09-28T04:30:01Z",
-  "counts": {
-    "openai_calls": 1,
-    "input_tokens_estimated": 301968,
-    "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 322521,
-    "openai_input_tokens": 297537,
-    "openai_output_tokens": 24984,
-    "eligible": 48,
-    "held": 0
-  },
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Initial article scrape: TheLec",
+  "stage": "web_discovery",
+  "updated_at": "2026-09-29T04:30:17Z",
+  "started_at": "2026-09-29T04:30:01Z",
+  "counts": {},
   "stored_totals": {
     "stories": 1240,
     "evidence": 3576,
@@ -30,84 +20,60 @@
   },
   "events": [
     {
-      "at": "2026-09-28T04:32:45Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
+      "at": "2026-09-29T04:30:01Z",
+      "message": "Starting web edition."
     },
     {
-      "at": "2026-09-28T04:32:45Z",
-      "message": "Reading Seoul Economic Daily."
+      "at": "2026-09-29T04:30:01Z",
+      "message": "Reading CTEE."
     },
     {
-      "at": "2026-09-28T04:33:18Z",
-      "message": "Seoul Economic Daily: 25 dated articles captured (partial)."
+      "at": "2026-09-29T04:30:05Z",
+      "message": "CTEE: 5 candidates (ok)."
     },
     {
-      "at": "2026-09-28T04:33:18Z",
-      "message": "Reading Asia Economy."
+      "at": "2026-09-29T04:30:05Z",
+      "message": "Reading TheLec."
     },
     {
-      "at": "2026-09-28T04:33:45Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
+      "at": "2026-09-29T04:30:12Z",
+      "message": "TheLec: 18 candidates (ok)."
     },
     {
-      "at": "2026-09-28T04:33:45Z",
-      "message": "Reading Hankook Ilbo."
+      "at": "2026-09-29T04:30:12Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:33:52Z",
-      "message": "Hankook Ilbo: 5 dated articles captured (partial)."
+      "at": "2026-09-29T04:30:13Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:33:52Z",
-      "message": "Reading ETNews."
+      "at": "2026-09-29T04:30:14Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:34:39Z",
-      "message": "ETNews: 24 dated articles captured (ok)."
+      "at": "2026-09-29T04:30:14Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:34:39Z",
-      "message": "Reading MoneyToday."
+      "at": "2026-09-29T04:30:15Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:35:10Z",
-      "message": "MoneyToday: 38 dated articles captured (partial)."
+      "at": "2026-09-29T04:30:15Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:35:10Z",
-      "message": "Reading Economic Daily (UDN)."
+      "at": "2026-09-29T04:30:15Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:35:20Z",
-      "message": "Economic Daily (UDN): 12 dated articles captured (partial)."
+      "at": "2026-09-29T04:30:16Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-09-28T04:35:20Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
-    },
-    {
-      "at": "2026-09-28T05:35:38Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-09-28T05:35:39Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-09-28T05:38:34Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-09-28T05:38:34Z",
-      "message": "Batch complete: 48 stories ready."
-    },
-    {
-      "at": "2026-09-28T05:38:34Z",
-      "message": "Publishing web edition."
-    },
-    {
-      "at": "2026-09-28T05:38:38Z",
-      "message": "Web stories added to the current edition."
+      "at": "2026-09-29T04:30:16Z",
+      "message": "Initial article scrape: TheLec"
     }
   ]
 }
