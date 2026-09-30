@@ -1,12 +1,12 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: fetching 数码王小机, page 2.",
+  "message": "Weibo: reading full text for a new post from 数码闲聊站.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-09-30T05:18:23Z",
+  "updated_at": "2026-09-30T05:18:53Z",
   "started_at": "2026-09-30T05:10:00Z",
   "counts": {
-    "weibo_candidates": 35
+    "weibo_candidates": 45
   },
   "stored_totals": {
     "stories": 1312,
@@ -21,22 +21,6 @@
     "Editorial exclusions": 474
   },
   "events": [
-    {
-      "at": "2026-09-30T05:12:02Z",
-      "message": "Weibo: fetch failed for 数码闲聊站 (ReadTimeout)."
-    },
-    {
-      "at": "2026-09-30T05:12:02Z",
-      "message": "Weibo: 数码闲聊站 — 8 posts in collection window, 8 new."
-    },
-    {
-      "at": "2026-09-30T05:12:02Z",
-      "message": "Weibo: fetching 智慧芯片案内人, page 1."
-    },
-    {
-      "at": "2026-09-30T05:12:22Z",
-      "message": "Weibo: fetching 智慧芯片案内人, page 2."
-    },
     {
       "at": "2026-09-30T05:13:52Z",
       "message": "Weibo: fetch failed for 智慧芯片案内人 (ReadTimeout)."
@@ -100,6 +84,22 @@
     {
       "at": "2026-09-30T05:17:02Z",
       "message": "Weibo: fetching 数码王小机, page 2."
+    },
+    {
+      "at": "2026-09-30T05:18:33Z",
+      "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
+    },
+    {
+      "at": "2026-09-30T05:18:33Z",
+      "message": "Weibo: 数码王小机 — 10 posts in collection window, 10 new."
+    },
+    {
+      "at": "2026-09-30T05:18:33Z",
+      "message": "Weibo: reading full text for a new post from 数码闲聊站."
+    },
+    {
+      "at": "2026-09-30T05:18:48Z",
+      "message": "Weibo: reading full text for a new post from 数码闲聊站."
     }
   ]
 }
