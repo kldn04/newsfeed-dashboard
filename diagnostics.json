@@ -39976,6 +39976,58 @@
       ],
       "updated_at": "2026-09-30T04:36:10Z",
       "stage": "waiting_social"
+    },
+    {
+      "started_at": "2026-09-30T05:10:00Z",
+      "kind": "Weibo + Twitter",
+      "events": [
+        {
+          "at": "2026-09-30T05:10:00Z",
+          "stage": "starting",
+          "message": "Starting Weibo + Twitter social edition."
+        },
+        {
+          "at": "2026-09-30T05:10:00Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 手机晶片达人, page 1."
+        },
+        {
+          "at": "2026-09-30T05:10:01Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-09-30T05:10:18Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 66794 bytes, 16.9s."
+        },
+        {
+          "at": "2026-09-30T05:10:18Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-09-30T05:10:18Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码闲聊站, page 1."
+        },
+        {
+          "at": "2026-09-30T05:10:18Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-09-30T05:10:18Z",
+      "stage": "weibo_discovery"
     }
   ]
 }
