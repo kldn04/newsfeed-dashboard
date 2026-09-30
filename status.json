@@ -1,10 +1,10 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Web scrape saved; waiting for the social edition before final compilation and merge.",
-  "stage": "waiting_social",
-  "updated_at": "2026-09-30T05:09:47Z",
-  "started_at": "2026-09-30T04:30:01Z",
+  "message": "Weibo: fetching 手机晶片达人, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-09-30T05:10:18Z",
+  "started_at": "2026-09-30T05:10:00Z",
   "counts": {},
   "stored_totals": {
     "stories": 1312,
@@ -20,84 +20,12 @@
   },
   "events": [
     {
-      "at": "2026-09-30T04:31:53Z",
-      "message": "ZDNet Korea: 4 candidates (ok)."
+      "at": "2026-09-30T05:10:00Z",
+      "message": "Starting Weibo + Twitter social edition."
     },
     {
-      "at": "2026-09-30T04:31:53Z",
-      "message": "Reading EET China."
-    },
-    {
-      "at": "2026-09-30T04:33:24Z",
-      "message": "EET China: 11 candidates (ok)."
-    },
-    {
-      "at": "2026-09-30T04:33:25Z",
-      "message": "Reading IDC."
-    },
-    {
-      "at": "2026-09-30T04:33:25Z",
-      "message": "IDC: 0 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-09-30T04:33:25Z",
-      "message": "Reading Counterpoint Research."
-    },
-    {
-      "at": "2026-09-30T04:33:27Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
-    },
-    {
-      "at": "2026-09-30T04:33:27Z",
-      "message": "Reading Seoul Economic Daily."
-    },
-    {
-      "at": "2026-09-30T04:34:05Z",
-      "message": "Seoul Economic Daily: 22 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-30T04:34:05Z",
-      "message": "Reading Asia Economy."
-    },
-    {
-      "at": "2026-09-30T04:34:28Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-30T04:34:28Z",
-      "message": "Reading Hankook Ilbo."
-    },
-    {
-      "at": "2026-09-30T04:34:43Z",
-      "message": "Hankook Ilbo: 13 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-30T04:34:43Z",
-      "message": "Reading ETNews."
-    },
-    {
-      "at": "2026-09-30T04:35:27Z",
-      "message": "ETNews: 20 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-09-30T04:35:27Z",
-      "message": "Reading MoneyToday."
-    },
-    {
-      "at": "2026-09-30T04:35:56Z",
-      "message": "MoneyToday: 35 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-30T04:35:56Z",
-      "message": "Reading Economic Daily (UDN)."
-    },
-    {
-      "at": "2026-09-30T04:36:10Z",
-      "message": "Economic Daily (UDN): 16 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-09-30T04:36:10Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+      "at": "2026-09-30T05:10:00Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     }
   ]
 }
