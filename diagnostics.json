@@ -29867,6 +29867,11 @@
           "at": "2026-10-01T05:20:30Z",
           "stage": "summarising",
           "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-01T05:20:33Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -30040,7 +30045,7 @@
           "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-10-01T05:20:30Z",
+      "updated_at": "2026-10-01T05:20:33Z",
       "stage": "summarising"
     }
   ]
