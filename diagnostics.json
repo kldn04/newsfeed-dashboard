@@ -29917,6 +29917,16 @@
           "at": "2026-10-01T05:50:52Z",
           "stage": "failed",
           "message": "Social collection stopped (ValueError); saved progress retained."
+        },
+        {
+          "at": "2026-10-01T07:22:20Z",
+          "stage": "recovery",
+          "message": "Reusing saved twitter-prior checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:20Z",
+          "stage": "validation",
+          "message": "Batch complete: 25 stories ready."
         }
       ],
       "usage": [
@@ -30114,8 +30124,91 @@
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-10-01T05:50:52Z",
-      "stage": "failed"
+      "updated_at": "2026-10-01T07:22:20Z",
+      "stage": "validation"
+    },
+    {
+      "started_at": "2026-10-01T07:22:21Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "recovery",
+          "message": "Reusing saved web checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "recovery",
+          "message": "Reusing saved primary checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+        },
+        {
+          "at": "2026-10-01T07:22:29Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-01T07:22:32Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-10-01T07:22:32Z",
+      "stage": "summarising"
+    },
+    {
+      "started_at": "2026-10-01T07:22:21Z",
+      "kind": "Weibo + Twitter",
+      "events": [
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "starting",
+          "message": "Starting Weibo + Twitter social edition."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "recovery",
+          "message": "Reusing saved weibo checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "recovery",
+          "message": "Reusing saved twitter checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "recovery",
+          "message": "Reusing saved weibo-compiled checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "recovery",
+          "message": "Reusing saved twitter-compiled checkpoint; no repeat fetch or completed compilation."
+        },
+        {
+          "at": "2026-10-01T07:22:21Z",
+          "stage": "publishing",
+          "message": "Publishing social edition."
+        },
+        {
+          "at": "2026-10-01T07:22:25Z",
+          "stage": "complete",
+          "message": "Twitter & Weibo ready."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-10-01T07:22:25Z",
+      "stage": "complete"
     }
   ]
 }
