@@ -1,9 +1,9 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-10-01T05:50:23Z",
+  "message": "Social collection stopped (ValueError); saved progress retained.",
+  "stage": "failed",
+  "updated_at": "2026-10-01T05:50:53Z",
   "started_at": "2026-10-01T05:10:00Z",
   "counts": {
     "weibo_candidates": 34,
@@ -14,37 +14,25 @@
     "input_tokens_estimated": 30085,
     "input_text_shortened": false,
     "openai_generation_attempts": 1,
-    "openai_tokens": 25159,
-    "openai_input_tokens": 16436,
-    "openai_output_tokens": 8723,
-    "eligible": 9,
+    "openai_tokens": 70421,
+    "openai_input_tokens": 28852,
+    "openai_output_tokens": 41569,
+    "eligible": 24,
     "held": 1
   },
   "stored_totals": {
     "stories": 1402,
     "evidence": 4182,
-    "model_cache": 89,
-    "reviews": 500
+    "model_cache": 90,
+    "reviews": 528
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 492
+    "Editorial exclusions": 520
   },
   "events": [
-    {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: fetching @sssjeffpu in the requested window."
-    },
-    {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: @sssjeffpu returned 1 posts."
-    },
-    {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: fetching @zartbotf in the requested window."
-    },
     {
       "at": "2026-10-01T05:20:26Z",
       "message": "Twitter API: @zartbotf returned 0 posts."
@@ -112,6 +100,18 @@
     {
       "at": "2026-10-01T05:21:58Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-10-01T05:50:52Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-10-01T05:50:52Z",
+      "message": "Batch complete: 24 stories ready."
+    },
+    {
+      "at": "2026-10-01T05:50:52Z",
+      "message": "Social collection stopped (ValueError); saved progress retained."
     }
   ]
 }
