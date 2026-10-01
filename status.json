@@ -1,117 +1,52 @@
 {
-  "summary": "Collection in progress",
+  "summary": "Twitter & Weibo ready · Web collection in progress",
   "state": "running",
-  "message": "Social collection stopped (ValueError); saved progress retained.",
-  "stage": "failed",
-  "updated_at": "2026-10-01T07:22:01Z",
-  "started_at": "2026-10-01T05:10:00Z",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "stage": "summarising",
+  "updated_at": "2026-10-01T07:22:32Z",
+  "started_at": "2026-10-01T07:22:21Z",
   "counts": {
-    "weibo_candidates": 34,
-    "x_candidates": 56,
-    "twitter_api_requests": 13,
-    "twitter_posts_fetched": 85,
     "openai_calls": 1,
-    "input_tokens_estimated": 30085,
+    "input_tokens_estimated": 226821,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 70421,
-    "openai_input_tokens": 28852,
-    "openai_output_tokens": 41569,
-    "eligible": 24,
-    "held": 1
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
-    "stories": 1402,
-    "evidence": 4182,
+    "stories": 1436,
+    "evidence": 4357,
     "model_cache": 90,
-    "reviews": 528
+    "reviews": 531
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 520
+    "Editorial exclusions": 523
   },
   "events": [
     {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: @zartbotf returned 0 posts."
+      "at": "2026-10-01T07:22:21Z",
+      "message": "Starting web edition."
     },
     {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: fetching @fundaai in the requested window."
+      "at": "2026-10-01T07:22:21Z",
+      "message": "Reusing saved web checkpoint; no repeat fetch or completed compilation."
     },
     {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: @fundaai returned 1 posts."
+      "at": "2026-10-01T07:22:21Z",
+      "message": "Reusing saved primary checkpoint; no repeat fetch or completed compilation."
     },
     {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: fetching @shanghaojin in the requested window."
+      "at": "2026-10-01T07:22:21Z",
+      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
     },
     {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: @shanghaojin returned 7 posts."
-    },
-    {
-      "at": "2026-10-01T05:20:26Z",
-      "message": "Twitter API: fetching @mingchikuo in the requested window."
-    },
-    {
-      "at": "2026-10-01T05:20:27Z",
-      "message": "Twitter API: @mingchikuo returned 0 posts."
-    },
-    {
-      "at": "2026-10-01T05:20:27Z",
-      "message": "Twitter API: fetching @sean_________ in the requested window."
-    },
-    {
-      "at": "2026-10-01T05:20:27Z",
-      "message": "Twitter API: @sean_________ returned 0 posts."
-    },
-    {
-      "at": "2026-10-01T05:20:27Z",
-      "message": "Twitter API: fetching @qq_timmy in the requested window."
-    },
-    {
-      "at": "2026-10-01T05:20:27Z",
-      "message": "Twitter API: @qq_timmy returned 4 posts."
-    },
-    {
-      "at": "2026-10-01T05:20:30Z",
+      "at": "2026-10-01T07:22:29Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     },
     {
-      "at": "2026-10-01T05:20:33Z",
+      "at": "2026-10-01T07:22:32Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-10-01T05:21:57Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-10-01T05:21:57Z",
-      "message": "Batch complete: 9 stories ready."
-    },
-    {
-      "at": "2026-10-01T05:21:57Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-10-01T05:21:58Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-10-01T05:50:52Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-10-01T05:50:52Z",
-      "message": "Batch complete: 24 stories ready."
-    },
-    {
-      "at": "2026-10-01T05:50:52Z",
-      "message": "Social collection stopped (ValueError); saved progress retained."
     }
   ]
 }
