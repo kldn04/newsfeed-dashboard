@@ -28487,6 +28487,16 @@
           "at": "2026-10-01T04:35:28Z",
           "stage": "fetch",
           "message": "money.udn.com: direct HTTP 200, 278469 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-01T04:35:28Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 17 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-10-01T04:35:29Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -30053,8 +30063,8 @@
           "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-01T04:35:28Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-10-01T04:35:29Z",
+      "stage": "waiting_social"
     }
   ]
 }
