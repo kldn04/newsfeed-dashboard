@@ -1,4625 +1,6 @@
 {
   "runs": [
     {
-      "started_at": "2026-09-23T04:30:01Z",
-      "kind": "Web",
-      "events": [
-        {
-          "at": "2026-09-23T04:30:01Z",
-          "stage": "starting",
-          "message": "Starting web edition."
-        },
-        {
-          "at": "2026-09-23T04:30:01Z",
-          "stage": "web_discovery",
-          "message": "Reading CTEE."
-        },
-        {
-          "at": "2026-09-23T04:30:01Z",
-          "stage": "fetch",
-          "message": "www.ctee.com.tw: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:06Z",
-          "stage": "fetch",
-          "message": "www.ctee.com.tw: HTTP 200, 84576 bytes, 4.7s."
-        },
-        {
-          "at": "2026-09-23T04:30:06Z",
-          "stage": "web_discovery",
-          "message": "CTEE: 4 candidates (ok)."
-        },
-        {
-          "at": "2026-09-23T04:30:06Z",
-          "stage": "web_discovery",
-          "message": "Reading TheLec."
-        },
-        {
-          "at": "2026-09-23T04:30:06Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:07Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 115980 bytes, 1.5s."
-        },
-        {
-          "at": "2026-09-23T04:30:08Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:08Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 122142 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:08Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:08Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 122506 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:09Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:09Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 122479 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:09Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:10Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 123140 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:10Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:10Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 122919 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:11Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:11Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 121106 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:11Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:11Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 124844 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:12Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:12Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 119081 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:12Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:13Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 119885 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:13Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:13Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 123111 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:13Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:14Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 121699 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:14Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:14Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 117927 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:14Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:15Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 120695 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:15Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:15Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 119306 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:15Z",
-          "stage": "web_discovery",
-          "message": "TheLec: 14 candidates (ok)."
-        },
-        {
-          "at": "2026-09-23T04:30:16Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: TheLec"
-        },
-        {
-          "at": "2026-09-23T04:30:16Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:16Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 119625 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:30:16Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: TheLec"
-        },
-        {
-          "at": "2026-09-23T04:30:16Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:17Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 127032 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:30:17Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: TheLec"
-        },
-        {
-          "at": "2026-09-23T04:30:17Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:17Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 118796 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:18Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: TheLec"
-        },
-        {
-          "at": "2026-09-23T04:30:18Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:18Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 121990 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:18Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: TheLec"
-        },
-        {
-          "at": "2026-09-23T04:30:18Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 121006 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: TheLec"
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "fetch",
-          "message": "www.thelec.kr: direct HTTP 200, 119120 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "web_discovery",
-          "message": "Reading Tom’s Hardware."
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:19Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1628704 bytes, 0.2s."
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "web_discovery",
-          "message": "Tom’s Hardware: 7 candidates (ok)."
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1967750 bytes, 0.1s."
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:20Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1985654 bytes, 0.1s."
-        },
-        {
-          "at": "2026-09-23T04:30:21Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:21Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:21Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1976179 bytes, 0.2s."
-        },
-        {
-          "at": "2026-09-23T04:30:21Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:21Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:21Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1988625 bytes, 0.1s."
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1951328 bytes, 0.1s."
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1942127 bytes, 0.1s."
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "web_discovery",
-          "message": "Initial article scrape: Tom’s Hardware"
-        },
-        {
-          "at": "2026-09-23T04:30:22Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:30:23Z",
-          "stage": "fetch",
-          "message": "www.tomshardware.com: direct HTTP 200, 1980422 bytes, 0.1s."
-        },
-        {
-          "at": "2026-09-23T04:30:23Z",
-          "stage": "web_discovery",
-          "message": "Reading Ijiwei."
-        },
-        {
-          "at": "2026-09-23T04:30:23Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:27Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct access unavailable; using Bright Data fallback."
-        },
-        {
-          "at": "2026-09-23T04:31:27Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:31Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: HTTP 200, 102763 bytes, 3.9s."
-        },
-        {
-          "at": "2026-09-23T04:31:32Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:34Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 30624 bytes, 1.5s."
-        },
-        {
-          "at": "2026-09-23T04:31:34Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:34Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 30752 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:31:35Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:35Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 29810 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:35Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:36Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 31175 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:31:36Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:36Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 30473 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:36Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:37Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 32252 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:31:37Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:37Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 33684 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:37Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:38Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 48073 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:38Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:39Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 50094 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:39Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:39Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 56195 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:39Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:40Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 57700 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:40Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:41Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 62635 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:41Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:41Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 34306 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:31:41Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:42Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 52318 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:31:42Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:43Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 32217 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:31:43Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:44Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 38455 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:31:44Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:44Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 31819 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:44Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:45Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 46535 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:31:45Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:46Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 37209 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:46Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:46Z",
-          "stage": "fetch",
-          "message": "ijiwei.com: direct HTTP 200, 57694 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:31:47Z",
-          "stage": "web_discovery",
-          "message": "Ijiwei: 20 candidates (partial)."
-        },
-        {
-          "at": "2026-09-23T04:31:48Z",
-          "stage": "web_discovery",
-          "message": "Reading TrendForce."
-        },
-        {
-          "at": "2026-09-23T04:31:48Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:49Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct HTTP 200, 77888 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:31:49Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:49Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct HTTP 200, 74672 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:31:50Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:50Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct HTTP 200, 74218 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:31:50Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:50Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct HTTP 200, 74267 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:31:51Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:51Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct HTTP 200, 73694 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:31:51Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:51Z",
-          "stage": "fetch",
-          "message": "www.trendforce.com: direct HTTP 200, 75493 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:31:51Z",
-          "stage": "web_discovery",
-          "message": "TrendForce: 5 candidates (partial)."
-        },
-        {
-          "at": "2026-09-23T04:31:52Z",
-          "stage": "web_discovery",
-          "message": "Reading ZDNet Korea."
-        },
-        {
-          "at": "2026-09-23T04:31:52Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:54Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 71684 bytes, 2.4s."
-        },
-        {
-          "at": "2026-09-23T04:31:55Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:31:57Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 74293 bytes, 2.5s."
-        },
-        {
-          "at": "2026-09-23T04:31:58Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:00Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 71162 bytes, 2.6s."
-        },
-        {
-          "at": "2026-09-23T04:32:00Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:03Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 77695 bytes, 2.6s."
-        },
-        {
-          "at": "2026-09-23T04:32:03Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:06Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 74845 bytes, 2.8s."
-        },
-        {
-          "at": "2026-09-23T04:32:06Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:09Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 73656 bytes, 2.5s."
-        },
-        {
-          "at": "2026-09-23T04:32:09Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:11Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 73245 bytes, 2.2s."
-        },
-        {
-          "at": "2026-09-23T04:32:11Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:13Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 72694 bytes, 2.2s."
-        },
-        {
-          "at": "2026-09-23T04:32:14Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:16Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 77096 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:32:16Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:18Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 74969 bytes, 2.7s."
-        },
-        {
-          "at": "2026-09-23T04:32:19Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:21Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 71677 bytes, 2.8s."
-        },
-        {
-          "at": "2026-09-23T04:32:21Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:23Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 72583 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:32:23Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:26Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 72507 bytes, 3.0s."
-        },
-        {
-          "at": "2026-09-23T04:32:27Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:29Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 74759 bytes, 2.3s."
-        },
-        {
-          "at": "2026-09-23T04:32:29Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:31Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 78309 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:32:31Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:34Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 72013 bytes, 2.6s."
-        },
-        {
-          "at": "2026-09-23T04:32:34Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:36Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 71302 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:32:36Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:39Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 72264 bytes, 2.4s."
-        },
-        {
-          "at": "2026-09-23T04:32:39Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:41Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 74540 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:32:41Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:44Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 78866 bytes, 2.3s."
-        },
-        {
-          "at": "2026-09-23T04:32:44Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:46Z",
-          "stage": "fetch",
-          "message": "zdnet.co.kr: direct HTTP 200, 73367 bytes, 2.2s."
-        },
-        {
-          "at": "2026-09-23T04:32:46Z",
-          "stage": "web_discovery",
-          "message": "ZDNet Korea: 8 candidates (ok)."
-        },
-        {
-          "at": "2026-09-23T04:32:46Z",
-          "stage": "web_discovery",
-          "message": "Reading EET China."
-        },
-        {
-          "at": "2026-09-23T04:32:47Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:49Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 122207 bytes, 2.3s."
-        },
-        {
-          "at": "2026-09-23T04:32:49Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:53Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 132373 bytes, 3.5s."
-        },
-        {
-          "at": "2026-09-23T04:32:53Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:32:55Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 132052 bytes, 1.9s."
-        },
-        {
-          "at": "2026-09-23T04:32:55Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:03Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 130437 bytes, 8.1s."
-        },
-        {
-          "at": "2026-09-23T04:33:03Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:06Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 135050 bytes, 3.4s."
-        },
-        {
-          "at": "2026-09-23T04:33:06Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:11Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 137029 bytes, 4.5s."
-        },
-        {
-          "at": "2026-09-23T04:33:11Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:13Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 142045 bytes, 2.4s."
-        },
-        {
-          "at": "2026-09-23T04:33:13Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:17Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 145998 bytes, 3.2s."
-        },
-        {
-          "at": "2026-09-23T04:33:17Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:19Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 132413 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:33:19Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:24Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 138875 bytes, 5.5s."
-        },
-        {
-          "at": "2026-09-23T04:33:25Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:26Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 133130 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:33:26Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:29Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 130830 bytes, 3.4s."
-        },
-        {
-          "at": "2026-09-23T04:33:29Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:33Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 131075 bytes, 3.2s."
-        },
-        {
-          "at": "2026-09-23T04:33:33Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:35Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 130952 bytes, 2.2s."
-        },
-        {
-          "at": "2026-09-23T04:33:35Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:40Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 132448 bytes, 4.9s."
-        },
-        {
-          "at": "2026-09-23T04:33:40Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:45Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 134159 bytes, 5.0s."
-        },
-        {
-          "at": "2026-09-23T04:33:45Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:47Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 131759 bytes, 1.6s."
-        },
-        {
-          "at": "2026-09-23T04:33:47Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:49Z",
-          "stage": "fetch",
-          "message": "www.eet-china.com: HTTP 200, 137146 bytes, 2.1s."
-        },
-        {
-          "at": "2026-09-23T04:33:49Z",
-          "stage": "web_discovery",
-          "message": "EET China: 7 candidates (ok)."
-        },
-        {
-          "at": "2026-09-23T04:33:50Z",
-          "stage": "web_discovery",
-          "message": "Reading IDC."
-        },
-        {
-          "at": "2026-09-23T04:33:50Z",
-          "stage": "fetch",
-          "message": "www.idc.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:51Z",
-          "stage": "fetch",
-          "message": "www.idc.com: direct HTTP 200, 122671 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:33:51Z",
-          "stage": "web_discovery",
-          "message": "IDC: 0 dated articles captured (ok)."
-        },
-        {
-          "at": "2026-09-23T04:33:51Z",
-          "stage": "web_discovery",
-          "message": "Reading Counterpoint Research."
-        },
-        {
-          "at": "2026-09-23T04:33:51Z",
-          "stage": "fetch",
-          "message": "counterpointresearch.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:54Z",
-          "stage": "fetch",
-          "message": "counterpointresearch.com: HTTP 200, 363076 bytes, 2.4s."
-        },
-        {
-          "at": "2026-09-23T04:33:54Z",
-          "stage": "web_discovery",
-          "message": "Counterpoint Research: 0 dated articles captured (failed)."
-        },
-        {
-          "at": "2026-09-23T04:33:54Z",
-          "stage": "web_discovery",
-          "message": "Reading Seoul Economic Daily."
-        },
-        {
-          "at": "2026-09-23T04:33:54Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:58Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 93675 bytes, 3.8s."
-        },
-        {
-          "at": "2026-09-23T04:33:58Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:33:59Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 149308 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:34:00Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:01Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 145041 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:34:01Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:03Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 147997 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:34:03Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:04Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 138102 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:04Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:05Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 137433 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:05Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:06Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 139747 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:06Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:07Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 136840 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:08Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:09Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 139574 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:09Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:10Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 145562 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:10Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:11Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 139267 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:11Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:12Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 148963 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:12Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:13Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 159152 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:13Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:14Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 158765 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:15Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:15Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 138042 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:16Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:17Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 161494 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:17Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:18Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 156511 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:18Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:19Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 158344 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:19Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:20Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 156101 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:20Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:21Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 161345 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:21Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:22Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 148684 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:22Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:23Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 139805 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:23Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:24Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 142331 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:24Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:25Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 137603 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:25Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:26Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 142173 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:26Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:27Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 141877 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:27Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:28Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 146835 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:28Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:29Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 144373 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:29Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:30Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 144033 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:30Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:31Z",
-          "stage": "fetch",
-          "message": "sedaily.com: direct HTTP 200, 142566 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:31Z",
-          "stage": "web_discovery",
-          "message": "Seoul Economic Daily: 21 dated articles captured (partial)."
-        },
-        {
-          "at": "2026-09-23T04:34:31Z",
-          "stage": "web_discovery",
-          "message": "Reading Asia Economy."
-        },
-        {
-          "at": "2026-09-23T04:34:32Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:36Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 139083 bytes, 3.8s."
-        },
-        {
-          "at": "2026-09-23T04:34:37Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:38Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 169223 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:39Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:40Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 170257 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:34:41Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:42Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 169625 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:43Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:44Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 169593 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:34:45Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:46Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 168339 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:47Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:47Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 170924 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:47Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:48Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 167929 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:48Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:49Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 167709 bytes, 1.0s."
-        },
-        {
-          "at": "2026-09-23T04:34:50Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:51Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 168477 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:52Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:52Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 171552 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:52Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:53Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 174688 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:54Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:55Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 168242 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:34:56Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:57Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 170716 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:58Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:34:59Z",
-          "stage": "fetch",
-          "message": "www.asiae.co.kr: direct HTTP 200, 168786 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:34:59Z",
-          "stage": "web_discovery",
-          "message": "Asia Economy: 14 dated articles captured (partial)."
-        },
-        {
-          "at": "2026-09-23T04:34:59Z",
-          "stage": "web_discovery",
-          "message": "Reading Hankook Ilbo."
-        },
-        {
-          "at": "2026-09-23T04:34:59Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:01Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 232550 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:35:01Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:01Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 135882 bytes, 0.0s."
-        },
-        {
-          "at": "2026-09-23T04:35:01Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:02Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 132921 bytes, 0.7s."
-        },
-        {
-          "at": "2026-09-23T04:35:02Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:03Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 163210 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:03Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:03Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 138969 bytes, 0.0s."
-        },
-        {
-          "at": "2026-09-23T04:35:03Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:04Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 149640 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:35:04Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:06Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 143581 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:35:06Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:07Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 146945 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:35:07Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:08Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 132554 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:35:08Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:08Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 137897 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:35:08Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:10Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 134703 bytes, 1.3s."
-        },
-        {
-          "at": "2026-09-23T04:35:10Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:10Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 135949 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:35:10Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:11Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 137564 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:35:11Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:11Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 147015 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:35:11Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:12Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 131388 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:35:12Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:12Z",
-          "stage": "fetch",
-          "message": "www.hankookilbo.com: direct HTTP 200, 232550 bytes, 0.0s."
-        },
-        {
-          "at": "2026-09-23T04:35:12Z",
-          "stage": "web_discovery",
-          "message": "Hankook Ilbo: 13 dated articles captured (partial)."
-        },
-        {
-          "at": "2026-09-23T04:35:12Z",
-          "stage": "web_discovery",
-          "message": "Reading ETNews."
-        },
-        {
-          "at": "2026-09-23T04:35:13Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:14Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 28116 bytes, 1.5s."
-        },
-        {
-          "at": "2026-09-23T04:35:15Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:17Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 57537 bytes, 1.8s."
-        },
-        {
-          "at": "2026-09-23T04:35:17Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:19Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55907 bytes, 1.8s."
-        },
-        {
-          "at": "2026-09-23T04:35:19Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:21Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56462 bytes, 1.7s."
-        },
-        {
-          "at": "2026-09-23T04:35:21Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:22Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53437 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:22Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:23Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55125 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:23Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:25Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 54465 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:25Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:26Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53808 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:26Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:27Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53311 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:27Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:29Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56033 bytes, 1.7s."
-        },
-        {
-          "at": "2026-09-23T04:35:29Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:31Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53413 bytes, 1.7s."
-        },
-        {
-          "at": "2026-09-23T04:35:31Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:33Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53407 bytes, 1.7s."
-        },
-        {
-          "at": "2026-09-23T04:35:33Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:35Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53075 bytes, 1.8s."
-        },
-        {
-          "at": "2026-09-23T04:35:35Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:36Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 54161 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:36Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:37Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53900 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:38Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:39Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53477 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:39Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:40Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 9301 bytes, 0.9s."
-        },
-        {
-          "at": "2026-09-23T04:35:40Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:41Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 54843 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:42Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:43Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 54500 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:44Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:45Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55777 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:45Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:46Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56482 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:46Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:48Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 58106 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:48Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:49Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 62868 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:49Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:50Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 58931 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:50Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:51Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55529 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:51Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:52Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56621 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:53Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:54Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55635 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:54Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:55Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56611 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:55Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:56Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56133 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:56Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:57Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53199 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:35:57Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:35:59Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53784 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:35:59Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:00Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 56034 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:00Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:01Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 8825 bytes, 0.8s."
-        },
-        {
-          "at": "2026-09-23T04:36:01Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:02Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 52712 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:02Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:03Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55218 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:03Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:04Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53500 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:36:05Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:06Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53359 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:36:06Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:07Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 52794 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:07Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:08Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55218 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:36:08Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:09Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 53414 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:09Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:10Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 54963 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:36:10Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:12Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 54085 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:36:12Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:13Z",
-          "stage": "fetch",
-          "message": "m.etnews.com: direct HTTP 200, 55079 bytes, 1.1s."
-        },
-        {
-          "at": "2026-09-23T04:36:13Z",
-          "stage": "web_discovery",
-          "message": "ETNews: 31 dated articles captured (partial)."
-        },
-        {
-          "at": "2026-09-23T04:36:13Z",
-          "stage": "web_discovery",
-          "message": "Reading MoneyToday."
-        },
-        {
-          "at": "2026-09-23T04:36:13Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:13Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 102567 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:13Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:14Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77216 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:14Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:14Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 76945 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:14Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:15Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 78246 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:15Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:15Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 79030 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:15Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:15Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77616 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:16Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:16Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 78937 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:16Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:16Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 76594 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:16Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:17Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 76454 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:17Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:18Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77527 bytes, 1.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:18Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:18Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 76669 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:18Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:19Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 79647 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:19Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:19Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77905 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:19Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:20Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 104414 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:20Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:20Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 79928 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:20Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:20Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 82528 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:20Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:21Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 76064 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:21Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:21Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77576 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:21Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:22Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77581 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:36:22Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:22Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 79041 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:22Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:23Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 75619 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:36:23Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:23Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77989 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:23Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:24Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 78173 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:24Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:24Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 78856 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:24Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:25Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 80372 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:25Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:25Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77719 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:25Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:26Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 104381 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:36:26Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:26Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 78224 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:26Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 74009 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 75780 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 80086 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct access unavailable; using Bright Data fallback."
-        },
-        {
-          "at": "2026-09-23T04:36:27Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:32Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: HTTP 200, 83923 bytes, 4.9s."
-        },
-        {
-          "at": "2026-09-23T04:36:32Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:33Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 80009 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:33Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:33Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 79187 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:33Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:34Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 79677 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:34Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:34Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 80666 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:34Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:34Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct access unavailable; using Bright Data fallback."
-        },
-        {
-          "at": "2026-09-23T04:36:34Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:42Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: HTTP 200, 76403 bytes, 8.2s."
-        },
-        {
-          "at": "2026-09-23T04:36:42Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:43Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 82154 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:43Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:43Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 81209 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:43Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:43Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 103264 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:44Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:44Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 80169 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:44Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:44Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 80320 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:44Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:45Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 77391 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:45Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:45Z",
-          "stage": "fetch",
-          "message": "www.mt.co.kr: direct HTTP 200, 76767 bytes, 0.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:45Z",
-          "stage": "web_discovery",
-          "message": "MoneyToday: 36 dated articles captured (partial)."
-        },
-        {
-          "at": "2026-09-23T04:36:45Z",
-          "stage": "web_discovery",
-          "message": "Reading Economic Daily (UDN)."
-        },
-        {
-          "at": "2026-09-23T04:36:45Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:46Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 230538 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:36:46Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:46Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 281041 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:36:47Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:47Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 280774 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:36:47Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:48Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 275318 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:48Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:48Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 275945 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:48Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:49Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 267167 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:36:49Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:49Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 273037 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:50Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
-        },
-        {
-          "at": "2026-09-23T04:36:50Z",
-          "stage": "fetch",
-          "message": "money.udn.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:56Z",
-          "stage": "fetch",
-          "message": "money.udn.com: HTTP 200, 273037 bytes, 6.3s."
-        },
-        {
-          "at": "2026-09-23T04:36:56Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:56Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 276084 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:36:57Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:36:57Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 273105 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:36:57Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
-        },
-        {
-          "at": "2026-09-23T04:36:57Z",
-          "stage": "fetch",
-          "message": "money.udn.com: fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:03Z",
-          "stage": "fetch",
-          "message": "money.udn.com: HTTP 200, 273105 bytes, 5.8s."
-        },
-        {
-          "at": "2026-09-23T04:37:03Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:04Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 267648 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:37:04Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:04Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 270552 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:37:05Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:05Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 275163 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:37:05Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:06Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 276662 bytes, 0.6s."
-        },
-        {
-          "at": "2026-09-23T04:37:06Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:06Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 279944 bytes, 0.4s."
-        },
-        {
-          "at": "2026-09-23T04:37:07Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:07Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 272759 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:37:07Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:08Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 273711 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:37:08Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:08Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 272967 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:37:08Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:09Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 277010 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:37:09Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct fetch started."
-        },
-        {
-          "at": "2026-09-23T04:37:10Z",
-          "stage": "fetch",
-          "message": "money.udn.com: direct HTTP 200, 274445 bytes, 0.5s."
-        },
-        {
-          "at": "2026-09-23T04:37:10Z",
-          "stage": "web_discovery",
-          "message": "Economic Daily (UDN): 15 dated articles captured (partial)."
-        },
-        {
-          "at": "2026-09-23T04:37:10Z",
-          "stage": "waiting_social",
-          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
-        },
-        {
-          "at": "2026-09-23T05:26:38Z",
-          "stage": "summarising",
-          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-        },
-        {
-          "at": "2026-09-23T05:26:39Z",
-          "stage": "summarising",
-          "message": "OpenAI background job accepted; tracking its saved job ID."
-        },
-        {
-          "at": "2026-09-23T05:30:24Z",
-          "stage": "usage",
-          "message": "Web + Twitter OpenAI response received."
-        },
-        {
-          "at": "2026-09-23T05:30:24Z",
-          "stage": "validation",
-          "message": "OpenAI batch received; applying local format and link checks."
-        },
-        {
-          "at": "2026-09-23T05:30:24Z",
-          "stage": "validation",
-          "message": "Batch complete: 47 stories ready."
-        },
-        {
-          "at": "2026-09-23T05:30:24Z",
-          "stage": "publishing",
-          "message": "Publishing web edition."
-        },
-        {
-          "at": "2026-09-23T05:30:28Z",
-          "stage": "complete",
-          "message": "Web stories added to the current edition."
-        }
-      ],
-      "usage": [
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Bright Data",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": null,
-          "cost_basis": "Account billing required; request cost unavailable."
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "Direct HTTPS",
-          "component": "Fetch",
-          "requests": 1,
-          "cost_usd": 0
-        },
-        {
-          "provider": "OpenAI",
-          "component": "Web + Twitter",
-          "model": "gpt-6-luna",
-          "input_tokens": 298952,
-          "output_tokens": 27549,
-          "reasoning_tokens": 16585,
-          "cached_tokens": 0,
-          "cache_write_tokens": 298949,
-          "cost_usd": 0.0953996,
-          "cost_basis": "Estimated USD; gpt-6-luna input $0.2/M, cached $0.02/M, cache write $0.25/M, output $0.75/M. Reasoning included in output. Long-context rates apply to the full request above 272,000 input tokens."
-        }
-      ],
-      "updated_at": "2026-09-23T05:30:28Z",
-      "stage": "complete"
-    },
-    {
       "started_at": "2026-09-23T05:10:00Z",
       "kind": "Weibo + Twitter",
       "events": [
@@ -30297,6 +25678,593 @@
       ],
       "updated_at": "2026-09-30T05:28:48Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-10-01T04:30:01Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-10-01T04:30:01Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-10-01T04:30:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE."
+        },
+        {
+          "at": "2026-10-01T04:30:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:05Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 86162 bytes, 4.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:06Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 6 candidates (ok)."
+        },
+        {
+          "at": "2026-10-01T04:30:06Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec."
+        },
+        {
+          "at": "2026-10-01T04:30:06Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:07Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 115816 bytes, 1.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:08Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:08Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 127391 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 118613 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 120044 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-01T04:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 123413 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-01T04:30:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 118466 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 119605 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 123045 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-01T04:30:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 120429 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122099 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 119691 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-01T04:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 118429 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 119590 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 119967 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-01T04:30:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 125120 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 118711 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:18Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 120720 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:18Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:18Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 124514 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:18Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:19Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121114 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:19Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:19Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 120003 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-01T04:30:19Z",
+          "stage": "web_discovery",
+          "message": "TheLec: 11 candidates (ok)."
+        },
+        {
+          "at": "2026-10-01T04:30:20Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-01T04:30:20Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:20Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 120287 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "web_discovery",
+          "message": "Reading Tom’s Hardware."
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1640979 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "web_discovery",
+          "message": "Tom’s Hardware: 10 candidates (partial)."
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:21Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1975792 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-01T04:30:22Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:22Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:22Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2013754 bytes, 0.2s."
+        },
+        {
+          "at": "2026-10-01T04:30:22Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:22Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:22Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1979159 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1983635 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1977376 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:23Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:24Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1982672 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-01T04:30:24Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:24Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:24Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1982415 bytes, 0.2s."
+        },
+        {
+          "at": "2026-10-01T04:30:24Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-01T04:30:24Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-01T04:30:25Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1989775 bytes, 0.1s."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        }
+      ],
+      "updated_at": "2026-10-01T04:30:25Z",
+      "stage": "web_discovery"
     }
   ]
 }
