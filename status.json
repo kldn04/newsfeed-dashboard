@@ -1,21 +1,11 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "Web stories added to the current edition.",
-  "stage": "complete",
-  "updated_at": "2026-10-01T07:26:24Z",
-  "started_at": "2026-10-01T07:22:21Z",
-  "counts": {
-    "openai_calls": 1,
-    "input_tokens_estimated": 226821,
-    "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 246441,
-    "openai_input_tokens": 222893,
-    "openai_output_tokens": 23548,
-    "eligible": 38,
-    "held": 0
-  },
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Initial article scrape: Tom’s Hardware",
+  "stage": "web_discovery",
+  "updated_at": "2026-10-02T04:30:31Z",
+  "started_at": "2026-10-02T04:30:01Z",
+  "counts": {},
   "stored_totals": {
     "stories": 1465,
     "evidence": 4357,
@@ -30,44 +20,72 @@
   },
   "events": [
     {
-      "at": "2026-10-01T07:22:21Z",
+      "at": "2026-10-02T04:30:01Z",
       "message": "Starting web edition."
     },
     {
-      "at": "2026-10-01T07:22:21Z",
-      "message": "Reusing saved web checkpoint; no repeat fetch or completed compilation."
+      "at": "2026-10-02T04:30:01Z",
+      "message": "Reading CTEE."
     },
     {
-      "at": "2026-10-01T07:22:21Z",
-      "message": "Reusing saved primary checkpoint; no repeat fetch or completed compilation."
+      "at": "2026-10-02T04:30:07Z",
+      "message": "CTEE: 6 candidates (ok)."
     },
     {
-      "at": "2026-10-01T07:22:21Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+      "at": "2026-10-02T04:30:07Z",
+      "message": "Reading TheLec."
     },
     {
-      "at": "2026-10-01T07:22:29Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-10-02T04:30:24Z",
+      "message": "TheLec: 12 candidates (ok)."
     },
     {
-      "at": "2026-10-01T07:22:32Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
+      "at": "2026-10-02T04:30:24Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-10-01T07:26:20Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-10-02T04:30:24Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-10-01T07:26:20Z",
-      "message": "Batch complete: 38 stories ready."
+      "at": "2026-10-02T04:30:25Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-10-01T07:26:20Z",
-      "message": "Publishing web edition."
+      "at": "2026-10-02T04:30:26Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-10-01T07:26:24Z",
-      "message": "Web stories added to the current edition."
+      "at": "2026-10-02T04:30:26Z",
+      "message": "Initial article scrape: TheLec"
+    },
+    {
+      "at": "2026-10-02T04:30:27Z",
+      "message": "Initial article scrape: TheLec"
+    },
+    {
+      "at": "2026-10-02T04:30:28Z",
+      "message": "Reading Tom’s Hardware."
+    },
+    {
+      "at": "2026-10-02T04:30:29Z",
+      "message": "Tom’s Hardware: 10 candidates (partial)."
+    },
+    {
+      "at": "2026-10-02T04:30:29Z",
+      "message": "Initial article scrape: Tom’s Hardware"
+    },
+    {
+      "at": "2026-10-02T04:30:29Z",
+      "message": "Initial article scrape: Tom’s Hardware"
+    },
+    {
+      "at": "2026-10-02T04:30:30Z",
+      "message": "Initial article scrape: Tom’s Hardware"
+    },
+    {
+      "at": "2026-10-02T04:30:30Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     }
   ]
 }
