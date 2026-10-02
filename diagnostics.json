@@ -29764,6 +29764,36 @@
           "at": "2026-10-02T05:15:26Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-02T05:15:41Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2232 bytes, 15.7s."
+        },
+        {
+          "at": "2026-10-02T05:15:41Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 集微网官方微博."
+        },
+        {
+          "at": "2026-10-02T05:15:42Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-02T05:15:57Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2094 bytes, 15.9s."
+        },
+        {
+          "at": "2026-10-02T05:15:57Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 数码王小机."
+        },
+        {
+          "at": "2026-10-02T05:15:58Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -29871,9 +29901,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-02T05:15:26Z",
+      "updated_at": "2026-10-02T05:15:58Z",
       "stage": "weibo_discovery"
     }
   ]
