@@ -1,21 +1,11 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "Web stories added to the current edition.",
-  "stage": "complete",
-  "updated_at": "2026-10-02T05:26:07Z",
-  "started_at": "2026-10-02T04:30:01Z",
-  "counts": {
-    "openai_calls": 1,
-    "input_tokens_estimated": 224240,
-    "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 252069,
-    "openai_input_tokens": 220178,
-    "openai_output_tokens": 31891,
-    "eligible": 44,
-    "held": 0
-  },
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Reading CTEE.",
+  "stage": "web_discovery",
+  "updated_at": "2026-10-05T04:30:22Z",
+  "started_at": "2026-10-05T04:30:01Z",
+  "counts": {},
   "stored_totals": {
     "stories": 1531,
     "evidence": 4573,
@@ -30,84 +20,12 @@
   },
   "events": [
     {
-      "at": "2026-10-02T04:32:03Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
+      "at": "2026-10-05T04:30:01Z",
+      "message": "Starting web edition."
     },
     {
-      "at": "2026-10-02T04:32:03Z",
-      "message": "Reading Seoul Economic Daily."
-    },
-    {
-      "at": "2026-10-02T04:32:39Z",
-      "message": "Seoul Economic Daily: 22 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-10-02T04:32:39Z",
-      "message": "Reading Asia Economy."
-    },
-    {
-      "at": "2026-10-02T04:33:08Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-10-02T04:33:08Z",
-      "message": "Reading Hankook Ilbo."
-    },
-    {
-      "at": "2026-10-02T04:33:19Z",
-      "message": "Hankook Ilbo: 15 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-10-02T04:33:19Z",
-      "message": "Reading ETNews."
-    },
-    {
-      "at": "2026-10-02T04:33:59Z",
-      "message": "ETNews: 12 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-10-02T04:33:59Z",
-      "message": "Reading MoneyToday."
-    },
-    {
-      "at": "2026-10-02T04:34:45Z",
-      "message": "MoneyToday: 40 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-10-02T04:34:45Z",
-      "message": "Reading Economic Daily (UDN)."
-    },
-    {
-      "at": "2026-10-02T04:35:06Z",
-      "message": "Economic Daily (UDN): 17 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-10-02T04:35:06Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
-    },
-    {
-      "at": "2026-10-02T05:21:14Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-10-02T05:21:15Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-10-02T05:26:03Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-10-02T05:26:03Z",
-      "message": "Batch complete: 44 stories ready."
-    },
-    {
-      "at": "2026-10-02T05:26:03Z",
-      "message": "Publishing web edition."
-    },
-    {
-      "at": "2026-10-02T05:26:07Z",
-      "message": "Web stories added to the current edition."
+      "at": "2026-10-05T04:30:01Z",
+      "message": "Reading CTEE."
     }
   ]
 }
