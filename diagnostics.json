@@ -26259,6 +26259,30 @@
       ],
       "updated_at": "2026-10-02T05:21:10Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-10-05T04:30:01Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-10-05T04:30:01Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-10-05T04:30:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE."
+        },
+        {
+          "at": "2026-10-05T04:30:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        }
+      ],
+      "usage": [],
+      "updated_at": "2026-10-05T04:30:01Z",
+      "stage": "web_discovery"
     }
   ]
 }
