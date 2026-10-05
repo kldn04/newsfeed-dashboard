@@ -28513,6 +28513,126 @@
           "at": "2026-10-05T04:35:26Z",
           "stage": "fetch",
           "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 277786 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-05T04:35:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 272653 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-05T04:35:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:28Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 266399 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-05T04:35:28Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:28Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 266527 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-05T04:35:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-05T04:35:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 266527 bytes, 4.9s."
+        },
+        {
+          "at": "2026-10-05T04:35:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 267792 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-05T04:35:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-05T04:35:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:40Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 267792 bytes, 5.3s."
+        },
+        {
+          "at": "2026-10-05T04:35:40Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:40Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 269964 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-05T04:35:41Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-05T04:35:41Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 269964 bytes, 13.3s."
+        },
+        {
+          "at": "2026-10-05T04:35:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-05T04:35:55Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 267298 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-05T04:35:55Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-05T04:35:55Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -29723,9 +29843,72 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-05T04:35:26Z",
+      "updated_at": "2026-10-05T04:35:55Z",
       "stage": "web_discovery"
     }
   ]
