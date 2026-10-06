@@ -29381,6 +29381,26 @@
           "at": "2026-10-06T05:11:12Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-06T05:11:33Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 49126 bytes, 21.7s."
+        },
+        {
+          "at": "2026-10-06T05:11:33Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 芯谋研究顾文军 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-10-06T05:11:33Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 集微网官方微博, page 1."
+        },
+        {
+          "at": "2026-10-06T05:11:34Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -29404,9 +29424,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-06T05:11:12Z",
+      "updated_at": "2026-10-06T05:11:34Z",
       "stage": "weibo_discovery"
     }
   ]
