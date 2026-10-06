@@ -1,9 +1,9 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
   "stage": "summarising",
-  "updated_at": "2026-10-06T05:16:48Z",
+  "updated_at": "2026-10-06T05:17:18Z",
   "started_at": "2026-10-06T05:10:00Z",
   "counts": {
     "weibo_candidates": 26,
@@ -12,7 +12,8 @@
     "twitter_posts_fetched": 50,
     "openai_calls": 1,
     "input_tokens_estimated": 14513,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
     "stories": 1627,
@@ -27,10 +28,6 @@
     "Editorial exclusions": 591
   },
   "events": [
-    {
-      "at": "2026-10-06T05:16:43Z",
-      "message": "Twitter API: @pequityresearch returned 15 posts."
-    },
     {
       "at": "2026-10-06T05:16:43Z",
       "message": "Twitter API: fetching @intelfabs in the requested window."
@@ -106,6 +103,10 @@
     {
       "at": "2026-10-06T05:16:47Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-10-06T05:16:49Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
