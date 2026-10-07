@@ -29035,10 +29035,87 @@
           "at": "2026-10-07T05:10:01Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-07T05:10:15Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 66787 bytes, 14.5s."
+        },
+        {
+          "at": "2026-10-07T05:10:15Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-10-07T05:10:15Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码闲聊站, page 1."
+        },
+        {
+          "at": "2026-10-07T05:10:16Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-07T05:10:29Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 39619 bytes, 13.5s."
+        },
+        {
+          "at": "2026-10-07T05:10:29Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码闲聊站 — 1 posts in collection window, 1 new."
+        },
+        {
+          "at": "2026-10-07T05:10:29Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 1."
+        },
+        {
+          "at": "2026-10-07T05:10:29Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-07T05:10:40Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 49597 bytes, 10.6s."
+        },
+        {
+          "at": "2026-10-07T05:10:40Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 2."
+        },
+        {
+          "at": "2026-10-07T05:10:40Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
-      "usage": [],
-      "updated_at": "2026-10-07T05:10:01Z",
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        }
+      ],
+      "updated_at": "2026-10-07T05:10:40Z",
       "stage": "weibo_discovery"
     }
   ]
