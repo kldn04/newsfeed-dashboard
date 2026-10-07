@@ -29420,6 +29420,156 @@
           "at": "2026-10-07T05:18:44Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-07T05:19:04Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 3025 bytes, 19.5s."
+        },
+        {
+          "at": "2026-10-07T05:19:04Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @jukan05 in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:04Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @jukan05 returned 3 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:04Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @zephyr_z9 in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:04Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @zephyr_z9 returned 1 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:04Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @dnystedt in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @dnystedt returned 9 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @pequityresearch in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @pequityresearch returned 14 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @intelfabs in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @intelfabs returned 0 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @ryanhingshing in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @ryanhingshing returned 1 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sssjeffpu in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sssjeffpu returned 0 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:05Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @zartbotf in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @zartbotf returned 1 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @fundaai in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @fundaai returned 0 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @shanghaojin in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @shanghaojin returned 2 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @mingchikuo in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @mingchikuo returned 0 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sean_________ in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sean_________ returned 0 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @qq_timmy in the requested window."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @qq_timmy returned 3 posts."
+        },
+        {
+          "at": "2026-10-07T05:19:06Z",
+          "stage": "usage",
+          "message": "Twitter API collection finished."
+        },
+        {
+          "at": "2026-10-07T05:19:09Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-07T05:19:12Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -29576,10 +29726,25 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "X API",
+          "component": "Twitter",
+          "requests": 13,
+          "post_resources": 53,
+          "cost_usd": 0.265,
+          "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-10-07T05:18:44Z",
-      "stage": "weibo_discovery"
+      "updated_at": "2026-10-07T05:19:12Z",
+      "stage": "summarising"
     }
   ]
 }
