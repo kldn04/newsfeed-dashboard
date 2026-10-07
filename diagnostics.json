@@ -26054,6 +26054,26 @@
           "at": "2026-10-07T04:30:30Z",
           "stage": "fetch",
           "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-07T04:31:34Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-07T04:31:34Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-10-07T04:31:38Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 98829 bytes, 3.3s."
+        },
+        {
+          "at": "2026-10-07T04:31:38Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
         }
       ],
       "usage": [
@@ -26255,9 +26275,16 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-07T04:30:30Z",
+      "updated_at": "2026-10-07T04:31:38Z",
       "stage": "web_discovery"
     }
   ]
