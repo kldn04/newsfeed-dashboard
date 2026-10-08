@@ -1,12 +1,12 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: fetching 芯智讯官微, page 2.",
+  "message": "Weibo: fetching Trendforce集邦咨询, page 1.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-10-08T05:14:33Z",
+  "updated_at": "2026-10-08T05:15:04Z",
   "started_at": "2026-10-08T05:10:00Z",
   "counts": {
-    "weibo_candidates": 20
+    "weibo_candidates": 29
   },
   "stored_totals": {
     "stories": 1792,
@@ -80,6 +80,26 @@
     {
       "at": "2026-10-08T05:13:09Z",
       "message": "Weibo: fetching 芯智讯官微, page 2."
+    },
+    {
+      "at": "2026-10-08T05:14:40Z",
+      "message": "Weibo: fetch failed for 芯智讯官微 (ReadTimeout)."
+    },
+    {
+      "at": "2026-10-08T05:14:40Z",
+      "message": "Weibo: 芯智讯官微 — 9 posts in collection window, 9 new."
+    },
+    {
+      "at": "2026-10-08T05:14:40Z",
+      "message": "Weibo: fetching 电子工程专辑, page 1."
+    },
+    {
+      "at": "2026-10-08T05:14:52Z",
+      "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
+    },
+    {
+      "at": "2026-10-08T05:14:52Z",
+      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
     }
   ]
 }
