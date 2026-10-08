@@ -27328,6 +27328,16 @@
           "at": "2026-10-08T04:35:25Z",
           "stage": "waiting_social",
           "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+        },
+        {
+          "at": "2026-10-08T05:24:48Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-08T05:24:50Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -28873,8 +28883,8 @@
           "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-08T04:35:25Z",
-      "stage": "waiting_social"
+      "updated_at": "2026-10-08T05:24:50Z",
+      "stage": "summarising"
     },
     {
       "started_at": "2026-10-08T05:10:00Z",
@@ -29419,6 +29429,11 @@
           "at": "2026-10-08T05:24:39Z",
           "stage": "publishing",
           "message": "Publishing social edition."
+        },
+        {
+          "at": "2026-10-08T05:24:43Z",
+          "stage": "complete",
+          "message": "Twitter & Weibo ready."
         }
       ],
       "usage": [
@@ -29588,8 +29603,8 @@
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-10-08T05:24:39Z",
-      "stage": "publishing"
+      "updated_at": "2026-10-08T05:24:43Z",
+      "stage": "complete"
     }
   ]
 }
