@@ -28687,6 +28687,46 @@
           "at": "2026-10-09T05:12:52Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-09T05:14:22Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-10-09T05:14:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 集微网官方微博 (ReadTimeout)."
+        },
+        {
+          "at": "2026-10-09T05:14:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 集微网官方微博 — 11 posts in collection window, 11 new."
+        },
+        {
+          "at": "2026-10-09T05:14:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 芯智讯官微, page 1."
+        },
+        {
+          "at": "2026-10-09T05:14:23Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-09T05:14:38Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 43056 bytes, 15.5s."
+        },
+        {
+          "at": "2026-10-09T05:14:38Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 芯智讯官微, page 2."
+        },
+        {
+          "at": "2026-10-09T05:14:38Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -28731,9 +28771,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-09T05:12:52Z",
+      "updated_at": "2026-10-09T05:14:38Z",
       "stage": "weibo_discovery"
     }
   ]
