@@ -28727,6 +28727,51 @@
           "at": "2026-10-09T05:14:38Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-09T05:16:08Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-10-09T05:16:08Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 芯智讯官微 (ReadTimeout)."
+        },
+        {
+          "at": "2026-10-09T05:16:08Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 芯智讯官微 — 8 posts in collection window, 8 new."
+        },
+        {
+          "at": "2026-10-09T05:16:08Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 电子工程专辑, page 1."
+        },
+        {
+          "at": "2026-10-09T05:16:09Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-09T05:16:22Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 34859 bytes, 12.5s."
+        },
+        {
+          "at": "2026-10-09T05:16:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-10-09T05:16:22Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching Trendforce集邦咨询, page 1."
+        },
+        {
+          "at": "2026-10-09T05:16:22Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -28785,9 +28830,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-09T05:14:38Z",
+      "updated_at": "2026-10-09T05:16:22Z",
       "stage": "weibo_discovery"
     }
   ]
