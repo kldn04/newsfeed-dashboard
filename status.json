@@ -1,12 +1,12 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: fetching 集微网官方微博, page 2.",
+  "message": "Weibo: fetching 芯智讯官微, page 2.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-10-09T05:14:21Z",
+  "updated_at": "2026-10-09T05:14:51Z",
   "started_at": "2026-10-09T05:10:00Z",
   "counts": {
-    "weibo_candidates": 13
+    "weibo_candidates": 24
   },
   "stored_totals": {
     "stories": 1864,
@@ -72,6 +72,22 @@
     {
       "at": "2026-10-09T05:12:52Z",
       "message": "Weibo: fetching 集微网官方微博, page 2."
+    },
+    {
+      "at": "2026-10-09T05:14:22Z",
+      "message": "Weibo: fetch failed for 集微网官方微博 (ReadTimeout)."
+    },
+    {
+      "at": "2026-10-09T05:14:22Z",
+      "message": "Weibo: 集微网官方微博 — 11 posts in collection window, 11 new."
+    },
+    {
+      "at": "2026-10-09T05:14:22Z",
+      "message": "Weibo: fetching 芯智讯官微, page 1."
+    },
+    {
+      "at": "2026-10-09T05:14:38Z",
+      "message": "Weibo: fetching 芯智讯官微, page 2."
     }
   ]
 }
