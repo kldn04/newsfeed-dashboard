@@ -1,14 +1,15 @@
 {
   "summary": "Twitter & Weibo ready · Web collection in progress",
   "state": "running",
-  "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates.",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
   "stage": "summarising",
-  "updated_at": "2026-10-12T05:24:42Z",
+  "updated_at": "2026-10-12T05:25:12Z",
   "started_at": "2026-10-12T04:30:01Z",
   "counts": {
     "openai_calls": 1,
     "input_tokens_estimated": 366341,
-    "input_text_shortened": false
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
     "stories": 2030,
@@ -23,10 +24,6 @@
     "Editorial exclusions": 727
   },
   "events": [
-    {
-      "at": "2026-10-12T04:32:46Z",
-      "message": "Reading EET China."
-    },
     {
       "at": "2026-10-12T04:33:56Z",
       "message": "EET China: 20 candidates (ok)."
@@ -102,6 +99,10 @@
     {
       "at": "2026-10-12T05:24:41Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-10-12T05:24:43Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
