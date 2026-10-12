@@ -27398,6 +27398,31 @@
           "at": "2026-10-12T05:24:43Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-10-12T05:27:58Z",
+          "stage": "usage",
+          "message": "Web + Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-10-12T05:27:58Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-10-12T05:27:59Z",
+          "stage": "validation",
+          "message": "Batch complete: 40 stories ready."
+        },
+        {
+          "at": "2026-10-12T05:27:59Z",
+          "stage": "publishing",
+          "message": "Publishing web edition."
+        },
+        {
+          "at": "2026-10-12T05:28:03Z",
+          "stage": "complete",
+          "message": "Web stories added to the current edition."
         }
       ],
       "usage": [
@@ -28936,10 +28961,22 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Web + Twitter",
+          "model": "gpt-6-luna",
+          "input_tokens": 362192,
+          "output_tokens": 27150,
+          "reasoning_tokens": 16789,
+          "cached_tokens": 0,
+          "cache_write_tokens": 362189,
+          "cost_usd": 0.11091035,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.2/M, cached $0.02/M, cache write $0.25/M, output $0.75/M. Reasoning included in output. Long-context rates apply to the full request above 272,000 input tokens."
         }
       ],
-      "updated_at": "2026-10-12T05:24:43Z",
-      "stage": "summarising"
+      "updated_at": "2026-10-12T05:28:03Z",
+      "stage": "complete"
     },
     {
       "started_at": "2026-10-12T05:10:00Z",
