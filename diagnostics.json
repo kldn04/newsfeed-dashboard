@@ -30143,6 +30143,86 @@
           "at": "2026-10-13T05:21:50Z",
           "stage": "x_discovery",
           "message": "Twitter API: fetching @sssjeffpu in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sssjeffpu returned 1 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @zartbotf in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @zartbotf returned 0 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @fundaai in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @fundaai returned 1 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @shanghaojin in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @shanghaojin returned 6 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @mingchikuo in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @mingchikuo returned 0 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sean_________ in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sean_________ returned 0 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @qq_timmy in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @qq_timmy returned 5 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:51Z",
+          "stage": "usage",
+          "message": "Twitter API collection finished."
+        },
+        {
+          "at": "2026-10-13T05:21:54Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-13T05:21:55Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -30327,10 +30407,18 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "X API",
+          "component": "Twitter",
+          "requests": 13,
+          "post_resources": 74,
+          "cost_usd": 0.37,
+          "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-10-13T05:21:50Z",
-      "stage": "x_discovery"
+      "updated_at": "2026-10-13T05:21:55Z",
+      "stage": "summarising"
     }
   ]
 }
