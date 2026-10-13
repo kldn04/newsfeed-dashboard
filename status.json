@@ -1,16 +1,19 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 数码王小机.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-10-13T05:21:19Z",
+  "message": "Twitter API: fetching @sssjeffpu in the requested window.",
+  "stage": "x_discovery",
+  "updated_at": "2026-10-13T05:21:50Z",
   "started_at": "2026-10-13T05:10:00Z",
   "counts": {
-    "weibo_candidates": 44
+    "weibo_candidates": 44,
+    "x_candidates": 30,
+    "twitter_api_requests": 6,
+    "twitter_posts_fetched": 51
   },
   "stored_totals": {
     "stories": 2061,
-    "evidence": 6127,
+    "evidence": 6157,
     "model_cache": 113,
     "reviews": 735
   },
@@ -21,62 +24,6 @@
     "Editorial exclusions": 727
   },
   "events": [
-    {
-      "at": "2026-10-13T05:16:13Z",
-      "message": "Weibo: fetching 电子工程专辑, page 1."
-    },
-    {
-      "at": "2026-10-13T05:16:27Z",
-      "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
-    },
-    {
-      "at": "2026-10-13T05:16:27Z",
-      "message": "Weibo: fetching Trendforce集邦咨询, page 1."
-    },
-    {
-      "at": "2026-10-13T05:16:40Z",
-      "message": "Weibo: Trendforce集邦咨询 — 0 posts in collection window, 0 new."
-    },
-    {
-      "at": "2026-10-13T05:16:40Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
-    },
-    {
-      "at": "2026-10-13T05:16:55Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
-    },
-    {
-      "at": "2026-10-13T05:18:25Z",
-      "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
-    },
-    {
-      "at": "2026-10-13T05:18:25Z",
-      "message": "Weibo: 数码王小机 — 9 posts in collection window, 9 new."
-    },
-    {
-      "at": "2026-10-13T05:18:25Z",
-      "message": "Weibo: reading full text for a new post from 数码闲聊站."
-    },
-    {
-      "at": "2026-10-13T05:18:44Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-10-13T05:18:57Z",
-      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
-    },
-    {
-      "at": "2026-10-13T05:19:08Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-10-13T05:19:20Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
-    {
-      "at": "2026-10-13T05:19:33Z",
-      "message": "Weibo: reading full text for a new post from 集微网官方微博."
-    },
     {
       "at": "2026-10-13T05:19:52Z",
       "message": "Weibo: reading full text for a new post from 集微网官方微博."
@@ -100,6 +47,62 @@
     {
       "at": "2026-10-13T05:21:08Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-10-13T05:21:23Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-10-13T05:21:48Z",
+      "message": "Twitter API: fetching @jukan05 in the requested window."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: @jukan05 returned 5 posts."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: fetching @zephyr_z9 in the requested window."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: @zephyr_z9 returned 1 posts."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: fetching @dnystedt in the requested window."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: @dnystedt returned 7 posts."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: fetching @pequityresearch in the requested window."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: @pequityresearch returned 16 posts."
+    },
+    {
+      "at": "2026-10-13T05:21:49Z",
+      "message": "Twitter API: fetching @intelfabs in the requested window."
+    },
+    {
+      "at": "2026-10-13T05:21:50Z",
+      "message": "Twitter API: @intelfabs returned 1 posts."
+    },
+    {
+      "at": "2026-10-13T05:21:50Z",
+      "message": "Twitter API: fetching @ryanhingshing in the requested window."
+    },
+    {
+      "at": "2026-10-13T05:21:50Z",
+      "message": "Twitter API: @ryanhingshing returned 0 posts."
+    },
+    {
+      "at": "2026-10-13T05:21:50Z",
+      "message": "Twitter API: fetching @sssjeffpu in the requested window."
     }
   ]
 }
