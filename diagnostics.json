@@ -28680,6 +28680,91 @@
           "at": "2026-10-13T04:35:47Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:51Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 273673 bytes, 4.6s."
+        },
+        {
+          "at": "2026-10-13T04:35:51Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:52Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 272827 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-13T04:35:52Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:52Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 273839 bytes, 0.4s."
+        },
+        {
+          "at": "2026-10-13T04:35:53Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:53Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 276100 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-13T04:35:53Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 274544 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-13T04:35:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 276268 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-13T04:35:54Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:55Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 280363 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-13T04:35:55Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-13T04:35:56Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 279921 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-13T04:35:56Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 13 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-10-13T04:35:56Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -30218,10 +30303,59 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-13T04:35:47Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-10-13T04:35:56Z",
+      "stage": "waiting_social"
     }
   ]
 }
