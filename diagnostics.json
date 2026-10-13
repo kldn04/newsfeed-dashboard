@@ -30058,6 +30058,91 @@
           "at": "2026-10-13T05:21:09Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-13T05:21:23Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2046 bytes, 14.7s."
+        },
+        {
+          "at": "2026-10-13T05:21:23Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 数码王小机."
+        },
+        {
+          "at": "2026-10-13T05:21:23Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-13T05:21:48Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2027 bytes, 25.0s."
+        },
+        {
+          "at": "2026-10-13T05:21:48Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @jukan05 in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @jukan05 returned 5 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @zephyr_z9 in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @zephyr_z9 returned 1 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @dnystedt in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @dnystedt returned 7 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @pequityresearch in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @pequityresearch returned 16 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:49Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @intelfabs in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @intelfabs returned 1 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @ryanhingshing in the requested window."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @ryanhingshing returned 0 posts."
+        },
+        {
+          "at": "2026-10-13T05:21:50Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sssjeffpu in the requested window."
         }
       ],
       "usage": [
@@ -30228,10 +30313,24 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-13T05:21:09Z",
-      "stage": "weibo_discovery"
+      "updated_at": "2026-10-13T05:21:50Z",
+      "stage": "x_discovery"
     }
   ]
 }
