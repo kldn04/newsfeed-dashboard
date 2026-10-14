@@ -31295,6 +31295,31 @@
           "at": "2026-10-14T05:20:35Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-10-14T05:22:28Z",
+          "stage": "usage",
+          "message": "Weibo OpenAI response received."
+        },
+        {
+          "at": "2026-10-14T05:22:28Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-10-14T05:22:28Z",
+          "stage": "validation",
+          "message": "Batch complete: 13 stories ready."
+        },
+        {
+          "at": "2026-10-14T05:22:28Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-14T05:22:29Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -31480,9 +31505,21 @@
           "post_resources": 74,
           "cost_usd": 0.37,
           "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Weibo",
+          "model": "gpt-6-luna",
+          "input_tokens": 19298,
+          "output_tokens": 10348,
+          "reasoning_tokens": 8083,
+          "cached_tokens": 0,
+          "cache_write_tokens": 19295,
+          "cost_usd": 0.0075861750000000006,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-10-14T05:20:35Z",
+      "updated_at": "2026-10-14T05:22:29Z",
       "stage": "summarising"
     }
   ]
