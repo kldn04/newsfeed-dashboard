@@ -30750,6 +30750,46 @@
           "at": "2026-10-14T05:10:37Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-14T05:11:27Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 40728 bytes, 50.2s."
+        },
+        {
+          "at": "2026-10-14T05:11:27Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码闲聊站 — 5 posts in collection window, 5 new."
+        },
+        {
+          "at": "2026-10-14T05:11:27Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 1."
+        },
+        {
+          "at": "2026-10-14T05:11:27Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-14T05:11:44Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 55688 bytes, 17.0s."
+        },
+        {
+          "at": "2026-10-14T05:11:44Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 智慧芯片案内人 — 7 posts in collection window, 7 new."
+        },
+        {
+          "at": "2026-10-14T05:11:44Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 芯谋研究顾文军, page 1."
+        },
+        {
+          "at": "2026-10-14T05:11:45Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -30759,9 +30799,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-14T05:10:37Z",
+      "updated_at": "2026-10-14T05:11:45Z",
       "stage": "weibo_discovery"
     }
   ]
