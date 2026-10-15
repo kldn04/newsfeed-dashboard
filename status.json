@@ -1,15 +1,19 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Twitter API: @qq_timmy returned 1 posts.",
-  "stage": "x_discovery",
-  "updated_at": "2026-10-15T05:20:27Z",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "stage": "summarising",
+  "updated_at": "2026-10-15T05:20:57Z",
   "started_at": "2026-10-15T05:10:00Z",
   "counts": {
     "weibo_candidates": 39,
     "x_candidates": 47,
     "twitter_api_requests": 13,
-    "twitter_posts_fetched": 73
+    "twitter_posts_fetched": 73,
+    "openai_calls": 1,
+    "input_tokens_estimated": 17998,
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
     "stories": 2220,
@@ -24,14 +28,6 @@
     "Editorial exclusions": 768
   },
   "events": [
-    {
-      "at": "2026-10-15T05:20:23Z",
-      "message": "Twitter API: fetching @pequityresearch in the requested window."
-    },
-    {
-      "at": "2026-10-15T05:20:24Z",
-      "message": "Twitter API: @pequityresearch returned 22 posts."
-    },
     {
       "at": "2026-10-15T05:20:24Z",
       "message": "Twitter API: fetching @intelfabs in the requested window."
@@ -103,6 +99,14 @@
     {
       "at": "2026-10-15T05:20:25Z",
       "message": "Twitter API: @qq_timmy returned 1 posts."
+    },
+    {
+      "at": "2026-10-15T05:20:27Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-10-15T05:20:29Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
