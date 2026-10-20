@@ -28728,6 +28728,66 @@
           "at": "2026-10-20T04:31:49Z",
           "stage": "fetch",
           "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:31:54Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 29992 bytes, 4.9s."
+        },
+        {
+          "at": "2026-10-20T04:31:54Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:31:58Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 31198 bytes, 3.8s."
+        },
+        {
+          "at": "2026-10-20T04:31:58Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:32:04Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 52641 bytes, 6.0s."
+        },
+        {
+          "at": "2026-10-20T04:32:05Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:32:09Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 48507 bytes, 4.1s."
+        },
+        {
+          "at": "2026-10-20T04:32:09Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:32:15Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 54150 bytes, 6.1s."
+        },
+        {
+          "at": "2026-10-20T04:32:15Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:32:19Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 32121 bytes, 4.3s."
+        },
+        {
+          "at": "2026-10-20T04:32:19Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
         }
       ],
       "usage": [
@@ -28948,9 +29008,45 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-20T04:31:49Z",
+      "updated_at": "2026-10-20T04:32:19Z",
       "stage": "web_discovery"
     }
   ]
