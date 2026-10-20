@@ -28688,6 +28688,46 @@
           "at": "2026-10-20T04:30:32Z",
           "stage": "fetch",
           "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:31:36Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-20T04:31:36Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-10-20T04:31:41Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 102650 bytes, 5.0s."
+        },
+        {
+          "at": "2026-10-20T04:31:42Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:31:46Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 31268 bytes, 4.1s."
+        },
+        {
+          "at": "2026-10-20T04:31:46Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-20T04:31:49Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 29535 bytes, 3.5s."
+        },
+        {
+          "at": "2026-10-20T04:31:49Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
         }
       ],
       "usage": [
@@ -28889,9 +28929,28 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-20T04:30:32Z",
+      "updated_at": "2026-10-20T04:31:49Z",
       "stage": "web_discovery"
     }
   ]
