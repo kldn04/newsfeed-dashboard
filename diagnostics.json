@@ -29112,6 +29112,121 @@
           "at": "2026-10-21T04:34:03Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: direct HTTP 200, 74641 bytes, 2.6s."
+        },
+        {
+          "at": "2026-10-21T04:34:04Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:06Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 73998 bytes, 2.4s."
+        },
+        {
+          "at": "2026-10-21T04:34:06Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:09Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 73242 bytes, 2.6s."
+        },
+        {
+          "at": "2026-10-21T04:34:09Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:12Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 73709 bytes, 2.5s."
+        },
+        {
+          "at": "2026-10-21T04:34:12Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:14Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 71697 bytes, 2.3s."
+        },
+        {
+          "at": "2026-10-21T04:34:14Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:17Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72604 bytes, 2.3s."
+        },
+        {
+          "at": "2026-10-21T04:34:17Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:19Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72246 bytes, 2.2s."
+        },
+        {
+          "at": "2026-10-21T04:34:19Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:21Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 74344 bytes, 2.0s."
+        },
+        {
+          "at": "2026-10-21T04:34:21Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:24Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72687 bytes, 2.6s."
+        },
+        {
+          "at": "2026-10-21T04:34:24Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:26Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 73674 bytes, 2.1s."
+        },
+        {
+          "at": "2026-10-21T04:34:26Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-21T04:34:28Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72209 bytes, 2.0s."
+        },
+        {
+          "at": "2026-10-21T04:34:28Z",
+          "stage": "web_discovery",
+          "message": "ZDNet Korea: 4 candidates (ok)."
+        },
+        {
+          "at": "2026-10-21T04:34:28Z",
+          "stage": "web_discovery",
+          "message": "Reading EET China."
+        },
+        {
+          "at": "2026-10-21T04:34:28Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -29537,9 +29652,69 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-21T04:34:03Z",
+      "updated_at": "2026-10-21T04:34:28Z",
       "stage": "web_discovery"
     }
   ]
