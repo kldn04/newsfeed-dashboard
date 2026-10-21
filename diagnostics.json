@@ -29377,6 +29377,16 @@
           "at": "2026-10-21T04:41:59Z",
           "stage": "fetch",
           "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-10-21T04:43:18Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 146851 bytes, 79.3s."
+        },
+        {
+          "at": "2026-10-21T04:43:18Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -29967,9 +29977,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-21T04:41:59Z",
+      "updated_at": "2026-10-21T04:43:18Z",
       "stage": "web_discovery"
     }
   ]
