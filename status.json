@@ -1,116 +1,107 @@
 {
-  "summary": "Collection in progress",
+  "summary": "Twitter & Weibo ready · Web collection in progress",
   "state": "running",
   "message": "OpenAI background job accepted; tracking its saved job ID.",
   "stage": "summarising",
-  "updated_at": "2026-10-22T05:39:48Z",
-  "started_at": "2026-10-22T05:10:00Z",
+  "updated_at": "2026-10-22T05:40:18Z",
+  "started_at": "2026-10-22T04:30:00Z",
   "counts": {
-    "weibo_candidates": 41,
-    "x_candidates": 50,
-    "twitter_api_requests": 13,
-    "twitter_posts_fetched": 68,
     "openai_calls": 1,
-    "input_tokens_estimated": 22359,
+    "input_tokens_estimated": 282314,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 28536,
-    "openai_input_tokens": 18399,
-    "openai_output_tokens": 10137,
-    "eligible": 15,
-    "held": 0
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
-    "stories": 2669,
-    "evidence": 8192,
-    "model_cache": 136,
-    "reviews": 925
+    "stories": 2711,
+    "evidence": 8389,
+    "model_cache": 137,
+    "reviews": 949
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 917
+    "Editorial exclusions": 941
   },
   "events": [
     {
-      "at": "2026-10-22T05:32:18Z",
-      "message": "Twitter API: fetching @sssjeffpu in the requested window."
+      "at": "2026-10-22T04:49:24Z",
+      "message": "EET China: 6 candidates (ok)."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: @sssjeffpu returned 0 posts."
+      "at": "2026-10-22T04:49:25Z",
+      "message": "Reading IDC."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: fetching @zartbotf in the requested window."
+      "at": "2026-10-22T04:49:25Z",
+      "message": "IDC: 0 dated articles captured (ok)."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: @zartbotf returned 0 posts."
+      "at": "2026-10-22T04:49:25Z",
+      "message": "Reading Counterpoint Research."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: fetching @fundaai in the requested window."
+      "at": "2026-10-22T04:50:09Z",
+      "message": "Counterpoint Research: 0 dated articles captured (failed)."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: @fundaai returned 0 posts."
+      "at": "2026-10-22T04:50:10Z",
+      "message": "Reading Seoul Economic Daily."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: fetching @shanghaojin in the requested window."
+      "at": "2026-10-22T04:50:46Z",
+      "message": "Seoul Economic Daily: 23 dated articles captured (partial)."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: @shanghaojin returned 1 posts."
+      "at": "2026-10-22T04:50:46Z",
+      "message": "Reading Asia Economy."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: fetching @mingchikuo in the requested window."
+      "at": "2026-10-22T04:51:10Z",
+      "message": "Asia Economy: 13 dated articles captured (partial)."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: @mingchikuo returned 0 posts."
+      "at": "2026-10-22T04:51:10Z",
+      "message": "Reading Hankook Ilbo."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: fetching @sean_________ in the requested window."
+      "at": "2026-10-22T04:51:23Z",
+      "message": "Hankook Ilbo: 12 dated articles captured (partial)."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: @sean_________ returned 0 posts."
+      "at": "2026-10-22T04:51:23Z",
+      "message": "Reading ETNews."
     },
     {
-      "at": "2026-10-22T05:32:19Z",
-      "message": "Twitter API: fetching @qq_timmy in the requested window."
+      "at": "2026-10-22T04:52:20Z",
+      "message": "ETNews: 40 dated articles captured (partial)."
     },
     {
-      "at": "2026-10-22T05:32:20Z",
-      "message": "Twitter API: @qq_timmy returned 2 posts."
+      "at": "2026-10-22T04:52:20Z",
+      "message": "Reading MoneyToday."
     },
     {
-      "at": "2026-10-22T05:32:23Z",
+      "at": "2026-10-22T04:52:42Z",
+      "message": "MoneyToday: 38 dated articles captured (partial)."
+    },
+    {
+      "at": "2026-10-22T04:52:42Z",
+      "message": "Reading Economic Daily (UDN)."
+    },
+    {
+      "at": "2026-10-22T04:52:53Z",
+      "message": "Economic Daily (UDN): 13 dated articles captured (partial)."
+    },
+    {
+      "at": "2026-10-22T04:52:53Z",
+      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+    },
+    {
+      "at": "2026-10-22T05:40:07Z",
       "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
     },
     {
-      "at": "2026-10-22T05:32:26Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-10-22T05:33:48Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-10-22T05:33:48Z",
-      "message": "Batch complete: 15 stories ready."
-    },
-    {
-      "at": "2026-10-22T05:33:48Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-10-22T05:33:49Z",
+      "at": "2026-10-22T05:40:08Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
