@@ -29262,6 +29262,46 @@
           "at": "2026-10-22T04:49:25Z",
           "stage": "fetch",
           "message": "counterpointresearch.com: fetch started."
+        },
+        {
+          "at": "2026-10-22T04:50:09Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: HTTP 200, 297625 bytes, 44.5s."
+        },
+        {
+          "at": "2026-10-22T04:50:09Z",
+          "stage": "web_discovery",
+          "message": "Counterpoint Research: 0 dated articles captured (failed)."
+        },
+        {
+          "at": "2026-10-22T04:50:10Z",
+          "stage": "web_discovery",
+          "message": "Reading Seoul Economic Daily."
+        },
+        {
+          "at": "2026-10-22T04:50:10Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-22T04:50:13Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 92005 bytes, 3.1s."
+        },
+        {
+          "at": "2026-10-22T04:50:13Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-22T04:50:14Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 150251 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-22T04:50:14Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
         }
       ],
       "usage": [
@@ -29904,9 +29944,28 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-22T04:49:25Z",
+      "updated_at": "2026-10-22T04:50:14Z",
       "stage": "web_discovery"
     }
   ]
