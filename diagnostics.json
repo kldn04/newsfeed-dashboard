@@ -32125,6 +32125,26 @@
           "at": "2026-10-22T05:29:48Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-22T05:31:18Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-10-22T05:31:18Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: full text unavailable; retaining the labelled preview."
+        },
+        {
+          "at": "2026-10-22T05:31:18Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 数码王小机."
+        },
+        {
+          "at": "2026-10-22T05:31:19Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -32267,9 +32287,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-22T05:29:48Z",
+      "updated_at": "2026-10-22T05:31:19Z",
       "stage": "weibo_discovery"
     }
   ]
