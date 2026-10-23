@@ -29534,6 +29534,146 @@
           "at": "2026-10-23T04:34:56Z",
           "stage": "fetch",
           "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:07Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 168299 bytes, 10.9s."
+        },
+        {
+          "at": "2026-10-23T04:35:08Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:09Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 167654 bytes, 1.8s."
+        },
+        {
+          "at": "2026-10-23T04:35:11Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:12Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 170425 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-23T04:35:13Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:14Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 176256 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-23T04:35:14Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:15Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 168405 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-23T04:35:16Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:17Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 174099 bytes, 1.1s."
+        },
+        {
+          "at": "2026-10-23T04:35:18Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:19Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 171641 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-23T04:35:19Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:20Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 183802 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-23T04:35:21Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:22Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 172401 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-23T04:35:23Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:24Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 174918 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-23T04:35:24Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:25Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 174767 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-23T04:35:25Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:26Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 173279 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-23T04:35:26Z",
+          "stage": "web_discovery",
+          "message": "Asia Economy: 14 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-10-23T04:35:26Z",
+          "stage": "web_discovery",
+          "message": "Reading Hankook Ilbo."
+        },
+        {
+          "at": "2026-10-23T04:35:26Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-23T04:35:28Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct HTTP 200, 235156 bytes, 1.4s."
+        },
+        {
+          "at": "2026-10-23T04:35:28Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct fetch started."
         }
       ],
       "usage": [
@@ -30409,9 +30549,87 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-23T04:34:56Z",
+      "updated_at": "2026-10-23T04:35:28Z",
       "stage": "web_discovery"
     }
   ]
