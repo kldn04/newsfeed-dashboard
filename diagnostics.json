@@ -32106,6 +32106,41 @@
           "at": "2026-10-23T05:18:58Z",
           "stage": "weibo_discovery",
           "message": "Weibo: reading full text for a new post from 集微网官方微博."
+        },
+        {
+          "at": "2026-10-23T05:18:58Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-23T05:19:11Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2689 bytes, 13.5s."
+        },
+        {
+          "at": "2026-10-23T05:19:11Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 集微网官方微博."
+        },
+        {
+          "at": "2026-10-23T05:19:12Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-23T05:19:26Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2460 bytes, 14.4s."
+        },
+        {
+          "at": "2026-10-23T05:19:26Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from Trendforce集邦咨询."
+        },
+        {
+          "at": "2026-10-23T05:19:27Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -32241,9 +32276,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-23T05:18:58Z",
+      "updated_at": "2026-10-23T05:19:27Z",
       "stage": "weibo_discovery"
     }
   ]
