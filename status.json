@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 智慧芯片案内人.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-10-26T06:19:54Z",
+  "updated_at": "2026-10-26T06:20:24Z",
   "started_at": "2026-10-26T06:10:00Z",
   "counts": {
     "weibo_candidates": 40
@@ -21,10 +21,6 @@
     "Editorial exclusions": 962
   },
   "events": [
-    {
-      "at": "2026-10-26T06:14:09Z",
-      "message": "Weibo: fetch failed for 智慧芯片案内人 (ReadTimeout)."
-    },
     {
       "at": "2026-10-26T06:14:09Z",
       "message": "Weibo: 智慧芯片案内人 — 10 posts in collection window, 10 new."
@@ -99,6 +95,10 @@
     },
     {
       "at": "2026-10-26T06:19:25Z",
+      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+    },
+    {
+      "at": "2026-10-26T06:20:09Z",
       "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
     }
   ]
