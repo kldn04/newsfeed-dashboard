@@ -28153,6 +28153,71 @@
           "at": "2026-10-28T05:36:26Z",
           "stage": "fetch",
           "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:36Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 168065 bytes, 9.9s."
+        },
+        {
+          "at": "2026-10-28T05:36:37Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:40Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-10-28T05:36:40Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:47Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: HTTP 200, 172669 bytes, 7.3s."
+        },
+        {
+          "at": "2026-10-28T05:36:47Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:50Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 172438 bytes, 2.9s."
+        },
+        {
+          "at": "2026-10-28T05:36:51Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:52Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 169021 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-28T05:36:53Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:54Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 171015 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-28T05:36:55Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-28T05:36:56Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 162434 bytes, 1.0s."
         }
       ],
       "usage": [
@@ -29039,9 +29104,47 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-28T05:36:26Z",
+      "updated_at": "2026-10-28T05:36:56Z",
       "stage": "web_discovery"
     }
   ]
