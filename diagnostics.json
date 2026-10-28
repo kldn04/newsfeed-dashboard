@@ -27633,6 +27633,26 @@
           "at": "2026-10-28T05:33:39Z",
           "stage": "fetch",
           "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-10-28T05:34:03Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 132054 bytes, 24.8s."
+        },
+        {
+          "at": "2026-10-28T05:34:04Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-10-28T05:34:09Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 130735 bytes, 5.1s."
+        },
+        {
+          "at": "2026-10-28T05:34:09Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -28227,9 +28247,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-28T05:33:39Z",
+      "updated_at": "2026-10-28T05:34:09Z",
       "stage": "web_discovery"
     }
   ]
