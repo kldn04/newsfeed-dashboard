@@ -1,9 +1,9 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: reading full text for a new post from 数码王小机.",
-  "stage": "weibo_discovery",
-  "updated_at": "2026-10-28T06:22:31Z",
+  "message": "Twitter API: fetching @jukan05 in the requested window.",
+  "stage": "x_discovery",
+  "updated_at": "2026-10-28T06:23:02Z",
   "started_at": "2026-10-28T06:10:00Z",
   "counts": {
     "weibo_candidates": 39
@@ -21,14 +21,6 @@
     "Editorial exclusions": 1057
   },
   "events": [
-    {
-      "at": "2026-10-28T06:15:09Z",
-      "message": "Weibo: fetching 数码王小机, page 1."
-    },
-    {
-      "at": "2026-10-28T06:15:40Z",
-      "message": "Weibo: fetching 数码王小机, page 2."
-    },
     {
       "at": "2026-10-28T06:17:11Z",
       "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
@@ -100,6 +92,14 @@
     {
       "at": "2026-10-28T06:22:19Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-10-28T06:22:38Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-10-28T06:23:02Z",
+      "message": "Twitter API: fetching @jukan05 in the requested window."
     }
   ]
 }
