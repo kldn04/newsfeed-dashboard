@@ -31598,6 +31598,31 @@
           "at": "2026-10-28T06:12:00Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-10-28T06:12:47Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 0 bytes, 46.2s."
+        },
+        {
+          "at": "2026-10-28T06:12:47Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 集微网官方微博 (SourceFetchError)."
+        },
+        {
+          "at": "2026-10-28T06:12:47Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 集微网官方微博 — 10 posts in collection window, 10 new."
+        },
+        {
+          "at": "2026-10-28T06:12:47Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 芯智讯官微, page 1."
+        },
+        {
+          "at": "2026-10-28T06:12:47Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -31635,9 +31660,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-10-28T06:12:00Z",
+      "updated_at": "2026-10-28T06:12:47Z",
       "stage": "weibo_discovery"
     }
   ]
