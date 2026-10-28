@@ -32133,6 +32133,56 @@
           "at": "2026-10-28T06:23:09Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-10-28T06:25:45Z",
+          "stage": "usage",
+          "message": "Weibo OpenAI response received."
+        },
+        {
+          "at": "2026-10-28T06:25:45Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-10-28T06:25:45Z",
+          "stage": "validation",
+          "message": "Repairing 1 rejected stories in one targeted Halcyon call; valid results retained."
+        },
+        {
+          "at": "2026-10-28T06:25:45Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-28T06:25:45Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-10-28T06:25:56Z",
+          "stage": "usage",
+          "message": "Editorial repair OpenAI response received."
+        },
+        {
+          "at": "2026-10-28T06:25:56Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-10-28T06:25:56Z",
+          "stage": "validation",
+          "message": "Batch complete: 13 stories ready."
+        },
+        {
+          "at": "2026-10-28T06:25:56Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-10-28T06:25:57Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -32346,9 +32396,33 @@
           "post_resources": 78,
           "cost_usd": 0.39,
           "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Weibo",
+          "model": "gpt-6-luna",
+          "input_tokens": 19823,
+          "output_tokens": 15509,
+          "reasoning_tokens": 13174,
+          "cached_tokens": 0,
+          "cache_write_tokens": 19820,
+          "cost_usd": 0.0102323,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Editorial repair",
+          "model": "gpt-6-luna",
+          "input_tokens": 1311,
+          "output_tokens": 540,
+          "reasoning_tokens": 361,
+          "cached_tokens": 0,
+          "cache_write_tokens": 1308,
+          "cost_usd": 0.00043380000000000003,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-10-28T06:23:09Z",
+      "updated_at": "2026-10-28T06:25:57Z",
       "stage": "summarising"
     }
   ]
