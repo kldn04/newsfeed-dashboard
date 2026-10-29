@@ -28718,6 +28718,156 @@
           "at": "2026-10-29T05:33:38Z",
           "stage": "fetch",
           "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:39Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 145991 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-29T05:33:39Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:40Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 137123 bytes, 0.7s."
+        },
+        {
+          "at": "2026-10-29T05:33:40Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:41Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 145511 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-29T05:33:41Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:42Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 142553 bytes, 1.1s."
+        },
+        {
+          "at": "2026-10-29T05:33:42Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:44Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 140505 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-29T05:33:44Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:45Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 142667 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-29T05:33:45Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:46Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 149157 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-29T05:33:47Z",
+          "stage": "web_discovery",
+          "message": "Seoul Economic Daily: 25 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-10-29T05:33:47Z",
+          "stage": "web_discovery",
+          "message": "Reading Asia Economy."
+        },
+        {
+          "at": "2026-10-29T05:33:47Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:53Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 139226 bytes, 5.7s."
+        },
+        {
+          "at": "2026-10-29T05:33:53Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:55Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 171546 bytes, 2.1s."
+        },
+        {
+          "at": "2026-10-29T05:33:57Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:33:58Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 170812 bytes, 1.6s."
+        },
+        {
+          "at": "2026-10-29T05:33:59Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:34:01Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 172680 bytes, 1.8s."
+        },
+        {
+          "at": "2026-10-29T05:34:02Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:34:03Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 169827 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-29T05:34:04Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:34:05Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 166182 bytes, 1.3s."
+        },
+        {
+          "at": "2026-10-29T05:34:06Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:34:07Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct HTTP 200, 168381 bytes, 1.0s."
+        },
+        {
+          "at": "2026-10-29T05:34:08Z",
+          "stage": "fetch",
+          "message": "www.asiae.co.kr: direct fetch started."
         }
       ],
       "usage": [
@@ -29548,9 +29698,93 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-29T05:33:38Z",
+      "updated_at": "2026-10-29T05:34:08Z",
       "stage": "web_discovery"
     }
   ]
