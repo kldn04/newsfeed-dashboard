@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 智慧芯片案内人.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-10-29T06:21:15Z",
+  "updated_at": "2026-10-29T06:21:46Z",
   "started_at": "2026-10-29T06:10:00Z",
   "counts": {
     "weibo_candidates": 46
@@ -21,10 +21,6 @@
     "Editorial exclusions": 1072
   },
   "events": [
-    {
-      "at": "2026-10-29T06:15:34Z",
-      "message": "Weibo: fetch failed for 集微网官方微博 (SourceFetchError)."
-    },
     {
       "at": "2026-10-29T06:15:34Z",
       "message": "Weibo: 集微网官方微博 — 8 posts in collection window, 8 new."
@@ -99,6 +95,10 @@
     },
     {
       "at": "2026-10-29T06:21:07Z",
+      "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+    },
+    {
+      "at": "2026-10-29T06:21:32Z",
       "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
     }
   ]
