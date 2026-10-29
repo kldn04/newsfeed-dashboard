@@ -27204,6 +27204,85 @@
       ],
       "updated_at": "2026-10-28T06:30:17Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-10-29T05:30:01Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-10-29T05:30:01Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-10-29T05:30:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE."
+        },
+        {
+          "at": "2026-10-29T05:30:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-10-29T05:30:03Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 85188 bytes, 2.3s."
+        },
+        {
+          "at": "2026-10-29T05:30:03Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 5 candidates (ok)."
+        },
+        {
+          "at": "2026-10-29T05:30:03Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec."
+        },
+        {
+          "at": "2026-10-29T05:30:04Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:30:05Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 117882 bytes, 1.6s."
+        },
+        {
+          "at": "2026-10-29T05:30:05Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-29T05:30:06Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121589 bytes, 0.3s."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        }
+      ],
+      "updated_at": "2026-10-29T05:30:06Z",
+      "stage": "web_discovery"
     }
   ]
 }
