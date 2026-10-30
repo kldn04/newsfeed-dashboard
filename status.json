@@ -1,9 +1,9 @@
 {
-  "summary": "Collection in progress",
+  "summary": "Twitter & Weibo ready · Web collection in progress",
   "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-10-30T06:30:31Z",
+  "message": "Twitter & Weibo ready.",
+  "stage": "complete",
+  "updated_at": "2026-10-30T06:31:01Z",
   "started_at": "2026-10-30T06:10:00Z",
   "counts": {
     "weibo_candidates": 49,
@@ -14,45 +14,27 @@
     "input_tokens_estimated": 38166,
     "input_text_shortened": false,
     "openai_generation_attempts": 1,
-    "openai_tokens": 38239,
-    "openai_input_tokens": 23495,
-    "openai_output_tokens": 14744,
-    "eligible": 16,
-    "held": 0
+    "openai_tokens": 65986,
+    "openai_input_tokens": 36625,
+    "openai_output_tokens": 29361,
+    "eligible": 56,
+    "held": 0,
+    "twitter_openai_input_tokens": 36625,
+    "twitter_openai_output_tokens": 29361
   },
   "stored_totals": {
-    "stories": 3139,
+    "stories": 3195,
     "evidence": 10043,
-    "model_cache": 155,
-    "reviews": 1116
+    "model_cache": 156,
+    "reviews": 1141
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 1108
+    "Editorial exclusions": 1133
   },
   "events": [
-    {
-      "at": "2026-10-30T06:24:45Z",
-      "message": "Twitter API: fetching @sssjeffpu in the requested window."
-    },
-    {
-      "at": "2026-10-30T06:24:45Z",
-      "message": "Twitter API: @sssjeffpu returned 0 posts."
-    },
-    {
-      "at": "2026-10-30T06:24:45Z",
-      "message": "Twitter API: fetching @zartbotf in the requested window."
-    },
-    {
-      "at": "2026-10-30T06:24:46Z",
-      "message": "Twitter API: @zartbotf returned 0 posts."
-    },
-    {
-      "at": "2026-10-30T06:24:46Z",
-      "message": "Twitter API: fetching @fundaai in the requested window."
-    },
     {
       "at": "2026-10-30T06:24:46Z",
       "message": "Twitter API: @fundaai returned 3 posts."
@@ -112,6 +94,26 @@
     {
       "at": "2026-10-30T06:27:09Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-10-30T06:30:55Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-10-30T06:30:55Z",
+      "message": "Batch complete: 40 stories ready."
+    },
+    {
+      "at": "2026-10-30T06:30:55Z",
+      "message": "Separate Twitter Luna batch completed."
+    },
+    {
+      "at": "2026-10-30T06:30:56Z",
+      "message": "Publishing social edition."
+    },
+    {
+      "at": "2026-10-30T06:31:01Z",
+      "message": "Twitter & Weibo ready."
     }
   ]
 }
