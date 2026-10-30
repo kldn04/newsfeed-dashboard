@@ -30773,6 +30773,41 @@
           "at": "2026-10-30T05:37:25Z",
           "stage": "fetch",
           "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:37:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 284221 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-30T05:37:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:37:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 281041 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-30T05:37:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:37:27Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 278906 bytes, 0.5s."
+        },
+        {
+          "at": "2026-10-30T05:37:27Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 17 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-10-30T05:37:28Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -32423,10 +32458,28 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-10-30T05:37:25Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-10-30T05:37:28Z",
+      "stage": "waiting_social"
     }
   ]
 }
