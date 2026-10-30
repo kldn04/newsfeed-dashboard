@@ -27794,6 +27794,554 @@
       ],
       "updated_at": "2026-10-29T06:33:50Z",
       "stage": "complete"
+    },
+    {
+      "started_at": "2026-10-30T05:30:01Z",
+      "kind": "Web",
+      "events": [
+        {
+          "at": "2026-10-30T05:30:01Z",
+          "stage": "starting",
+          "message": "Starting web edition."
+        },
+        {
+          "at": "2026-10-30T05:30:01Z",
+          "stage": "web_discovery",
+          "message": "Reading CTEE."
+        },
+        {
+          "at": "2026-10-30T05:30:01Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:04Z",
+          "stage": "fetch",
+          "message": "www.ctee.com.tw: HTTP 200, 85594 bytes, 3.1s."
+        },
+        {
+          "at": "2026-10-30T05:30:04Z",
+          "stage": "web_discovery",
+          "message": "CTEE: 7 candidates (ok)."
+        },
+        {
+          "at": "2026-10-30T05:30:04Z",
+          "stage": "web_discovery",
+          "message": "Reading TheLec."
+        },
+        {
+          "at": "2026-10-30T05:30:04Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:06Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 117848 bytes, 1.8s."
+        },
+        {
+          "at": "2026-10-30T05:30:07Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:07Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 125433 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:07Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:07Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 123114 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:08Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:08Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121733 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:08Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121549 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122745 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:09Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 124722 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122790 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:10Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122111 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122728 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:11Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 124340 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:12Z",
+          "stage": "web_discovery",
+          "message": "TheLec: 17 candidates (ok)."
+        },
+        {
+          "at": "2026-10-30T05:30:12Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:12Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 126347 bytes, 0.6s."
+        },
+        {
+          "at": "2026-10-30T05:30:13Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 153882 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:13Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:13Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122219 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:14Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122261 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:14Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:14Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121422 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 124537 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 121529 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:15Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 123271 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:16Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:16Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 123014 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:16Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: TheLec"
+        },
+        {
+          "at": "2026-10-30T05:30:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:17Z",
+          "stage": "fetch",
+          "message": "www.thelec.kr: direct HTTP 200, 122289 bytes, 0.3s."
+        },
+        {
+          "at": "2026-10-30T05:30:17Z",
+          "stage": "web_discovery",
+          "message": "Reading Tom’s Hardware."
+        },
+        {
+          "at": "2026-10-30T05:30:17Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:17Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 1715580 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "web_discovery",
+          "message": "Tom’s Hardware: 10 candidates (partial)."
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2071739 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:18Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2075284 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-30T05:30:19Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-30T05:30:19Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:19Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2073789 bytes, 0.1s."
+        },
+        {
+          "at": "2026-10-30T05:30:19Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-10-30T05:30:19Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-10-30T05:30:20Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2080973 bytes, 0.3s."
+        }
+      ],
+      "usage": [
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        }
+      ],
+      "updated_at": "2026-10-30T05:30:20Z",
+      "stage": "web_discovery"
     }
   ]
 }
