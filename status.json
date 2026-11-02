@@ -3,18 +3,21 @@
   "state": "running",
   "message": "OpenAI background job accepted; tracking its saved job ID.",
   "stage": "summarising",
-  "updated_at": "2026-11-02T06:36:12Z",
+  "updated_at": "2026-11-02T06:36:42Z",
   "started_at": "2026-11-02T05:30:01Z",
   "counts": {
     "openai_calls": 1,
-    "input_tokens_estimated": 329338,
+    "input_tokens_estimated": 313331,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 348311,
+    "openai_input_tokens": 324786,
+    "openai_output_tokens": 23525
   },
   "stored_totals": {
     "stories": 3318,
     "evidence": 10595,
-    "model_cache": 159,
+    "model_cache": 160,
     "reviews": 1199
   },
   "review_categories": {
@@ -24,22 +27,6 @@
     "Editorial exclusions": 1191
   },
   "events": [
-    {
-      "at": "2026-11-02T05:32:57Z",
-      "message": "EET China: 10 candidates (ok)."
-    },
-    {
-      "at": "2026-11-02T05:32:59Z",
-      "message": "Reading IDC."
-    },
-    {
-      "at": "2026-11-02T05:32:59Z",
-      "message": "IDC: 0 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-11-02T05:32:59Z",
-      "message": "Reading Counterpoint Research."
-    },
     {
       "at": "2026-11-02T05:33:01Z",
       "message": "Counterpoint Research: 0 dated articles captured (failed)."
@@ -102,6 +89,22 @@
     },
     {
       "at": "2026-11-02T06:32:28Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-11-02T06:36:34Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-11-02T06:36:34Z",
+      "message": "Repairing 1 rejected stories in one targeted Halcyon call; valid results retained."
+    },
+    {
+      "at": "2026-11-02T06:36:35Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-11-02T06:36:36Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
