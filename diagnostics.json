@@ -28977,6 +28977,116 @@
           "at": "2026-11-02T05:31:28Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:30Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 71930 bytes, 2.3s."
+        },
+        {
+          "at": "2026-11-02T05:31:31Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:33Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72448 bytes, 2.2s."
+        },
+        {
+          "at": "2026-11-02T05:31:33Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:35Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 75020 bytes, 2.0s."
+        },
+        {
+          "at": "2026-11-02T05:31:36Z",
+          "stage": "web_discovery",
+          "message": "ZDNet Korea: 15 candidates (ok)."
+        },
+        {
+          "at": "2026-11-02T05:31:36Z",
+          "stage": "web_discovery",
+          "message": "Reading EET China."
+        },
+        {
+          "at": "2026-11-02T05:31:36Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:40Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 122223 bytes, 3.8s."
+        },
+        {
+          "at": "2026-11-02T05:31:40Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:42Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 133504 bytes, 1.8s."
+        },
+        {
+          "at": "2026-11-02T05:31:42Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:46Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 136635 bytes, 4.1s."
+        },
+        {
+          "at": "2026-11-02T05:31:46Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:49Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 133339 bytes, 2.7s."
+        },
+        {
+          "at": "2026-11-02T05:31:49Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:51Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 134599 bytes, 2.2s."
+        },
+        {
+          "at": "2026-11-02T05:31:51Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:55Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 133022 bytes, 3.4s."
+        },
+        {
+          "at": "2026-11-02T05:31:55Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-02T05:31:57Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 136774 bytes, 2.5s."
+        },
+        {
+          "at": "2026-11-02T05:31:58Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -29448,9 +29558,76 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-02T05:31:28Z",
+      "updated_at": "2026-11-02T05:31:58Z",
       "stage": "web_discovery"
     }
   ]
