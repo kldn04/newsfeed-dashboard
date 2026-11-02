@@ -33344,6 +33344,21 @@
           "at": "2026-11-02T06:19:41Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-02T06:20:10Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2045 bytes, 28.5s."
+        },
+        {
+          "at": "2026-11-02T06:20:10Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+        },
+        {
+          "at": "2026-11-02T06:20:10Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -33437,9 +33452,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-02T06:19:41Z",
+      "updated_at": "2026-11-02T06:20:10Z",
       "stage": "weibo_discovery"
     }
   ]
