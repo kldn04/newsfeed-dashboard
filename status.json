@@ -1,48 +1,34 @@
 {
-  "summary": "Twitter & Weibo ready · Web collection in progress",
-  "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-11-02T06:36:42Z",
+  "summary": "Twitter & Weibo ready · Web ready",
+  "state": "idle",
+  "message": "Web stories added to the current edition.",
+  "stage": "complete",
+  "updated_at": "2026-11-02T06:36:52Z",
   "started_at": "2026-11-02T05:30:01Z",
   "counts": {
     "openai_calls": 1,
     "input_tokens_estimated": 313331,
     "input_text_shortened": false,
     "openai_generation_attempts": 1,
-    "openai_tokens": 348311,
-    "openai_input_tokens": 324786,
-    "openai_output_tokens": 23525
+    "openai_tokens": 309355,
+    "openai_input_tokens": 309159,
+    "openai_output_tokens": 196,
+    "eligible": 43,
+    "held": 1
   },
   "stored_totals": {
-    "stories": 3318,
+    "stories": 3356,
     "evidence": 10595,
-    "model_cache": 160,
-    "reviews": 1199
+    "model_cache": 161,
+    "reviews": 1200
   },
   "review_categories": {
     "Missing original source": 8,
     "Provider/retrieval error": 0,
     "Grounding/date checks": 0,
-    "Editorial exclusions": 1191
+    "Editorial exclusions": 1192
   },
   "events": [
-    {
-      "at": "2026-11-02T05:33:01Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
-    },
-    {
-      "at": "2026-11-02T05:33:01Z",
-      "message": "Reading Seoul Economic Daily."
-    },
-    {
-      "at": "2026-11-02T05:33:38Z",
-      "message": "Seoul Economic Daily: 24 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-11-02T05:33:38Z",
-      "message": "Reading Asia Economy."
-    },
     {
       "at": "2026-11-02T05:34:10Z",
       "message": "Asia Economy: 12 dated articles captured (partial)."
@@ -106,6 +92,22 @@
     {
       "at": "2026-11-02T06:36:36Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-11-02T06:36:47Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-11-02T06:36:47Z",
+      "message": "Batch complete: 43 stories ready."
+    },
+    {
+      "at": "2026-11-02T06:36:47Z",
+      "message": "Publishing web edition."
+    },
+    {
+      "at": "2026-11-02T06:36:52Z",
+      "message": "Web stories added to the current edition."
     }
   ]
 }
