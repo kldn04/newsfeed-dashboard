@@ -33357,6 +33357,31 @@
           "at": "2026-11-03T06:15:40Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-03T06:17:10Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-11-03T06:17:10Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetch failed for 数码王小机 (ReadTimeout)."
+        },
+        {
+          "at": "2026-11-03T06:17:10Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码王小机 — 9 posts in collection window, 9 new."
+        },
+        {
+          "at": "2026-11-03T06:17:10Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 智慧芯片案内人."
+        },
+        {
+          "at": "2026-11-03T06:17:11Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -33429,9 +33454,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-03T06:15:40Z",
+      "updated_at": "2026-11-03T06:17:11Z",
       "stage": "weibo_discovery"
     }
   ]
