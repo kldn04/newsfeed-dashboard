@@ -31220,6 +31220,46 @@
           "at": "2026-11-04T05:41:52Z",
           "stage": "fetch",
           "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-04T05:42:23Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 150112 bytes, 30.9s."
+        },
+        {
+          "at": "2026-11-04T05:42:23Z",
+          "stage": "web_discovery",
+          "message": "EET China: 6 candidates (ok)."
+        },
+        {
+          "at": "2026-11-04T05:42:24Z",
+          "stage": "web_discovery",
+          "message": "Reading IDC."
+        },
+        {
+          "at": "2026-11-04T05:42:24Z",
+          "stage": "fetch",
+          "message": "www.idc.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:42:25Z",
+          "stage": "fetch",
+          "message": "www.idc.com: direct HTTP 200, 125439 bytes, 0.9s."
+        },
+        {
+          "at": "2026-11-04T05:42:25Z",
+          "stage": "web_discovery",
+          "message": "IDC: 0 dated articles captured (ok)."
+        },
+        {
+          "at": "2026-11-04T05:42:25Z",
+          "stage": "web_discovery",
+          "message": "Reading Counterpoint Research."
+        },
+        {
+          "at": "2026-11-04T05:42:25Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: fetch started."
         }
       ],
       "usage": [
@@ -31843,9 +31883,22 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-04T05:41:52Z",
+      "updated_at": "2026-11-04T05:42:25Z",
       "stage": "web_discovery"
     }
   ]
