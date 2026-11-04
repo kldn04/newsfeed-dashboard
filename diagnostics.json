@@ -30620,6 +30620,26 @@
           "at": "2026-11-04T05:31:33Z",
           "stage": "fetch",
           "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:31:42Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 39917 bytes, 8.6s."
+        },
+        {
+          "at": "2026-11-04T05:31:42Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:31:48Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 58026 bytes, 6.0s."
+        },
+        {
+          "at": "2026-11-04T05:31:48Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
         }
       ],
       "usage": [
@@ -30893,9 +30913,21 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-04T05:31:33Z",
+      "updated_at": "2026-11-04T05:31:48Z",
       "stage": "web_discovery"
     }
   ]
