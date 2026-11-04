@@ -30460,6 +30460,76 @@
           "at": "2026-11-04T05:30:33Z",
           "stage": "fetch",
           "message": "www.tomshardware.com: direct HTTP 200, 2119514 bytes, 0.2s."
+        },
+        {
+          "at": "2026-11-04T05:30:34Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-11-04T05:30:34Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:30:34Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2125031 bytes, 0.2s."
+        },
+        {
+          "at": "2026-11-04T05:30:34Z",
+          "stage": "web_discovery",
+          "message": "Initial article scrape: Tom’s Hardware"
+        },
+        {
+          "at": "2026-11-04T05:30:34Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:30:34Z",
+          "stage": "fetch",
+          "message": "www.tomshardware.com: direct HTTP 200, 2101416 bytes, 0.2s."
+        },
+        {
+          "at": "2026-11-04T05:30:35Z",
+          "stage": "web_discovery",
+          "message": "Reading Ijiwei."
+        },
+        {
+          "at": "2026-11-04T05:30:36Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:30:46Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 103303 bytes, 10.5s."
+        },
+        {
+          "at": "2026-11-04T05:30:46Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:30:51Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 51190 bytes, 5.0s."
+        },
+        {
+          "at": "2026-11-04T05:30:51Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:30:57Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct HTTP 200, 31128 bytes, 5.3s."
+        },
+        {
+          "at": "2026-11-04T05:30:57Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct fetch started."
         }
       ],
       "usage": [
@@ -30649,9 +30719,39 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-04T05:30:33Z",
+      "updated_at": "2026-11-04T05:30:57Z",
       "stage": "web_discovery"
     }
   ]
