@@ -30730,6 +30730,131 @@
           "at": "2026-11-04T05:32:52Z",
           "stage": "fetch",
           "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:10Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 30173 bytes, 18.4s."
+        },
+        {
+          "at": "2026-11-04T05:33:10Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-04T05:33:10Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:23Z",
+          "stage": "fetch",
+          "message": "ijiwei.com: HTTP 200, 29420 bytes, 12.9s."
+        },
+        {
+          "at": "2026-11-04T05:33:24Z",
+          "stage": "web_discovery",
+          "message": "Reading TrendForce."
+        },
+        {
+          "at": "2026-11-04T05:33:24Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:25Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct HTTP 200, 77759 bytes, 1.2s."
+        },
+        {
+          "at": "2026-11-04T05:33:26Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:26Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct HTTP 200, 73763 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-04T05:33:26Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:26Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct HTTP 200, 75459 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-04T05:33:26Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:27Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct HTTP 200, 73647 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-04T05:33:27Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:27Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct HTTP 200, 77091 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-04T05:33:27Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:28Z",
+          "stage": "fetch",
+          "message": "www.trendforce.com: direct HTTP 200, 74848 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-04T05:33:28Z",
+          "stage": "web_discovery",
+          "message": "TrendForce: 4 candidates (ok)."
+        },
+        {
+          "at": "2026-11-04T05:33:28Z",
+          "stage": "web_discovery",
+          "message": "Reading ZDNet Korea."
+        },
+        {
+          "at": "2026-11-04T05:33:28Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:31Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 71737 bytes, 2.5s."
+        },
+        {
+          "at": "2026-11-04T05:33:31Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:33Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 73087 bytes, 2.6s."
+        },
+        {
+          "at": "2026-11-04T05:33:34Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-04T05:33:36Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72728 bytes, 2.3s."
         }
       ],
       "usage": [
@@ -31058,9 +31183,77 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-04T05:32:52Z",
+      "updated_at": "2026-11-04T05:33:36Z",
       "stage": "web_discovery"
     }
   ]
