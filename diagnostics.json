@@ -30338,6 +30338,56 @@
           "at": "2026-11-05T05:31:48Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:32:35Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-05T05:32:35Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-11-05T05:32:38Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 72713 bytes, 3.2s."
+        },
+        {
+          "at": "2026-11-05T05:32:38Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:32:41Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 81740 bytes, 2.6s."
+        },
+        {
+          "at": "2026-11-05T05:32:41Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:32:43Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72582 bytes, 2.4s."
+        },
+        {
+          "at": "2026-11-05T05:32:43Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:32:46Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 74947 bytes, 2.6s."
+        },
+        {
+          "at": "2026-11-05T05:32:46Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
         }
       ],
       "usage": [
@@ -30720,9 +30770,34 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-05T05:31:48Z",
+      "updated_at": "2026-11-05T05:32:46Z",
       "stage": "web_discovery"
     }
   ]
