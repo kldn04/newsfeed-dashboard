@@ -30428,6 +30428,16 @@
           "at": "2026-11-05T05:33:58Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:34:34Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72873 bytes, 35.7s."
+        },
+        {
+          "at": "2026-11-05T05:34:34Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
         }
       ],
       "usage": [
@@ -30859,9 +30869,15 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-05T05:33:58Z",
+      "updated_at": "2026-11-05T05:34:34Z",
       "stage": "web_discovery"
     }
   ]
