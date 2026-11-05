@@ -30518,6 +30518,31 @@
           "at": "2026-11-05T05:35:57Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:36:36Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-05T05:36:36Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: fetch started."
+        },
+        {
+          "at": "2026-11-05T05:36:39Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: HTTP 200, 75522 bytes, 3.0s."
+        },
+        {
+          "at": "2026-11-05T05:36:39Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-05T05:36:52Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 74193 bytes, 13.4s."
         }
       ],
       "usage": [
@@ -31003,9 +31028,22 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-05T05:35:57Z",
+      "updated_at": "2026-11-05T05:36:52Z",
       "stage": "web_discovery"
     }
   ]
