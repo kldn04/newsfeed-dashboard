@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 集微网官方微博.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-11-06T06:18:05Z",
+  "updated_at": "2026-11-06T06:18:35Z",
   "started_at": "2026-11-06T06:10:00Z",
   "counts": {
     "weibo_candidates": 35
@@ -21,10 +21,6 @@
     "Editorial exclusions": 1251
   },
   "events": [
-    {
-      "at": "2026-11-06T06:10:36Z",
-      "message": "Weibo: fetching 数码闲聊站, page 1."
-    },
     {
       "at": "2026-11-06T06:11:00Z",
       "message": "Weibo: 数码闲聊站 — 5 posts in collection window, 5 new."
@@ -99,6 +95,10 @@
     },
     {
       "at": "2026-11-06T06:17:46Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+    },
+    {
+      "at": "2026-11-06T06:18:13Z",
       "message": "Weibo: reading full text for a new post from 集微网官方微博."
     }
   ]
