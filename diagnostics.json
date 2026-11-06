@@ -32196,6 +32196,41 @@
           "at": "2026-11-06T05:38:05Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-06T05:38:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 275136 bytes, 7.3s."
+        },
+        {
+          "at": "2026-11-06T05:38:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-06T05:38:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 283147 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-06T05:38:14Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-06T05:38:16Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 274014 bytes, 2.1s."
+        },
+        {
+          "at": "2026-11-06T05:38:16Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 15 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-11-06T05:38:16Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -33803,10 +33838,29 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-06T05:38:05Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-11-06T05:38:16Z",
+      "stage": "waiting_social"
     }
   ]
 }
