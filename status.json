@@ -1,19 +1,23 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Twitter API: fetching @mingchikuo in the requested window.",
-  "stage": "x_discovery",
-  "updated_at": "2026-11-06T06:21:08Z",
+  "message": "OpenAI background job accepted; tracking its saved job ID.",
+  "stage": "summarising",
+  "updated_at": "2026-11-06T06:21:38Z",
   "started_at": "2026-11-06T06:10:00Z",
   "counts": {
     "weibo_candidates": 35,
-    "x_candidates": 41,
-    "twitter_api_requests": 10,
-    "twitter_posts_fetched": 60
+    "x_candidates": 45,
+    "twitter_api_requests": 13,
+    "twitter_posts_fetched": 66,
+    "openai_calls": 1,
+    "input_tokens_estimated": 17337,
+    "input_text_shortened": false,
+    "openai_generation_attempts": 1
   },
   "stored_totals": {
     "stories": 3581,
-    "evidence": 11435,
+    "evidence": 11474,
     "model_cache": 170,
     "reviews": 1259
   },
@@ -24,34 +28,6 @@
     "Editorial exclusions": 1251
   },
   "events": [
-    {
-      "at": "2026-11-06T06:21:06Z",
-      "message": "Twitter API: @jukan05 returned 5 posts."
-    },
-    {
-      "at": "2026-11-06T06:21:06Z",
-      "message": "Twitter API: fetching @zephyr_z9 in the requested window."
-    },
-    {
-      "at": "2026-11-06T06:21:06Z",
-      "message": "Twitter API: @zephyr_z9 returned 0 posts."
-    },
-    {
-      "at": "2026-11-06T06:21:06Z",
-      "message": "Twitter API: fetching @dnystedt in the requested window."
-    },
-    {
-      "at": "2026-11-06T06:21:06Z",
-      "message": "Twitter API: @dnystedt returned 12 posts."
-    },
-    {
-      "at": "2026-11-06T06:21:06Z",
-      "message": "Twitter API: fetching @pequityresearch in the requested window."
-    },
-    {
-      "at": "2026-11-06T06:21:07Z",
-      "message": "Twitter API: @pequityresearch returned 14 posts."
-    },
     {
       "at": "2026-11-06T06:21:07Z",
       "message": "Twitter API: fetching @intelfabs in the requested window."
@@ -103,6 +79,34 @@
     {
       "at": "2026-11-06T06:21:08Z",
       "message": "Twitter API: fetching @mingchikuo in the requested window."
+    },
+    {
+      "at": "2026-11-06T06:21:08Z",
+      "message": "Twitter API: @mingchikuo returned 0 posts."
+    },
+    {
+      "at": "2026-11-06T06:21:08Z",
+      "message": "Twitter API: fetching @sean_________ in the requested window."
+    },
+    {
+      "at": "2026-11-06T06:21:08Z",
+      "message": "Twitter API: @sean_________ returned 0 posts."
+    },
+    {
+      "at": "2026-11-06T06:21:08Z",
+      "message": "Twitter API: fetching @qq_timmy in the requested window."
+    },
+    {
+      "at": "2026-11-06T06:21:08Z",
+      "message": "Twitter API: @qq_timmy returned 4 posts."
+    },
+    {
+      "at": "2026-11-06T06:21:11Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-11-06T06:21:15Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
 }
