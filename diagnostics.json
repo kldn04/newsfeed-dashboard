@@ -33213,6 +33213,46 @@
           "at": "2026-11-06T06:21:08Z",
           "stage": "x_discovery",
           "message": "Twitter API: fetching @mingchikuo in the requested window."
+        },
+        {
+          "at": "2026-11-06T06:21:08Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @mingchikuo returned 0 posts."
+        },
+        {
+          "at": "2026-11-06T06:21:08Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @sean_________ in the requested window."
+        },
+        {
+          "at": "2026-11-06T06:21:08Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @sean_________ returned 0 posts."
+        },
+        {
+          "at": "2026-11-06T06:21:08Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: fetching @qq_timmy in the requested window."
+        },
+        {
+          "at": "2026-11-06T06:21:08Z",
+          "stage": "x_discovery",
+          "message": "Twitter API: @qq_timmy returned 4 posts."
+        },
+        {
+          "at": "2026-11-06T06:21:08Z",
+          "stage": "usage",
+          "message": "Twitter API collection finished."
+        },
+        {
+          "at": "2026-11-06T06:21:11Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-11-06T06:21:15Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -33348,10 +33388,18 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "X API",
+          "component": "Twitter",
+          "requests": 13,
+          "post_resources": 66,
+          "cost_usd": 0.33,
+          "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-11-06T06:21:08Z",
-      "stage": "x_discovery"
+      "updated_at": "2026-11-06T06:21:15Z",
+      "stage": "summarising"
     }
   ]
 }
