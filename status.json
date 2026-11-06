@@ -1,12 +1,12 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: fetching 数码王小机, page 1.",
+  "message": "Weibo: reading full text for a new post from 集微网官方微博.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-11-06T06:17:04Z",
+  "updated_at": "2026-11-06T06:17:35Z",
   "started_at": "2026-11-06T06:10:00Z",
   "counts": {
-    "weibo_candidates": 28
+    "weibo_candidates": 35
   },
   "stored_totals": {
     "stories": 3581,
@@ -21,14 +21,6 @@
     "Editorial exclusions": 1251
   },
   "events": [
-    {
-      "at": "2026-11-06T06:10:00Z",
-      "message": "Starting Weibo + Twitter social edition."
-    },
-    {
-      "at": "2026-11-06T06:10:00Z",
-      "message": "Weibo: fetching 手机晶片达人, page 1."
-    },
     {
       "at": "2026-11-06T06:10:36Z",
       "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
@@ -100,6 +92,14 @@
     {
       "at": "2026-11-06T06:16:24Z",
       "message": "Weibo: fetching 数码王小机, page 1."
+    },
+    {
+      "at": "2026-11-06T06:17:06Z",
+      "message": "Weibo: 数码王小机 — 7 posts in collection window, 7 new."
+    },
+    {
+      "at": "2026-11-06T06:17:06Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
     }
   ]
 }
