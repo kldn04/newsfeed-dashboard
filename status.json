@@ -1,20 +1,25 @@
 {
-  "summary": "Twitter & Weibo ready · Web collection in progress",
-  "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-11-09T06:32:45Z",
+  "summary": "Twitter & Weibo ready · Web ready",
+  "state": "idle",
+  "message": "Web stories added to the current edition.",
+  "stage": "complete",
+  "updated_at": "2026-11-09T06:32:57Z",
   "started_at": "2026-11-09T05:30:01Z",
   "counts": {
     "openai_calls": 1,
     "input_tokens_estimated": 312631,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 335090,
+    "openai_input_tokens": 308472,
+    "openai_output_tokens": 26618,
+    "eligible": 34,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 3755,
+    "stories": 3782,
     "evidence": 12027,
-    "model_cache": 175,
+    "model_cache": 176,
     "reviews": 1340
   },
   "review_categories": {
@@ -24,22 +29,6 @@
     "Editorial exclusions": 1332
   },
   "events": [
-    {
-      "at": "2026-11-09T05:35:44Z",
-      "message": "EET China: 11 candidates (ok)."
-    },
-    {
-      "at": "2026-11-09T05:35:45Z",
-      "message": "Reading IDC."
-    },
-    {
-      "at": "2026-11-09T05:35:46Z",
-      "message": "IDC: 0 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-11-09T05:35:46Z",
-      "message": "Reading Counterpoint Research."
-    },
     {
       "at": "2026-11-09T05:35:56Z",
       "message": "Counterpoint Research: 0 dated articles captured (failed)."
@@ -103,6 +92,22 @@
     {
       "at": "2026-11-09T06:28:44Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-11-09T06:32:51Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-11-09T06:32:51Z",
+      "message": "Batch complete: 34 stories ready."
+    },
+    {
+      "at": "2026-11-09T06:32:52Z",
+      "message": "Publishing web edition."
+    },
+    {
+      "at": "2026-11-09T06:32:57Z",
+      "message": "Web stories added to the current edition."
     }
   ]
 }
