@@ -30629,6 +30629,141 @@
           "at": "2026-11-09T05:38:56Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:22Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 271610 bytes, 26.1s."
+        },
+        {
+          "at": "2026-11-09T05:39:22Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 281012 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 281554 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:23Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:24Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 272023 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:24Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:24Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 279529 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:25Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:25Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 275660 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:25Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 282164 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 270357 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-09T05:39:26Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:28Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 270357 bytes, 1.9s."
+        },
+        {
+          "at": "2026-11-09T05:39:28Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 268708 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-09T05:39:29Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 268708 bytes, 4.6s."
+        },
+        {
+          "at": "2026-11-09T05:39:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:39:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 268275 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-09T05:39:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-09T05:39:34Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -32195,9 +32330,84 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-09T05:38:56Z",
+      "updated_at": "2026-11-09T05:39:34Z",
       "stage": "web_discovery"
     }
   ]
