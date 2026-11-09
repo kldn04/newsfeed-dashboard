@@ -32792,6 +32792,26 @@
           "at": "2026-11-09T06:16:10Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-09T06:16:42Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 35636 bytes, 32.7s."
+        },
+        {
+          "at": "2026-11-09T06:16:42Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 电子工程专辑 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-11-09T06:16:42Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching Trendforce集邦咨询, page 1."
+        },
+        {
+          "at": "2026-11-09T06:16:43Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -32850,9 +32870,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-09T06:16:10Z",
+      "updated_at": "2026-11-09T06:16:43Z",
       "stage": "weibo_discovery"
     }
   ]
