@@ -28969,6 +28969,96 @@
           "at": "2026-11-09T05:35:31Z",
           "stage": "fetch",
           "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-09T05:35:44Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 134784 bytes, 13.4s."
+        },
+        {
+          "at": "2026-11-09T05:35:44Z",
+          "stage": "web_discovery",
+          "message": "EET China: 11 candidates (ok)."
+        },
+        {
+          "at": "2026-11-09T05:35:45Z",
+          "stage": "web_discovery",
+          "message": "Reading IDC."
+        },
+        {
+          "at": "2026-11-09T05:35:45Z",
+          "stage": "fetch",
+          "message": "www.idc.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:35:46Z",
+          "stage": "fetch",
+          "message": "www.idc.com: direct HTTP 200, 125439 bytes, 0.8s."
+        },
+        {
+          "at": "2026-11-09T05:35:46Z",
+          "stage": "web_discovery",
+          "message": "IDC: 0 dated articles captured (ok)."
+        },
+        {
+          "at": "2026-11-09T05:35:46Z",
+          "stage": "web_discovery",
+          "message": "Reading Counterpoint Research."
+        },
+        {
+          "at": "2026-11-09T05:35:46Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: fetch started."
+        },
+        {
+          "at": "2026-11-09T05:35:56Z",
+          "stage": "fetch",
+          "message": "counterpointresearch.com: HTTP 200, 317200 bytes, 9.4s."
+        },
+        {
+          "at": "2026-11-09T05:35:56Z",
+          "stage": "web_discovery",
+          "message": "Counterpoint Research: 0 dated articles captured (failed)."
+        },
+        {
+          "at": "2026-11-09T05:35:56Z",
+          "stage": "web_discovery",
+          "message": "Reading Seoul Economic Daily."
+        },
+        {
+          "at": "2026-11-09T05:35:56Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:35:59Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 93053 bytes, 3.1s."
+        },
+        {
+          "at": "2026-11-09T05:35:59Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:36:01Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 143843 bytes, 1.3s."
+        },
+        {
+          "at": "2026-11-09T05:36:01Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-09T05:36:02Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct HTTP 200, 138357 bytes, 1.0s."
+        },
+        {
+          "at": "2026-11-09T05:36:02Z",
+          "stage": "fetch",
+          "message": "sedaily.com: direct fetch started."
         }
       ],
       "usage": [
@@ -29595,9 +29685,47 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-09T05:35:31Z",
+      "updated_at": "2026-11-09T05:36:02Z",
       "stage": "web_discovery"
     }
   ]
