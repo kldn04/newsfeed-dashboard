@@ -30100,6 +30100,146 @@
           "at": "2026-11-10T05:36:40Z",
           "stage": "fetch",
           "message": "www.hankookilbo.com: fetch started."
+        },
+        {
+          "at": "2026-11-10T05:36:54Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: HTTP 200, 117255 bytes, 13.7s."
+        },
+        {
+          "at": "2026-11-10T05:36:54Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:36:55Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct HTTP 200, 156831 bytes, 1.1s."
+        },
+        {
+          "at": "2026-11-10T05:36:55Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:36:55Z",
+          "stage": "fetch",
+          "message": "www.hankookilbo.com: direct HTTP 200, 219550 bytes, 0.1s."
+        },
+        {
+          "at": "2026-11-10T05:36:56Z",
+          "stage": "web_discovery",
+          "message": "Hankook Ilbo: 10 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-11-10T05:36:56Z",
+          "stage": "web_discovery",
+          "message": "Reading ETNews."
+        },
+        {
+          "at": "2026-11-10T05:36:56Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:36:58Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 27947 bytes, 1.5s."
+        },
+        {
+          "at": "2026-11-10T05:36:58Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:00Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 59941 bytes, 1.2s."
+        },
+        {
+          "at": "2026-11-10T05:37:00Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:02Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 62162 bytes, 1.8s."
+        },
+        {
+          "at": "2026-11-10T05:37:03Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:05Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 57889 bytes, 1.8s."
+        },
+        {
+          "at": "2026-11-10T05:37:05Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:07Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 55734 bytes, 1.7s."
+        },
+        {
+          "at": "2026-11-10T05:37:07Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:08Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 56232 bytes, 1.1s."
+        },
+        {
+          "at": "2026-11-10T05:37:08Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:10Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 55255 bytes, 1.7s."
+        },
+        {
+          "at": "2026-11-10T05:37:10Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:11Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct HTTP 200, 55138 bytes, 1.2s."
+        },
+        {
+          "at": "2026-11-10T05:37:11Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:12Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-10T05:37:12Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: fetch started."
+        },
+        {
+          "at": "2026-11-10T05:37:17Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: HTTP 200, 397 bytes, 4.6s."
+        },
+        {
+          "at": "2026-11-10T05:37:17Z",
+          "stage": "fetch",
+          "message": "m.etnews.com: direct fetch started."
         }
       ],
       "usage": [
@@ -31078,9 +31218,83 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-10T05:36:40Z",
+      "updated_at": "2026-11-10T05:37:17Z",
       "stage": "web_discovery"
     }
   ]
