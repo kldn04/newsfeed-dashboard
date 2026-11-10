@@ -31050,6 +31050,21 @@
           "at": "2026-11-10T05:38:44Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-10T05:39:45Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 0 bytes, 61.0s."
+        },
+        {
+          "at": "2026-11-10T05:39:45Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 0 dated articles captured (failed)."
+        },
+        {
+          "at": "2026-11-10T05:39:46Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -32570,10 +32585,17 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-10T05:38:44Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-11-10T05:39:46Z",
+      "stage": "waiting_social"
     }
   ]
 }
