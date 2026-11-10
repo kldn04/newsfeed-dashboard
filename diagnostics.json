@@ -29235,6 +29235,46 @@
           "at": "2026-11-10T05:31:40Z",
           "stage": "fetch",
           "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:31:43Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72232 bytes, 2.3s."
+        },
+        {
+          "at": "2026-11-10T05:31:43Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:31:45Z",
+          "stage": "fetch",
+          "message": "zdnet.co.kr: direct HTTP 200, 72204 bytes, 2.0s."
+        },
+        {
+          "at": "2026-11-10T05:31:45Z",
+          "stage": "web_discovery",
+          "message": "ZDNet Korea: 10 candidates (ok)."
+        },
+        {
+          "at": "2026-11-10T05:31:45Z",
+          "stage": "web_discovery",
+          "message": "Reading EET China."
+        },
+        {
+          "at": "2026-11-10T05:31:46Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
+        },
+        {
+          "at": "2026-11-10T05:32:11Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: HTTP 200, 124545 bytes, 25.0s."
+        },
+        {
+          "at": "2026-11-10T05:32:11Z",
+          "stage": "fetch",
+          "message": "www.eet-china.com: fetch started."
         }
       ],
       "usage": [
@@ -29713,9 +29753,28 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-10T05:31:40Z",
+      "updated_at": "2026-11-10T05:32:11Z",
       "stage": "web_discovery"
     }
   ]
