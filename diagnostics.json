@@ -30910,6 +30910,146 @@
           "at": "2026-11-10T05:38:18Z",
           "stage": "fetch",
           "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:18Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 84409 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:18Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:19Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 93914 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:19Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:19Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 86814 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:19Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:20Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 80868 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:20Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:20Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 82518 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:20Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:21Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 80745 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:21Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:21Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 80272 bytes, 0.7s."
+        },
+        {
+          "at": "2026-11-10T05:38:22Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:22Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 104635 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-10T05:38:22Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:23Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 83288 bytes, 0.7s."
+        },
+        {
+          "at": "2026-11-10T05:38:23Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:23Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 81631 bytes, 0.3s."
+        },
+        {
+          "at": "2026-11-10T05:38:23Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:24Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 79267 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:24Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:24Z",
+          "stage": "fetch",
+          "message": "www.mt.co.kr: direct HTTP 200, 85426 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-10T05:38:24Z",
+          "stage": "web_discovery",
+          "message": "MoneyToday: 35 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-11-10T05:38:24Z",
+          "stage": "web_discovery",
+          "message": "Reading Economic Daily (UDN)."
+        },
+        {
+          "at": "2026-11-10T05:38:24Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-10T05:38:44Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct access unavailable; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-10T05:38:44Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
         }
       ],
       "usage": [
@@ -32358,9 +32498,81 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-10T05:38:18Z",
+      "updated_at": "2026-11-10T05:38:44Z",
       "stage": "web_discovery"
     }
   ]
