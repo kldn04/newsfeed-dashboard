@@ -1,21 +1,11 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "Web stories added to the current edition.",
-  "stage": "complete",
-  "updated_at": "2026-11-11T06:24:23Z",
-  "started_at": "2026-11-11T05:30:01Z",
-  "counts": {
-    "openai_calls": 1,
-    "input_tokens_estimated": 269020,
-    "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 291625,
-    "openai_input_tokens": 265124,
-    "openai_output_tokens": 26501,
-    "eligible": 41,
-    "held": 0
-  },
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Initial article scrape: TheLec",
+  "stage": "web_discovery",
+  "updated_at": "2026-11-12T05:30:20Z",
+  "started_at": "2026-11-12T05:30:01Z",
+  "counts": {},
   "stored_totals": {
     "stories": 3930,
     "evidence": 12520,
@@ -30,84 +20,28 @@
   },
   "events": [
     {
-      "at": "2026-11-11T05:33:14Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
+      "at": "2026-11-12T05:30:01Z",
+      "message": "Starting web edition."
     },
     {
-      "at": "2026-11-11T05:33:14Z",
-      "message": "Reading Seoul Economic Daily."
+      "at": "2026-11-12T05:30:01Z",
+      "message": "Reading CTEE."
     },
     {
-      "at": "2026-11-11T05:33:51Z",
-      "message": "Seoul Economic Daily: 22 dated articles captured (partial)."
+      "at": "2026-11-12T05:30:08Z",
+      "message": "CTEE: 5 candidates (ok)."
     },
     {
-      "at": "2026-11-11T05:33:51Z",
-      "message": "Reading Asia Economy."
+      "at": "2026-11-12T05:30:08Z",
+      "message": "Reading TheLec."
     },
     {
-      "at": "2026-11-11T05:34:17Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
+      "at": "2026-11-12T05:30:19Z",
+      "message": "TheLec: 18 candidates (ok)."
     },
     {
-      "at": "2026-11-11T05:34:17Z",
-      "message": "Reading Hankook Ilbo."
-    },
-    {
-      "at": "2026-11-11T05:34:29Z",
-      "message": "Hankook Ilbo: 12 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-11-11T05:34:29Z",
-      "message": "Reading ETNews."
-    },
-    {
-      "at": "2026-11-11T05:35:29Z",
-      "message": "ETNews: 22 dated articles captured (ok)."
-    },
-    {
-      "at": "2026-11-11T05:35:30Z",
-      "message": "Reading MoneyToday."
-    },
-    {
-      "at": "2026-11-11T05:35:52Z",
-      "message": "MoneyToday: 30 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-11-11T05:35:52Z",
-      "message": "Reading Economic Daily (UDN)."
-    },
-    {
-      "at": "2026-11-11T05:36:05Z",
-      "message": "Economic Daily (UDN): 19 dated articles captured (partial)."
-    },
-    {
-      "at": "2026-11-11T05:36:06Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
-    },
-    {
-      "at": "2026-11-11T06:20:50Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-11-11T06:20:51Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
-    },
-    {
-      "at": "2026-11-11T06:24:17Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-11-11T06:24:17Z",
-      "message": "Batch complete: 41 stories ready."
-    },
-    {
-      "at": "2026-11-11T06:24:18Z",
-      "message": "Publishing web edition."
-    },
-    {
-      "at": "2026-11-11T06:24:23Z",
-      "message": "Web stories added to the current edition."
+      "at": "2026-11-12T05:30:19Z",
+      "message": "Initial article scrape: TheLec"
     }
   ]
 }
