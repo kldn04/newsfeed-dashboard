@@ -32273,6 +32273,16 @@
           "at": "2026-11-12T06:20:19Z",
           "stage": "usage",
           "message": "Twitter API collection finished."
+        },
+        {
+          "at": "2026-11-12T06:20:22Z",
+          "stage": "summarising",
+          "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+        },
+        {
+          "at": "2026-11-12T06:20:25Z",
+          "stage": "summarising",
+          "message": "OpenAI background job accepted; tracking its saved job ID."
         }
       ],
       "usage": [
@@ -32432,8 +32442,8 @@
           "cost_basis": "Upper estimate at $0.005 per unique post resource, including references. Profile reads and billing adjustments not included."
         }
       ],
-      "updated_at": "2026-11-12T06:20:19Z",
-      "stage": "x_discovery"
+      "updated_at": "2026-11-12T06:20:25Z",
+      "stage": "summarising"
     }
   ]
 }
