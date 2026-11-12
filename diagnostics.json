@@ -31793,6 +31793,41 @@
           "at": "2026-11-12T06:10:26Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-12T06:10:45Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 33810 bytes, 19.1s."
+        },
+        {
+          "at": "2026-11-12T06:10:45Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码闲聊站 — 6 posts in collection window, 6 new."
+        },
+        {
+          "at": "2026-11-12T06:10:45Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 1."
+        },
+        {
+          "at": "2026-11-12T06:10:45Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-12T06:11:06Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 53553 bytes, 20.9s."
+        },
+        {
+          "at": "2026-11-12T06:11:06Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 2."
+        },
+        {
+          "at": "2026-11-12T06:11:06Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -31802,9 +31837,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-12T06:10:26Z",
+      "updated_at": "2026-11-12T06:11:06Z",
       "stage": "weibo_discovery"
     }
   ]
