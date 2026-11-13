@@ -31620,6 +31620,46 @@
           "at": "2026-11-13T06:14:30Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-13T06:14:59Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 43471 bytes, 29.3s."
+        },
+        {
+          "at": "2026-11-13T06:14:59Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: Trendforce集邦咨询 — 0 posts in collection window, 0 new."
+        },
+        {
+          "at": "2026-11-13T06:14:59Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 数码王小机, page 1."
+        },
+        {
+          "at": "2026-11-13T06:15:00Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-13T06:15:23Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 82843 bytes, 23.1s."
+        },
+        {
+          "at": "2026-11-13T06:15:23Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码王小机 — 6 posts in collection window, 6 new."
+        },
+        {
+          "at": "2026-11-13T06:15:23Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 集微网官方微博."
+        },
+        {
+          "at": "2026-11-13T06:15:24Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -31678,9 +31718,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-13T06:14:30Z",
+      "updated_at": "2026-11-13T06:15:24Z",
       "stage": "weibo_discovery"
     }
   ]
