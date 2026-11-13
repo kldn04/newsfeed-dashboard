@@ -1,20 +1,25 @@
 {
   "summary": "Twitter & Weibo ready · Web collection in progress",
   "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-11-13T06:30:04Z",
+  "message": "Publishing web edition.",
+  "stage": "publishing",
+  "updated_at": "2026-11-13T06:30:34Z",
   "started_at": "2026-11-13T05:30:01Z",
   "counts": {
     "openai_calls": 1,
     "input_tokens_estimated": 279030,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 311330,
+    "openai_input_tokens": 275248,
+    "openai_output_tokens": 36082,
+    "eligible": 40,
+    "held": 0
   },
   "stored_totals": {
-    "stories": 4051,
+    "stories": 4081,
     "evidence": 13106,
-    "model_cache": 188,
+    "model_cache": 189,
     "reviews": 1428
   },
   "review_categories": {
@@ -24,18 +29,6 @@
     "Editorial exclusions": 1420
   },
   "events": [
-    {
-      "at": "2026-11-13T05:32:17Z",
-      "message": "EET China: 8 candidates (ok)."
-    },
-    {
-      "at": "2026-11-13T05:32:18Z",
-      "message": "Reading IDC."
-    },
-    {
-      "at": "2026-11-13T05:32:19Z",
-      "message": "IDC: 0 dated articles captured (ok)."
-    },
     {
       "at": "2026-11-13T05:32:19Z",
       "message": "Reading Counterpoint Research."
@@ -103,6 +96,18 @@
     {
       "at": "2026-11-13T06:24:31Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-11-13T06:30:29Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-11-13T06:30:29Z",
+      "message": "Batch complete: 40 stories ready."
+    },
+    {
+      "at": "2026-11-13T06:30:30Z",
+      "message": "Publishing web edition."
     }
   ]
 }
