@@ -31480,6 +31480,26 @@
           "at": "2026-11-13T06:10:36Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-13T06:10:58Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 36974 bytes, 22.5s."
+        },
+        {
+          "at": "2026-11-13T06:10:58Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: 数码闲聊站 — 7 posts in collection window, 7 new."
+        },
+        {
+          "at": "2026-11-13T06:10:58Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: fetching 智慧芯片案内人, page 1."
+        },
+        {
+          "at": "2026-11-13T06:10:58Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -31489,9 +31509,16 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-13T06:10:36Z",
+      "updated_at": "2026-11-13T06:10:58Z",
       "stage": "weibo_discovery"
     }
   ]
