@@ -1,12 +1,12 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Weibo: fetching Trendforce集邦咨询, page 1.",
+  "message": "Weibo: reading full text for a new post from 集微网官方微博.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-11-13T06:14:55Z",
+  "updated_at": "2026-11-13T06:15:26Z",
   "started_at": "2026-11-13T06:10:00Z",
   "counts": {
-    "weibo_candidates": 28
+    "weibo_candidates": 34
   },
   "stored_totals": {
     "stories": 4001,
@@ -21,14 +21,6 @@
     "Editorial exclusions": 1404
   },
   "events": [
-    {
-      "at": "2026-11-13T06:10:00Z",
-      "message": "Starting Weibo + Twitter social edition."
-    },
-    {
-      "at": "2026-11-13T06:10:00Z",
-      "message": "Weibo: fetching 手机晶片达人, page 1."
-    },
     {
       "at": "2026-11-13T06:10:35Z",
       "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
@@ -92,6 +84,22 @@
     {
       "at": "2026-11-13T06:14:30Z",
       "message": "Weibo: fetching Trendforce集邦咨询, page 1."
+    },
+    {
+      "at": "2026-11-13T06:14:59Z",
+      "message": "Weibo: Trendforce集邦咨询 — 0 posts in collection window, 0 new."
+    },
+    {
+      "at": "2026-11-13T06:14:59Z",
+      "message": "Weibo: fetching 数码王小机, page 1."
+    },
+    {
+      "at": "2026-11-13T06:15:23Z",
+      "message": "Weibo: 数码王小机 — 6 posts in collection window, 6 new."
+    },
+    {
+      "at": "2026-11-13T06:15:23Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
     }
   ]
 }
