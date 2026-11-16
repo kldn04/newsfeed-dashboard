@@ -29986,6 +29986,126 @@
           "at": "2026-11-16T05:37:51Z",
           "stage": "fetch",
           "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:07Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 264675 bytes, 16.0s."
+        },
+        {
+          "at": "2026-11-16T05:38:08Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:08Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 260133 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-16T05:38:08Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct content incomplete; using Bright Data fallback."
+        },
+        {
+          "at": "2026-11-16T05:38:08Z",
+          "stage": "fetch",
+          "message": "money.udn.com: fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:11Z",
+          "stage": "fetch",
+          "message": "money.udn.com: HTTP 200, 260133 bytes, 2.9s."
+        },
+        {
+          "at": "2026-11-16T05:38:11Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:12Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 268042 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-16T05:38:12Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:12Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 277800 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-16T05:38:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 278643 bytes, 0.6s."
+        },
+        {
+          "at": "2026-11-16T05:38:13Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:14Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 270431 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-16T05:38:14Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:14Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 270980 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-16T05:38:15Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:15Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 276451 bytes, 0.5s."
+        },
+        {
+          "at": "2026-11-16T05:38:15Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:16Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 272890 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-16T05:38:16Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct fetch started."
+        },
+        {
+          "at": "2026-11-16T05:38:16Z",
+          "stage": "fetch",
+          "message": "money.udn.com: direct HTTP 200, 274869 bytes, 0.4s."
+        },
+        {
+          "at": "2026-11-16T05:38:16Z",
+          "stage": "web_discovery",
+          "message": "Economic Daily (UDN): 17 dated articles captured (partial)."
+        },
+        {
+          "at": "2026-11-16T05:38:17Z",
+          "stage": "waiting_social",
+          "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
         }
       ],
       "usage": [
@@ -31702,10 +31822,78 @@
           "component": "Fetch",
           "requests": 1,
           "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
+        },
+        {
+          "provider": "Direct HTTPS",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-16T05:37:51Z",
-      "stage": "web_discovery"
+      "updated_at": "2026-11-16T05:38:17Z",
+      "stage": "waiting_social"
     }
   ]
 }
