@@ -30089,6 +30089,31 @@
           "at": "2026-11-17T06:59:14Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-11-17T06:59:25Z",
+          "stage": "usage",
+          "message": "Editorial repair OpenAI response received."
+        },
+        {
+          "at": "2026-11-17T06:59:25Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-11-17T06:59:25Z",
+          "stage": "validation",
+          "message": "Batch complete: 42 stories ready."
+        },
+        {
+          "at": "2026-11-17T06:59:26Z",
+          "stage": "publishing",
+          "message": "Publishing web edition."
+        },
+        {
+          "at": "2026-11-17T06:59:31Z",
+          "stage": "complete",
+          "message": "Web stories added to the current edition."
         }
       ],
       "usage": [
@@ -31740,10 +31765,22 @@
           "cache_write_tokens": 253668,
           "cost_usd": 0.0440793,
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Editorial repair",
+          "model": "gpt-6-luna",
+          "input_tokens": 236894,
+          "output_tokens": 304,
+          "reasoning_tokens": 291,
+          "cached_tokens": 0,
+          "cache_write_tokens": 236891,
+          "cost_usd": 0.029763675,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-11-17T06:59:14Z",
-      "stage": "summarising"
+      "updated_at": "2026-11-17T06:59:31Z",
+      "stage": "complete"
     },
     {
       "started_at": "2026-11-17T06:10:00Z",
