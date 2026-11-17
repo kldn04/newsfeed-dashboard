@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 集微网官方微博.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-11-17T06:24:23Z",
+  "updated_at": "2026-11-17T06:24:53Z",
   "started_at": "2026-11-17T06:10:00Z",
   "counts": {
     "weibo_candidates": 42
@@ -21,10 +21,6 @@
     "Editorial exclusions": 1474
   },
   "events": [
-    {
-      "at": "2026-11-17T06:14:57Z",
-      "message": "Weibo: fetching 芯智讯官微, page 1."
-    },
     {
       "at": "2026-11-17T06:15:21Z",
       "message": "Weibo: 芯智讯官微 — 5 posts in collection window, 5 new."
@@ -99,6 +95,10 @@
     },
     {
       "at": "2026-11-17T06:24:10Z",
+      "message": "Weibo: reading full text for a new post from 集微网官方微博."
+    },
+    {
+      "at": "2026-11-17T06:24:34Z",
       "message": "Weibo: reading full text for a new post from 集微网官方微博."
     }
   ]
