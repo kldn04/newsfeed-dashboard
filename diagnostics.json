@@ -30502,6 +30502,11 @@
           "at": "2026-11-19T06:30:19Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-11-19T07:00:20Z",
+          "stage": "failed",
+          "message": "Web collection stopped (RuntimeError); saved progress retained."
         }
       ],
       "usage": [
@@ -32166,8 +32171,8 @@
           "cost_usd": 0
         }
       ],
-      "updated_at": "2026-11-19T06:30:19Z",
-      "stage": "summarising"
+      "updated_at": "2026-11-19T07:00:20Z",
+      "stage": "failed"
     },
     {
       "started_at": "2026-11-19T06:10:00Z",
