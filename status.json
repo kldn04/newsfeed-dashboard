@@ -1,9 +1,9 @@
 {
-  "summary": "Twitter & Weibo ready · Web collection in progress",
-  "state": "running",
-  "message": "OpenAI background job accepted; tracking its saved job ID.",
-  "stage": "summarising",
-  "updated_at": "2026-11-19T07:00:10Z",
+  "summary": "Twitter & Weibo ready · Web needs attention",
+  "state": "failed",
+  "message": "Web collection stopped (RuntimeError); saved progress retained.",
+  "stage": "failed",
+  "updated_at": "2026-11-19T07:00:20Z",
   "started_at": "2026-11-19T05:30:01Z",
   "counts": {
     "openai_calls": 1,
@@ -24,10 +24,6 @@
     "Editorial exclusions": 1542
   },
   "events": [
-    {
-      "at": "2026-11-19T05:33:34Z",
-      "message": "EET China: 9 candidates (ok)."
-    },
     {
       "at": "2026-11-19T05:33:35Z",
       "message": "Reading IDC."
@@ -103,6 +99,10 @@
     {
       "at": "2026-11-19T06:30:19Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-11-19T07:00:20Z",
+      "message": "Web collection stopped (RuntimeError); saved progress retained."
     }
   ]
 }
