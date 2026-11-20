@@ -28464,6 +28464,36 @@
           "at": "2026-11-20T06:25:01Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-11-20T06:26:55Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-11-20T06:26:55Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-11-20T06:26:55Z",
+          "stage": "validation",
+          "message": "Batch complete: 20 stories ready."
+        },
+        {
+          "at": "2026-11-20T06:26:55Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-11-20T06:26:56Z",
+          "stage": "publishing",
+          "message": "Publishing social edition."
+        },
+        {
+          "at": "2026-11-20T06:27:02Z",
+          "stage": "complete",
+          "message": "Twitter & Weibo ready."
         }
       ],
       "usage": [
@@ -28675,10 +28705,22 @@
           "cache_write_tokens": 19169,
           "cost_usd": 0.007526425,
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-6-luna",
+          "input_tokens": 19350,
+          "output_tokens": 17195,
+          "reasoning_tokens": 10798,
+          "cached_tokens": 0,
+          "cache_write_tokens": 19347,
+          "cost_usd": 0.011016175,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-11-20T06:25:01Z",
-      "stage": "summarising"
+      "updated_at": "2026-11-20T06:27:02Z",
+      "stage": "complete"
     }
   ]
 }
