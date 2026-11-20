@@ -1,19 +1,12 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "Web stories added to the current edition.",
-  "stage": "complete",
-  "updated_at": "2026-11-20T05:30:14Z",
-  "started_at": "2026-11-20T05:30:01Z",
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Weibo: fetching 数码闲聊站, page 1.",
+  "stage": "weibo_discovery",
+  "updated_at": "2026-11-20T06:10:27Z",
+  "started_at": "2026-11-20T06:10:01Z",
   "counts": {
-    "openai_calls": 1,
-    "input_tokens_estimated": 260543,
-    "input_text_shortened": false,
-    "openai_tokens": 280745,
-    "openai_input_tokens": 256962,
-    "openai_output_tokens": 23783,
-    "eligible": 31,
-    "held": 0
+    "weibo_candidates": 0
   },
   "stored_totals": {
     "stories": 4415,
@@ -29,44 +22,20 @@
   },
   "events": [
     {
-      "at": "2026-11-20T05:30:01Z",
-      "message": "Starting web edition."
+      "at": "2026-11-20T06:10:01Z",
+      "message": "Starting Weibo + Twitter social edition."
     },
     {
-      "at": "2026-11-20T05:30:01Z",
-      "message": "Reusing saved web checkpoint; no repeat fetch or completed compilation."
+      "at": "2026-11-20T06:10:01Z",
+      "message": "Weibo: fetching 手机晶片达人, page 1."
     },
     {
-      "at": "2026-11-20T05:30:01Z",
-      "message": "Reusing saved primary checkpoint; no repeat fetch or completed compilation."
+      "at": "2026-11-20T06:10:19Z",
+      "message": "Weibo: 手机晶片达人 — 0 posts in collection window, 0 new."
     },
     {
-      "at": "2026-11-20T05:30:01Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
-    },
-    {
-      "at": "2026-11-20T05:30:01Z",
-      "message": "Reusing saved web-prior checkpoint; no repeat fetch or completed compilation."
-    },
-    {
-      "at": "2026-11-20T05:30:05Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
-    },
-    {
-      "at": "2026-11-20T05:30:07Z",
-      "message": "OpenAI batch received; applying local format and link checks."
-    },
-    {
-      "at": "2026-11-20T05:30:07Z",
-      "message": "Batch complete: 31 stories ready."
-    },
-    {
-      "at": "2026-11-20T05:30:08Z",
-      "message": "Publishing web edition."
-    },
-    {
-      "at": "2026-11-20T05:30:14Z",
-      "message": "Web stories added to the current edition."
+      "at": "2026-11-20T06:10:19Z",
+      "message": "Weibo: fetching 数码闲聊站, page 1."
     }
   ]
 }
