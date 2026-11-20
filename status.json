@@ -3,7 +3,7 @@
   "state": "running",
   "message": "OpenAI background job accepted; tracking its saved job ID.",
   "stage": "summarising",
-  "updated_at": "2026-11-20T06:24:37Z",
+  "updated_at": "2026-11-20T06:25:07Z",
   "started_at": "2026-11-20T06:10:01Z",
   "counts": {
     "weibo_candidates": 41,
@@ -11,14 +11,19 @@
     "twitter_api_requests": 13,
     "twitter_posts_fetched": 48,
     "openai_calls": 1,
-    "input_tokens_estimated": 19726,
+    "input_tokens_estimated": 20210,
     "input_text_shortened": false,
-    "openai_generation_attempts": 1
+    "openai_generation_attempts": 1,
+    "openai_tokens": 29432,
+    "openai_input_tokens": 19172,
+    "openai_output_tokens": 10260,
+    "eligible": 10,
+    "held": 0
   },
   "stored_totals": {
     "stories": 4415,
     "evidence": 14331,
-    "model_cache": 203,
+    "model_cache": 204,
     "reviews": 1550
   },
   "review_categories": {
@@ -28,22 +33,6 @@
     "Editorial exclusions": 1542
   },
   "events": [
-    {
-      "at": "2026-11-20T06:23:10Z",
-      "message": "Twitter API: fetching @intelfabs in the requested window."
-    },
-    {
-      "at": "2026-11-20T06:23:10Z",
-      "message": "Twitter API: @intelfabs returned 4 posts."
-    },
-    {
-      "at": "2026-11-20T06:23:10Z",
-      "message": "Twitter API: fetching @ryanhingshing in the requested window."
-    },
-    {
-      "at": "2026-11-20T06:23:10Z",
-      "message": "Twitter API: @ryanhingshing returned 0 posts."
-    },
     {
       "at": "2026-11-20T06:23:10Z",
       "message": "Twitter API: fetching @sssjeffpu in the requested window."
@@ -106,6 +95,22 @@
     },
     {
       "at": "2026-11-20T06:23:16Z",
+      "message": "OpenAI background job accepted; tracking its saved job ID."
+    },
+    {
+      "at": "2026-11-20T06:25:00Z",
+      "message": "OpenAI batch received; applying local format and link checks."
+    },
+    {
+      "at": "2026-11-20T06:25:00Z",
+      "message": "Batch complete: 10 stories ready."
+    },
+    {
+      "at": "2026-11-20T06:25:00Z",
+      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+    },
+    {
+      "at": "2026-11-20T06:25:01Z",
       "message": "OpenAI background job accepted; tracking its saved job ID."
     }
   ]
