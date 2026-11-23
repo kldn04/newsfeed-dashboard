@@ -3,7 +3,7 @@
   "state": "running",
   "message": "Weibo: reading full text for a new post from 数码王小机.",
   "stage": "weibo_discovery",
-  "updated_at": "2026-11-23T06:22:14Z",
+  "updated_at": "2026-11-23T06:22:44Z",
   "started_at": "2026-11-23T06:10:00Z",
   "counts": {
     "weibo_candidates": 37
@@ -21,10 +21,6 @@
     "Editorial exclusions": 1553
   },
   "events": [
-    {
-      "at": "2026-11-23T06:15:36Z",
-      "message": "Weibo: fetch failed for 芯智讯官微 (SourceFetchError)."
-    },
     {
       "at": "2026-11-23T06:15:36Z",
       "message": "Weibo: 芯智讯官微 — 0 posts in collection window, 0 new."
@@ -99,6 +95,10 @@
     },
     {
       "at": "2026-11-23T06:22:04Z",
+      "message": "Weibo: reading full text for a new post from 数码王小机."
+    },
+    {
+      "at": "2026-11-23T06:22:22Z",
       "message": "Weibo: reading full text for a new post from 数码王小机."
     }
   ]
