@@ -1,9 +1,9 @@
 {
   "summary": "Collection in progress",
   "state": "running",
-  "message": "Reading Economic Daily (UDN).",
-  "stage": "web_discovery",
-  "updated_at": "2026-11-25T05:36:22Z",
+  "message": "Web scrape saved; waiting for the social edition before final compilation and merge.",
+  "stage": "waiting_social",
+  "updated_at": "2026-11-25T05:36:52Z",
   "started_at": "2026-11-25T05:30:01Z",
   "counts": {},
   "stored_totals": {
@@ -19,14 +19,6 @@
     "Editorial exclusions": 1635
   },
   "events": [
-    {
-      "at": "2026-11-25T05:30:49Z",
-      "message": "TrendForce: 4 candidates (ok)."
-    },
-    {
-      "at": "2026-11-25T05:30:49Z",
-      "message": "Reading ZDNet Korea."
-    },
     {
       "at": "2026-11-25T05:31:38Z",
       "message": "ZDNet Korea: 1 candidates (ok)."
@@ -98,6 +90,14 @@
     {
       "at": "2026-11-25T05:36:19Z",
       "message": "Reading Economic Daily (UDN)."
+    },
+    {
+      "at": "2026-11-25T05:36:35Z",
+      "message": "Economic Daily (UDN): 16 dated articles captured (partial)."
+    },
+    {
+      "at": "2026-11-25T05:36:35Z",
+      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
     }
   ]
 }
