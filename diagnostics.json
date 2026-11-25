@@ -28306,6 +28306,11 @@
           "at": "2026-11-25T06:12:15Z",
           "stage": "weibo_discovery",
           "message": "Weibo: fetching 集微网官方微博, page 2."
+        },
+        {
+          "at": "2026-11-25T06:12:16Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -28352,7 +28357,7 @@
           "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-25T06:12:15Z",
+      "updated_at": "2026-11-25T06:12:16Z",
       "stage": "weibo_discovery"
     }
   ]
