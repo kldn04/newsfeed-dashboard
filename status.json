@@ -1,21 +1,11 @@
 {
-  "summary": null,
-  "state": "idle",
-  "message": "Web stories added to the current edition.",
-  "stage": "complete",
-  "updated_at": "2026-11-25T06:35:38Z",
-  "started_at": "2026-11-25T05:30:01Z",
-  "counts": {
-    "openai_calls": 1,
-    "input_tokens_estimated": 280265,
-    "input_text_shortened": false,
-    "openai_generation_attempts": 1,
-    "openai_tokens": 300124,
-    "openai_input_tokens": 276466,
-    "openai_output_tokens": 23658,
-    "eligible": 37,
-    "held": 0
-  },
+  "summary": "Collection in progress",
+  "state": "running",
+  "message": "Initial article scrape: Tom’s Hardware",
+  "stage": "web_discovery",
+  "updated_at": "2026-11-26T05:30:29Z",
+  "started_at": "2026-11-26T05:30:00Z",
+  "counts": {},
   "stored_totals": {
     "stories": 4710,
     "evidence": 15204,
@@ -30,84 +20,84 @@
   },
   "events": [
     {
-      "at": "2026-11-25T05:33:25Z",
-      "message": "Counterpoint Research: 0 dated articles captured (failed)."
+      "at": "2026-11-26T05:30:17Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:33:25Z",
-      "message": "Reading Seoul Economic Daily."
+      "at": "2026-11-26T05:30:18Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:34:03Z",
-      "message": "Seoul Economic Daily: 21 dated articles captured (partial)."
+      "at": "2026-11-26T05:30:18Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:34:03Z",
-      "message": "Reading Asia Economy."
+      "at": "2026-11-26T05:30:19Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:34:39Z",
-      "message": "Asia Economy: 14 dated articles captured (partial)."
+      "at": "2026-11-26T05:30:20Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:34:39Z",
-      "message": "Reading Hankook Ilbo."
+      "at": "2026-11-26T05:30:20Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:34:56Z",
-      "message": "Hankook Ilbo: 13 dated articles captured (partial)."
+      "at": "2026-11-26T05:30:21Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:34:56Z",
-      "message": "Reading ETNews."
+      "at": "2026-11-26T05:30:22Z",
+      "message": "Initial article scrape: TheLec"
     },
     {
-      "at": "2026-11-25T05:35:57Z",
-      "message": "ETNews: 22 dated articles captured (partial)."
+      "at": "2026-11-26T05:30:22Z",
+      "message": "Reading Tom’s Hardware."
     },
     {
-      "at": "2026-11-25T05:35:57Z",
-      "message": "Reading MoneyToday."
+      "at": "2026-11-26T05:30:23Z",
+      "message": "Tom’s Hardware: 10 candidates (partial)."
     },
     {
-      "at": "2026-11-25T05:36:19Z",
-      "message": "MoneyToday: 39 dated articles captured (partial)."
+      "at": "2026-11-26T05:30:23Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T05:36:19Z",
-      "message": "Reading Economic Daily (UDN)."
+      "at": "2026-11-26T05:30:23Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T05:36:35Z",
-      "message": "Economic Daily (UDN): 16 dated articles captured (partial)."
+      "at": "2026-11-26T05:30:24Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T05:36:35Z",
-      "message": "Web scrape saved; waiting for the social edition before final compilation and merge."
+      "at": "2026-11-26T05:30:25Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T06:32:26Z",
-      "message": "Waiting for the single OpenAI batch: summaries, priority and duplicates."
+      "at": "2026-11-26T05:30:25Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T06:32:27Z",
-      "message": "OpenAI background job accepted; tracking its saved job ID."
+      "at": "2026-11-26T05:30:26Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T06:35:31Z",
-      "message": "OpenAI batch received; applying local format and link checks."
+      "at": "2026-11-26T05:30:26Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T06:35:31Z",
-      "message": "Batch complete: 37 stories ready."
+      "at": "2026-11-26T05:30:27Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T06:35:32Z",
-      "message": "Publishing web edition."
+      "at": "2026-11-26T05:30:27Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     },
     {
-      "at": "2026-11-25T06:35:38Z",
-      "message": "Web stories added to the current edition."
+      "at": "2026-11-26T05:30:28Z",
+      "message": "Initial article scrape: Tom’s Hardware"
     }
   ]
 }
