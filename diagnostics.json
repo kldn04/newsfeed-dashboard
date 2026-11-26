@@ -28972,6 +28972,36 @@
           "at": "2026-11-26T06:24:58Z",
           "stage": "summarising",
           "message": "OpenAI background job accepted; tracking its saved job ID."
+        },
+        {
+          "at": "2026-11-26T06:27:31Z",
+          "stage": "usage",
+          "message": "Twitter OpenAI response received."
+        },
+        {
+          "at": "2026-11-26T06:27:31Z",
+          "stage": "validation",
+          "message": "OpenAI batch received; applying local format and link checks."
+        },
+        {
+          "at": "2026-11-26T06:27:31Z",
+          "stage": "validation",
+          "message": "Batch complete: 30 stories ready."
+        },
+        {
+          "at": "2026-11-26T06:27:31Z",
+          "stage": "validation",
+          "message": "Separate Twitter Luna batch completed."
+        },
+        {
+          "at": "2026-11-26T06:27:32Z",
+          "stage": "publishing",
+          "message": "Publishing social edition."
+        },
+        {
+          "at": "2026-11-26T06:27:38Z",
+          "stage": "complete",
+          "message": "Twitter & Weibo ready."
         }
       ],
       "usage": [
@@ -29188,10 +29218,22 @@
           "cache_write_tokens": 2220,
           "cost_usd": 0.0009903,
           "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
+        },
+        {
+          "provider": "OpenAI",
+          "component": "Twitter",
+          "model": "gpt-6-luna",
+          "input_tokens": 20307,
+          "output_tokens": 19441,
+          "reasoning_tokens": 12160,
+          "cached_tokens": 0,
+          "cache_write_tokens": 20304,
+          "cost_usd": 0.012258799999999999,
+          "cost_basis": "Estimated USD; gpt-6-luna input $0.1/M, cached $0.01/M, cache write $0.125/M, output $0.5/M. Reasoning included in output."
         }
       ],
-      "updated_at": "2026-11-26T06:24:58Z",
-      "stage": "summarising"
+      "updated_at": "2026-11-26T06:27:38Z",
+      "stage": "complete"
     }
   ]
 }
