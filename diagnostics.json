@@ -28632,6 +28632,41 @@
           "at": "2026-11-26T06:17:36Z",
           "stage": "fetch",
           "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-26T06:19:06Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: ReadTimeout."
+        },
+        {
+          "at": "2026-11-26T06:19:06Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: full text unavailable; retaining the labelled preview."
+        },
+        {
+          "at": "2026-11-26T06:19:06Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 集微网官方微博."
+        },
+        {
+          "at": "2026-11-26T06:19:07Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
+        },
+        {
+          "at": "2026-11-26T06:19:25Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: HTTP 200, 2560 bytes, 18.8s."
+        },
+        {
+          "at": "2026-11-26T06:19:25Z",
+          "stage": "weibo_discovery",
+          "message": "Weibo: reading full text for a new post from 集微网官方微博."
+        },
+        {
+          "at": "2026-11-26T06:19:26Z",
+          "stage": "fetch",
+          "message": "m.weibo.cn: fetch started."
         }
       ],
       "usage": [
@@ -28746,9 +28781,23 @@
           "requests": 1,
           "cost_usd": null,
           "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
+        },
+        {
+          "provider": "Bright Data",
+          "component": "Fetch",
+          "requests": 1,
+          "cost_usd": null,
+          "cost_basis": "Account billing required; request cost unavailable."
         }
       ],
-      "updated_at": "2026-11-26T06:17:36Z",
+      "updated_at": "2026-11-26T06:19:26Z",
       "stage": "weibo_discovery"
     }
   ]
